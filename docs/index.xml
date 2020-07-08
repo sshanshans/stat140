@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>STAT 140:  Introduction to the Ideas and Applications of Statistics on STAT 140</title>
+    <title>STAT 140:  Introduction to the Ideas and Applications of Statistics on Stat 140 (Fall 2020)</title>
     <link>http://sshanshans.github.io/stat140/</link>
-    <description>Recent content in STAT 140:  Introduction to the Ideas and Applications of Statistics on STAT 140</description>
+    <description>Recent content in STAT 140:  Introduction to the Ideas and Applications of Statistics on Stat 140 (Fall 2020)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
@@ -11,22 +11,22 @@
     
     
     <item>
-      <title></title>
+      <title>Schedule</title>
       <link>http://sshanshans.github.io/stat140/schedule.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://sshanshans.github.io/stat140/schedule.html</guid>
-      <description>Note:This schedule may be updated as the semester progresses. Due dates for the exams and project will notbe changed.
-&amp;lt;tr&amp;gt; &amp;lt;td align=&amp;quot;right&amp;quot;&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;Week 00&amp;lt;/td&amp;gt; &amp;lt;td align=&amp;quot;center&amp;quot;&amp;gt;&amp;lt;font color=&amp;quot;f1f1f1&amp;quot;&amp;gt; &amp;lt;i class=&amp;quot;fa fa-laptop fa-lg&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/font&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;td align=&amp;quot;center&amp;quot;&amp;gt;&amp;lt;font color=&amp;quot;f1f1f1&amp;quot;&amp;gt; &amp;lt;i class=&amp;quot;fa fa-book fa-lg&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/font&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;td align=&amp;quot;center&amp;quot;&amp;gt;&amp;lt;font color=&amp;quot;f1f1f1&amp;quot;&amp;gt; &amp;lt;i class=&amp;quot;fa fa-file-code-o fa-lg&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/font&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;td align=&amp;quot;center&amp;quot;&amp;gt;&amp;lt;font color=&amp;quot;f1f1f1&amp;quot;&amp;gt; &amp;lt;i class=&amp;quot;fa fa-cloud-download fa-lg&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/font&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;td align=&amp;quot;center&amp;quot;&amp;gt;&amp;lt;font color=&amp;quot;f1f1f1&amp;quot;&amp;gt; &amp;lt;i class=&amp;quot;fa fa-pencil-square-o fa-lg&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/font&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;td align=&amp;quot;center&amp;quot;&amp;gt;&amp;lt;font color=&amp;quot;f1f1f1&amp;quot;&amp;gt; &amp;lt;i class=&amp;quot;fa fa-angle-double-up fa-lg&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/font&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;td align=&amp;quot;center&amp;quot;&amp;gt;&amp;lt;font color=&amp;quot;f1f1f1&amp;quot;&amp;gt; &amp;lt;i class=&amp;quot;fa fa-check-square fa-lg&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/font&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;td align=&amp;quot;center&amp;quot;&amp;gt;&amp;lt;font color=&amp;quot;f1f1f1&amp;quot;&amp;gt; &amp;lt;i class=&amp;quot;fa fa-file-powerpoint fa-lg&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/font&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;/tr&amp;gt; &amp;lt;tr&amp;gt; &amp;lt;td align=&amp;quot;right&amp;quot;&amp;gt;Wed, Jan 9&amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;Welcome to Data Science&amp;lt;/td&amp;gt; &amp;lt;td align=&amp;quot;center&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;/slides/lec-slides/00-intro.</description>
+      <description>  Date Topic Materials Tutorials Evaluative Assignments     Unit 1 Pictures and summaries of data      Aug 24 (M)       Aug 25 (T)       Aug 26 (W)       Aug 27 (TH)       Aug 28 (F)       Unit 2 Probability and distributions      Aug 31 (M)       Sep 01 (T)       Sep 02 (W)       Sep 03 (TH)       Sep 04 (F)       Unit 3 Framework for inference      Sep 08 (T)       Sep 09 (W)       Sep 10 (TH)       Sep 11 (F)       Unit 4 Statistical inference for numerical variables      Sep 14 (M)       Sep 15 (T)       Sep 16 (W)       Sep 17 (TH)       Sep 18 (F)       Unit 5 Statistical inference for categorical variables      Sep 21 (M)       Sep 22 (T)       Sep 23 (W)       Sep 24 (TH)       Sep 25 (F)       Unit 6 Simple linear regression      Sep 28 (M)       Sep 29 (T)       Sep 30 (W)       Oct 01 (TH)       Oct 02 (F)       Unit 7 Multiple linear regression      Oct 05 (M)       Oct 06 (T)       Oct 07 (W)       Oct 08 (TH)       Oct 09 (F)       Oct 10 (M)        </description>
     </item>
     
     <item>
-      <title>Course Policies</title>
+      <title>Syllabus</title>
       <link>http://sshanshans.github.io/stat140/policies.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://sshanshans.github.io/stat140/policies.html</guid>
-      <description>Activities &amp;amp; Assessments The following activities and assessments will help you successfully achieve the course learning objectives. By experiencing the course content in different ways, you will not only gain a better understanding of data science, but you will also get experiences that can guide you as you apply what you&#39;ve learned in future academic and professional projects. Homework (20%) In homework, you will apply what you&#39;ve learned during lecture and lab to complete data analysis tasks.</description>
+      <description>Inclusion &amp;amp; Accessibility This course is designed to be welcoming and accessible to all students. It is my goal for our learning environment to facilitate learning and intellectual development for everyone. If something was said in class (by anyone) that made you feel uncomfortable, or if there is some aspect of class that is not welcoming or accessible to you, please let me know immediately.
+ Academic Accommodations AccessAbility Services is the office on campus that determines academic accommodations for students with disabilities.</description>
     </item>
     
   </channel>

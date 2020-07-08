@@ -3,10 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://sshanshans.github.io/stat140/schedule.html</loc>
-  </url>
-  
-  <url>
     <loc>http://sshanshans.github.io/stat140/archives.html</loc>
   </url>
   
@@ -15,11 +11,15 @@
   </url>
   
   <url>
-    <loc>http://sshanshans.github.io/stat140/policies.html</loc>
+    <loc>http://sshanshans.github.io/stat140/schedule.html</loc>
   </url>
   
   <url>
     <loc>http://sshanshans.github.io/stat140/</loc>
+  </url>
+  
+  <url>
+    <loc>http://sshanshans.github.io/stat140/policies.html</loc>
   </url>
   
   <url>
