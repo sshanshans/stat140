@@ -1,7 +1,7 @@
 baseurl = "/"
 languageCode = "en-us"
 defaultContentLanguage = "en-us"
-title = "STA 199"
+title = "STAT 140"
 theme = "material"
 #disqusShortname = ""
 # googleAnalytics = ""
@@ -21,11 +21,11 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   archive = "archives"
 
 [author]
-  name = "Dr. Maria Tackett"
+  name = "Dr. Shan Shan"
   bio = ""
-  job = "Assistant Professor of the Practice"
-  location = "Duke University"
-  gravatarEmail = "maria.tackett@duke.edu"
+  job = "Assistant Professor of Statistics"
+  location = "Mount Holyoke College"
+  gravatarEmail = "sshan@mtholyoke.edu"
   # Your profile picture
 #  picture = ""
   twitter = "MT_statistics"
@@ -57,10 +57,10 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   url = "https://rstudio.cloud"
 [[menu.main]]
   weight = 5
-  identifier = "github"
-  name = "GitHub"
+  identifier = "moodle"
+  name = "Moodle"
   pre = "<i class='fab fa-github fa-lg'></i>"
-  url = "https://github.com/STA199-Sp19"
+  url = "https://moodle.mtholyoke.edu"
 [[menu.main]]
   weight = 6
   identifier = "help"
@@ -71,10 +71,10 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [[menu.footer]]
   weight = 1
-  identifier = "Duke"
-  name = "Duke StatSci"
+  identifier = "MHC"
+  name = "Mount Holyoke College"
   pre = "<i class=\"button-icon fa fa-2x fa-map-marker\"></i>"
-  url = "http://stat.duke.edu/"
+  url = "http://www.mtholyoke.edu/"
 [[menu.footer]]
   weight = 2
   name = "RStudio"
