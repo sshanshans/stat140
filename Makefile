@@ -1,6 +1,6 @@
 REMOTEUSER ?= sshanshans
 HOST ?= github.com
-DIR ?= /web/isds/docs/courses/Spring19/sta199.001
+DIR ?= /stat140
 REMOTE ?= $(REMOTEUSER)@$(HOST):$(DIR)
 
 all:

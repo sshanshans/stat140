@@ -1,30 +1,31 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>STA 199: Intro to Data Science on STA 199</title>
-    <link>/</link>
-    <description>Recent content in STA 199: Intro to Data Science on STA 199</description>
+    <title>STAT 140:  Introduction to the Ideas and Applications of Statistics on STAT 140</title>
+    <link>http://sshanshans.github.io/stat140/</link>
+    <description>Recent content in STAT 140:  Introduction to the Ideas and Applications of Statistics on STAT 140</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://sshanshans.github.io/stat140/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>/schedule.html</link>
+      <link>http://sshanshans.github.io/stat140/schedule.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/schedule.html</guid>
-      <description>Note: This schedule may be updated as the semester progresses. Due dates for the exams and project will not be changed.  Date Lesson Slides Reading Lab AE HW EC Exam Project    Week 00           Wed, Jan 9 Welcome to Data Science           Thur, Jan 10 Lab 00: Logistics           UNIT 1: Visualizing and wrangling data            Week 01           Mon, Jan 14 Meet the Toolkit           Wed, Jan 16 Fundamentals of data &amp;amp; data visualization           Thur, Jan 17 Lab 01: Hello R!</description>
+      <guid>http://sshanshans.github.io/stat140/schedule.html</guid>
+      <description>Note:This schedule may be updated as the semester progresses. Due dates for the exams and project will notbe changed.
+&amp;lt;tr&amp;gt; &amp;lt;td align=&amp;quot;right&amp;quot;&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;Week 00&amp;lt;/td&amp;gt; &amp;lt;td align=&amp;quot;center&amp;quot;&amp;gt;&amp;lt;font color=&amp;quot;f1f1f1&amp;quot;&amp;gt; &amp;lt;i class=&amp;quot;fa fa-laptop fa-lg&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/font&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;td align=&amp;quot;center&amp;quot;&amp;gt;&amp;lt;font color=&amp;quot;f1f1f1&amp;quot;&amp;gt; &amp;lt;i class=&amp;quot;fa fa-book fa-lg&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/font&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;td align=&amp;quot;center&amp;quot;&amp;gt;&amp;lt;font color=&amp;quot;f1f1f1&amp;quot;&amp;gt; &amp;lt;i class=&amp;quot;fa fa-file-code-o fa-lg&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/font&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;td align=&amp;quot;center&amp;quot;&amp;gt;&amp;lt;font color=&amp;quot;f1f1f1&amp;quot;&amp;gt; &amp;lt;i class=&amp;quot;fa fa-cloud-download fa-lg&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/font&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;td align=&amp;quot;center&amp;quot;&amp;gt;&amp;lt;font color=&amp;quot;f1f1f1&amp;quot;&amp;gt; &amp;lt;i class=&amp;quot;fa fa-pencil-square-o fa-lg&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/font&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;td align=&amp;quot;center&amp;quot;&amp;gt;&amp;lt;font color=&amp;quot;f1f1f1&amp;quot;&amp;gt; &amp;lt;i class=&amp;quot;fa fa-angle-double-up fa-lg&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/font&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;td align=&amp;quot;center&amp;quot;&amp;gt;&amp;lt;font color=&amp;quot;f1f1f1&amp;quot;&amp;gt; &amp;lt;i class=&amp;quot;fa fa-check-square fa-lg&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/font&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;td align=&amp;quot;center&amp;quot;&amp;gt;&amp;lt;font color=&amp;quot;f1f1f1&amp;quot;&amp;gt; &amp;lt;i class=&amp;quot;fa fa-file-powerpoint fa-lg&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/font&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;/tr&amp;gt; &amp;lt;tr&amp;gt; &amp;lt;td align=&amp;quot;right&amp;quot;&amp;gt;Wed, Jan 9&amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;Welcome to Data Science&amp;lt;/td&amp;gt; &amp;lt;td align=&amp;quot;center&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;/slides/lec-slides/00-intro.</description>
     </item>
     
     <item>
       <title>Course Policies</title>
-      <link>/policies.html</link>
+      <link>http://sshanshans.github.io/stat140/policies.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/policies.html</guid>
+      <guid>http://sshanshans.github.io/stat140/policies.html</guid>
       <description>Activities &amp;amp; Assessments The following activities and assessments will help you successfully achieve the course learning objectives. By experiencing the course content in different ways, you will not only gain a better understanding of data science, but you will also get experiences that can guide you as you apply what you&#39;ve learned in future academic and professional projects. Homework (20%) In homework, you will apply what you&#39;ve learned during lecture and lab to complete data analysis tasks.</description>
     </item>
     

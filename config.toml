@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "http://sshanshans.github.io/stat140/"
 languageCode = "en-us"
 defaultContentLanguage = "en-us"
 title = "STAT 140"
