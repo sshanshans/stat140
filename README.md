@@ -1,2 +1,7 @@
-# stat140
-Course website for stat140 at mount holyoke college
+
+Welcome to Stat 140!  
+
+Introduction to the Ideas and Applications of Statistics
+
+Fall 2020 Mount Holyoke College
+
