@@ -46,13 +46,8 @@ General questions about course content or assignments should be posted on [Piazz
 
 The teaching team is here to help you be successful in the course. You are encouraged to attend any of the office hours posted on the home page for help with the course content and/or assignments. 
 
-### Where to find course materials
-All course materials may be found on the [course website] (https://sshanshans.github.io/stat140/). There is also an up-to-date [course schedule](https://sshanshans.github.io/stat140/schedule.html) where you can find the agenda in each class meeting.
-
-Announcements may also be sent to the class by email, so please check your mount holyoke email regularly. 
-
-### Where to submit your assignments
-All assignments should be submitted through [Moodle](https://moodle.mtholyoke.edu).
+### Where to find or submit your assignments
+All assignments will be distributed, submitted and returned through [Moodle](https://moodle.mtholyoke.edu).
 
 ### Cultivate a community of learning
 * Everyone can learn statistics and programming at a high level.
