@@ -6,45 +6,52 @@ markup: "mmark"
 {.table .table .table-striped .text-left}
 | Date       | Topic              | Materials | Tutorials | Evaluative Assignments |
 |------------|----------------------|-----------|-----------|------------------------|
-| **Unit 1**     | **Pictures and summaries of data** |           |           |                        |
-| Aug 24 (M) |  Welcome and introduction to data |           |           |                        |
-| Aug 25 (T) |  Categorical variables |           |           |                        |
-| Aug 26 (W) |  Quantitative variables |           |           |                        |
-| Aug 27 (TH) | Exploring relationships between variables |           |           |                        |
-| Aug 28 (F) |  Gathering data   |           |           |                        |
-| **Unit 2**     | **Probability and distributions** |           |           |                        |
-| Aug 31 (M) |  Randomness   |           |           |                        |
-| Sep 01 (T) |  Probability & conditional probability |           |           |                        |
-| Sep 02 (W) |  Bayes' theorem and Bayesian inference |           |           |                        |
-| Sep 03 (TH) | Random Variables  |           |           |                        |
-| Sep 04 (F) |  Normal & binomial distribution   |           |           |                        |
-| **Unit 3**     | **Framework for inference** |           |           |                        |
-| Sep 08 (T) |  Foundations for inference   |           |           |                        |
-| Sep 09 (W) |  Sampling distributions and standard errors |           |           |                        |
-| Sep 10 (TH) | Confidence intervals I|           |           |                        |
-| Sep 11 (F) | Confidence intervals II|   |        |                        |
-| **Unit 4**  | **Hypothesis testing** |           |           |                        |
-| Sep 14 (M) |  Framework and terminology|           |           |                        |
-| Sep 15 (T) |  p-values |           |           |                        |
-| Sep 16 (W) |  Tying with sampling  |           |           |                        |
-| Sep 17 (TH) | Construct the null hypothesis  |           |           |                        |
-| Sep 18 (F) | Permutation test |           |           |                        |
-| **Unit 5**     | **Inference for numerical variable** |           |           |                        |
-| Sep 21 (M) | Comparing groups  |           |           |                        |
-| Sep 22 (T) |  t-distribution  |           |           |                        |
-| Sep 23 (W) |  Bootstrapping    |           |           |                        |
-| Sep 24 (TH) | ANOVA    |           |           |                        |
-| Sep 25 (F) |  Power  |           |           |                        |
-| **Unit 6**     | **Inference for categorical variables** |           |           |                        |
-| Sep 28 (M) | A single proportion |           |           |                        |
-| Sep 29 (T) | Comparing proportions  |           |           |                        |
-| Sep 30 (W) |   Chi-square testing  |           |           |                        |
-| Oct 01 (TH) |    |           |           |                        |
-| Oct 02 (F) |                      |           |           |                        |
-| **Unit 7**     | **Linear regression** |           |           |                        |
-| Oct 05 (M) |  Simple linear regression I  |           |           |                        |
-| Oct 06 (T) |  Simple linear regression II  |           |           |                        |
-| Oct 07 (W) |  Outliers  |           |           |                        |
-| Oct 08 (TH) |  Multiple regression  |           |           |                        |
-| Oct 09 (F) |  Model Selection   |           |           |                        |
-| Oct 10 (M) |  Review  |           |           |                        |
+| **Unit 1**     | **Visualizing data** |           |           |                        |
+| Aug 24 (M) |  Welcome and introduction to statistics |           |           |                        |
+| Aug 25 (T) |  Data basics |   OD: 1.2   |     |                        |
+| Aug 26 (W) |  Data visualization basics |           |           |                        |
+| Aug 27 (TH) | Numerical data: histogram Data sources |  OD: 1.3 & 1.4    |           |                        |
+| Aug 28 (F) |  Numerical data: boxplot Data wrangling   |  ModernDive Chapter3  |           |            |
+| Aug 31 (M) |  Categorical data |  OD: 2.1  |           |                        |
+| | | | |(Work in Rstudio)|
+| **Unit 2**     | **Exploring relationships in data** |           |           |                        |
+| Sep 01 (T) |  Scatterplots, Association, and correlation|   |           |                        |
+| Sep 02 (W) |  Linear Regression |     |           |                        |
+| Sep 03 (TH) | Least Squares  |           |           |                        |
+| Sep 04 (F) | R^2 |           |           |                        |
+| | | | |(Example study)|
+| **Unit 3**     | **Gathering data** |           |           |                        |
+| Sep 08 (T) |  Understanding randomness and sampling |   |           |                        |
+| Sep 09 (W) |  Experiment and Survey |  |           |                        |
+| Sep 10 (TH) | Data wrangling  |           |           |                        |
+| Sep 11 (F) |  Data scraping from the web |           |           |                        |
+| | | | |(Work with real data)|
+| **Unit 4**     | **Modeling with probability** |           |           |                        |
+| Sep 14 (M) |  From randomness to probability  |   |           |                        |
+| Sep 15 (T) |  Probability rules |  |           |                        |
+| Sep 16 (W) | Random variables & Geometric distribution |   |           |                        |
+| Sep 17 (TH) | Random variables properties |  |        |                        |
+| Sep 18 (F) | Normal distribution |  |           |                        |
+| | | | |(Data cleaning)|
+| **Unit 5**  | **Foundations for inference** |           |           |                        |
+| Sep 21 (M) |  Sampling and CLT |  |           |                        |
+| Sep 22 (T) |  Confidence interval |  |           |                        |
+| Sep 23 (W) |  Bootstrapping |  |           |                        |
+| Sep 24 (TH) | Confidence interval interpretation |  |           |                        |
+| | | | | (Data visualization) |
+| **Unit 6**     | **There is only one hypothesis test!** |           |           |                        |
+| Sep 28 (M) | Hypothesis testing framework & terminology |    |           |                        |
+| Sep 29 (T) | p-values |   |           |                        |
+| Sep 30 (W) | Conducting hypothesis tests |  |           |                        |
+| Oct 01 (TH) | Hypothesis testing interpretation |  |           |                        |
+| Oct 02 (F) |  Case studies | |           |                        |
+| | | | | (Inference on your data) |
+| **Unit 7**     | **Inference for regression** |           |           |                        |
+| Oct 05 (M) |  Regression refresher |  |           |                        |
+| Oct 06 (T) |  Interpreting regression tables |   |           |                        |
+| Oct 07 (W) |  Conditions for inference for regression  |  |           |                        |
+| Oct 08 (TH) | Simulation-based inference for regression | |           |                        |
+| Oct 09 (F) |  Multiple regression |  |           |                        |
+| | | | |(Make a poster)|
+| **Unit X**     | **Tell your story with data** |           |           |                        |
+| Oct 10 (M) | Concluding remarks |           |           |                        |

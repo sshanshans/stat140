@@ -1,6 +1,6 @@
 ---
 title: "STAT 140:  Introduction to the Ideas and Applications of Statistics"
-description: "This course introduces students to the discipline of statistics as a science of understanding and analyzing data. Throughout the module, students will learn how to effectively make use of data in the face of uncertainty: how to collect data, how to analyze data, and how to use data to make inferences and conclusions about real world phenomena. (Updated Jul 8, 2020)"
+description: "This course introduces students to the discipline of statistics as a science of understanding and analyzing data. Throughout the module, students will learn how to effectively make use of data in the face of uncertainty: how to collect data, how to analyze data, and how to use data to make inferences and conclusions about real world phenomena. (Updated Jul 10, 2020)"
 markup: "mmark"
 ---
 
@@ -16,8 +16,10 @@ Instructor        | [Shan Shan Ph.D](http://sshanshans.github.io) | <a href="mai
 {.table .table1 .table-condensed .table-striped .text-left}
  <span></span>     | <span></span> | <span></span> 
 -----------|---------------------------------|----------------------------------
-[Stats: Data and Models](https://www.pearson.com/store/p/stats-data-and-models/P100001167353/9780135163825) | De Veaux, Velleman, Bock | Pearson, 5th Edition, 2019
+[ModernDive](https://moderndive.com) | Ismay, Kim | Chapman & Hall/CRC The R Series, 1st Edition, 2019
 [OpenIntro Statistics](https://www.openintro.org/stat/textbook.php?stat_book=os) | Diez, Barr, Çetinkaya-Rundel | CreateSpace, 3rd Edition, 2015
+
+All texts are freely available online. 
 
 ### Computing
 We will be using the programming language R and [RStudio](https://rstudio.cloud). 
