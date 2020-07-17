@@ -4,16 +4,16 @@ markup: "mmark"
 ---
 
 {.table .table .table-striped .text-left}
-| Date       | Topic              | Materials | Tutorials | Evaluative Assignments |
+| Date       | Topic              | Reading | Formative Assignments | Evaluative Assignments |
 |------------|----------------------|-----------|-----------|------------------------|
-| **Unit 1**     | **Visualizing data** |           |           |                        |
+| **Unit 1**     | **Data Summary and Visualization** |           |           |                        |
 | Aug 24 (M) |  Welcome and introduction to statistics |           |           |                        |
-| Aug 25 (T) |  Data basics |   OD: 1.2   |     |                        |
-| Aug 26 (W) |  Data visualization basics |           |           |                        |
-| Aug 27 (TH) | Numerical data: histogram Data sources |  OD: 1.3 & 1.4    |           |                        |
-| Aug 28 (F) |  Numerical data: boxplot Data wrangling   |  ModernDive Chapter3  |           |            |
-| Aug 31 (M) |  Categorical data |  OD: 2.1  |           |                        |
-| | | | |(Work in Rstudio)|
+| Aug 25 (T) |  Data basics |      |     |                        |
+| Aug 26 (W) |  Categorical data |           |           |                        |
+| Aug 27 (TH) | Numerical data: histogram  |     |           |                        |
+| Aug 28 (F) |  Numerical data: boxplot   |   |           |            |
+| Aug 31 (M) |  Data visuliazation |   |           |                        |
+| | | | |EA1: (Lab report)|
 | **Unit 2**     | **Exploring relationships in data** |           |           |                        |
 | Sep 01 (T) |  Scatterplots, Association, and correlation|   |           |                        |
 | Sep 02 (W) |  Linear Regression |     |           |                        |
