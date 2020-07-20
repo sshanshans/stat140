@@ -39,11 +39,10 @@ In the first two weeks, you will be asked to complete DataCamp assignment from t
 <br>
 
 * #### Tutorials (%)
-In the tutorials, you will apply the concepts you learned to complete data analysis tasks. Click [here] for an example. Each tutorial is worth 1 point.
+In the tutorials, you will apply the concepts you learned to complete data analysis tasks. Click [here] for an example. Each tutorial is worth 1 point. Class time will be dedicated for you to complete these exercises. In class, you will be working in groups of three or four in a zoom break-out room, but each of you will write your own assignment. When doing these tutorials, it's important for you to talk with each other throughout. If you are the stronger student in the group, do not simply charge ahead. Instead, make sure that your group members keep up with you. *There is no better way to learn than to teach*. If you get stuck, you may ask me and TAs for help. 
+
 <br> 
 <br>
-
-Class time will be dedicated for you to complete these exercises. In class, you will be working in groups of three or four in a zoom break-out room, but each of you will write your own assignment. When doing these tutorials, it's important for you to talk with each other throughout. If you are the stronger student in the group, do not simply charge ahead. Instead, make sure that your group members keep up with you. *There is no better way to learn than to teach*. If you get stuck, you may ask me and TAs for help. 
 
 * #### Late policy
 While you are expected to finish these assignments before 6PM (EST) in each class, we recognize that sometimes you must be absent for legitimate reasons and that sometimes the assignments take longer than expected. Each formative assignment will have a one-day grace period: an assignment is considered late at 6PM (EST) the next day. For example, a quiz is due Aug 24, 2020 @ 6PM (EST), it will be considered late if you submit on Moodle after Aug 25, 2020 @6PM (EST). Once an assignment is late, it will start to lose points. In particular, your grade (G) 
