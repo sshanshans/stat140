@@ -6,25 +6,25 @@ markup: "mmark"
 {.table .table .table-striped .text-left}
 | Date       | Topic              | Reading | Formative Assignments | Evaluative Assignments |
 |------------|----------------------|-----------|-----------|------------------------|
-| **Unit 1**     | **Data Summary and Visualization** |           |           |                        |
+| **Unit 1**     | **Data Summary and Visualization I** |           |           |                        |
 | Aug 24 (M) |  Welcome and introduction to statistics |           |           |                        |
 | Aug 25 (T) |  Data basics |      |     |                        |
-| Aug 26 (W) |  Categorical data |           |           |                        |
-| Aug 27 (TH) | Numerical data: histogram  |     |           |                        |
-| Aug 28 (F) |  Numerical data: boxplot   |   |           |            |
-| Aug 31 (M) |  Data visuliazation |   |           |                        |
+| Aug 26 (W) |  Categorical variable: distributions and proportional thinking |           |           |                        |
+| Aug 27 (TH) | Categorical variable: relationship between two variables  |     |           |                        |
+| Aug 28 (F) | Categorical variable: working in R  |   |           |            |
 | | | | |EA1: (Lab report)|
-| **Unit 2**     | **Exploring relationships in data** |           |           |                        |
-| Sep 01 (T) |  Scatterplots, Association, and correlation|   |           |                        |
-| Sep 02 (W) |  Linear Regression |     |           |                        |
-| Sep 03 (TH) | Least Squares  |           |           |                        |
-| Sep 04 (F) | R^2 |           |           |                        |
-| | | | |(Example study)|
-| **Unit 3**     | **Gathering data** |           |           |                        |
-| Sep 08 (T) |  Understanding randomness and sampling |   |           |                        |
+| **Unit 2**     |**Data Summary and Visualization II** |           |           |                        |
+| Aug 31 (M) |  Numerical variable: histograms and shapes |   |           |                        |
+| Sep 01 (T) |  Numerical variable: summary of histograms|   |           |                        |
+| Sep 02 (W) |  Numerical variable: relationship, association and correlation |     |           |                        |
+| Sep 03 (TH) | Visualization  |           |           |                        |
+| Sep 04 (F) | Putting it all together: exploratory data analysis |           |           |                        |
+| | | | |EA2: (Lab report)|
+| **Unit 3**     | **Foundations of Inference** |           |           |                        |
+| Sep 08 (T) |  Randomness and sampling distribution|   |           |                        |
 | Sep 09 (W) |  Experiment and Survey |  |           |                        |
-| Sep 10 (TH) | Data wrangling  |           |           |                        |
-| Sep 11 (F) |  Data scraping from the web |           |           |                        |
+| Sep 10 (TH) | Data Ethics  |           |           |                        |
+| Sep 11 (F) |  First Look  at Hypothesis testing |           |           |                        |
 | | | | |(Work with real data)|
 | **Unit 4**     | **Modeling with probability** |           |           |                        |
 | Sep 14 (M) |  From randomness to probability  |   |           |                        |

@@ -33,12 +33,20 @@ The quizzes will be completed online before each class. Each quiz is worth 1 poi
 <br> 
 <br>
 
+* #### DataCamp (%)
+In the first two weeks, you will be asked to complete DataCamp assignment from the `Introduction to R course`, and `Introduction to Tidyverse` course.  You will get an email by the first day of class inviting you to join our class organization with an assignment pointing you to the specific chapters to do. The DataCamp assignment is graded based on completion. Each assignment is worth 1 point. 
+<br> 
+<br>
+
 * #### Tutorials (%)
-In the tutorials, you will apply the concepts you learned to complete data analysis tasks. Click [here] for an example. 
-Class time will be dedicated for you to complete these exercises. Each tutorial is worth 1 point. When doing these tutorials, you may ask me and TAs for help. Once you passed the tutorial, take a screenshot and upload the screenshot image on Moodle. 
+In the tutorials, you will apply the concepts you learned to complete data analysis tasks. Click [here] for an example. Each tutorial is worth 1 point.
+<br> 
+<br>
+
+Class time will be dedicated for you to complete these exercises. In class, you will be working in groups of three or four in a zoom break-out room, but each of you will write your own assignment. When doing these tutorials, it's important for you to talk with each other throughout. If you are the stronger student in the group, do not simply charge ahead. Instead, make sure that your group members keep up with you. *There is no better way to learn than to teach*. If you get stuck, you may ask me and TAs for help. 
 
 * #### Late policy
-While you are expected to finish these assignments before 5PM (EST) in each class, we recognize that sometimes you must be absent for legitimate reasons and that sometimes the assignments take longer than expected. Each formative assignment will have a one-day grace period: an assignment is considered late at 5PM (EST) the next day. For example, a quiz is due Aug 24, 2020 @ 5PM (EST), it will be considered late if you submit on Moodle after Aug 25, 2020 @5PM (EST). Once an assignment is late, it will start to lose points. In particular, your grade (G) 
+While you are expected to finish these assignments before 6PM (EST) in each class, we recognize that sometimes you must be absent for legitimate reasons and that sometimes the assignments take longer than expected. Each formative assignment will have a one-day grace period: an assignment is considered late at 6PM (EST) the next day. For example, a quiz is due Aug 24, 2020 @ 6PM (EST), it will be considered late if you submit on Moodle after Aug 25, 2020 @6PM (EST). Once an assignment is late, it will start to lose points. In particular, your grade (G) 
 is computed with a logistic function of the number of hours (H) that your assignment is late:
 <img src="https://latex.codecogs.com/svg.latex?&space; G = 2/ (1 + \exp^{H}). " title="G = 2/ (1 + \exp^{H})" /> Note that this means <1 hour = 0.979, 2 hours = 0.958, 3 hours = 0.938, 1 days = 0.5379, 2 days = 0.2384, etc.
 <br> 
@@ -46,20 +54,33 @@ is computed with a logistic function of the number of hours (H) that your assign
 
 #### Evaluative assignments (%)
 
-The evaluative assignments are an opportunity to assess the knowledge and skills you’ve learned. Typically, you will get one evaluative assignment each week. These assignments may be in the format of, e.g., Rstudio lab report, reading response, news critics, midterm exam, poster or oral presentation. More details about the content and structure of these assignments will be included in the future. 
+The evaluative assignments are an opportunity to assess the knowledge and skills you’ve learned. Typically, you will get one evaluative assignment each week. These assignments may be in the format of, e.g., Rstudio lab report, reading response, news critics, midterm exam, group project, poster or oral presentation. More details about the content and structure of these assignments will be included in the future. 
 <br> 
 <br>
 
-#### Grade Calculation
+#### Participation (%)
+
+There are in general two ways for you to earn the participation points. You will earn up to 1 point of for each class. 
+
+* Group-participation:
+Coming to class will automatically give you 1/2 point for particiaption. To increase your point, you can try to take an active role in your group discussion. There are three roles in each group:
+role A: taking notes in a Google doc (shared by the instructor) to keep track of your group's process, 
+role B: leading the discussion and making sure everyone understand what they are doing
+role C: communicating the results to others, e.g. posting results on Piazza, speaking in class, etc.
+
+* Solo-participation: 
+I understand that sometimes you won't be able to participate class activities for legitimate reasons (e.g. being sick, time difference, ect). Helping your fellow students, especially on Piazza, also counts towards participation. If there were no questions, share interesting findings or news related to the course materials on Piazza is also is a volunteering for a class role.  
+
+#### Grade Calculation (%)
 
 The final grade will be calculated as follows:
  
 {.table .table2 .table-condensed .table-striped .text-left}
  <span></span>     | <span></span>  
 -----------|---------------------------------
-Readiness quizzes | %
-Tutorial exercises | %
+Formative assignments | %
 Evaluative assignments | %
+Paricipation | %
 
 Grades may be curved at the end of the semester. Cumulative numerical averages of 90 - 100 are guaranteed at least an A-, 80 - 89 at least a B-, and 70 - 79 at least a C-, however the exact ranges for letter grades will be determined after the final exam. The more evidence there is that the class has mastered the material, the more generous the curve will be. 
 
