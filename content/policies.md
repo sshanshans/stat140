@@ -10,10 +10,10 @@ It is my goal for our learning environment to facilitate learning and intellectu
 * #### Academic Accommodations
 AccessAbility Services is the office on campus that determines academic accommodations for students with disabilities. If you need official accommodations through AccessAbility Services, you have a right to have these met and kept confidential. Please contact AccessAbility Services, located in Mary Lyon Hall 3rd Floor, at 413-538-2634 or accessability-services@mtholyoke.edu. If you are eligible for academic accommodations, you will be provided with an accommodation letter. Once you receive your accommodation letter, I would like to meet with you and discuss these approved accommodations and our class. For more information on who might be eligible for accommodations and the application process please see the [AccessAbility Services website](www.mtholyoke.edu/accessability).
 
-* #### Religious Accomodations
+* #### Religious Accommodations
 In support of our religiously diverse student population, students may miss a class, obtain an extension on an assignment, or reschedule an exam if there is a conflict with a religious high holiday or observance. Students should notify me at the beginning of the module if a religious observance will require special accommodation.
 
-* #### Other Accomodations 
+* #### Other Accommodations 
 If you have any needs that require accommodation, e.g., a personal or family emergency or health condition that affects your ability to participate in class, please feel free to talk with me. 
 <br> 
 <br>
@@ -24,7 +24,7 @@ The following activities and assessments will help you successfully achieve the 
 <br>
 
 #### Formative assignments (%)
-The formative assignments, including quizzes and tutorials, are designed to enhance your understanding of the materials through small analysis and computational tasks. The formative assignments are implemetned with autograding features to give you immediate feedback; you are allowed to answer a question multiple times, fixing your mistakes and learning from them each time. All formative asignments will be graded based on Pass/Fail (0 point for fail and 1 point for pass), and you must get all answers correct in the assignment in order to pass. 
+The formative assignments, including quizzes and tutorials, are designed to enhance your understanding of the materials through small analysis and computational tasks. The formative assignments are implemented with auto-grading features to give you immediate feedback; you are allowed to answer a question multiple times, fixing your mistakes and learning from them each time. All formative assignments will be graded based on Pass/Fail (0 point for fail and 1 point for pass), and you must get all answers correct in the assignment in order to pass. 
 <br> 
 <br>
 
@@ -40,11 +40,10 @@ In the first two weeks, you will be asked to complete DataCamp assignment from t
 
 * #### Tutorials (%)
 In the tutorials, you will apply the concepts you learned to complete data analysis tasks. Click [here] for an example. Each tutorial is worth 1 point. Class time will be dedicated for you to complete these exercises. In class, you will be working in groups of three or four in a zoom break-out room, but each of you will write your own assignment. When doing these tutorials, it's important for you to talk with each other throughout. If you are the stronger student in the group, do not simply charge ahead. Instead, make sure that your group members keep up with you. *There is no better way to learn than to teach*. If you get stuck, you may ask me and TAs for help. 
-
 <br> 
 <br>
 
-* #### Late policy
+* #### Late policy 
 While you are expected to finish these assignments before 6PM (EST) in each class, we recognize that sometimes you must be absent for legitimate reasons and that sometimes the assignments take longer than expected. Each formative assignment will have a one-day grace period: an assignment is considered late at 6PM (EST) the next day. For example, a quiz is due Aug 24, 2020 @ 6PM (EST), it will be considered late if you submit on Moodle after Aug 25, 2020 @6PM (EST). Once an assignment is late, it will start to lose points. In particular, your grade (G) 
 is computed with a logistic function of the number of hours (H) that your assignment is late:
 <img src="https://latex.codecogs.com/svg.latex?&space; G = 2/ (1 + \exp^{H}). " title="G = 2/ (1 + \exp^{H})" /> Note that this means <1 hour = 0.979, 2 hours = 0.958, 3 hours = 0.938, 1 days = 0.5379, 2 days = 0.2384, etc.
@@ -59,16 +58,17 @@ The evaluative assignments are an opportunity to assess the knowledge and skills
 
 #### Participation (%)
 
-There are in general two ways for you to earn the participation points. You will earn up to 1 point of for each class. 
+There are in general two ways for you to get the participation points. You will earn up to 1 point for each class. 
 
 * Group-participation:
-Coming to class will automatically give you 1/2 point for particiaption. To increase your point, you can try to take an active role in your group discussion. There are three roles in each group:
-role A: taking notes in a Google doc (shared by the instructor) to keep track of your group's process, 
-role B: leading the discussion and making sure everyone understand what they are doing
-role C: communicating the results to others, e.g. posting results on Piazza, speaking in class, etc.
+Coming to class will automatically give you 0.5 point for participation. To increase your point, you can try to take an active role in your group discussion. There are three roles in each group:
+
+    * role A: taking notes in a Google doc (shared by the instructor) to keep track of your group's process, 
+    * role B: leading the discussion and making sure everyone understand what they are doing
+    * role C: communicating the results to others, e.g. posting results on Piazza, speaking in class, etc.
 
 * Solo-participation: 
-I understand that sometimes you won't be able to participate class activities for legitimate reasons (e.g. being sick, time difference, ect). Helping your fellow students, especially on Piazza, also counts towards participation. If there were no questions, share interesting findings or news related to the course materials on Piazza is also is a volunteering for a class role.  
+I understand that sometimes you won't be able to participate class activities for legitimate reasons (e.g. being sick, time difference, etc). Helping your fellow students, especially on Piazza, also counts towards participation. If there were no questions, share interesting findings or news related to the course materials on Piazza is also is a volunteering for a class role.  
 
 #### Grade Calculation (%)
 
@@ -79,7 +79,7 @@ The final grade will be calculated as follows:
 -----------|---------------------------------
 Formative assignments | %
 Evaluative assignments | %
-Paricipation | %
+Participation | %
 
 Grades may be curved at the end of the semester. Cumulative numerical averages of 90 - 100 are guaranteed at least an A-, 80 - 89 at least a B-, and 70 - 79 at least a C-, however the exact ranges for letter grades will be determined after the final exam. The more evidence there is that the class has mastered the material, the more generous the curve will be. 
 
