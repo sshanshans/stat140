@@ -1,6 +1,6 @@
 ---
 title: "STAT 140:  Introduction to the Ideas and Applications of Statistics"
-description: "This course introduces students to the discipline of statistics as a science of understanding and analyzing data. Throughout the module, students will learn how to effectively make use of data in the face of uncertainty: how to collect data, how to analyze data, and how to use data to make inferences and conclusions about real world phenomena. (Updated Jul 10, 2020)"
+description: "This course introduces students to the discipline of statistics as a science of understanding and analyzing data. Throughout the module, students will learn how to effectively make use of data in the face of uncertainty: how to collect data, how to analyze data, and how to use data to make inferences and conclusions about real world phenomena. (Updated Jul 24, 2020)"
 markup: "mmark"
 ---
 
@@ -69,4 +69,4 @@ Q: I'm really interested in taking STAT140, but the class is full and I'm on the
 
 A: Unfortunately, I cannot enlarge the enrollment capacity immediately to let you register for the course. However, the class roster does fluctuate a bit at the beginning of the semester -- some of the students may decide to drop out of the course, in which case spaces may open up for you. Depending on where you are on the waitlist, there might be a chance for you to get enrolled eventually. You are welcome to participate the course during the first few days to see how this course fits your interests and if you will be able to enroll in this course in the end. 
 
-
+Q: I will be taking this course with a N-hour time difference, N > 10. Will this course be synchronous?

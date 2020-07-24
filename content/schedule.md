@@ -20,38 +20,38 @@ markup: "mmark"
 | Sep 03 (TH) | Visualization  |           |           |                        |
 | Sep 04 (F) | Putting it all together: exploratory data analysis |           |           |                        |
 | | | | |EA2: (Lab report)|
-| **Unit 3**     | **Foundations of Inference** |           |           |                        |
-| Sep 08 (T) |  Randomness and sampling distribution|   |           |                        |
-| Sep 09 (W) |  Experiment and Survey |  |           |                        |
-| Sep 10 (TH) | Data Ethics  |           |           |                        |
-| Sep 11 (F) |  First Look  at Hypothesis testing |           |           |                        |
-| | | | |(Work with real data)|
-| **Unit 4**     | **Modeling with probability** |           |           |                        |
-| Sep 14 (M) |  From randomness to probability  |   |           |                        |
-| Sep 15 (T) |  Probability rules |  |           |                        |
-| Sep 16 (W) | Random variables & Geometric distribution |   |           |                        |
-| Sep 17 (TH) | Random variables properties |  |        |                        |
-| Sep 18 (F) | Normal distribution |  |           |                        |
-| | | | |(Data cleaning)|
-| **Unit 5**  | **Foundations for inference** |           |           |                        |
+| **Unit 3**     | **Gathering data** |           |           |                        |
+| Sep 08 (T) |  Randomness and sampling|   |           |                        |
+| Sep 09 (W) |  Sampling variability and sampling distribution |  |           |                        |
+| Sep 10 (TH) | Correlation, causality and experiment design  |           |           |                        |
+| Sep 11 (F) |   |   Ethics and statistics    |           |                        |
+| | | | |EA3: (Data gathering) |
+| **Unit 4**     | **Foundations of inference I** |           |           |                        |
+| Sep 14 (M) |  A first look at hypothesis test |   |           |                        |
+| Sep 15 (T) | Random variables & geometric distribution  |  |           |                        |
+| Sep 16 (W) | How to use binomial model in hypothesis test |   |           |                        |
+| Sep 17 (TH) | More on hypothesis test |  |        |                        |
+| Sep 18 (F) | Hypothesis test in R |  |           |                        |
+| | | | |EA4: (Quiz)|
+| **Unit 5**  | **Foundations for inference II** |           |           |                        |
 | Sep 21 (M) |  Sampling and CLT |  |           |                        |
 | Sep 22 (T) |  Confidence interval |  |           |                        |
 | Sep 23 (W) |  Bootstrapping |  |           |                        |
 | Sep 24 (TH) | Confidence interval interpretation |  |           |                        |
-| | | | | (Data visualization) |
+| | | | | EA5: (Lab report) |
 | **Unit 6**     | **There is only one hypothesis test!** |           |           |                        |
 | Sep 28 (M) | Hypothesis testing framework & terminology |    |           |                        |
 | Sep 29 (T) | p-values |   |           |                        |
 | Sep 30 (W) | Conducting hypothesis tests |  |           |                        |
 | Oct 01 (TH) | Hypothesis testing interpretation |  |           |                        |
 | Oct 02 (F) |  Case studies | |           |                        |
-| | | | | (Inference on your data) |
+| | | | |EA6: (Work on your project) |
 | **Unit 7**     | **Inference for regression** |           |           |                        |
 | Oct 05 (M) |  Regression refresher |  |           |                        |
 | Oct 06 (T) |  Interpreting regression tables |   |           |                        |
 | Oct 07 (W) |  Conditions for inference for regression  |  |           |                        |
 | Oct 08 (TH) | Simulation-based inference for regression | |           |                        |
 | Oct 09 (F) |  Multiple regression |  |           |                        |
-| | | | |(Make a poster)|
+| | | | |EA7: (Make a poster)|
 | **Unit X**     | **Tell your story with data** |           |           |                        |
 | Oct 10 (M) | Concluding remarks |           |           |                        |
