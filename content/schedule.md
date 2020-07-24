@@ -24,7 +24,7 @@ markup: "mmark"
 | Sep 08 (T) |  Randomness and sampling|   |           |                        |
 | Sep 09 (W) |  Sampling variability and sampling distribution |  |           |                        |
 | Sep 10 (TH) | Correlation, causality and experiment design  |           |           |                        |
-| Sep 11 (F) |   |   Ethics and statistics    |           |                        |
+| Sep 11 (F) |  Ethics and statistics  |   |           |                        |
 | | | | |EA3: (Data gathering) |
 | **Unit 4**     | **Foundations of inference I** |           |           |                        |
 | Sep 14 (M) |  A first look at hypothesis test |   |           |                        |

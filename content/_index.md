@@ -68,5 +68,3 @@ Mount Holyoke is no common community. We are wired to be caring for others.  Let
 Q: I'm really interested in taking STAT140, but the class is full and I'm on the waitlist. Can you let me in?
 
 A: Unfortunately, I cannot enlarge the enrollment capacity immediately to let you register for the course. However, the class roster does fluctuate a bit at the beginning of the semester -- some of the students may decide to drop out of the course, in which case spaces may open up for you. Depending on where you are on the waitlist, there might be a chance for you to get enrolled eventually. You are welcome to participate the course during the first few days to see how this course fits your interests and if you will be able to enroll in this course in the end. 
-
-Q: I will be taking this course with a N-hour time difference, N > 10. Will this course be synchronous?
