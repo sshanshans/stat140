@@ -20,38 +20,38 @@ markup: "mmark"
 | Sep 03 (TH) | Visualization  |           |           |                        |
 | Sep 04 (F) | Putting it all together: exploratory data analysis |           |           |                        |
 | | | | |EA2: (Lab report)|
-| **Unit 3**     | **Gathering data** |           |           |                        |
-| Sep 08 (T) |  Randomness and sampling|   |           |                        |
-| Sep 09 (W) |  Sampling variability and sampling distribution |  |           |                        |
-| Sep 10 (TH) | Correlation, causality and experiment design  |           |           |                        |
-| Sep 11 (F) |  Ethics and statistics  |   |           |                        |
-| | | | |EA3: (Data gathering) |
-| **Unit 4**     | **Foundations of inference I** |           |           |                        |
-| Sep 14 (M) |  A first look at hypothesis test |   |           |                        |
-| Sep 15 (T) | Random variables & geometric distribution  |  |           |                        |
-| Sep 16 (W) | How to use binomial model in hypothesis test |   |           |                        |
-| Sep 17 (TH) | More on hypothesis test |  |        |                        |
-| Sep 18 (F) | Hypothesis test in R |  |           |                        |
-| | | | |EA4: (Quiz)|
-| **Unit 5**  | **Foundations for inference II** |           |           |                        |
-| Sep 21 (M) |  Sampling and CLT |  |           |                        |
-| Sep 22 (T) |  Confidence interval |  |           |                        |
-| Sep 23 (W) |  Bootstrapping |  |           |                        |
-| Sep 24 (TH) | Confidence interval interpretation |  |           |                        |
-| | | | | EA5: (Lab report) |
-| **Unit 6**     | **There is only one hypothesis test!** |           |           |                        |
-| Sep 28 (M) | Hypothesis testing framework & terminology |    |           |                        |
-| Sep 29 (T) | p-values |   |           |                        |
-| Sep 30 (W) | Conducting hypothesis tests |  |           |                        |
-| Oct 01 (TH) | Hypothesis testing interpretation |  |           |                        |
-| Oct 02 (F) |  Case studies | |           |                        |
-| | | | |EA6: (Work on your project) |
-| **Unit 7**     | **Inference for regression** |           |           |                        |
-| Oct 05 (M) |  Regression refresher |  |           |                        |
-| Oct 06 (T) |  Interpreting regression tables |   |           |                        |
-| Oct 07 (W) |  Conditions for inference for regression  |  |           |                        |
-| Oct 08 (TH) | Simulation-based inference for regression | |           |                        |
-| Oct 09 (F) |  Multiple regression |  |           |                        |
+| **Unit 3**     | **Basic Regression** |           |           |                        |
+| Sep 08 (T) |  Least squares: the line of Best Fit |   |           |                        |
+| Sep 09 (W) |  Finding the least square line |  |           |                        |
+| Sep 10 (TH) | Model fit and Residuals  |           |           |                        |
+| Sep 11 (F) |  Multiple regression  |   |           |                        |
+| | | | |EA3: (Lab report) |
+| **Unit 4**     | **Sampling** |           |           |                        |
+| Sep 14 (M) |  Sampling activities |   |           |                        |
+| Sep 15 (T) | Virtual sampling |  |           |                        |
+| Sep 16 (W) | Sampling framework |   |           |                        |
+| Sep 17 (TH) | Bias in sampling |  |        |                        |
+| Sep 18 (F) | An example of ingot|  |           |                        |
+| | | | |EA4: (Critics)|
+| **Unit 5**  | **Intro to Hypothesis Testing** |           |           |                        |
+| Sep 21 (M) |  A probability excursion |  |           |                        |
+| Sep 22 (T) |  Binomial distribution |  |           |                        |
+| Sep 23 (W) | Binomial test |  |           |                        |
+| Sep 24 (TH) | Significance test |  |           |                        |
+| | | | | EA5: (Quiz) |
+| **Unit 6**     | **Intro to Confidence Interval** |           |           |                        |
+| Sep 28 (M) | Normal model |    |           |                        |
+| Sep 29 (T) | CLT |   |           |                        |
+| Sep 30 (W) | Confidence intervals (for a mean)|  |           |                        |
+| Oct 01 (TH) | Condidence interval interpretation |  |           |                        |
+| Oct 02 (F) | Topics in confidence interval | |           |                        |
+| | | | |EA6: (Work on your project with guideline) |
+| **Unit 7**     | **Topics in Inference** |           |           |                        |
+| Oct 05 (M) | t-Test |  |           |                        |
+| Oct 06 (T) |  Bootstrapping |   |           |                        |
+| Oct 07 (W) | Comparing two proportions  |  |           |                        |
+| Oct 08 (TH) | Comparing two means | |           |                        |
+| Oct 09 (F) |  Inference for regression |             |           |                        |
 | | | | |EA7: (Make a poster)|
 | **Unit X**     | **Tell your story with data** |           |           |                        |
 | Oct 10 (M) | Concluding remarks |           |           |                        |
