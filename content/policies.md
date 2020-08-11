@@ -116,6 +116,17 @@ Mount Holyoke College is a community of students, faculty, staff, and administra
 
 By enrolling in this course, you have agreed to abide by the MHC Honor Code: “I will honor myself, my fellow students, and Mount Holyoke College by acting responsibly, honestly, and respectfully in both my words and deeds.” Any work that does not will be reported to the Academic Honor Board. For more detail on what constitutes an academic violation of the Honor Code, please see the [College Academic Rights and Responsibilities webpage](https://www.mtholyoke.edu/academicdeans/academic-honor-board)
 
+### Privacy
+To encourage active engagement and academic inquiry in the
+classroom, as well as to safeguard the privacy of students and faculty, no form of audio or visual
+recording in the zoom classroom is permitted without explicit permission from the
+professor/instructor or without a letter from AccessAbility Services, signed by the faculty
+member, authorizing the recording as an accommodation. Authorized recordings on Moodle may
+only be used by students for their own use and may not be shared or distributed for any reason.
+Violation of this policy is an infraction of the Mount Holyoke Honor Code and academic
+regulations and will result in disciplinary action.
+
+This synchronous class session will be recorded and may be made publicly available for students who cannot make it to the class time. Breakout seesions will not be recorded. If you’d like to participate but prefer not to be recorded, you may choose to turn off your video. If you are concerned about privacy issues, please don't hesitate to contact me. 
 
 
 

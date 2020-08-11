@@ -14,9 +14,11 @@ Instructor        | [Shan Shan Ph.D](http://sshanshans.github.io) | <a href="mai
 ### Class format
 This course will use the **flipped classroom** model. That means,
 
-* Before each lecture, you will be learning the content through assigned readings, videos or recorded lectures, and completing a quiz 
-* During the lecture, you will be working on an interactive tutorial in groups to enhance your learning. The purpose of the tutorial is to give you immediate feedback during the process of mastering a new concept or skill set. This portion will be synchronous, online and recorded. 
-* After the lecture, you will be preparing for the next lecture, and occasionally completing an evaluative assignment. 
+* Before each lecture, you will be learning the content through assigned readings, videos or recorded lectures, and completing a quiz ( approx. 1-1.5 hours daily)
+* During the lecture, you will be working on an interactive tutorial in groups to enhance your learning. The purpose of the tutorial is to give you immediate feedback during the process of mastering a new concept or skill set. This portion will be synchronous, online and recorded. ( approx. 1-1.75 hours daily)
+* After the lecture, you will be preparing for the next lecture, and completing an evaluative assignment every week. (approx 4-6 hours weekly)
+
+This course should take you about 20-22 hours per week.
 
 
 ### Textbooks
