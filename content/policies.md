@@ -76,7 +76,7 @@ The final group project spans over four evaluative assignments (EA04-07). In gro
 <br>
 
 * **Late policy**
-There is no late work accepted on evaluative assignments, unless there is a pre-arrangment agreed by me. Be sure to turn in your work early to avoid any technological mishaps.
+There is no late work accepted on evaluative assignments, unless there is a pre-arrangement agreed by me. Be sure to turn in your work early to avoid any technological mishaps.
 <br> 
 <br>
 
@@ -84,17 +84,17 @@ There is no late work accepted on evaluative assignments, unless there is a pre-
 
 There are in general two ways for you to get the participation points. You will earn up to 1 point for each class. 
 
-* Group-participation:
+* Group participation:
 Coming to class will automatically give you 0.5 point for participation. To increase your point, you can try to take an active role in your group discussion. There are three roles in each group:
 
     * role A: taking notes in a Google doc (shared by the instructor) to keep track of your group's process, 
     * role B: leading the discussion and making sure everyone understand what they are doing
     * role C: communicating the results to others, e.g. posting results on Piazza, speaking in class, etc.
-    
- If there is a significant time difference that prevents you from joining the class, I might be able to pair you up with some one who is in a similar 
 
-* Solo-participation: 
+* Solo participation: 
 I understand that sometimes you won't be able to participate class activities for legitimate reasons (e.g. being sick, time difference, etc). Helping your fellow students, especially on Piazza, also counts towards participation. If there were no questions, share interesting findings or news related to the course materials on Piazza is also volunteering for a class role.  
+
+Note:  If there is a significant time difference that prevents you from joining the synchronous portion of the course, I might be able to -- though not guaranteed -- set up a study group for you with those in the similar time zones. Joining the study group will be counted as group participation. 
 
 #### Grade Calculation (%)
 
