@@ -20,15 +20,15 @@ This course will use the **flipped classroom** model. That means,
 
 
 ### Textbooks
+Finding a good book is always a problem---none of the available texts is fully satisfactory. So we shall read widely from various sources. To make it easier for you to follow, I have compiled a `Stat140 Minibook` (link available on moodle). 
+
+Below are some good reference books. All are freely available online. 
 
 {.table .table1 .table-condensed .table-striped .text-left}
  <span></span>     | <span></span> | <span></span> 
 -----------|---------------------------------|----------------------------------
 [ModernDive](https://moderndive.com) | Ismay, Kim | Chapman & Hall/CRC The R Series, 1st Edition, 2019
 [OpenIntro Statistics](https://www.openintro.org/stat/textbook.php?stat_book=os) | Diez, Barr, Çetinkaya-Rundel | CreateSpace, 3rd Edition, 2015
-
-All textbooks are free to download. 
-
 
 ### Computer, zoom attendance and software
 
