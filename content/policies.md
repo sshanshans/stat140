@@ -51,7 +51,7 @@ is computed with a logistic function of the number of hours (H) that your assign
 <br>
 
 #### Evaluative assignments (60%)
-The evaluative assignments are an opportunity to assess the knowledge and skills you’ve learned. Typically, you will get one evaluative assignment each week. The first three evaluative assignments (EA01-03) are mini-projects that will build up the muscles and skills for you to complete the final group project (EA04-07). Remeber the goal of this course is to enable *you* to tell a story with data in as faithful a manner as possible. 
+The evaluative assignments are an opportunity to assess the knowledge and skills you’ve learned. Typically, you will get one evaluative assignment each week. Each assignment is worth 100 points. The first three evaluative assignments (EA01-03) are mini-projects that will build up the muscles and skills for you to complete the final group project (EA04-07). Remeber the goal of this course is to enable *you* to tell a story with data in as faithful a manner as possible. 
 
 Note that in all group projects, you are responsible for forming your own group. If you need help find a group, or a group member, just let me know. 
 <br> 
@@ -76,7 +76,7 @@ The final group project spans over four evaluative assignments (EA04-07). In gro
 <br>
 
 * **Late policy**
-There is no late work accepted on evaluative assignments, unless there is a pre-arrangement agreed by me. Be sure to turn in your work early to avoid any technological mishaps.
+For EA 01 - 06, if late but within 1 hour of due time, 3 points will be subtracted; if late but within 24 hours, 20 points will be subtracted. Any later will receive no credit, unless there is a pre-arrangement agreed by me. Be sure to turn in your work early to avoid any technological mishaps. There is no late work accepted for EA 07. 
 <br> 
 <br>
 
@@ -96,7 +96,7 @@ I understand that sometimes you won't be able to participate class activities fo
 
 Note:  If there is a significant time difference that prevents you from joining the synchronous portion of the course, I might be able to -- though not guaranteed -- set up a study group for you with those in the same time zone. Joining the study group will be counted as group participation. 
 
-#### Grade Calculation (%)
+#### Final grade calculation
 
 The final grade will be calculated as follows:
  
