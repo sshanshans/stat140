@@ -25,5 +25,5 @@ knitr::opts_chunk$set(echo = TRUE)
 #### During class
 * [Slides]
 * Activity 1: [I notice, I wonder](https://bit.ly/3l76Z93)
-* Activity 2: [Data visualization activity](https://http://138.110.84.108:3838/sshan/tutorials/u1d1)
+* Activity 2: [Data visualization activity](https://sshanshans.github.io/stat140/labs/covid.html)
 
