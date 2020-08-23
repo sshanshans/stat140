@@ -7,7 +7,7 @@ markup: "mmark"
 | Date       | Topic              | Formative Assignments | Evaluative Assignments |
 |------------|---------------------|-----------|------------------------|
 | **Unit 1**     | **Data Summary and Visualization I** |            |                        |
-| Aug 24 (M) |  Welcome and introduction to statistics |                   |                        |
+| Aug 24 (M) |  Welcome and introduction to statistics [(html)](http://sshanshans.github.io/stat140/days/u1d1.html) |                   |                        |
 | Aug 25 (T) |  Data basics |       01 Data Camp, 01 Quiz, 01 Exercise       |                        |
 | Aug 26 (W) |  Categorical variable: distributions and proportional thinking |     02 Quiz, 02 Exercise               |                        |
 | Aug 27 (TH) | Categorical variable: relationship between two variables  |    03 Quiz, 03 Exercise            |                        |
@@ -37,14 +37,14 @@ markup: "mmark"
 | **Unit 6**     | **CLT based inference** |                     |                        |
 | Sep 28 (M) | Confidence intervals (for a mean) |               |                        |
 | Sep 29 (T) | Condidence interval interpretation |              |                        |
-| Sep 30 (W) | Hypothesis testing |             |                        |
-| Oct 01 (TH) | t-Test |             |                        |
-| Oct 02 (F) | Topics |              |      EA6, EA7 (due Oct 10)    |
+| Sep 30 (W) | Hypothesis testing I |             |                        |
+| Oct 01 (TH) | Hypothesis testing II |             |                        |
+| Oct 02 (F) | Hypothesis testing III |              |      EA6, EA7 (due Oct 10)    |
 | **Unit 7**     | **Topics in Inference** |                      |                        |
-| Oct 05 (M) | t-Test |             |                        |
-| Oct 06 (T) |  Bootstrapping |              |                        |
-| Oct 07 (W) | Comparing two proportions  |             |                        |
-| Oct 08 (TH) | Comparing two means |            |                        |
-| Oct 09 (F) |  Inference for regression |                        |                        |
+| Oct 05 (M) | Topics I |             |                        |
+| Oct 06 (T) |  Topics II |              |                        |
+| Oct 07 (W) | Topics III |             |                        |
+| Oct 08 (TH) | Topics IV |            |                        |
+| Oct 09 (F) | Topics V |                        |                        |
 | **Unit X**     | **Tell your story with data** |                      |                        |
-| Oct 10 (M) | Concluding remarks |                      |                        |
+| Oct 12 (M) | Concluding remarks |                      |                        |

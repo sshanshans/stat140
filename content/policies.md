@@ -51,7 +51,7 @@ is computed with a logistic function of the number of hours (H) that your assign
 <br>
 
 #### Evaluative assignments (60%)
-The evaluative assignments are an opportunity to assess the knowledge and skills you’ve learned. Typically, you will get one evaluative assignment each week. Each assignment is worth 100 points. The first three evaluative assignments (EA01-03) are mini-projects that will build up the muscles and skills for you to complete the final group project (EA04-07). Remeber the goal of this course is to enable *you* to tell a story with data in as faithful a manner as possible. 
+The evaluative assignments are an opportunity to assess the knowledge and skills you’ve learned. Typically, you will get one evaluative assignment each week. The first three evaluative assignments (EA01-03) are mini-projects that will build up the muscles and skills for you to complete the final group project (EA04-07). Remeber the goal of this course is to enable *you* to tell a story with data in as faithful a manner as possible. 
 
 Note that in all group projects, you are responsible for forming your own group. If you need help find a group, or a group member, just let me know. 
 <br> 
@@ -76,7 +76,7 @@ The final group project spans over four evaluative assignments (EA04-07). In gro
 <br>
 
 * **Late policy**
-For EA 01 - 06, if late but within 1 hour of due time, 3 points will be subtracted; if late but within 24 hours, 20 points will be subtracted. Any later will receive no credit, unless there is a pre-arrangement agreed by me. Be sure to turn in your work early to avoid any technological mishaps. There is no late work accepted for EA 07. 
+For EA 01 - 06, if late but within 1 hour of due time, 3% of the project grade will be subtracted; if late but within 24 hours, 20% of the project grade will be subtracted. Any later will receive no credit, unless there is a pre-arrangement agreed by me. Be sure to turn in your work early to avoid any technological mishaps. There is no late work accepted for EA 07. 
 <br> 
 <br>
 
@@ -85,11 +85,12 @@ For EA 01 - 06, if late but within 1 hour of due time, 3 points will be subtract
 There are in general two ways for you to get the participation points. You will earn up to 1 point for each class. 
 
 * Group participation:
-Coming to class will automatically give you 0.5 point for participation. To increase your point, you can try to take an active role in your group discussion. There are three roles in each group:
+Coming to class will automatically give you 0.5 point for participation. To increase your point, you can try to take an active role in your group discussion. There are four roles in each group:
 
-    * role A: taking notes on Ziteboard (shared by the instructor) to keep track of your group's process, 
-    * role B: leading the discussion and making sure everyone understand what they are doing
-    * role C: communicating the results to others, e.g., speaking in class, etc.
+    * Scriber: taking notes on Ziteboard (shared by the instructor)/Piazza to keep track of your group's process, 
+    * Manager: leading the discussion and making sure the group is completing the activity on time.
+    * Spokeperson: communicating the results to others, e.g., speaking in class, pinning the instructor for help, etc. 
+    * Editor: edit the notes/posts by the scriber
 
 * Solo participation: 
 I understand that sometimes you won't be able to participate class activities for legitimate reasons (e.g. being sick, time difference, etc). Helping your fellow students, especially on Piazza, also counts towards participation. If there were no questions, share interesting findings or news related to the course materials on Piazza is also volunteering for a class role.  

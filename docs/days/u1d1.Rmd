@@ -1,0 +1,29 @@
+---
+title: "Unit 1 Day 1"
+output: 
+  html_document:
+    css: lab.css
+    highlight: pygments
+    theme: cerulean
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+###  Welcome and introduction to statistics
+
+#### Learning objectives 
+* Three components of statistics
+* Data are recorded values together with their context
+* Data don't have to be numbers
+
+#### Before class
+* Finish [Course Essentials](https://sshanshans.github.io/stat140/labs/CoursePrep.html)
+
+#### During class
+* [Slides]
+* Activity 1: [I notice, I wonder](https://bit.ly/3l76Z93)
+* Activity 2: [Data visualization activity](https://http://138.110.84.108:3838/sshan/tutorials/u1d1)
+

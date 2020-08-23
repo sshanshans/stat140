@@ -1,6 +1,6 @@
 ---
 title: "STAT 140:  Introduction to the Ideas and Applications of Statistics"
-description: "This course introduces students to the discipline of statistics as a science of understanding and analyzing data. Throughout the module, students will learn how to effectively make use of data in the face of uncertainty: how to collect data, how to analyze data, and how to use data to make inferences and conclusions about real world phenomena. (Updated Aug 11, 2020)"
+description: "This course introduces students to the discipline of statistics as a science of understanding and analyzing data. Throughout the module, students will learn how to effectively make use of data in the face of uncertainty: how to collect data, how to analyze data, and how to use data to make inferences and conclusions about real world phenomena. (Updated Aug 23, 2020)"
 markup: "mmark"
 ---
 
@@ -12,17 +12,19 @@ markup: "mmark"
 Instructor        | [Shan Shan Ph.D](http://sshanshans.github.io) | <a href="mailto:sshan@mtholyoke.edu" title="email"><i class="fa fa-envelope"></i></a> &nbsp; <a href="https://github.com/sshanshans" title="GitHub"><i class="fa fa-github"></i></a> | Time: TBA | Zoom Link:  TBA
 
 ### Class format
-This course will use the **flipped classroom** model. That means,
 
-* Before each lecture, you will be learning the content through assigned readings, videos or recorded lectures, and completing a quiz ( approx. 1-1.5 hours daily)
-* During the lecture, you will be working on an interactive tutorial in groups to enhance your learning. The purpose of the tutorial is to give you immediate feedback during the process of mastering a new concept or skill set. This portion will be synchronous, online and recorded. ( approx. 1-1.75 hours daily)
-* After the lecture, you will be preparing for the next lecture, and completing an evaluative assignment every week. (approx 4-6 hours weekly)
+{.table .table1 .table-condensed .table-striped .text-left}
+<span></span>     | <span></span> | <span></span> 
+----------------------------------|----------------------------------|----------------------------------
+Before class | Finish readings/videos and complete a quiz | 1-1.5 hrs/day
+Class time | Synchronous, some lecture and lots of learning by doing, complete a tutorial together  | 1-1.75 hrs/day
+Every week| Work in groups, complete an evaluative assignment (EA) | 4-6 hrs/week 
 
-This course should take you about 20-22 hours per week.
+In general, this course should take you about 20-22 hours per week. 
 
 
 ### Textbooks
-Finding a good book is always a problem---none of the available texts is fully satisfactory. So we shall read widely from various sources. To make it easier for you to follow, I have compiled a *Stat140 Minibook* (link available on moodle). 
+Finding a good book is always a problem---none of the available texts is fully satisfactory. So we shall read widely from various sources. I will post the reading materials for each day on Piazza. 
 
 Below are some good reference books. All are freely available online. 
 
@@ -41,7 +43,7 @@ Students should ideally be attending the class via zoom with webcam enabled and 
 We will be using the programming language R and [RStudio](https://rstudio.cloud). R is one of the most commonly used programming languages in academic research and industry. Knowing R is a marketable skill. In this class, you will learn enough about R to conduct basic data analysis tasks.
 
 ### Where to find help
-General questions about course content or assignments should be posted on [Piazza](https://piazza.com), since there are likely other students in the class with similar questions. Questions about grades or personal matters should be emailed directly to Professor Shan Shan.
+General questions about course content or assignments should be posted on [Piazza](piazza.com/mtholyoke/fall2020/stat14002/home), since there are likely other students in the class with similar questions. Questions about grades or personal matters should be emailed directly to Professor Shan Shan.
 
 The teaching team is here to help you be successful in the course. You are encouraged to attend the office hours for help with the course content and/or assignments. 
 
@@ -64,6 +66,7 @@ Your active engagement in the course is crucial to your learning.  Here are mult
 Mount Holyoke is no common community. We are wired to be caring for others.  Let's all make efforts towards creating a welcoming learning environment for everyone. For example, 
    * When doing group projects, consider inviting those locate in a different time zone. 
    * Working towards deadlines can be stressful. Be mindful about how you phrase your questions, comments, inquiries, and suggestions. Also be generous and forgiving when reading them.
+   * I have created a virtual study hall on Gather Town, which is spatial video-calling platform that lets multiple people hold separate conversations in parallel and walk in, out and around those conversations just as easily irl. You can use this space to find others in the course to work together. Link is posted on moodle. 
 
 ### Frequently asked questions
 
