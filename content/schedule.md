@@ -24,22 +24,22 @@ markup: "mmark"
 | Sep 10 (TH) | Model fit and Residuals  |                     |                        |
 | Sep 11 (F) |  Multiple regression  |             |          EA3 (due Sep 18)              |
 | **Unit 4**     | **Sampling** |                     |                        |
-| Sep 14 (M) |  Sampling activities |             |                        |
-| Sep 15 (T) | Virtual sampling |            |                        |
-| Sep 16 (W) | Sampling framework |             |                        |
-| Sep 17 (TH) | Bias in sampling |         |                        |
-| Sep 18 (F) | An example of ingot|            |         EA4 (due Sep 24)        |
-| **Unit 5**  | **Intro to Hypothesis Testing** |                     |                        |
+| Sep 14 (M) |  Introduction to sampling |             |                        |
+| Sep 15 (T) | Designed experiments and observational studies |            |                        |
+| Sep 16 (W) | Sampling distribution |             |                        |
+| Sep 17 (TH) | Simulation based confidence interval |         |                        |
+| Sep 18 (F) | Simulation based hypothesis testing (Friend or Foe) |            |         EA4 (due Sep 24)        |
+| **Unit 5**  | **Basic Probability** |                     |                        |
 | Sep 21 (M) |  A probability excursion |             |                        |
 | Sep 22 (T) |  Binomial distribution |            |                        |
-| Sep 23 (W) | Binomial test |             |                        |
-| Sep 24 (TH) | Significance test |             |       EA5 (due Oct 02)         |
-| **Unit 6**     | **Intro to Confidence Interval** |                     |                        |
-| Sep 28 (M) | Normal model |               |                        |
-| Sep 29 (T) | CLT |              |                        |
-| Sep 30 (W) | Confidence intervals (for a mean)|             |                        |
-| Oct 01 (TH) | Condidence interval interpretation |             |                        |
-| Oct 02 (F) | Topics in confidence interval |              |      EA6, EA7 (due Oct 10)    |
+| Sep 23 (W) | Normal distribution |             |                        |
+| Sep 24 (TH) | Central Limit Theorem (CLT) |             |       EA5 (due Oct 02)         |
+| **Unit 6**     | **CLT based inference** |                     |                        |
+| Sep 28 (M) | Confidence intervals (for a mean) |               |                        |
+| Sep 29 (T) | Condidence interval interpretation |              |                        |
+| Sep 30 (W) | Hypothesis testing |             |                        |
+| Oct 01 (TH) | t-Test |             |                        |
+| Oct 02 (F) | Topics |              |      EA6, EA7 (due Oct 10)    |
 | **Unit 7**     | **Topics in Inference** |                      |                        |
 | Oct 05 (M) | t-Test |             |                        |
 | Oct 06 (T) |  Bootstrapping |              |                        |
