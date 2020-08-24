@@ -1,0 +1,41 @@
+---
+title: "Unit 1 Day 2"
+output: 
+  html_document:
+    css: lab.css
+    highlight: pygments
+    theme: cerulean
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### Data basics
+
+#### Learning objectives 
+* **Understand that data are values, whether numerical or labels, together with their context.**
+  * Who, what, why, where, when (and how)—the W’s—help nail down the context of the data.
+  * We must know who, what, and why to be able to say anything useful based on the data. The who are the cases. The what are the variables. A variable gives information about each of the cases. The why helps us decide which way to treat the variables.
+  * Stop and identify the W’s whenever you have data, and be sure you can identify the cases and the variables.
+
+* **Identify whether a variable is being used as categorical or quantitative (or termed numerical as in the video).**
+  * Categorical variables identify a category for each case. Usually we think about the counts of cases that fall in each category. (An exception is an identifier variable that just names each case.)
+  * Quantitative variables (or termed numerical variable) record measurements or amounts of something; they must have units.
+  * Sometimes we may treat the same variable as categorical or quantitative depending on what we want to learn from it, which means some variables can’t be pigeonholed as one type or the other.
+
+#### Before class
+* Finish reading (10 minutes): [Intro to Data](https://piazza.com/class_profile/get_resource/kcqqet0ou724kc/ke7v6y2ojcevb)
+* Finish watching (4 minutes): [Data basics](https://www.coursera.org/learn/probability-intro/lecture/Q0zu3/data-basics) up to 4:10
+* Complete `01 DataCamp` (1 hr): chapters from the Introduction to R course: [`Intro to basics`](https://www.datacamp.com/enterprise/stat-140-4d36b3ad-0b0b-4a65-af2d-5e38ac9deb7c/assignments/97043),[`Vectors`](https://www.datacamp.com/enterprise/stat-140-4d36b3ad-0b0b-4a65-af2d-5e38ac9deb7c/assignments/97044). 
+* Complete [`01 Quiz`](http://138.110.84.108:3838/sshan/quiz/Unit1/)
+
+#### In class
+* Slides post after class
+* Work on `01 Exercise` ([vpn](http://138.110.84.108:3838/sshan/tutorials/u1d2/), [non-vpn](http://159.89.233.150:3838/stat140/tutorials/u1d2/))
+
+#### Items due
+* ```01 DataCamp``` due 08/25 6pm EST
+* ```01 Quiz``` [submit here](https://moodle.mtholyoke.edu/mod/assign/view.php?id=547267) due 08/25 6pm EST
+* ```01 Exercise``` [submit here](https://moodle.mtholyoke.edu/mod/assign/view.php?id=547279) due 08/25 6pm EST

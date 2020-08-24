@@ -9,7 +9,7 @@ markup: "mmark"
 {.table .table1 .table-condensed .table-striped .text-left}
 <span></span>     | <span></span>     | <span></span>    | <span></span>    |  <span></span>      
 ------------------|-------------------|------------------|------------------|------------------ 
-Instructor        | [Shan Shan Ph.D](http://sshanshans.github.io) | <a href="mailto:sshan@mtholyoke.edu" title="email"><i class="fa fa-envelope"></i></a> &nbsp; <a href="https://github.com/sshanshans" title="GitHub"><i class="fa fa-github"></i></a> | Time: TBA | Zoom Link:  TBA
+Instructor        | [Shan Shan Ph.D](http://sshanshans.github.io) | <a href="mailto:sshan@mtholyoke.edu" title="email"><i class="fa fa-envelope"></i></a> &nbsp; <a href="https://github.com/sshanshans" title="GitHub"><i class="fa fa-github"></i></a> | Time: TBA | Zoom Link:  Post on Moodle
 
 ### Class format
 
