@@ -7,8 +7,8 @@ markup: "mmark"
 | Date       | Topic              | Formative Assignments | Evaluative Assignments |
 |------------|---------------------|-----------|------------------------|
 | **Unit 1**     | **Data Summary and Visualization I** |            |                        |
-| Aug 24 (M) |  Welcome and introduction to statistics [(html)](http://sshanshans.github.io/stat140/days/u1d1.html) |                   |                        |
-| Aug 25 (T) |  Data basics [(html)](http://sshanshans.github.io/stat140/days/u1d2.html) |       01 Data Camp, 01 Quiz, 01 Exercise       |                        |
+| Aug 24 (M) |  Welcome and introduction to statistics [(html)](http://sshanshans.github.io/stat140/days/u1d1) |                   |                        |
+| Aug 25 (T) |  Data basics [(html)](http://sshanshans.github.io/stat140/days/u1d2) |       01 Data Camp, 01 Quiz, 01 Exercise       |                        |
 | Aug 26 (W) |  Categorical variable: distributions and proportional thinking |     02 Quiz, 02 Exercise               |                        |
 | Aug 27 (TH) | Categorical variable: relationship between two variables  |    03 Quiz, 03 Exercise            |                        |
 | Aug 28 (F) | Categorical variable: working in R  |    02 Data Camp, 04 Exercise   |    EA1 (due Sep 04)       |
