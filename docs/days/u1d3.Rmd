@@ -23,7 +23,8 @@ output:
 * Complete [`02 Quiz`](http://138.110.84.108:3838/sshan/quiz/Unit1/#section-quiz-1)
 
 
-### In class
+#### In class
+* Slides post after class
 * Work on `02 Exercise`
 
 #### Items due
