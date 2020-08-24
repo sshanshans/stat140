@@ -53,14 +53,14 @@ is computed with a logistic function of the number of hours (H) that your assign
 #### Evaluative assignments (60%)
 The evaluative assignments are an opportunity to assess the knowledge and skills you’ve learned. Typically, you will get one evaluative assignment each week. The first three evaluative assignments (EA01-03) are mini-projects that will build up the muscles and skills for you to complete the final group project (EA04-07). Remeber the goal of this course is to enable *you* to tell a story with data in as faithful a manner as possible. 
 
-Note that in all group projects, you are responsible for forming your own group. If you need help find a group, or a group member, just let me know. 
+Note that in all group projects, you are responsible for forming your own group. There is a post on Piazza for finding a team. If you still need help find a group, or a group member, just let me know. 
 <br> 
 <br>
 
 *  **Mini-projects (30%)**
 
     * EA 01 (5%) is individual work that will get you up to speed with Rstudio and Rmarkdown document
-    * EA 02 (10%) is a group project that will horn your skills in data visualization and summries
+    * EA 02 (10%) is a group project that will horn your skills in data visualization and summaries
     * EA 03 (15%) is a group project that will showcase your data modeling skills
 <br> 
 <br>
@@ -108,7 +108,7 @@ Formative assignments | 30%
 Evaluative assignments | 60%
 Participation | 10%
 
-Cumulative numerical averages of 90 - 100 are guaranteed at least an A-, 80 - 89 at least a B-, and 70 - 79 at least a C-, however the exact ranges for letter grades will be determined after the final exam.
+Cumulative numerical averages of 90 - 100 are guaranteed at least an A-, 80 - 89 at least a B-, and 70 - 79 at least a C-, however the exact ranges for letter grades will be determined after the final exam period.
 
 <!-- ## Policies & Additional Information -->
 

@@ -43,7 +43,7 @@ Students should ideally be attending the class via zoom with webcam enabled and 
 We will be using the programming language R and [RStudio](https://rstudio.cloud). R is one of the most commonly used programming languages in academic research and industry. Knowing R is a marketable skill. In this class, you will learn enough about R to conduct basic data analysis tasks.
 
 ### Where to find help
-General questions about course content or assignments should be posted on [Piazza](piazza.com/mtholyoke/fall2020/stat14002/home), since there are likely other students in the class with similar questions. Questions about grades or personal matters should be emailed directly to Professor Shan Shan.
+General questions about course content or assignments should be posted on [Piazza](https://piazza.com/mtholyoke/fall2020/stat14002/home), since there are likely other students in the class with similar questions. Questions about grades or personal matters should be emailed directly to Professor Shan Shan.
 
 The teaching team is here to help you be successful in the course. You are encouraged to attend the office hours for help with the course content and/or assignments. 
 
