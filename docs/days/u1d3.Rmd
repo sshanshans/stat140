@@ -1,0 +1,33 @@
+---
+title: "Unit 1 Day 3"
+output: 
+  html_document:
+    css: lab.css
+    highlight: pygments
+    theme: cerulean
+  pdf_document: default
+---
+
+### Categorical variable: distributions and proportional thinking
+
+#### Learning objectives 
+* Interpret a bar chart or pie chart: we display categorical data using the area principle in either a bar chart or a pie chart.
+* Understand what distributions mean in the context of categorical variables.
+* Be familiar with proportional thinking
+* Interpret a contingency table: when we want to see how two categorical variables are related, we put the counts (and/or percentages) in a two-way table called a contingency table.
+
+#### Before class
+* Finish reading (10min): [Categorical variables](https://piazza.com/class_profile/get_resource/kcqqet0ou724kc/ke8xfvsn8mb259)
+* Finish reading (1hr): [Stat140 Minibook](https://sshanshans.github.io/stat140/reading/u1d3.html) 
+* Finish watching (8min): [Exploring Categorical Variables](https://www.coursera.org/learn/probability-intro/lecture/vEjt0/exploring-categorical-variables)
+* Complete [`02 Quiz`](http://138.110.84.108:3838/sshan/quiz/Unit1/#section-quiz-1)
+
+
+### In class
+* Work on `02 Exercise`
+
+#### Items due
+* ```02 Quiz``` due 08/26 6pm EST
+* ```02 Exercise``` due 08/26 6pm EST
+")
+```
