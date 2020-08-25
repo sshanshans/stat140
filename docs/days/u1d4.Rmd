@@ -1,0 +1,30 @@
+---
+title: "Unit 1 Day 4"
+output: 
+  html_document:
+    css: lab.css
+    highlight: pygments
+    theme: cerulean
+  pdf_document: default
+---
+
+### Categorical variable: relationship between two variables
+
+#### Learning objectives 
+1. Understand and compute joint, marginal and conditional distribution.
+2. Understand independence between two categorical variables.
+
+#### Before class
+* Finish reading (10min): [Two categorical variables](https://piazza.com/class_profile/get_resource/kcqqet0ou724kc/keaex5u8jqv1ek)
+* Finish reading (1hr): [Stat140 Minibook](https://sshanshans.github.io/stat140/reading/u1d3.html#Explore_your_first_datasets) starting from ``explore your first datasets"
+* Complete `03 Quiz`( [VPN](http://138.110.84.108:3838/sshan/quiz/Unit1/#section-quiz-1), [nonVPN](http://159.89.233.150:3838/stat140/quiz/Unit1/#section-quiz-1)
+)
+
+#### In Class
+* Slides post after class
+* Work on `02 Exercise`
+
+#### Items due
+* ```03 Quiz``` due 08/27 6pm EST
+* ```03 Exercise``` due 08/27 6pm EST
+

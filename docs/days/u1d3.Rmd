@@ -18,17 +18,16 @@ output:
 
 #### Before class
 * Finish reading (10min): [Categorical variables](https://piazza.com/class_profile/get_resource/kcqqet0ou724kc/ke8xfvsn8mb259)
-* Finish reading (1hr): [Stat140 Minibook](https://sshanshans.github.io/stat140/reading/u1d3.html) 
+* Finish reading (1hr): [Stat140 Minibook](https://sshanshans.github.io/stat140/reading/u1d3.html). (Only the part on intro to R and Rstudio. You will read the rest on Day 4). 
 * Finish watching (8min): [Exploring Categorical Variables](https://www.coursera.org/learn/probability-intro/lecture/vEjt0/exploring-categorical-variables)
 * Complete `02 Quiz`( [VPN](http://138.110.84.108:3838/sshan/quiz/Unit1/#section-quiz-1), [nonVPN](http://159.89.233.150:3838/stat140/quiz/Unit1/#section-quiz-1)
 )
 
 #### In class
 * Slides post after class
-* Work on `02 Exercise`
+* Work on `02 Exercise`([VPN](http://138.110.84.108:3838/sshan/tutorials/u1d3/), [nonVPN](http://159.89.233.150:3838/stat140/tutorials/u1d3/))
 
 #### Items due
 * [`02 Quiz`](https://moodle.mtholyoke.edu/mod/assign/view.php?id=547270) due 08/26 6pm EST
 * [`02 Exercise`](https://moodle.mtholyoke.edu/mod/assign/view.php?id=547280) due 08/26 6pm EST
-")
 ```
