@@ -24,7 +24,7 @@ output:
 )
 
 #### In class
-* Slides post after class
+* Slides: [html](https://sshanshans.github.io/stat140/slides/u1d3.pdf)
 * Work on `02 Exercise`([VPN](http://138.110.84.108:3838/sshan/tutorials/u1d3/), [nonVPN](http://159.89.233.150:3838/stat140/tutorials/u1d3/))
 
 #### Items due
