@@ -1,0 +1,33 @@
+---
+title: "Unit 1 Day 5"
+output: 
+  html_document:
+    css: lab.css
+    highlight: pygments
+    theme: cerulean
+  pdf_document: default
+---
+### Categorical variable: working in R
+
+#### Learning objectives 
+* Match ideas from the textbook and the data camp assignment.
+* Be able to work with R and generate Rmarkdown report
+* Basic R commands for working with categorical variables
+    * load data
+    * `head`, `dim` function
+    * piping
+    * `mutate`
+    * `count`
+
+#### Before class
+* Complete `02 DataCamp`: chapters from the `Introduction to tidyverse` course
+
+#### In class
+* Start working on ```04 Exercise```
+
+#### Items due
+* `02 DataCamp` due 08/28 6pm EST
+* ```04 Exercise``` due 08/28 6pm EST
+
+#### Evaluative assignment
+* `01 EA: Intro to Rstudio and Rmarkdown` due 09/04 6pm EST

@@ -11,7 +11,7 @@ markup: "mmark"
 | Aug 25 (T) |  Data basics [(html)](http://sshanshans.github.io/stat140/days/u1d2) |       01 Data Camp, 01 Quiz, 01 Exercise       |                        |
 | Aug 26 (W) |  Categorical variable: distributions and proportional thinking  [(html)](http://sshanshans.github.io/stat140/days/u1d3)|     02 Quiz, 02 Exercise               |                        |
 | Aug 27 (TH) | Categorical variable: relationship between two variables [(html)](http://sshanshans.github.io/stat140/days/u1d4)|    03 Quiz, 03 Exercise            |                        |
-| Aug 28 (F) | Categorical variable: working in R  |    02 Data Camp, 04 Exercise   |    EA1 (due Sep 04)       |
+| Aug 28 (F) | Categorical variable: working in R [(html)](http://sshanshans.github.io/stat140/days/u1d5)  |    02 Data Camp, 04 Exercise   |    EA1 (due Sep 04)       |
 | **Unit 2**     |**Data Summary and Visualization II** |                   |                        |
 | Aug 31 (M) |  Numerical variable: histograms and shapes |            |                        |
 | Sep 01 (T) |  Numerical variable: summary of histograms|             |                        |
