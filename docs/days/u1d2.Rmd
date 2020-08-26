@@ -32,7 +32,7 @@ knitr::opts_chunk$set(echo = TRUE)
 * Complete [`01 Quiz`](http://138.110.84.108:3838/sshan/quiz/Unit1/)
 
 #### In class
-* Slides post after class
+* Slides: [html](https://sshanshans.github.io/stat140/slides/u1d2.pdf)
 * Work on `01 Exercise` ([vpn](http://138.110.84.108:3838/sshan/tutorials/u1d2/), [non-vpn](http://159.89.233.150:3838/stat140/tutorials/u1d2/))
 
 #### Items due
