@@ -20,13 +20,13 @@ output:
     * `count`
 
 #### Before class
-* Complete `02 DataCamp`: chapters from the `Introduction to tidyverse` course
+* Complete `02 DataCamp`: [`Data Wrangling`](https://www.datacamp.com/enterprise/stat-140-4d36b3ad-0b0b-4a65-af2d-5e38ac9deb7c/assignments)
 
 #### In class
 * Start working on ```04 Exercise```
 
 #### Items due
-* `02 DataCamp` due 08/28 6pm EST
+* `02 DataCamp` (no need to submit, auto-sync) due 08/28 6pm EST
 * ```04 Exercise``` due 08/28 6pm EST
 
 #### Evaluative assignment
