@@ -1,0 +1,39 @@
+---
+title: "Unit 2 Day 1"
+output: 
+  html_document:
+    css: lab.css
+    highlight: pygments
+    theme: cerulean
+  pdf_document: default
+---
+### Quantitative variable: histogram and shapes
+
+#### Learning objectives 
+* **Make and interpret displays of the distribution of a variable.**
+  * We display the distribution of a quantitative variable with a histogram, or dotplot.
+  * We understand distributions in terms of their shape, center, and spread. 
+
+* **Describe the shape of a distribution.**
+  * A symmetric distribution has roughly the same shape reflected around the center.
+  * A skewed distribution extends farther on one side than on the other.
+  * A unimodal distribution has a single major hump or mode; a bimodal distribution has two; multimodal distributions have more.
+  * Outliers are values that lie far from the rest of the data.
+  * Report any other unusual feature of the distribution such as gaps.
+
+* **Summarize a distribution by computing the median and IQR.**
+  * The median is the middle value; half the values are above and half are below the median. It is a better summary when the distribution is skewed or has outliers.
+  * The IQR is the difference between the quartiles. 
+
+#### Before class
+* Finish watching: [Histogram I](https://vimeo.com/221607341), [Histogram II (starting 4:10)](https://www.coursera.org/learn/probability-intro/lecture/9kRJf/visualizing-numerical-data), [Robust statistics](https://www.coursera.org/learn/probability-intro/lecture/ssktR/robust-statistics)
+* Finish reading: [Stat:Data and Model Chapter 3.1-3.4](https://piazza.com/class_profile/get_resource/kcqqet0ou724kc/keeqv4nxlc41s7)
+* Complete `04 Quiz`
+
+#### In class
+* Slides post after class
+* Work on ```05 Exercise```
+
+#### Items due
+* ```04 Quiz``` due 08/31 6pm EST
+* ```05 Exercise``` due 08/31 6pm EST
