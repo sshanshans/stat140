@@ -1675,9 +1675,10 @@ div.tocify {
 <ul>
 <li>You should complete the exercises in the next section using the Rmarkdown template provided above.</li>
 <li>For each exercise, include any relevant output (tables, summary statistics, plots) in your answer. Doing this is easy. Just place any relevant R code in a code chunk, and hit Knit HTML.</li>
-<li>Make sure all your code chunks are informatively named, and these labels are not repeated.</li>
 <li>Use complete sentences to answer each question.</li>
-<li>After you complete the exercises, knit the document to a PDF file and rename the file as <code>EA01_[yourlastname].pdf</code>. Submit both the markdown file and the pdf file on Moodle.</li>
+<li>After you complete the exercises, knit the document, and export the HTML file to a PDF file and rename the file as <code>EA01_[yourlastname].pdf</code>. Submit both the markdown file and the pdf file on Moodle.</li>
+<li>Each exercise will be graded based on correctness <strong>and</strong> writing.</li>
+<li>You are encouraged to work together on this assignment, but your writing/coding must be your own. You may ask me or TAs for help.</li>
 </ul>
 </div>
 <div id="exercises" class="section level2">
@@ -1691,14 +1692,13 @@ div.tocify {
 <li>Calculate the relevant conditional distributions of health outcome given the participants’ smoking status.</li>
 <li>Briefly describe the relationship using the conditional distributions, and evaluate whether this meets your expectations.</li>
 </ul></li>
-<li>Create a new variable called <code>age_cat</code> using the following scheme:
-<ul>
-<li>age less than or equal to 44, i.e., “18-44”</li>
-<li>age greater than 45 but less than or equal to 64, i.e.,~ “45-64”</li>
-<li>age greater than 65, i.e., “65+”</li>
-</ul></li>
+<li><p>Create a new variable called age_cat using the following scheme: age less than or equal to 44, i.e., “18-44” age greater than 45 but less than or equal to 64, i.e.,~ “45-64” age greater than 65, i.e., “65+”</p></li>
 <li><p>Extend the contingency table from earlier by breaking it down by age category and use it to help your narrative. Compute the relevant conditional distributions of health outcome given the participants’ smoking status in each age group. What changed? What might explain this change?</p></li>
 </ol>
+<p>Code block for Exercise 5 begins here:</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb4-1" data-line-number="1">Whickham<span class="op">$</span>age_cat[Whickham<span class="op">$</span>age <span class="op">&gt;</span><span class="st"> </span><span class="dv">64</span>] &lt;-<span class="st"> &quot;65+&quot;</span></a>
+<a class="sourceLine" id="cb4-2" data-line-number="2">Whickham<span class="op">$</span>age_cat[Whickham<span class="op">$</span>age <span class="op">&gt;=</span><span class="st"> </span><span class="dv">45</span> <span class="op">&amp;</span><span class="st"> </span>Whickham<span class="op">$</span>age <span class="op">&lt;=</span><span class="st"> </span><span class="dv">64</span>] &lt;-<span class="st"> &quot;45-64&quot;</span></a>
+<a class="sourceLine" id="cb4-3" data-line-number="3">Whickham<span class="op">$</span>age_cat[Whickham<span class="op">$</span>age <span class="op">&lt;=</span><span class="st"> </span><span class="dv">44</span>] &lt;-<span class="st"> &quot;18-44&quot;</span></a></code></pre></div>
 </div>
 <div id="resources-for-learning-r-and-working-in-rstudio" class="section level2">
 <h2>Resources for learning R and working in RStudio</h2>
@@ -1709,8 +1709,6 @@ div.tocify {
 <li><a href="https://github.com/rstudio/cheatsheets/raw/master/data-visualization-2.1.pdf">Data visualization cheatsheet</a></li>
 </ul>
 <p>Note that some of the code on these cheatsheets may be too advanced for this course. However the majority of it will become useful throughout the semester.</p>
-<hr />
-<p><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="data:image/png;base64,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" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
 </div>
 
 
