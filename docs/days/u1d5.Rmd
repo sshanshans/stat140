@@ -30,4 +30,4 @@ output:
 * `04 Exercise`: [submit here](https://moodle.mtholyoke.edu/mod/assign/view.php?id=547284) due 08/28 6pm EST
 
 #### Evaluative assignment
-* `01 EA: Intro to Rstudio and Rmarkdown` ([intro](https://sshanshans.github.io/stat140/eas/intro)) due 09/04 6pm EST
+* `01 EA: Intro to Rstudio and Rmarkdown` ([intro](https://sshanshans.github.io/stat140/eas/intro)): [submit here](https://moodle.mtholyoke.edu/mod/assign/view.php?id=547286) due 09/04 6pm EST
