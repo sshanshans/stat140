@@ -9,9 +9,9 @@ markup: "mmark"
 {.table .table1 .table-condensed .table-striped .text-left}
 <span></span>     | <span></span>     | <span></span>    | <span></span>    |  <span></span>      
 ------------------|-------------------|------------------|------------------|------------------ 
-Instructor        | [Shan Shan Ph.D](http://sshanshans.github.io) | <a href="mailto:sshan@mtholyoke.edu" title="email"><i class="fa fa-envelope"></i></a> &nbsp; <a href="https://github.com/sshanshans" title="GitHub"><i class="fa fa-github"></i></a> | Time: TBA | Zoom Link:  Post on Moodle
+Instructor        | [Shan Shan Ph.D](http://sshanshans.github.io) | <a href="mailto:sshan@mtholyoke.edu" title="email"><i class="fa fa-envelope"></i></a> &nbsp; <a href="https://github.com/sshanshans" title="GitHub"><i class="fa fa-github"></i></a> | Time: TTh 2pm -3pm | Zoom Link:  Post on Moodle
 TA                 |Gianna Cai | <a href="mailto:cai27y@mtholyoke.edu" title="email"><i class="fa fa-envelope"></i></a> | Office Hour: Wed 8pm -9pm | Zoom Link: Post on Moodle
-TA                 |Grace Wason| <a href="mailto:wason22g@mtholyoke.edu" title="email"><i class="fa fa-envelope"></i></a> | Office Hour: Wed 8pm -9pm | Zoom Link: Post on Moodle
+TA                 |Grace Wason| <a href="mailto:wason22g@mtholyoke.edu" title="email"><i class="fa fa-envelope"></i></a> | Office Hour: Mon 10am -11am | Zoom Link: Post on Moodle
 
 ### Class format
 
