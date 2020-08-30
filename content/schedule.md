@@ -13,11 +13,11 @@ markup: "mmark"
 | Aug 27 (TH) | Categorical variable: relationship between two variables [(html)](http://sshanshans.github.io/stat140/days/u1d4)|    03 Quiz, 03 Exercise            |                        |
 | Aug 28 (F) | Categorical variable: working in R [(html)](http://sshanshans.github.io/stat140/days/u1d5)  |    02 Data Camp, 04 Exercise   |    EA1 (due Sep 04)       |
 | **Unit 2**     |**Data Summary and Visualization II** |                   |                        |
-| Aug 31 (M) |  Numerical variable: histograms and shapes [(html)](http://sshanshans.github.io/stat140/days/u2d1) |            |                        |
-| Sep 01 (T) |  Numerical variable: summary of histograms [(html)](http://sshanshans.github.io/stat140/days/u2d2)|             |                        |
-| Sep 02 (W) |  Numerical variable: relationship, association and correlation [(html)](http://sshanshans.github.io/stat140/days/u2d3) |               |                        |
-| Sep 03 (TH) | Relationship between numerical and categorical variable [(html)](http://sshanshans.github.io/stat140/days/u2d4) |                     |                        |
-| Sep 04 (F) | Putting it all together: exploratory data analysis [(html)](http://sshanshans.github.io/stat140/days/u2d5) |                     |      EA2 (due Sep 11)        |
+| Aug 31 (M) |  Numerical variable: histograms and shapes [(html)](http://sshanshans.github.io/stat140/days/u2d1) |   04 Quiz, 05 Exercise          |                        |
+| Sep 01 (T) |  Numerical variable: summary of histograms [(html)](http://sshanshans.github.io/stat140/days/u2d2)|     05 Quiz, 06 Exercise         |                        |
+| Sep 02 (W) |  Numerical variable: relationship, association and correlation [(html)](http://sshanshans.github.io/stat140/days/u2d3) |    06 Quiz, 07 Exercise            |                        |
+| Sep 03 (TH) | Relationship between numerical and categorical variable [(html)](http://sshanshans.github.io/stat140/days/u2d4) |    03 Data Camp, 08 Exercise                  |                        |
+| Sep 04 (F) | Putting it all together: exploratory data analysis [(html)](http://sshanshans.github.io/stat140/days/u2d5) |    07 Quiz, 09 Exercise                |      EA2 (due Sep 11)        |
 | **Unit 3**     | **Basic Regression** |                     |                        |
 | Sep 08 (T) |  Least squares: the line of Best Fit |              |                        |
 | Sep 09 (W) |  Finding the least square line |           |                        |

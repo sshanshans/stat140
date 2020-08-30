@@ -36,4 +36,4 @@ output:
 
 #### Items due
 * ```04 Quiz```:[submit here](https://moodle.mtholyoke.edu/mod/assign/view.php?id=560521&forceview=1) due 08/31 6pm EST
-* ```05 Exercise``` due 08/31 6pm EST
+* `05 Exercise` due on Piazza 08/31 6pm EST
