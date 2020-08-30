@@ -14,10 +14,10 @@ markup: "mmark"
 | Aug 28 (F) | Categorical variable: working in R [(html)](http://sshanshans.github.io/stat140/days/u1d5)  |    02 Data Camp, 04 Exercise   |    EA1 (due Sep 04)       |
 | **Unit 2**     |**Data Summary and Visualization II** |                   |                        |
 | Aug 31 (M) |  Numerical variable: histograms and shapes [(html)](http://sshanshans.github.io/stat140/days/u2d1) |            |                        |
-| Sep 01 (T) |  Numerical variable: summary of histograms|             |                        |
-| Sep 02 (W) |  Numerical variable: relationship, association and correlation |               |                        |
-| Sep 03 (TH) | Visualization  |                     |                        |
-| Sep 04 (F) | Putting it all together: exploratory data analysis |                     |      EA2 (due Sep 11)        |
+| Sep 01 (T) |  Numerical variable: summary of histograms [(html)](http://sshanshans.github.io/stat140/days/u2d2)|             |                        |
+| Sep 02 (W) |  Numerical variable: relationship, association and correlation [(html)](http://sshanshans.github.io/stat140/days/u2d3) |               |                        |
+| Sep 03 (TH) | Relationship between numerical and categorical variable [(html)](http://sshanshans.github.io/stat140/days/u2d4) |                     |                        |
+| Sep 04 (F) | Putting it all together: exploratory data analysis [(html)](http://sshanshans.github.io/stat140/days/u2d5) |                     |      EA2 (due Sep 11)        |
 | **Unit 3**     | **Basic Regression** |                     |                        |
 | Sep 08 (T) |  Least squares: the line of Best Fit |              |                        |
 | Sep 09 (W) |  Finding the least square line |           |                        |

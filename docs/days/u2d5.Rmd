@@ -1,0 +1,27 @@
+---
+title: "Unit 2 Day 5"
+output: 
+  html_document:
+    css: lab.css
+    highlight: pygments
+    theme: cerulean
+  pdf_document: default
+---
+
+### Putting it all together: exploratory data analysis
+
+#### Learning objectives 
+* **Customize ggplot**
+
+#### Before class
+* Finish reading Chapter 1 in [Data Visualization: A practical introduction](https://socviz.co/lookatdata.html#lookatdata)
+* Finish `07 Quiz` (Post on Piazza a bad graph you found online and comment on how you would improve the graph)
+
+#### In class 
+* Working on `09 Exercise`
+
+#### Items due
+* `07 Quiz` due on Piazza 09/04 6pm EST
+
+#### Evaluative assignment
+* `02 EA: Exploratory Data Analysis` due 09/11 6pm EST

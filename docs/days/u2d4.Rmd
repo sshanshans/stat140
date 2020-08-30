@@ -1,0 +1,32 @@
+---
+title: "Unit 2 Day 4"
+output: 
+  html_document:
+    css: lab.css
+    highlight: pygments
+    theme: cerulean
+  pdf_document: default
+---
+
+### Visualization
+
+#### Learning objectives 
+* **Understand data visualization basics**
+  * Create graphs with ```ggplot2``` in R
+  * Add variables to a graph with ```aes```thetics
+  * Create different types of graphs with ```geoms```
+  * Understand the grammar rules of creating graphs with ```ggplot2```
+* **Revisit data wrangling basics for numerical varibles**
+  * Arrange
+  * `group_by`
+  * Summary statistics
+
+#### Before class
+* Finish `03 Data camp`: chapters on ggplot.
+
+#### In-class
+* Working on `08 Exercise`
+
+#### Items due
+* ```08 Exercise``` due 09/03 6pm EST
+* ```03 DataCamp``` due 09/03 6pm EST
