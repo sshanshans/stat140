@@ -28,12 +28,13 @@ output:
 #### Before class
 * Finish watching: [Histogram I](https://vimeo.com/221607341), [Histogram II (starting 4:10)](https://www.coursera.org/learn/probability-intro/lecture/9kRJf/visualizing-numerical-data), [Robust statistics](https://www.coursera.org/learn/probability-intro/lecture/ssktR/robust-statistics)
 * Finish reading: [Stat:Data and Model Chapter 3.1-3.4](https://piazza.com/class_profile/get_resource/kcqqet0ou724kc/keeqv4nxlc41s7)
-* Complete `04 Quiz`:[VPN](http://138.110.84.108:3838/sshan/quiz/Unit2/), [nonVPN](http://159.89.233.150:3838/stat140/quiz/Unit2/)
+* Complete `04 Quiz`: [VPN](http://138.110.84.108:3838/sshan/quiz/Unit2/), [nonVPN](http://159.89.233.150:3838/stat140/quiz/Unit2/)
 
 #### In class
 * Slides post after class
-* Work on ```05 Exercise```
+* Work on `05 Exercise`: [VPN](http://138.110.84.108:3838/sshan/tutorials/u2d1/), [nonVPN](http://159.89.233.150:3838/stat140/tutorials/u2d1/)
+
 
 #### Items due
-* ```04 Quiz```:[submit here](https://moodle.mtholyoke.edu/mod/assign/view.php?id=560521&forceview=1) due 08/31 6pm EST
-* `05 Exercise` due on Piazza 08/31 6pm EST
+* ```04 Quiz```: [submit here](https://moodle.mtholyoke.edu/mod/assign/view.php?id=560521&forceview=1) due 08/31 6pm EST
+* `05 Exercise` due on [Piazza post](https://piazza.com/class/kcqqet0ou724kc?cid=26) 08/31 6pm EST
