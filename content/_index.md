@@ -9,7 +9,7 @@ markup: "mmark"
 {.table .table1 .table-condensed .table-striped .text-left}
 <span></span>     | <span></span>     | <span></span>    | <span></span>    |  <span></span>      
 ------------------|-------------------|------------------|------------------|------------------ 
-Instructor        | [Shan Shan Ph.D](http://sshanshans.github.io) | <a href="mailto:sshan@mtholyoke.edu" title="email"><i class="fa fa-envelope"></i></a> | Thur 2pm -3pm | Zoom link post on moodle
+Instructor        | [Shan Shan Ph.D](http://sshanshans.github.io) | <a href="mailto:sshan@mtholyoke.edu" title="email"><i class="fa fa-envelope"></i></a> | Thur 2pm -3pm | Zoom link posted on moodle
 TA                 | Gianna Cai | <a href="mailto:cai27y@mtholyoke.edu" title="email"><i class="fa fa-envelope"></i></a> | Wed 8pm -9pm | 
 TA                 | Alex Moreno | <a href="mailto:moren23a@mtholyoke.edu" title="email"><i class="fa fa-envelope"></i></a> | Tue 9am -10am  | 
 TA                 | Grace Wason | <a href="mailto:wason22g@mtholyoke.edu" title="email"><i class="fa fa-envelope"></i></a> | Mon 10am -11am | 
