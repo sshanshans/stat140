@@ -33,6 +33,7 @@ output:
 * Complete `05 Quiz`: [VPN](http://138.110.84.108:3838/sshan/quiz/Unit2/), [nonVPN](http://159.89.233.150:3838/stat140/quiz/Unit2/)
 
 #### In class
+* Slides [html](https://sshanshans.github.io/stat140/slides/u2d2.pdf)
 * Working on `06 Exercise`: [VPN](http://138.110.84.108:3838/sshan/tutorials/u2d2/), [nonVPN](http://159.89.233.150:3838/stat140/tutorials/u2d2/)
 
 #### Items due
