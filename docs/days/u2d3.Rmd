@@ -26,7 +26,7 @@ output:
 
 #### In class
 * Slides post after class
-* Working on ```07 Exercise```
+* Working on `07 Exercise`: [intro](http://sshanshans.github.io/stat140/labs/u2d3/intro)
 
 #### Items due
 * `06 Quiz` [submit here](https://moodle.mtholyoke.edu/mod/assign/view.php?id=560975) due 09/02 6pm EST

@@ -1,0 +1,56 @@
+---
+title: "07 Exercise"
+author: "Type your name here"
+output:
+  pdf_document: default
+  html_document:
+    highlight: pygments
+    theme: spacelab
+---
+
+```{r setup, include=FALSE}
+# DO NOT ALTER CODE IN THIS CHUNK
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+railtrail <- read_csv("http://www.evanlray.com/data/mosaic/rail_trail.csv")
+arcade_lawyers <- read_csv("http://www.evanlray.com/data/tylervigen/arcade_revenue_lawyers_Wyoming.csv")
+```
+
+* * *
+
+## Part I
+
+```{r data1}
+head(railtrail)
+```
+
+#### Problem 1
+```{r prob1}
+# enter your code for Problem 1 here
+```
+
+#### Problem 2
+
+[Enter your response for Problem 2 here.]
+
+#### Problem 3
+
+[Enter your response for Problem 3 here.]
+
+## Part II
+```{r data2}
+head(arcade_lawyers)
+```
+
+#### Problem 4
+
+#### Problem 5
+
+#### Problem 6
+
+#### Problem 7
+
+#### Problem 8
+
+#### Problem 9
+
