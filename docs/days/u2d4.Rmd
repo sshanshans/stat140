@@ -11,7 +11,7 @@ output:
 ### Visualization
 
 #### Learning objectives 
-* **Understand data visualization basics**
+* **Revisit data visualization basics**
   * Create graphs with ```ggplot2``` in R
   * Add variables to a graph with ```aes```thetics
   * Create different types of graphs with ```geoms```
@@ -22,11 +22,11 @@ output:
   * Summary statistics
 
 #### Before class
-* Finish `03 Data camp`: chapters on ggplot.
+* Finish [`03 Data camp`](https://campus.datacamp.com/courses/introduction-to-the-tidyverse/data-visualization?ex=1)
 
 #### In-class
 * Working on `08 Exercise`
 
 #### Items due
-* ```08 Exercise``` due 09/03 6pm EST
-* ```03 DataCamp``` due 09/03 6pm EST
+* `08 Exercise` [submit here](https://moodle.mtholyoke.edu/mod/assign/view.php?id=560983) due 09/03 6pm EST
+* `03 DataCamp` due 09/03 6pm EST
