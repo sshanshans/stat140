@@ -25,7 +25,7 @@ output:
 * Complete `06 Quiz`: [VPN](http://138.110.84.108:3838/sshan/quiz/Unit2/#section-quiz-2), [nonVPN](http://159.89.233.150:3838/stat140/quiz/Unit2/#section-quiz-2)
 
 #### In class
-* Slides post after class
+* Slides: [html](https://sshanshans.github.io/stat140/slides/u2d3.pdf)
 * Working on `07 Exercise`: [intro](http://sshanshans.github.io/stat140/labs/u2d3/intro)
 
 #### Items due

@@ -8,7 +8,7 @@ output:
   pdf_document: default
 ---
 
-### Visualization
+### Relationship between numerical and categorical variable
 
 #### Learning objectives 
 * **Revisit data visualization basics**
@@ -25,7 +25,7 @@ output:
 * Finish [`03 Data camp`](https://campus.datacamp.com/courses/introduction-to-the-tidyverse/data-visualization?ex=1)
 
 #### In-class
-* Working on `08 Exercise`
+* Working on `08 Exercise`: [intro](http://sshanshans.github.io/stat140/labs/u2d4/intro)
 
 #### Items due
 * `08 Exercise` [submit here](https://moodle.mtholyoke.edu/mod/assign/view.php?id=560983) due 09/03 6pm EST
