@@ -23,8 +23,11 @@ output:
 #### Items due
 * `07 Quiz` [submit here](https://piazza.com/class/kcqqet0ou724kc?cid=33) due on Piazza 09/04 6pm EST
 * `08 Exercise` [submit here](https://moodle.mtholyoke.edu/mod/assign/view.php?id=560983) due 09/04 6pm EST
-* `01 EA` [submit here](https://moodle.mtholyoke.edu/mod/assign/view.php?id=547286) due 09/04 6pm EST. [grading guidline](https://sshanshans.github.io/stat140/eas/EA1grading.pdf)
+* `01 EA` [submit here](https://moodle.mtholyoke.edu/mod/assign/view.php?id=547286) due 09/04 6pm EST. [grading guideline](https://sshanshans.github.io/stat140/eas/EA1grading.pdf)
 
 #### Evaluative assignment
-* `02 EA: Exploratory Data Analysis`
-([intro](https://sshanshans.github.io/stat140/eas/02/intro)): [submit here](https://moodle.mtholyoke.edu/mod/assign/view.php?id=560984&forceview=1) due 09/11 6pm EST
+* `02 EA: Exploratory Data Analysis` due 09/11 6pm EST
+  * [intro](https://sshanshans.github.io/stat140/eas/02/intro)
+  * [grading guideline](https://sshanshans.github.io/stat140/eas/02/EA2grading.pdf)
+  * [moodle portal](https://moodle.mtholyoke.edu/mod/assign/view.php?id=560984&forceview=1)
+  * [peer evaluation form]
