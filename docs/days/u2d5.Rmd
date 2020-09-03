@@ -18,10 +18,12 @@ output:
 * Finish `07 Quiz` (Post on Piazza a bad graph you found online and comment on how you would improve the graph)
 
 #### In class 
-* Working on `09 Exercise`
+* Working on `08 Exercise`
 
 #### Items due
 * `07 Quiz` due on Piazza 09/04 6pm EST
+* `08 Exercise` [submit here](https://moodle.mtholyoke.edu/mod/assign/view.php?id=560983) due 09/04 6pm EST
+* `01 EA` [submit here](https://moodle.mtholyoke.edu/mod/assign/view.php?id=547286) due 09/04 6pm EST. [grading guidline](https://sshanshans.github.io/stat140/eas/EA1grading.pdf)
 
 #### Evaluative assignment
 * `02 EA: Exploratory Data Analysis` due 09/11 6pm EST
