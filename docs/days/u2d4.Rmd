@@ -26,7 +26,6 @@ output:
 
 #### In-class
 * Slides post after class
-* Working on `08 Exercise`: [intro](http://sshanshans.github.io/stat140/labs/u2d4/intro)
 
 #### Items due
 * `03 DataCamp` due 09/03 6pm EST
