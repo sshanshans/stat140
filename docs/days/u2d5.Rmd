@@ -26,4 +26,5 @@ output:
 * `01 EA` [submit here](https://moodle.mtholyoke.edu/mod/assign/view.php?id=547286) due 09/04 6pm EST. [grading guidline](https://sshanshans.github.io/stat140/eas/EA1grading.pdf)
 
 #### Evaluative assignment
-* `02 EA: Exploratory Data Analysis` due 09/11 6pm EST
+* `02 EA: Exploratory Data Analysis`
+([intro](https://sshanshans.github.io/stat140/eas/02/intro)): [submit here](https://moodle.mtholyoke.edu/mod/assign/view.php?id=560984&forceview=1) due 09/11 6pm EST
