@@ -1864,6 +1864,19 @@ div.tocify {
 <div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb6-1" data-line-number="1"><span class="kw">ggplot</span>(<span class="dt">data =</span> ____, <span class="dt">mapping =</span> <span class="kw">aes</span>(<span class="dt">x =</span> ____, <span class="dt">color =</span> ____)) <span class="op">+</span><span class="st"> </span></a>
 <a class="sourceLine" id="cb6-2" data-line-number="2"><span class="st">  </span><span class="kw">geom_density</span>()</a></code></pre></div>
 </div>
+<div id="iv.-title-and-label-axes" class="section level4">
+<h4>IV. Title and label axes</h4>
+<p>The labels on the x- and y- axis are not very informative so far. Let’s change the x-axis label to “Baby’s weight” and the y-axis to “Density”. Furthermore, let’s change the legend label to “Mother’s tobacco usage”. To do this, add <code>labs( )</code> to the existing ggplot layers and specify each axis you’d like to label as arguments, e.g. <code>x =</code>, followed by the string for your label. If you’d like to learn more about manipulations you can do with <code>labs( )</code>, see <a href="https://ggplot2.tidyverse.org/reference/labs.html">this reference</a>.</p>
+<ol start="5" style="list-style-type: decimal">
+<li>Add the following code to your answer to Exercise 4 to modify the labels.</li>
+</ol>
+<div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb7-1" data-line-number="1"> <span class="kw">labs</span>(<span class="dt">x=</span><span class="st">&quot;Baby's weight&quot;</span>, <span class="dt">y=</span><span class="st">&quot;Density&quot;</span>, <span class="dt">color=</span><span class="st">&quot;Mother's tobacco usage&quot;</span>)</a></code></pre></div>
+<p>In addition, we can also include a title by adding <code>ggtitle()</code> to the existing ggplot layers.</p>
+<ol start="6" style="list-style-type: decimal">
+<li>Add the following code to your answer to Exercise 5 to modify the title.</li>
+</ol>
+<div class="sourceCode" id="cb8"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb8-1" data-line-number="1"><span class="kw">ggtitle</span>(<span class="st">&quot;Density plot of baby's weight over mother's tobacco usage.&quot;</span>)</a></code></pre></div>
+</div>
 </div>
 <div id="facet-create-multiple-copies-of-the-same-type-of-plot" class="section level3">
 <h3>Facet: create multiple copies of the same type of plot</h3>
@@ -1872,42 +1885,42 @@ div.tocify {
 <ol start="5" style="list-style-type: decimal">
 <li>What is the code that makes the plot looks like above?</li>
 </ol>
-<div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb7-1" data-line-number="1"><span class="kw">ggplot</span>(<span class="dt">data =</span> _____, <span class="dt">mapping =</span> <span class="kw">aes</span>(<span class="dt">x =</span> _____)) <span class="op">+</span></a>
-<a class="sourceLine" id="cb7-2" data-line-number="2"><span class="st">   </span><span class="kw">geom_density</span>() <span class="op">+</span></a>
-<a class="sourceLine" id="cb7-3" data-line-number="3"><span class="st">   </span><span class="kw">facet_wrap</span>(<span class="op">~</span><span class="st"> </span>____)</a></code></pre></div>
+<div class="sourceCode" id="cb9"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb9-1" data-line-number="1"><span class="kw">ggplot</span>(<span class="dt">data =</span> _____, <span class="dt">mapping =</span> <span class="kw">aes</span>(<span class="dt">x =</span> _____)) <span class="op">+</span></a>
+<a class="sourceLine" id="cb9-2" data-line-number="2"><span class="st">   </span><span class="kw">geom_density</span>() <span class="op">+</span></a>
+<a class="sourceLine" id="cb9-3" data-line-number="3"><span class="st">   </span><span class="kw">facet_wrap</span>(<span class="op">~</span><span class="st"> </span>____)</a></code></pre></div>
 </div>
 <div id="summaries-of-numerical-variables-across-groups" class="section level3">
 <h3>Summaries of numerical variables across groups</h3>
 <div id="i.-function-group_by" class="section level4">
 <h4>I. function <code>group_by</code></h4>
 <p>If we wanted to just calculate these summaries for all babies combined (across both groups), we would write the following code.</p>
-<div class="sourceCode" id="cb8"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb8-1" data-line-number="1">NCBirths2004 <span class="op">%&gt;%</span></a>
-<a class="sourceLine" id="cb8-2" data-line-number="2"><span class="st">  </span><span class="kw">summarize</span>(</a>
-<a class="sourceLine" id="cb8-3" data-line-number="3">    <span class="dt">mean_wt =</span> <span class="kw">mean</span>(Weight),</a>
-<a class="sourceLine" id="cb8-4" data-line-number="4">    <span class="dt">median_wt =</span> <span class="kw">median</span>(Weight),</a>
-<a class="sourceLine" id="cb8-5" data-line-number="5">    <span class="dt">q1_wt =</span> <span class="kw">quantile</span>(Weight, <span class="dt">probs =</span> <span class="fl">0.25</span>),</a>
-<a class="sourceLine" id="cb8-6" data-line-number="6">    <span class="dt">q3_wt =</span> <span class="kw">quantile</span>(Weight, <span class="dt">probs =</span> <span class="fl">0.75</span>),</a>
-<a class="sourceLine" id="cb8-7" data-line-number="7">    <span class="dt">iqr_wt =</span> <span class="kw">IQR</span>(Weight),</a>
-<a class="sourceLine" id="cb8-8" data-line-number="8">    <span class="dt">var_wt =</span> <span class="kw">var</span>(Weight),</a>
-<a class="sourceLine" id="cb8-9" data-line-number="9">    <span class="dt">sd_wt =</span> <span class="kw">sd</span>(Weight)</a>
-<a class="sourceLine" id="cb8-10" data-line-number="10">  )</a></code></pre></div>
+<div class="sourceCode" id="cb10"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb10-1" data-line-number="1">NCBirths2004 <span class="op">%&gt;%</span></a>
+<a class="sourceLine" id="cb10-2" data-line-number="2"><span class="st">  </span><span class="kw">summarize</span>(</a>
+<a class="sourceLine" id="cb10-3" data-line-number="3">    <span class="dt">mean_wt =</span> <span class="kw">mean</span>(Weight),</a>
+<a class="sourceLine" id="cb10-4" data-line-number="4">    <span class="dt">median_wt =</span> <span class="kw">median</span>(Weight),</a>
+<a class="sourceLine" id="cb10-5" data-line-number="5">    <span class="dt">q1_wt =</span> <span class="kw">quantile</span>(Weight, <span class="dt">probs =</span> <span class="fl">0.25</span>),</a>
+<a class="sourceLine" id="cb10-6" data-line-number="6">    <span class="dt">q3_wt =</span> <span class="kw">quantile</span>(Weight, <span class="dt">probs =</span> <span class="fl">0.75</span>),</a>
+<a class="sourceLine" id="cb10-7" data-line-number="7">    <span class="dt">iqr_wt =</span> <span class="kw">IQR</span>(Weight),</a>
+<a class="sourceLine" id="cb10-8" data-line-number="8">    <span class="dt">var_wt =</span> <span class="kw">var</span>(Weight),</a>
+<a class="sourceLine" id="cb10-9" data-line-number="9">    <span class="dt">sd_wt =</span> <span class="kw">sd</span>(Weight)</a>
+<a class="sourceLine" id="cb10-10" data-line-number="10">  )</a></code></pre></div>
 <ol start="6" style="list-style-type: decimal">
 <li>We saw from the plot that there seems to be a difference in birth weights. What are “typical” birth weights for the two groups? Let’s use the <code>group_by</code> function.</li>
 </ol>
-<div class="sourceCode" id="cb9"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb9-1" data-line-number="1">NCBirths2004 <span class="op">%&gt;%</span></a>
-<a class="sourceLine" id="cb9-2" data-line-number="2"><span class="st">  </span><span class="kw">group_by</span>(____) <span class="op">%&gt;%</span></a>
-<a class="sourceLine" id="cb9-3" data-line-number="3"><span class="st">  </span><span class="kw">summarize</span>(</a>
-<a class="sourceLine" id="cb9-4" data-line-number="4">    _______</a>
-<a class="sourceLine" id="cb9-5" data-line-number="5">  )</a></code></pre></div>
+<div class="sourceCode" id="cb11"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb11-1" data-line-number="1">NCBirths2004 <span class="op">%&gt;%</span></a>
+<a class="sourceLine" id="cb11-2" data-line-number="2"><span class="st">  </span><span class="kw">group_by</span>(____) <span class="op">%&gt;%</span></a>
+<a class="sourceLine" id="cb11-3" data-line-number="3"><span class="st">  </span><span class="kw">summarize</span>(</a>
+<a class="sourceLine" id="cb11-4" data-line-number="4">    _______</a>
+<a class="sourceLine" id="cb11-5" data-line-number="5">  )</a></code></pre></div>
 </div>
 <div id="ii.-sorting-the-data-arrange" class="section level4">
 <h4>II. Sorting the data: <code>arrange</code></h4>
 <p>What was the shortest gestation time?</p>
 <p>To answer this question, we will <code>arrange</code> the babies in increasing order of gestation time. Then, the babies with the shortest gestation times will be near the <code>head</code> of the data frame.</p>
-<div class="sourceCode" id="cb10"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb10-1" data-line-number="1">NCBirths_by_gestation &lt;-<span class="st"> </span>NCBirths2004 <span class="op">%&gt;%</span></a>
-<a class="sourceLine" id="cb10-2" data-line-number="2"><span class="st">  </span><span class="kw">arrange</span>(Gestation)</a>
-<a class="sourceLine" id="cb10-3" data-line-number="3"></a>
-<a class="sourceLine" id="cb10-4" data-line-number="4"><span class="kw">head</span>(NCBirths_by_gestation)</a></code></pre></div>
+<div class="sourceCode" id="cb12"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb12-1" data-line-number="1">NCBirths_by_gestation &lt;-<span class="st"> </span>NCBirths2004 <span class="op">%&gt;%</span></a>
+<a class="sourceLine" id="cb12-2" data-line-number="2"><span class="st">  </span><span class="kw">arrange</span>(Gestation)</a>
+<a class="sourceLine" id="cb12-3" data-line-number="3"></a>
+<a class="sourceLine" id="cb12-4" data-line-number="4"><span class="kw">head</span>(NCBirths_by_gestation)</a></code></pre></div>
 <pre><code>##   ID MothersAge Tobacco Alcohol Gender Weight Gestation
 ## 1  3      35-39      No      No Female   3062        37
 ## 2 15      30-34      No      No   Male   3232        37
@@ -1926,11 +1939,31 @@ div.tocify {
 <ol start="8" style="list-style-type: decimal">
 <li>Modify the following code to complete the task.</li>
 </ol>
-<div class="sourceCode" id="cb12"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb12-1" data-line-number="1">NCBirths2004 &lt;-<span class="st"> </span>NCBirths2004 <span class="op">%&gt;%</span></a>
-<a class="sourceLine" id="cb12-2" data-line-number="2"><span class="st">  </span><span class="kw">mutate</span>(</a>
-<a class="sourceLine" id="cb12-3" data-line-number="3">    <span class="dt">Weight_lbs =</span> ________</a>
-<a class="sourceLine" id="cb12-4" data-line-number="4">  )</a>
-<a class="sourceLine" id="cb12-5" data-line-number="5"><span class="kw">head</span>(NCBirths2004)</a></code></pre></div>
+<div class="sourceCode" id="cb14"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb14-1" data-line-number="1">NCBirths2004 &lt;-<span class="st"> </span>NCBirths2004 <span class="op">%&gt;%</span></a>
+<a class="sourceLine" id="cb14-2" data-line-number="2"><span class="st">  </span><span class="kw">mutate</span>(</a>
+<a class="sourceLine" id="cb14-3" data-line-number="3">    <span class="dt">Weight_lbs =</span> ________</a>
+<a class="sourceLine" id="cb14-4" data-line-number="4">  )</a>
+<a class="sourceLine" id="cb14-5" data-line-number="5"><span class="kw">head</span>(NCBirths2004)</a></code></pre></div>
+</div>
+</div>
+<div id="customize-your-ggplot-optional" class="section level3">
+<h3>Customize your ggplot (optional)</h3>
+<div id="i.-customize-color" class="section level4">
+<h4>I. Customize color</h4>
+<p>To choose colors <code>ggplot</code> should use, we need to add a new option <code>+ scale_fill_manual( )</code> and then specify the colors with the argument <code>values =</code>. To read more about how to create your own color scale, see this <a href="https://ggplot2.tidyverse.org/reference/scale_manual.html">page</a>. If you have more than one color you need to specify, make sure you combine them within the <code>c( )</code> function.</p>
+<p>Colors in R can be specified in different ways. For example, you can use a string of the color name (see possible colors <a href="http://sape.inf.usi.ch/quick-reference/ggplot2/colour">here</a>) or with <a href="https://htmlcolorcodes.com">hex color codes</a>.</p>
+<ol start="9" style="list-style-type: decimal">
+<li>Add the following code to your answer in Exercise 6 to change the color scheme</li>
+</ol>
+<div class="sourceCode" id="cb15"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb15-1" data-line-number="1"><span class="kw">scale_color_manual</span>(<span class="dt">values =</span> <span class="kw">c</span>(<span class="st">&quot;green3&quot;</span>, <span class="st">&quot;turquoise3&quot;</span>))</a></code></pre></div>
+</div>
+<div id="ii.-remove-minor-grid-lines" class="section level4">
+<h4>II. Remove minor grid lines</h4>
+<p>To make detailed changes to the layout, we can add a <code>theme( )</code> argument. Nested within <code>theme( )</code> we can use additional arguments, such as <code>panel.grid.minor=</code>. Many <code>theme( )</code> arguments can be set to <code>element_blank( )</code> to remove the element in question. To read more about what can be modifed with <code>theme( )</code>, check out <a href="https://ggplot2.tidyverse.org/reference/theme.html">this resource</a>.</p>
+<ol start="10" style="list-style-type: decimal">
+<li>Add the following code to your answer in Exercise 6 to remove the minor grid lines</li>
+</ol>
+<div class="sourceCode" id="cb16"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb16-1" data-line-number="1"><span class="kw">theme</span>(<span class="dt">panel.grid.minor=</span><span class="kw">element_blank</span>())</a></code></pre></div>
 </div>
 </div>
 </div>
