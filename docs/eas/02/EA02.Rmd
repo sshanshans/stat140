@@ -16,7 +16,7 @@ library(tidyverse)
 
 ```{r load-data, message=FALSE, include = FALSE}
 # Load data
-college_recent_grads <- read_csv("data/recent-grads.csv") 
+college_recent_grads <- read_csv("https://raw.githubusercontent.com/sshanshans/stat140/master/docs/eas/02/recent-grads-140.csv")
 ```
 
 
