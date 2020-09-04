@@ -1,0 +1,30 @@
+---
+title: "Unit 3 Day 1"
+output: 
+  html_document:
+    css: lab.css
+    highlight: pygments
+    theme: cerulean
+  pdf_document: default
+---
+
+### Introduction to linear models
+
+#### Learning objectives 
+* Model linear relationships with a linear model.
+  * The relationship is straight enough
+  * A scatterplot does not 'thicken' in any region
+  * There are no outliers
+* Interpret a regression slope as y-units per x-unit.
+* The intercept, b0, gives a starting value in y-units. It’s the y-value when x is 0. You can find the intercept from b0 = y - b1x.
+
+#### Before class
+* Finish reading [U3D1 reading](https://piazza.com/class_profile/get_resource/kcqqet0ou724kc/keoqt93hdhc23m)
+* Complete `08 Quiz` link TBA
+
+#### In class
+* Work on `09 Exercise`
+
+#### Items due
+* `08 Quiz` due 09/08 6pm EST
+* `09 Exercise` due 09/08 6pm EST
