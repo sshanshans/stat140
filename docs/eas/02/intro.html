@@ -1647,7 +1647,7 @@ div.tocify {
 </div>
 
 
-<p><strong>Due:</strong> 2020/09/04 6pm EST</p>
+<p><strong>Due:</strong> 2020/09/11 6pm EST</p>
 <div id="step-1-form-a-team" class="section level1">
 <h1>Step 1: Form a team</h1>
 <p>Choose groups of 4 members. If you need a group, or are looking for a group members, please let me know. Choose one person in your team to be the group captain, who will responsible for turning in your group project in the end. One group only needs to submit once.</p>
@@ -1694,7 +1694,7 @@ div.tocify {
 <h2>Load the data</h2>
 <p>We will use the <code>read_csv</code> function to do this:</p>
 <p>The dataset is at url. We read it in with the <code>read_csv</code> function, and save the result as a new data frame called <code>college_recent_grads</code>.</p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb3-1" data-line-number="1">college_recent_grads &lt;-<span class="st"> </span><span class="kw">read_csv</span>(<span class="st">&quot;data/recent-grads-140.csv&quot;</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb3-1" data-line-number="1">college_recent_grads &lt;-<span class="st"> </span><span class="kw">read_csv</span>(<span class="st">&quot;https://raw.githubusercontent.com/sshanshans/stat140/master/docs/eas/02/recent-grads-140.csv&quot;</span>)</a></code></pre></div>
 <p>To view the data, take a quick peek at your data frame and view its dimensions with the <code>glimpse</code> function.</p>
 <div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb4-1" data-line-number="1"><span class="kw">glimpse</span>(college_recent_grads)</a></code></pre></div>
 <p>The description of the variables, i.e. the <strong>codebook</strong>, is given below.</p>
@@ -1812,7 +1812,7 @@ div.tocify {
 <li><code>major_category</code></li>
 </ul></li>
 <li><p>Which major has the lowest unemployment rate? Use the <code>arrange</code> function to sort the <code>unemployment_rate</code> variable.</p></li>
-<li><p>Which major has the highest percentage of women? Use the <code>mutate</code> function to create a new variable called <code>womenshare</code> that describes the percentage of women in that major, and then use the <code>arrange</code> function to sort the <code>women_perc</code> variable.</p></li>
+<li><p>Which major has the highest percentage of women? Use the <code>mutate</code> function to create a new variable called <code>womenshare</code> that describes the percentage of women in that major, and then use the <code>arrange</code> function to sort the <code>womenshare</code> variable.</p></li>
 <li><p>There are three types of incomes reported in this data frame: <code>p25th</code>, <code>median</code>, and <code>p75th</code>. These correspond to the 25th, 50th, and 75th percentiles of the income distribution of individuals for a given major. Use <code>ggplot</code> to make a histogram to look at the distribution of all median incomes. Choose an appropriate binwidth, label the axis appropriately, and include an appropriate title for the plot.</p></li>
 <li><p>Use the <code>summarise</code> function to calculate sumarry statistics for the distribution of <code>median</code>. Please include <code>min</code>, <code>max</code>, <code>mean</code>, <code>median</code>, <code>sd</code>, the 25th quartile, the 75th quartile and the IQR.</p></li>
 <li><p>Based on the shape of the histogram you created in the previous exercise, determine which of these summary statistics is useful for describing the distribution. Write up your description (remember shape, center, spread, any unusual observations) and include the summary statistic output as well.</p></li>
