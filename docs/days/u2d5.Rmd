@@ -11,7 +11,19 @@ output:
 ### Putting it all together: exploratory data analysis
 
 #### Learning objectives 
+* **Revisit data visualization basics**
+  * Create graphs with ```ggplot2``` in R
+  * Add variables to a graph with ```aes```thetics
+  * Create different types of graphs with ```geoms```
+  * Understand the grammar rules of creating graphs with ```ggplot2```
+* **Revisit data wrangling basics for numerical varibles**
+  * Arrange
+  * `group_by`
+  * Summary statistics
 * **Customize ggplot**
+  * Add labels and titles
+  * Customize color
+  * Remove background grids
 
 #### Before class
 * Finish reading Chapter 1 in [Data Visualization: A practical introduction](https://socviz.co/lookatdata.html#lookatdata)
