@@ -20,8 +20,8 @@ markup: "mmark"
 | Sep 04 (F) | Putting it all together: exploratory data analysis [(html)](http://sshanshans.github.io/stat140/days/u2d5) |    07 Quiz, 08 Exercise                |      EA2 (due Sep 11)        |
 | **Unit 3**     | **Basic Regression** |                     |                        |
 | Sep 08 (T) |  Least squares: the line of Best Fit [(html)](http://sshanshans.github.io/stat140/days/u3d1) |     08 Quiz, 09 Exercise           |                        |
-| Sep 09 (W) |  Finding the least square line |           |                        |
-| Sep 10 (TH) | Model fit and Residuals  |                     |                        |
+| Sep 09 (W) |  Finding the least square line [(html)](http://sshanshans.github.io/stat140/days/u3d2)  |    09 Quiz, 10 Exercise       |                        |
+| Sep 10 (TH) | Model fit and Residuals [(html)](http://sshanshans.github.io/stat140/days/u3d3)  |     10 Quiz, 11 Exercise   |                        |
 | Sep 11 (F) |  Multiple regression  |             |          EA3 (due Sep 18)              |
 | **Unit 4**     | **Sampling** |                     |                        |
 | Sep 14 (M) |  Introduction to sampling |             |                        |
