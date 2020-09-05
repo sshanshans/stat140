@@ -1,0 +1,28 @@
+---
+title: "Unit 3 Day 2"
+output: 
+  html_document:
+    css: lab.css
+    highlight: pygments
+    theme: cerulean
+  pdf_document: default
+---
+
+### Finding the line of best fit
+
+#### Learning objectives 
+* The best fit model is the one that minimizes the sum of the squared residuals—the Least Squares Model.
+* Find the coefficients of the least squares line from the correlation and the summary statistics
+* Practice using R to find the best fit model
+
+
+#### Before class
+* Finish reading: [U3D2 reading](https://piazza.com/class_profile/get_resource/kcqqet0ou724kc/keosr4qet6f7al)
+* Complete `09 Quiz`: [VPN](http://138.110.84.108:3838/sshan/quiz/Unit3/#section-quiz-1), [nonVPN](http://159.89.233.150:3838/stat140/quiz/Unit3/#section-quiz-1)
+
+#### In class
+* Working on `10 Exercise`
+
+#### Items due
+* `09 Quiz` [submit here](https://moodle.mtholyoke.edu/mod/assign/view.php?id=563884) due 09/09 6pm EST
+* `10 Exercise` [submit here](https://moodle.mtholyoke.edu/mod/assign/view.php?id=563888) due 09/09 6pm EST
