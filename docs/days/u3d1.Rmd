@@ -24,8 +24,7 @@ output:
 
 #### In class
 * Slides post after class
-* Work on EA02
+* Work on in-class activitiy: [intro](https://sshanshans.github.io/stat140/labs/u3d1/intro)
 
 #### Items due
 * `08 Quiz` [submit here](https://moodle.mtholyoke.edu/mod/assign/view.php?id=563883) due 09/08 6pm EST
-* `09 Exercise` [submit here](https://moodle.mtholyoke.edu/mod/assign/view.php?id=563887) due 09/08 6pm EST
