@@ -23,7 +23,8 @@ output:
 * Complete `08 Quiz`: [VPN](http://138.110.84.108:3838/sshan/quiz/Unit3/), [nonVPN](http://159.89.233.150:3838/stat140/quiz/Unit3/)
 
 #### In class
-* Work on `09 Exercise`
+* Slides post after class
+* Work on EA02
 
 #### Items due
 * `08 Quiz` [submit here](https://moodle.mtholyoke.edu/mod/assign/view.php?id=563883) due 09/08 6pm EST

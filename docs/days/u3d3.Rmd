@@ -20,8 +20,8 @@ output:
 * Complete `10 Quiz`: [VPN](http://138.110.84.108:3838/sshan/quiz/Unit3/#section-quiz-2), [nonVPN](http://159.89.233.150:3838/stat140/quiz/Unit3/#section-quiz-2)
 
 #### In class
-* Working on `11 Exercise`
+* Working on `10 Exercise`
 
 #### Items due
 * `10 Quiz` [submit here](https://moodle.mtholyoke.edu/mod/assign/view.php?id=563885) due 09/10 6pm EST
-* `11 Exercise` [submit here](https://moodle.mtholyoke.edu/mod/assign/view.php?id=563890) due 09/10 6pm EST
+* `10 Exercise` [submit here](https://moodle.mtholyoke.edu/mod/assign/view.php?id=563888) due 09/10 6pm EST

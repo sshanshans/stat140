@@ -21,8 +21,9 @@ output:
 * Complete `09 Quiz`: [VPN](http://138.110.84.108:3838/sshan/quiz/Unit3/#section-quiz-1), [nonVPN](http://159.89.233.150:3838/stat140/quiz/Unit3/#section-quiz-1)
 
 #### In class
-* Working on `10 Exercise`
+* Slides post after class
+* Working on `09 Exercise`
 
 #### Items due
 * `09 Quiz` [submit here](https://moodle.mtholyoke.edu/mod/assign/view.php?id=563884) due 09/09 6pm EST
-* `10 Exercise` [submit here](https://moodle.mtholyoke.edu/mod/assign/view.php?id=563888) due 09/09 6pm EST
+* `09 Exercise` [submit here](https://moodle.mtholyoke.edu/mod/assign/view.php?id=563887) due 09/09 6pm EST
