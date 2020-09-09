@@ -23,7 +23,7 @@ output:
 * Complete `08 Quiz`: [VPN](http://138.110.84.108:3838/sshan/quiz/Unit3/), [nonVPN](http://159.89.233.150:3838/stat140/quiz/Unit3/)
 
 #### In class
-* Slides post after class
+* Slides: [pdf](https://sshanshans.github.io/stat140/slides/u3d1.pdf)
 * Work on in-class activitiy: [intro](https://sshanshans.github.io/stat140/labs/u3d1/intro)
 
 #### Items due

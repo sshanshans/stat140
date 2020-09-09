@@ -12,8 +12,9 @@ output:
 
 #### Learning objectives 
 * The best fit model is the one that minimizes the sum of the squared residuals—the Least Squares Model.
-* Find the coefficients of the least squares line from the correlation and the summary statistics
 * Practice using R to find the best fit model
+* $R^2$ is the square of the correlation coefficient.
+* Always report and interpret $R^2$, which reports the fraction of the variation of y accounted for by the linear model.
 
 
 #### Before class
@@ -23,6 +24,8 @@ output:
 #### In class
 * Slides post after class
 * Working on `09 Exercise`
+  * [intro](https://sshanshans.github.io/stat140/labs/u3d2/intro)
+  * [cheatsheet](https://sshanshans.github.io/stat140/labs/u3d2/cheatsheet.pdf)
 
 #### Items due
 * `09 Quiz` [submit here](https://moodle.mtholyoke.edu/mod/assign/view.php?id=563884) due 09/09 6pm EST

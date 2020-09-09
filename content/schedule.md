@@ -19,9 +19,9 @@ markup: "mmark"
 | Sep 03 (TH) | Relationship between numerical and categorical variable [(html)](http://sshanshans.github.io/stat140/days/u2d4) |    03 Data Camp                 |                        |
 | Sep 04 (F) | Putting it all together: exploratory data analysis [(html)](http://sshanshans.github.io/stat140/days/u2d5) |    07 Quiz, 08 Exercise                |      EA2 (due Sep 11)        |
 | **Unit 3**     | **Basic Regression** |                     |                        |
-| Sep 08 (T) |  Introdution to linear models [(html)](http://sshanshans.github.io/stat140/days/u3d1) |     08 Quiz, 09 Exercise           |                        |
-| Sep 09 (W) |  Finding the line of best fit [(html)](http://sshanshans.github.io/stat140/days/u3d2)  |    09 Quiz, 10 Exercise       |                        |
-| Sep 10 (TH) | Model fit and Residuals [(html)](http://sshanshans.github.io/stat140/days/u3d3)  |     10 Quiz, 11 Exercise   |                        |
+| Sep 08 (T) |  Introdution to linear models [(html)](http://sshanshans.github.io/stat140/days/u3d1) |     08 Quiz        |                        |
+| Sep 09 (W) |  Finding the line of best fit [(html)](http://sshanshans.github.io/stat140/days/u3d2)  |    09 Quiz, 09 Exercise       |                        |
+| Sep 10 (TH) | Model fit and Residuals [(html)](http://sshanshans.github.io/stat140/days/u3d3)  |     10 Quiz, 10 Exercise   |                        |
 | Sep 11 (F) |  Regression over categorical variable |             |          EA3 (due Sep 18)              |
 | **Unit 4**     | **Sampling** |                     |                        |
 | Sep 14 (M) |  Introduction to sampling |             |                        |
