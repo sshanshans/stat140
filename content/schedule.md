@@ -22,7 +22,7 @@ markup: "mmark"
 | Sep 08 (T) |  Introdution to linear models [(html)](http://sshanshans.github.io/stat140/days/u3d1) |     08 Quiz        |                        |
 | Sep 09 (W) |  How useful is your linear model [(html)](http://sshanshans.github.io/stat140/days/u3d2)  |    09 Quiz, 09 Exercise       |                        |
 | Sep 10 (TH) | Linear regression conditions [(html)](http://sshanshans.github.io/stat140/days/u3d3)  |     10 Quiz, 10 Exercise   |                        |
-| Sep 11 (F) |  Regression over categorical variable |             |          EA3 (due Sep 18)              |
+| Sep 11 (F) |  Regression over categorical variable  [(html)](http://sshanshans.github.io/stat140/days/u3d4) |   11 Quiz, 11 Exercise    |          EA3 (due Sep 18)              |
 | **Unit 4**     | **Sampling** |                     |                        |
 | Sep 14 (M) |  Introduction to sampling |             |                        |
 | Sep 15 (T) | Designed experiments and observational studies |            |                        |

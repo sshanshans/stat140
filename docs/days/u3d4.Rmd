@@ -1,0 +1,34 @@
+---
+title: "Unit 3 Day 4"
+output: 
+  html_document:
+    css: lab.css
+    highlight: pygments
+    theme: cerulean
+  pdf_document: default
+---
+
+### Regression over categorical variables
+
+#### Learning objectives 
+* Understand the indicator function
+* Be able to fit a new linear model with R
+* Interpretation of the linear model 
+
+#### Before class
+* Finish watching: [Regression with categrorical variable](https://www.coursera.org/learn/linear-regression-model/lecture/FdxeN/regression-with-categorical-explanatory-variables)
+* Complete `11 Quiz`：
+  * create a [concept map](https://en.wikipedia.org/wiki/Concept_map) of what we learned so far
+  * here is an [example](https://www.cmu.edu/teaching/resources/Teaching/CourseDesign/Assessment-Grading/OngoingAssessments/conceptmap.pdf) of a concept map
+  * submit your concept map on Piazza at this post
+
+#### In-class
+* Working on `11 Exercise`
+
+#### Items due
+* `11 Quiz` due on Piazza 09/11 6pm EST
+* `11 Exercise` due 09/11 6pm EST
+* `02 EA`: exploratory data analysis due 09/11 6pm EST
+
+#### Evaluative assignment
+* `03 EA`: linear models due 09/18 6pm EST
