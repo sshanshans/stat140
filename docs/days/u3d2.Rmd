@@ -8,7 +8,7 @@ output:
   pdf_document: default
 ---
 
-### Finding the line of best fit
+### How useful is your linear model
 
 #### Learning objectives 
 * The best fit model is the one that minimizes the sum of the squared residuals—the Least Squares Model.
@@ -22,7 +22,7 @@ output:
 * Complete `09 Quiz`: [VPN](http://138.110.84.108:3838/sshan/quiz/Unit3/#section-quiz-1), [nonVPN](http://159.89.233.150:3838/stat140/quiz/Unit3/#section-quiz-1)
 
 #### In class
-* Slides post after class
+* Slides [pdf](https://sshanshans.github.io/stat140/slides/u3d2.pdf)
 * Working on `09 Exercise`
   * [intro](https://sshanshans.github.io/stat140/labs/u3d2/intro)
   * [cheatsheet](https://sshanshans.github.io/stat140/labs/u3d2/cheatsheet.pdf)

@@ -8,20 +8,33 @@ output:
   pdf_document: default
 ---
 
-### Model fit and Residuals
+### Linear regression conditions
 
 #### Learning objectives 
-* Always examine the residuals to check for violations of assumptions and conditions and to identify any outliers.
-*  Always report and interpret $R^2$, which reports the fraction of the variation of y accounted for by the linear model.
-* $R^2$ is the square of the correlation coefficient.
+The particular linear equation
+$$\hat{y} = b_0 + b_1x$$
+that satisfies the least squares criterion is called the **least squares regression line**.
+Casually, we often just call it the regression line,
+
+Be sure to check the conditions for regression before reporting or interpreting a regression model. 
+
+* Before starting, be sure to check the
+
+  * Quantitative Variable Condition: If either y or x is categorical, you can’t make a scatterplot and you can’t perform a regression. Stop.
+
+* From the scatterplot of y against x, check the
+
+  * Straight Enough Condition Is the relationship between y and x straight enough to proceed with a linear regression model?
+  * Outlier Condition Are there any outliers that might dramatically influence the fit of the least squares line?
+  * Does the Plot Thicken? Condition Does the spread of the data around the generally straight relationship seem to be consistent for all values of x?
 
 #### Before class
 * Finish reading: [U3D3 reading](https://piazza.com/class_profile/get_resource/kcqqet0ou724kc/keosqzj1ckx773)
 * Complete `10 Quiz`: [VPN](http://138.110.84.108:3838/sshan/quiz/Unit3/#section-quiz-2), [nonVPN](http://159.89.233.150:3838/stat140/quiz/Unit3/#section-quiz-2)
 
 #### In class
-* Working on `10 Exercise`
+* Working on `10 Exercise` [VPN](http://138.110.84.108:3838/sshan/tutorials/u3d3/), [nonVPN](http://159.89.233.150:3838/stat140/tutorials/u3d3/)
 
 #### Items due
 * `10 Quiz` [submit here](https://moodle.mtholyoke.edu/mod/assign/view.php?id=563885) due 09/10 6pm EST
-* `10 Exercise` [submit here](https://moodle.mtholyoke.edu/mod/assign/view.php?id=563888) due 09/10 6pm EST
+* `10 Exercise` submit your answers to Q3- Q6 in Wildfire Part II [here](https://piazza.com/class/kcqqet0ou724kc?cid=45) due 09/10 6pm EST
