@@ -22,7 +22,7 @@ output:
   * submit your concept map on Piazza at [this post](https://piazza.com/class/kcqqet0ou724kc?cid=47)
 
 #### In-class
-* Slides post after class
+* Slides [pdf](https://sshanshans.github.io/stat140/slides/u3d4.pdf)
 * Working on `11 Exercise`: [intro](http://sshanshans.github.io/stat140/labs/u3d4/intro)
 
 #### Items due
