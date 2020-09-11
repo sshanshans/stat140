@@ -42,4 +42,4 @@ output:
   * [intro](https://sshanshans.github.io/stat140/eas/02/intro)
   * [grading guideline](https://sshanshans.github.io/stat140/eas/02/EA2grading.pdf)
   * [moodle portal](https://moodle.mtholyoke.edu/mod/assign/view.php?id=560984&forceview=1)
-  * peer evaluation form: link TBA
+  * [peer evaluation form](https://forms.gle/HPXHtPru981vAWE16)
