@@ -23,12 +23,13 @@ output:
 
 #### In-class
 * Slides post after class
-* Working on `11 Exercise`
+* Working on `11 Exercise`: [intro](http://sshanshans.github.io/stat140/labs/u3d4/intro)
 
 #### Items due
 * `11 Quiz` due on [Piazza](https://piazza.com/class/kcqqet0ou724kc?cid=47) 09/11 6pm EST
-* `11 Exercise` due 09/11 6pm EST
-* `02 EA`: exploratory data analysis due 09/11 6pm EST
+* `11 Exercise` due on [moodle](https://moodle.mtholyoke.edu/mod/assign/view.php?id=563890) 09/11 6pm EST
+* `02 EA` [submit here](https://moodle.mtholyoke.edu/mod/assign/view.php?id=560984) due 09/11 6pm EST
+* `02 EA` [peer evaluation](https://forms.gle/HPXHtPru981vAWE16)
 
 #### Evaluative assignment
 * `03 EA`: linear models due 09/18 6pm EST
