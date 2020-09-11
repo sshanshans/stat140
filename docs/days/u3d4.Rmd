@@ -8,27 +8,31 @@ output:
   pdf_document: default
 ---
 
-### Regression over categorical variables
+### Regression over a categorical variable
 
 #### Learning objectives 
-* Understand the indicator function
-* Be able to fit a new linear model with R
-* Interpretation of the linear model 
+* Be able to fit a new linear model over a categorical variable with R
+* Interpretation of the linear model over a categorical variable
 
 #### Before class
 * Finish watching: [Regression with categrorical variable](https://www.coursera.org/learn/linear-regression-model/lecture/FdxeN/regression-with-categorical-explanatory-variables)
 * Complete `11 Quiz`：
   * create a [concept map](https://en.wikipedia.org/wiki/Concept_map) of what we learned so far
   * here is an [example](https://www.cmu.edu/teaching/resources/Teaching/CourseDesign/Assessment-Grading/OngoingAssessments/conceptmap.pdf) of a concept map
-  * submit your concept map on Piazza at this post
+  * submit your concept map on Piazza at [this post](https://piazza.com/class/kcqqet0ou724kc?cid=47)
 
 #### In-class
+* Slides post after class
 * Working on `11 Exercise`
 
 #### Items due
-* `11 Quiz` due on Piazza 09/11 6pm EST
+* `11 Quiz` due on [Piazza](https://piazza.com/class/kcqqet0ou724kc?cid=47) 09/11 6pm EST
 * `11 Exercise` due 09/11 6pm EST
 * `02 EA`: exploratory data analysis due 09/11 6pm EST
 
 #### Evaluative assignment
 * `03 EA`: linear models due 09/18 6pm EST
+  * [intro](https://sshanshans.github.io/stat140/eas/03/intro)
+  * [grading guideline](https://sshanshans.github.io/stat140/eas/03/grading.pdf)
+  * [moodle portal](https://moodle.mtholyoke.edu/mod/assign/view.php?id=566087)
+  * peer evaluation form: link TBA

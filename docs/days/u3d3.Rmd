@@ -27,12 +27,17 @@ Be sure to check the conditions for regression before reporting or interpreting 
   * Straight Enough Condition Is the relationship between y and x straight enough to proceed with a linear regression model?
   * Outlier Condition Are there any outliers that might dramatically influence the fit of the least squares line?
   * Does the Plot Thicken? Condition Does the spread of the data around the generally straight relationship seem to be consistent for all values of x?
+  
+* From the density of the residuals, check
+
+  * Symmetric around 0 Condition: Is the density plot of the residuals symmetric around 0.
 
 #### Before class
 * Finish reading: [U3D3 reading](https://piazza.com/class_profile/get_resource/kcqqet0ou724kc/keosqzj1ckx773)
 * Complete `10 Quiz`: [VPN](http://138.110.84.108:3838/sshan/quiz/Unit3/#section-quiz-2), [nonVPN](http://159.89.233.150:3838/stat140/quiz/Unit3/#section-quiz-2)
 
 #### In class
+* Slides [pdf](https://sshanshans.github.io/stat140/slides/u3d3.pdf)
 * Working on `10 Exercise` [VPN](http://138.110.84.108:3838/sshan/tutorials/u3d3/), [nonVPN](http://159.89.233.150:3838/stat140/tutorials/u3d3/)
 
 #### Items due
