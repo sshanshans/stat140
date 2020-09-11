@@ -1,0 +1,56 @@
+---
+title: "EA03 - Linear models"
+author: "INSERT TEAM NAME HERE"
+output:
+  pdf_document: default
+  html_document:
+    highlight: pygments
+    theme: spacelab
+---
+
+### Load packages
+
+```{r load-packages, message=FALSE}
+#load necessary packages
+library(tidyverse)
+```
+
+## Part I: Crawling
+
+### Load data
+
+```{r load-data1, message=FALSE}
+crawling <- read_csv("https://raw.githubusercontent.com/sshanshans/stat140/master/data/Crawling.csv")
+head(crawling)
+```
+
+(Add code chunks, exercise headings, and narrative as needed below.)
+
+...
+
+## Part II: Drug use
+
+### Load data
+
+```{r load-data2, message=FALSE}
+drugs <- read_csv("https://raw.githubusercontent.com/sshanshans/stat140/master/data/Drug_abuse.csv")
+colnames(drugs) <- c("country", "marijuana_pct", "other_drugs_pct")
+head(drugs)
+```
+
+(Add code chunks, exercise headings, and narrative as needed below.)
+
+...
+
+## Part III: Course evaluations
+
+### Load data
+
+```{r load-data3, message=FALSE}
+evals <- read_csv("https://raw.githubusercontent.com/sshanshans/stat140/master/data/evals-mod.csv")
+head(evals)
+```
+
+(Add code chunks, exercise headings, and narrative as needed below.)
+
+...
