@@ -24,7 +24,7 @@ markup: "mmark"
 | Sep 10 (TH) | Linear regression conditions [(html)](http://sshanshans.github.io/stat140/days/u3d3)  |     10 Quiz, 10 Exercise   |                        |
 | Sep 11 (F) |  Regression over a categorical variable  [(html)](http://sshanshans.github.io/stat140/days/u3d4) |   11 Quiz, 11 Exercise    |          EA3 (due Sep 18)              |
 | **Unit 4**     | **Sampling** |                     |                        |
-| Sep 14 (M) |  Introduction to sampling |             |                        |
+| Sep 14 (M) |  Introduction to sampling  [(html)](http://sshanshans.github.io/stat140/days/u4d1) |     Mid-module break: nothing due       |                        |
 | Sep 15 (T) | Designed experiments and observational studies |            |                        |
 | Sep 16 (W) | Sampling distribution |             |                        |
 | Sep 17 (TH) | Simulation based confidence interval |         |                        |
