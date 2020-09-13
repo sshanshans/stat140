@@ -1,0 +1,28 @@
+---
+title: "Unit 5 Day 5"
+output: 
+  html_document:
+    css: lab.css
+    highlight: pygments
+    theme: cerulean
+  pdf_document: default
+---
+
+### Simulation-based inference II 
+
+#### Learning objectives 
+* Define a confidence interval as the plausible range of values for a population parameter.
+* Understand confidence intervals through bootstrapping
+* Interpret confidence intervals with the percentile method
+
+#### Before class
+* Finish reading [Pennies activity](https://moderndive.com/8-confidence-intervals.html#resampling-tactile) 8.1 - 8.3.1
+* Complete `15 Quiz`: [VPN](http://138.110.84.108:3838/sshan/quiz/Unit4), [nonVPN](http://159.89.233.150:3838/stat140/quiz/Unit4)
+
+#### In-class
+* Slides posted after class
+* Working on `15 Exercise`: pennies activity
+
+#### Items due
+* `15 Quiz` due 09/17 6pm EST
+* `15 Exercise` due 09/17 6pm EST

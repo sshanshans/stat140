@@ -25,12 +25,13 @@ output:
 * Be alert for possible confounding due to a variable that is not under control affecting the responses differentially.
 
 #### Before class
-Mid-module break
+* Finish reading [u4d2](https://piazza.com/class_profile/get_resource/kcqqet0ou724kc/kf08zdacq484jp)
+* Complete `12 Quiz`: [VPN](http://138.110.84.108:3838/sshan/quiz/Unit4), [nonVPN](http://159.89.233.150:3838/stat140/quiz/Unit4)
 
 #### In-class
 * Slides posted after class
-* Mid-module survey
-* Discuss the Bechdel Test: [intro](http://sshanshans.github.io/stat140/labs/u4d1/intro)
+* Working on `12 Exercise`
 
 #### Items due
-Nothing due today: mid-module break.
+* `12 Quiz` due 09/15 6pm EST
+* `12 Exercise` submit your answers on Piazza due 09/15 6pm EST
