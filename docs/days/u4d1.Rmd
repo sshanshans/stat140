@@ -36,8 +36,8 @@ Mid-module break
 
 #### In-class
 * Slides posted after class
-* Mid-module survey
-* Discuss the Bechdel Test: [intro](http://sshanshans.github.io/stat140/labs/u4d1/intro)
+* Mid-module survey [html](https://forms.gle/WVhG1NKhQ4WcEumHA)
+* In-class activity: [intro](http://sshanshans.github.io/stat140/labs/u4d1/intro)
 
 #### Items due
 Nothing due today: mid-module break.
