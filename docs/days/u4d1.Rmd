@@ -35,7 +35,7 @@ influences, such as question wording or interviewer behavior.
 Mid-module break
 
 #### In-class
-* Slides posted after class
+* Slides [pdf](http://sshanshans.github.io/stat140/slides/u4d1.pdf)
 * Mid-module survey [html](https://forms.gle/WVhG1NKhQ4WcEumHA)
 * In-class activity: [intro](http://sshanshans.github.io/stat140/labs/u4d1/intro)
 

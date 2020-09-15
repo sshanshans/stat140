@@ -30,8 +30,8 @@ output:
 
 #### In-class
 * Slides posted after class
-* Working on `12 Exercise`
+* Working on `12 Exercise` [intro](http://sshanshans.github.io/stat140/labs/u4d2/)
 
 #### Items due
-* `12 Quiz` due 09/15 6pm EST
-* `12 Exercise` submit your answers on Piazza due 09/15 6pm EST
+* `12 Quiz` due on [moodle portal](https://moodle.mtholyoke.edu/mod/assign/view.php?id=567538) 09/15 6pm EST
+* `12 Exercise` due on [moodle portal](https://moodle.mtholyoke.edu/mod/assign/view.php?id=567542) 09/15 6pm EST
