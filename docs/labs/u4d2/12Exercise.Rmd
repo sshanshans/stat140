@@ -1,0 +1,16 @@
+---
+title: "12 Exercise"
+author: "Type your name here"
+output:
+  pdf_document: default
+  html_document:
+    highlight: pygments
+    theme: spacelab
+---
+
+
+* * *
+## Part I
+
+
+## Part II
