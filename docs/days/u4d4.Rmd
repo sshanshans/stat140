@@ -21,7 +21,7 @@ output:
 
 #### In-class
 * Slides posted after class
-* Working on `14 Exercise`: pennies activity
+* Working on `14 Exercise`: kissing and pennies
 
 #### Items due
 * `14 Quiz` due 09/17 6pm EST
