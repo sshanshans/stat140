@@ -21,8 +21,8 @@ output:
 
 #### In-class
 * Slides posted after class
-* Working on `14 Exercise`: kissing and pennies
+* Working on `14 Exercise`: Pennies activity
 
 #### Items due
-* `14 Quiz` due 09/17 6pm EST
-* `14 Exercise` due 09/17 6pm EST
+* `14 Quiz` due [on moodle](https://moodle.mtholyoke.edu/mod/assign/view.php?id=567539) 09/17 6pm EST
+* `14 Exercise` due [on moodle](https://moodle.mtholyoke.edu/mod/assign/view.php?id=567544) 09/17 6pm EST

@@ -38,3 +38,4 @@ download.file("https://raw.githubusercontent.com/sshanshans/stat140/master/docs/
 #### Items due
 * `13 Quiz` due [on moodle](https://moodle.mtholyoke.edu/mod/assign/view.php?id=567540) 09/16 6pm EST
 * `13 Exercise` due [on moddle](https://moodle.mtholyoke.edu/mod/assign/view.php?id=567543) 09/16 6pm EST
+* Submit your individual copy of `13 Exercise` on Moodle. If you can't submit your own copy,  you can ask your group member to include a sentence like "I'm also submitting on behalf of myself and [Your name]". 
