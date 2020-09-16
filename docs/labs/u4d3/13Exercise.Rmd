@@ -1,0 +1,228 @@
+---
+title: "Unit 4 Tutorial: Exercise 13"
+author: "Type your name here"
+output:
+  pdf_document: default
+  html_document:
+    highlight: pygments
+    theme: spacelab
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(infer)
+```
+
+<!-- Download this following .Rmd template, copy the following code in the Rstudio console and hit enter: -->
+<!-- ```{r klippy, echo=FALSE, include=TRUE} -->
+<!-- klippy::klippy() -->
+<!-- ``` -->
+
+<!-- ```{r, include = TRUE, eval = FALSE} -->
+<!-- download.file("https://raw.githubusercontent.com/sshanshans/stat140/master/docs/labs/u4d3/13Exercise.Rmd", destfile = "Ex13.Rmd") -->
+<!-- ``` -->
+
+<!-- Use the template to complete the following exercises. When you are done, submit the knitted pdf document on [Moodle](https://moodle.mtholyoke.edu/mod/assign/view.php?id=567542). -->
+
+
+### Introduction
+
+There is only one *BIG* idea today, but this is an important one (perhaps the most important throughout this course if I dare to say). That is 
+
+> *how the value of a sample statistic would vary from sample to sample, if random samples were randomly selected over and over from a population*
+
+
+### The blue M&M
+I recently received a gift of 100,000 M&M's. Since my favorite color of M&M’s is blue (Guess why?), I would like to know what proportion of these M&M's are blue?
+
+One way to answer this question would be to perform an exhaustive count. However, this would be a long and tedious process. Instead, let's do some sampling activity!
+We are interested estimating the proportion of blue M&M's in a population size of 100,000 M&M's. 
+
+I have logged the information about these 100,000 M&M's I received in the followoing dataset. Let's first load the data. 
+
+```{r, echo = FALSE, message = FALSE}
+mm <- read_csv("https://raw.githubusercontent.com/sshanshans/stat140/master/docs/labs/u4d3/mm.csv")
+```
+
+The name of the data frame is `mm` and the color variable is named as `mcolor`. Let's first take a look at the data by using the `glimpse` function
+
+
+```{r}
+glimpse(mm)
+```
+
+### Part I: virtual sample once
+Now let's take 50 random samples using the `sample_n` function from the `infer` package. We will use the `infer` package often for the rest of the course.
+
+```{r samp1, echo = TRUE}
+samp1 <- mm %>%
+  sample_n(50)
+
+samp1
+```
+
+This command collects a simple random sample of size 50 from the `mm` dataset, and assigns the result to `samp1`. 
+This is similar to randomly drawing 50 M&M's from a non-transparent bag that contains the entire 100,000 M&M's.
+Working with these 50 M&M's is considerably simpler than working with all 100,000 M&M's in the population.
+
+Now compute the proportion of blue M&M's in `samp1` using the code below. 
+```{r samp1prop, echo = TRUE}
+samp1 %>%
+  count(mcolor) %>%
+  mutate(p_hat = n /sum(n))
+```
+
+What's the proportion of blue M&M's in `samp1`?
+
+### Part II: Help me please
+
+Now your turn, run the followoing code and record the proportion of blue M&M's in your sample on [this Google sheet](https://docs.google.com/spreadsheets/d/10H8E0POP1WWYg3XRJp6jI1Cc86vymnp6X7eBq993V3c/edit?usp=sharing).
+
+```{r samp_student, echo = TRUE}
+samp_student <- mm %>%
+  sample_n(50)
+
+samp_student %>%
+  count(mcolor) %>%
+  mutate(p_hat = n /sum(n))
+```
+
+How does the sample proportion of `samp_student` compare with that of `samp1`? 
+
+Not surprisingly, every time you take another random sample, you might get a different sample proportion. The sample proportion is what we call a sample statistic. The key idea I want you to get out of this exercise is
+
+> *The value of a sample statistic would vary from sample to sample*
+
+
+### Part III: Let's look at the numbers together
+Let's plot the histogram of the $\hat{p}$ we collected from the class. 
+
+```{r, eval= FALSE}
+p_hat <- c()
+
+sample_class <- data.frame(p_hat)
+
+ggplot(data = sample_class, aes(x = p_hat)) +
+  geom_histogram(binwidth = 0.02) +
+  labs(
+    x = "p_hat (Blue)",
+    title = "Distribution of p_hat",
+    subtitle = "Sample size = 50, Number of samples = 24 collected from everyone in class"
+  )
+```
+
+### Part IV: Use R to automate this process
+This is getting boring. Can we automate the process? 
+
+Here, we use R to take () different samples of size 50 from the population, calculate the proportion of blue M&M's in each sample, and store each result in a vector called `sample_props50`. The function
+`rep_sample_n` took a random sample of size `n` (50) from the population of all M&M's and repeat this sampling procedure `rep` () times. Note that we specify that replace = TRUE since sampling distributions are constructed by sampling with replacement.
+
+```{r iterate, echo = TRUE}
+sample_props50 <- mm %>%
+  rep_sample_n(size = 50, reps = 24, replace = TRUE) %>%
+  count(mcolor) %>%
+  mutate(p_hat = n /sum(n)) %>%
+  filter(mcolor == "blue")
+
+ggplot(data = sample_props50, aes(x = p_hat)) +
+  geom_histogram(binwidth = 0.02) +
+  labs(
+    x = "p_hat (Blue)",
+    title = "Distribution of p_hat",
+    subtitle = "Sample size = 50, Number of samples = 24 collected from everyone in class"
+  )
+```
+
+
+### Part V: Sample many many times
+Why only sample so little times, Let's do more. Modify the followoing code block to sample 15000 times.
+
+```{r iterate1, echo = TRUE}
+sample_props50 <- mm %>%
+  rep_sample_n(size = 50, reps = 24, replace = TRUE) %>%
+  count(mcolor) %>%
+  mutate(p_hat = n /sum(n)) %>%
+  filter(mcolor == "blue")
+
+ggplot(data = sample_props50, aes(x = p_hat)) +
+  geom_histogram(binwidth = 0.02) +
+  labs(
+    x = "p_hat (Blue)",
+    title = "Distribution of p_hat",
+    subtitle = "Sample size = 50, Number of samples = 24 collected from R"
+  )
+```
+
+### The key idea: sampling distribution
+From the previous questions, we saw that it is useful to get a sense of the distribution in the sample proportions, meaning *how the value of a sample statistic (i.e., proportion) would vary from sample to sample, if random samples were randomly selected over and over from a population*. The distribution of sample proportions, termed as the *sampling distribution (of the proportion)*, is the key idea in this course. 
+
+The sampling distribution is useful, in our case, to estimate the true proportion of blue M&M’s in the entire population. The sampling distribution is centered at the true population proportion, and the spread of the distribution indicates how much variability is incurred by sampling only 50 M&M's at a time from the population. Note that for each of the 15,000 times we computed a proportion, we did so from a **different** sample!
+
+To make sure you understand how sampling distributions are built, and exactly what the `rep_sample_n` function does, try modifying the code to create a sampling distribution of **25 sample proportions** from **samples of size 10**, and put them in a data frame named `sample_props_small`. Print the output. 
+
+```{r iterate2}
+sample_props_samll <- mm %>%
+  rep_sample_n(size = 50, reps = 15000, replace = TRUE) %>%
+  count(mcolor) %>%
+  mutate(p_hat = n /sum(n)) %>%
+  filter(mcolor == "blue")
+```
+
+### Part VI: Effects of sample size
+
+Explore the following questions with your group
+
+**How does the sample size affect the sampling distribution?**
+
+Use code chunks below to create sampling distributions of `p_hat` (proportion of blue M&M's) from samples of size 50, 100 and 1000. Use 15,000 simulations. 
+How does the shape of the histogram (center and spread) change as the sample size increases? 
+
+```{r}
+set.seed(1)
+sample_size <- 1
+
+sample_props_sample_size <- mm %>%
+  rep_sample_n(size = sample_size, reps = 15000, replace = TRUE) %>%
+  count(mcolor) %>%
+  mutate(p_hat = n /sum(n)) %>%
+  filter(mcolor == "blue")
+
+sub <- paste0("Sample size = ", sample_size, ", Number of samples = 15000 collected from everyone in class")
+
+ggplot(data = sample_props_sample_size, aes(x = p_hat)) +
+  geom_histogram(binwidth = 0.025) +
+  labs(
+    x = "p_hat (Blue)",
+    title = "Distribution of p_hat",
+    subtitle = sub
+  )
+
+```
+
+
+**What if you increase the number of simulations?**
+
+Modify the followoing code. Use 50, 100 and 1000 simulations. 
+How does the shape of the histogram (center and spread) change as the number of simulations increases? 
+
+```{r}
+set.seed(1)
+rep <- 1
+
+sample_props_sample_size <- mm %>%
+  rep_sample_n(size = 50, reps = rep, replace = TRUE) %>%
+  count(mcolor) %>%
+  mutate(p_hat = n /sum(n)) %>%
+  filter(mcolor == "blue")
+
+sub <- paste0("Sample size = 50,  Number of samples = ", rep, " collected from everyone in class")
+
+ggplot(data = sample_props_sample_size, aes(x = p_hat)) +
+  geom_histogram(binwidth = 0.02) +
+  labs(
+    x = "p_hat (Blue)",
+    title = "Distribution of p_hat",
+    subtitle = sub
+  )
+
+```
