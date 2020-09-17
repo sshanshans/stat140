@@ -28,7 +28,7 @@ markup: "mmark"
 | Sep 15 (T) | Designed experiments and observational studies  [(html)](http://sshanshans.github.io/stat140/days/u4d2) |  12 Quiz, 12 Exercise     |                        |
 | Sep 16 (W) | Sampling distribution  [(html)](http://sshanshans.github.io/stat140/days/u4d3) |   13 Quiz, 13 Exercise  |                        |
 | Sep 17 (TH) | Simulation based inference I  [(html)](http://sshanshans.github.io/stat140/days/u4d4.html) |   14 Quiz, 14 Exercise   |                        |
-| Sep 18 (F) | Simulation based inference II  [(html)](http://sshanshans.github.io/stat140/days/u4d5) |    15 Quiz, 15 Exercise     |         EA4 (due Sep 24)        |
+| Sep 18 (F) | Simulation based inference II  [(html)](http://sshanshans.github.io/stat140/days/u4d5) |   15 Exercise     |         EA4 (due Sep 24)        |
 | **Unit 5**  | **Basic Probability** |                     |                        |
 | Sep 21 (M) |  A probability excursion |             |                        |
 | Sep 22 (T) |  Binomial distribution |            |                        |

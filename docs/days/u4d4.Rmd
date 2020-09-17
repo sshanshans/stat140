@@ -20,7 +20,7 @@ output:
 * Complete `14 Quiz`: [VPN](http://138.110.84.108:3838/sshan/quiz/Unit4), [nonVPN](http://159.89.233.150:3838/stat140/quiz/Unit4)
 
 #### In-class
-* Slides posted after class
+* Slides [pdf](http://sshanshans.github.io/stat140/slides/u4d4.pdf)
 * Working on `14 Exercise`: please use the followoing code to download the exercise template --
 ```{r, include = TRUE, eval = FALSE}
 download.file("https://raw.githubusercontent.com/sshanshans/stat140/master/docs/labs/u4d4/14Exercise.Rmd", destfile = "Ex14.Rmd")
