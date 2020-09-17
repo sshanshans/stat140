@@ -414,30 +414,64 @@ summary {
 <div id="learning-objectives" class="section level4">
 <h4>Learning objectives</h4>
 <ul>
-<li>Define a confidence interval as the plausible range of values for a population parameter.</li>
-<li>Understand confidence intervals through bootstrapping</li>
-<li>Interpret confidence intervals with the percentile method</li>
+<li>Explain how the hypothesis testing framework resembles a court trial.</li>
+<li>Recognize that in hypothesis testing we evaluate two competing claims:
+<ul>
+<li>the null hypothesis, which represents a skeptical perspective or the status quo, and</li>
+<li>the alternative hypothesis, which represents an alternative under consideration and is often represented by a range of possible parameter values.</li>
+</ul></li>
+<li>Construction of hypotheses:
+<ul>
+<li>Always construct hypotheses about population parameters (e.g. population mean, <span class="math inline">\(\mu\)</span>) and not the sample statistics (e.g. sample mean, <span class="math inline">\(\bar{x}\)</span>).</li>
+<li>Note that the population parameter is unknown while the sample statistic is measured using the observed data and hence there is no point in hypothesizing about it.</li>
+<li>Define the null value as the value the parameter is set to equal in the null hypothesis.</li>
+<li>Note that the alternative hypothesis might be one-sided (<span class="math inline">\(\mu &lt;\)</span> or <span class="math inline">\(&gt;\)</span> the null value) or two-sided (<span class="math inline">\(\mu \neq\)</span> the null value), and the choice depends on the research question.</li>
+</ul></li>
+<li>Define a <span class="math inline">\(p\)</span>-value as the conditional probability of obtaining a sample statistic at least as extreme as the one observed given that the null hypothesis is true. <span class="math display">\[ p\text{-value} = P(\text{observed or more extreme sample statistic} \mid \text{H0 true}) \]</span></li>
+<li><p>Infer that if a confidence interval does not contain the null value the null hypothesis should be rejected in favor of the alternative.</p></li>
+<li>Compare the <span class="math inline">\(p\)</span>-value to the significance level to make a decision between the hypotheses:
+<ul>
+<li>If the <span class="math inline">\(p\)</span>-value &lt; the significance level, reject the null hypothesis since this means that obtaining a sample statistic at least as extreme as the observed data is extremely unlikely to happen just by chance, and conclude that the data provides evidence for the alternative hypothesis.</li>
+<li>If the <span class="math inline">\(p\)</span>-value &gt; the significance level, fail to reject the null hypothesis since this means that obtaining a sample statistic at least as extreme as the observed data is quite likely to happen by chance, and conclude that the data does not provide evidence for the alternative hypothesis.</li>
+<li>Note that we can never “accept” the null hypothesis since the hypothesis testing framework does not allow us to confirm it.</li>
+</ul></li>
+<li>Note that the conclusion of a hypothesis test might be erroneous regardless of the decision we make.
+<ul>
+<li>Define a Type 1 error as rejecting the null hypothesis when the null hypothesis is actually true.</li>
+<li>Define a Type 2 error as failing to reject the null hypothesis when the alternative hypothesis is actually true.</li>
+</ul></li>
+<li>Note that the probability of making a Type 1 error is equivalent to the significance level, and choose a significance level depending on the risks associated with Type 1 and Type 2 errors.
+<ul>
+<li>Use a smaller α if Type 1 error is relatively riskier.</li>
+<li>Use a larger α if Type 2 error is relatively riskier.</li>
+</ul></li>
 </ul>
 </div>
 <div id="before-class" class="section level4">
 <h4>Before class</h4>
 <ul>
-<li>Finish reading <a href="https://moderndive.com/8-confidence-intervals.html#resampling-tactile">Pennies activity</a> 8.1 - 8.3.1</li>
-<li>Complete <code>15 Quiz</code>: <a href="http://138.110.84.108:3838/sshan/quiz/Unit4">VPN</a>, <a href="http://159.89.233.150:3838/stat140/quiz/Unit4">nonVPN</a></li>
+<li>Finish reading <a href="https://sshanshans.github.io/stat140/reading/u4d5.html">Ingot example</a></li>
 </ul>
 </div>
 <div id="in-class" class="section level4">
 <h4>In-class</h4>
 <ul>
 <li>Slides posted after class</li>
-<li>Working on <code>15 Exercise</code>: pennies activity</li>
+<li>Working on <code>15 Exercise</code>: Ingot example</li>
+<li>Introducing <code>EA 04</code>: Project proposal</li>
 </ul>
 </div>
 <div id="items-due" class="section level4">
 <h4>Items due</h4>
 <ul>
-<li><code>15 Quiz</code> due 09/17 6pm EST</li>
 <li><code>15 Exercise</code> due 09/17 6pm EST</li>
+<li><code>EA 03</code> due 09/17 6pm EST
+<ul>
+<li><a href="https://sshanshans.github.io/stat140/eas/03/intro">intro</a></li>
+<li><a href="https://sshanshans.github.io/stat140/eas/03/grading.pdf">grading guideline</a></li>
+<li><a href="https://moodle.mtholyoke.edu/mod/assign/view.php?id=566087">moodle portal</a></li>
+<li><a href="https://forms.gle/BKggBgTB1Bji7Liv8">peer evaluation form</a></li>
+</ul></li>
 </ul>
 </div>
 </div>

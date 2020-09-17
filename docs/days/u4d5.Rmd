@@ -11,18 +11,42 @@ output:
 ### Simulation-based inference II 
 
 #### Learning objectives 
-* Define a confidence interval as the plausible range of values for a population parameter.
-* Understand confidence intervals through bootstrapping
-* Interpret confidence intervals with the percentile method
+* Explain how the hypothesis testing framework resembles a court trial.
+* Recognize that in hypothesis testing we evaluate two competing claims:
+    * the null hypothesis, which represents a skeptical perspective or the status quo, and
+    * the alternative hypothesis, which represents an alternative under consideration and is often represented by a range of possible parameter values.
+* Construction of hypotheses:
+    * Always construct hypotheses about population parameters (e.g. population mean, $\mu$) and not the sample statistics (e.g. sample mean, $\bar{x}$). 
+    * Note that the population parameter is unknown while the sample statistic is measured using the observed data and hence there is no point in hypothesizing about it. 
+    * Define the null value as the value the parameter is set to equal in the null hypothesis.
+    * Note that the alternative hypothesis might be one-sided ($\mu <$ or $>$ the null value) or two-sided ($\mu \neq$ the null value), and the choice depends on the research question.
+* Define a $p$-value as the conditional probability of obtaining a sample statistic at least as extreme as the one observed given that the null hypothesis is true. 
+$$ p\text{-value} = P(\text{observed or more extreme sample statistic} \mid \text{H0 true}) $$
+* Infer that if a confidence interval does not contain the null value the null hypothesis should be rejected in favor of the alternative.
+
+* Compare the $p$-value to the significance level to make a decision between the hypotheses:
+    * If the $p$-value < the significance level, reject the null hypothesis since this means that obtaining a sample statistic at least as extreme as the observed data is extremely unlikely to happen just by chance, and conclude that the data provides evidence for the alternative hypothesis.
+    * If the $p$-value > the significance level, fail to reject the null hypothesis since this means that obtaining a sample statistic at least as extreme as the observed data is quite likely to happen by chance, and conclude that the data does not provide evidence for the alternative hypothesis.
+    * Note that we can never “accept” the null hypothesis since the hypothesis testing framework does not allow us to confirm it.
+* Note that the conclusion of a hypothesis test might be erroneous regardless of the decision we make.
+    * Define a Type 1 error as rejecting the null hypothesis when the null hypothesis is actually true.
+    * Define a Type 2 error as failing to reject the null hypothesis when the alternative hypothesis is actually true.
+* Note that the probability of making a Type 1 error is equivalent to the significance level, and choose a significance level depending on the risks associated with Type 1 and Type 2 errors.
+    * Use a smaller α if Type 1 error is relatively riskier.
+    * Use a larger α if Type 2 error is relatively riskier.
 
 #### Before class
-* Finish reading [Pennies activity](https://moderndive.com/8-confidence-intervals.html#resampling-tactile) 8.1 - 8.3.1
-* Complete `15 Quiz`: [VPN](http://138.110.84.108:3838/sshan/quiz/Unit4), [nonVPN](http://159.89.233.150:3838/stat140/quiz/Unit4)
+* Finish reading [Ingot example](https://sshanshans.github.io/stat140/reading/u4d5.html)
 
 #### In-class
 * Slides posted after class
-* Working on `15 Exercise`: pennies activity
+* Working on `15 Exercise`: Ingot example
+* Introducing `EA 04`: Project proposal
 
 #### Items due
-* `15 Quiz` due 09/17 6pm EST
 * `15 Exercise` due 09/17 6pm EST
+* `EA 03` due 09/17 6pm EST
+  * [intro](https://sshanshans.github.io/stat140/eas/03/intro)
+  * [grading guideline](https://sshanshans.github.io/stat140/eas/03/grading.pdf)
+  * [moodle portal](https://moodle.mtholyoke.edu/mod/assign/view.php?id=566087)
+  * [peer evaluation form]( https://forms.gle/BKggBgTB1Bji7Liv8)
