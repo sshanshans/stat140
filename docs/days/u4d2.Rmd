@@ -29,7 +29,7 @@ output:
 * Complete `12 Quiz`: [VPN](http://138.110.84.108:3838/sshan/quiz/Unit4), [nonVPN](http://159.89.233.150:3838/stat140/quiz/Unit4)
 
 #### In-class
-* Slides posted after class
+* Slides [pdf](http://sshanshans.github.io/stat140/slides/u4d2.pdf)
 * Working on `12 Exercise` [intro](http://sshanshans.github.io/stat140/labs/u4d2/)
 
 #### Items due

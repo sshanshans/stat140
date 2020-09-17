@@ -21,7 +21,10 @@ output:
 
 #### In-class
 * Slides posted after class
-* Working on `14 Exercise`: Pennies activity
+* Working on `14 Exercise`: please use the followoing code to download the exercise template --
+```{r, include = TRUE, eval = FALSE}
+download.file("https://raw.githubusercontent.com/sshanshans/stat140/master/docs/labs/u4d4/14Exercise.Rmd", destfile = "Ex14.Rmd")
+```
 
 #### Items due
 * `14 Quiz` due [on moodle](https://moodle.mtholyoke.edu/mod/assign/view.php?id=567539) 09/17 6pm EST

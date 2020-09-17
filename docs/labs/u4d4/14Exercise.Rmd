@@ -1,0 +1,87 @@
+---
+title: "Unit 4 Tutorial: Exercise 14"
+author: "Type your name here"
+output:
+  pdf_document: default
+  html_document:
+    highlight: pygments
+    theme: spacelab
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(moderndive)
+library(infer)
+```
+
+
+### The pennies activity
+Let's first take a look at the pennies sample
+
+```{r, echo = FALSE, message = FALSE}
+glimpse(pennies_sample)
+```
+
+The name of the data frame is `pennies_sample` and the two variables are `ID` and `year`.
+
+### Warm up
+The following code chunk plots the histogram of the variable `year` and computes the mean of the variable `year`
+
+```{r}
+ggplot(pennies_sample, aes(x = year)) +
+  geom_histogram(binwidth = 10, color = "white")
+
+x_bar <- pennies_sample %>% 
+  summarize(mean_year = mean(year))
+x_bar
+```
+
+### Part I: virtual re-sample once
+Now let's use the following code to perform the resampling with replacement of the 50 slips of paper representing our original sample 50 pennies:
+```{r samp1, echo = TRUE}
+virtual_resample <- pennies_sample %>% 
+  rep_sample_n(size = 50, replace = TRUE)
+
+virtual_resample
+```
+
+Observe how we explicitly set the `replace` argument to `TRUE` in order to tell `rep_sample_n()` that we would like to sample pennies with replacement.
+
+Now let's compute the sample mean in this resample
+```{r}
+virtual_resample %>% 
+  summarize(resample_mean = mean(year))
+```
+
+Record your `resample_mean` on [this Google sheet](https://docs.google.com/spreadsheets/d/10H8E0POP1WWYg3XRJp6jI1Cc86vymnp6X7eBq993V3c/edit?usp=sharing).
+
+### Part II: Resample many times
+Can we automate the process as before?
+
+```{r iterate, echo = TRUE}
+virtual_resamples <- pennies_sample %>% 
+  rep_sample_n(size = 50, replace = TRUE, reps = 1)
+virtual_resamples
+
+virtual_resampled_means <- virtual_resamples %>% 
+  group_by(replicate) %>% 
+  summarize(mean_year = mean(year))
+virtual_resampled_means
+
+ggplot(virtual_resampled_means, aes(x = mean_year)) +
+  geom_histogram(binwidth = 1, color = "white", boundary = 1990) +
+  labs(x = "Resample mean year")
+
+```
+
+### Part III: Constructing a confidence interval
+
+```{r}
+lci <- quantile(virtual_resampled_means$mean_year, 0.025)
+rci <- quantile(virtual_resampled_means$mean_year, 0.975)
+
+ggplot(virtual_resampled_means, aes(x = mean_year)) +
+  geom_histogram(binwidth = 1, color = "white", boundary = 1990) +
+  shade_confidence_interval(endpoints = c(lci, rci)) +
+  labs(x = "Resample mean year", caption = "Green lines represent 95% C.I. bounds")
+```
