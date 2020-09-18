@@ -1,0 +1,32 @@
+---
+title: "Unit 5 Day 2"
+output: 
+  html_document:
+    css: lab.css
+    highlight: pygments
+    theme: cerulean
+  pdf_document: default
+---
+
+###  Binomial distribution
+
+#### Learning objectives 
+
+* Determine if a random variable is binomial using the four conditions.
+    * The trials are independent.
+    * The number of trials, n, is fixed.
+    * Each trial outcome can be classified as a success or failure.
+    * The probability of a success, p, is the same for each trial.
+* Calculate the number of possible scenarios for obtaining k successes in n trials using the `choose` function. 
+* Calculate probability of a given number of successes in a given number of trials using the binomial distribution
+
+#### Before class
+* Finish watching [Introduction to binomial distribution](https://www.coursera.org/learn/probability-intro/lecture/kJ07f/binomial-distribution), [Example](https://www.coursera.org/learn/probability-intro/lecture/yef4b/working-with-the-binomial-distribution)
+* Complete ```16 Quiz```
+
+#### In class
+* Working on ```17 Exercise```
+
+#### Items due
+* `16 Quiz` due 09/22 6pm EST
+* `17 Exercise` due 09/22 6pm EST
