@@ -30,10 +30,10 @@ markup: "mmark"
 | Sep 17 (TH) | Simulation based inference I  [(html)](http://sshanshans.github.io/stat140/days/u4d4.html) |   14 Quiz, 14 Exercise   |                        |
 | Sep 18 (F) | Simulation based inference II  [(html)](http://sshanshans.github.io/stat140/days/u4d5) |   15 Exercise     |         EA4 (due Sep 24)        |
 | **Unit 5**  | **Basic Probability** |                     |                        |
-| Sep 21 (M) |  A probability excursion |             |                        |
-| Sep 22 (T) |  Binomial distribution |            |                        |
-| Sep 23 (W) | Normal distribution |             |                        |
-| Sep 24 (TH) | Central Limit Theorem (CLT) |             |       EA5 (due Oct 02)         |
+| Sep 21 (M) |  A probability excursion  [(html)](http://sshanshans.github.io/stat140/days/u5d1) |  15 Quiz, 16 Exercise   |                        |
+| Sep 22 (T) |  Binomial distribution  [(html)](http://sshanshans.github.io/stat140/days/u5d2) |  16 Quiz, 17 Exercise      |                        |
+| Sep 23 (W) | Normal distribution  [(html)](http://sshanshans.github.io/stat140/days/u5d3) |    18 Quiz, 19 Exercise     |                        |
+| Sep 24 (TH) | Central Limit Theorem (CLT)  [(html)](http://sshanshans.github.io/stat140/days/u5d4) |   19 Quiz, 20 Exercise  |       EA5 (due Oct 02)         |
 | **Unit 6**     | **CLT based inference** |                     |                        |
 | Sep 28 (M) | Confidence intervals (for a mean) |               |                        |
 | Sep 29 (T) | Condidence interval interpretation |              |                        |
