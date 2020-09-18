@@ -1,0 +1,134 @@
+---
+title: "Unit 4 Tutorial: Exercise 15"
+author: "Shan Shan"
+output:
+  pdf_document: default
+  html_document:
+    highlight: pygments
+    theme: spacelab
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(infer)
+knitr::opts_chunk$set(echo = TRUE, highlight = TRUE)
+```
+
+## Day 5: Friend or Foe
+### Adapted from Allan Rossman, Beth Chance, and Evan Ray
+
+### Introduction
+
+In recent classes, we have laid the foundations for hypothesis testing. In this tutorial, you will apply what you learned in an experiment study for friend or foe, and quantify the strenght of evidence that an experiment provides about a causal association between two variables.
+
+### 1. Experiment description
+
+Do children who are less than a year old recognize the difference between nice, friendly behavior as opposed to mean, unhelpful behavior? Do they make choices based on such behavior? In a study reported in the November 2007 issue of Nature, researchers investigated whether infants
+take into account an individual's actions towards others in evaluating that individual as appealing or aversive (Hamlin, Wynn, and Bloom, 2007).
+
+In one component of the study, 10-month-old infants were shown a "climber" character (a piece of wood with "googly" eyes glued onto it) that
+could not make it up a hill in two tries. Then they were alternately shown two scenarios for the climber's next try, one where the climber was pushed to the top of the hill by another character ("friend") and one where the climber was pushed back down the hill by another character ("foe"). The infant was alternately shown these two scenarios several times. Then the child was presented with both pieces of wood (representing the friend and the foe) and asked to pick one to play with. Videos of this study are available at websites for the UBC Center for Infant Cognition Lab (<http://cic.psych.ubc.ca/example-stimuli/>) and the Yale Infant Cognition Center (<https://campuspress.yale.edu/infantlab/>).
+
+### 2.Thinking about the study
+
+1. Identify the observational units and the variables in this study.  Is each variable categorical or quantitative?  We don't have a specific data frame available to look at - you'll have to identify these based on the study description above.
+
+2. The Methodology section states that for the 10-month-olds, the climber was a yellow triangle; helper and hinderer were a red square and a blue circle.  Which of the square and the circle was the helper and which was the hinderer was determined randomly for each baby, with half of the babies assigned to each treatment.  Also randomized were which event (helping or hindering) they observed first and the positions of helper and hinderer when presented to the infants to play with (on left or right). Why are these important considerations?
+
+3. The researchers found that 14 of the 16 infants in the study selected the nice toy. Is this a sample statistic or a population parameter?
+
+4. If infants have no preference, how many of the 16 would you have expected to select the nice toy? Would you always expect to see exactly that many of the 16 infants select the nice toy?
+
+5. In your judgment, how many infants, out of the 16, would have to select the nice toy in order for you to be fairly well convinced that the researchers' conjecture is correct, that infants really do have a tendency to prefer the nice toy?
+
+
+### 2. Specifying Hypotheses
+
+1. What is the population parameter being examined in this study?  What symbol will we use for this parameter?
+
+
+2.  What is our sample statistic?  What symbol will we use for this statistic?
+
+
+3. The null hypothesis is a statement about the value of the population parameter that expresses the idea that "nothing interesting is going on."  What is the null hypothesis in this example, in words and in terms of the symbol we chose  before?
+
+
+4. The alternative hypothesis is a statement about the value of the population parameter that expresses the idea that "something interesting is going on."  What is the alternative hypothesis in this example, in words and in terms of the symbol we chose before?
+
+
+### 3: A Simulation Study
+
+The key question here is what results could reasonably occur under the assumption that infants actually have no preference.  Rephrased, we'd like to understand what the **sampling distribution** of our sample statistic would be if the null hypothesis was true.
+
+This will let us see how often we would observe results like the ones we got in this study if the null hypothesis was true, and therefore determine whether or not the data we observed are consistent with the null hypothesis.
+
+One way to get at the sampling distribution of our test statistic if the null hypothesis is true is by simulating (artificially re-creating) the selection process of 16 infants over and over, assuming that infants actually have no genuine preference.
+
+I have provided code to this below
+
+#### Repeating the experiment once
+The following command simulates the random process of 16 infants making this toy choice, still assuming the null model that infants have no real preference and so are equally likely to choose either toy. I put these results into a data frame because that will be helpful when I want to plot results from 1000 replications of this process.
+
+```{r}
+data.frame(
+  count_chose_helpful_toy = rbinom(n = 1, size = 16, prob = 0.5)
+)
+```
+
+If you run the command multiple times, you'll get different results from different random simulations. Give it a try! (Each time you run it, you'll have to re-select that cell before clicking the "Run cell" button.)
+
+Here's a brief overview of how this code works:
+* The `rbinom` function simulates flipping a coin 16 times and counts the number of heads that came up.
+    * The `binom` in the name of this function refers to the binomial distribution.  The binomial distribution is just the name statisticians have given to describe how often different numbers of heads come up when you flip a coin a certain number of times.  We'll talk about this distribution more next week.
+    * The `r` in the name of this function describes the fact that it *r*andomly generates values from a binomial distribution.
+ * The `rbinom` function has three *arguments*, describing how the coin flipping should be done:
+   1. `n` tells `R` how many times to repeat the experiment (how many times we ask 16 babies to choose a toy -- just once for now)
+   2. `size` tells `R` how many babies are included in each run of the experiment -- 16
+   3. `prob` tells `R` how likely each baby is to choose the friendly toy -- we set this to 0.5 because we're working under the null model where babies are equally likely to choose either toy.
+   
+   
+#### Repeating the experiment 1000 times
+
+The whole point of using `R` was to make it easy to repeat the simulation many times.  In the next code cell, I have modified the code you ran above to perform 1000 simulations of the experiment, all under the null model that infants have no preference for either toy.  I changed the argument `n` from 1 to 1000. 
+
+```{r}
+simulated_experiment_results <- data.frame(
+    count_chose_helpful_toy = rbinom(n = 1000, size = 16, prob = 0.5)
+  )
+
+
+head(simulated_experiment_results)
+```
+
+It's not too helpful to just look at the list of simulated numbers. Let's make a plot of the results and count how many of our simulated experiments (assuming the null hypothesis was true) resulted in different numbers of babies choosing the helpful toy.
+(You should know how to do this, but for today I want to focus on interpreting the results rather than spending time on the R commands used here.)
+
+```{r}
+simulated_experiment_results %>%
+  count(count_chose_helpful_toy)
+
+ggplot(data = simulated_experiment_results, mapping = aes(x = count_chose_helpful_toy)) +
+  geom_histogram(binwidth = 1)
+```
+
+1) Describe the shape of the histogram you generated in R, and comment on whether it is centered where you expected.
+
+
+2) Based on your simulation results, would you say that it would be very surprising, if infants actually have no genuine preference, that 14 out of 16 infants in the study would have chosen the nice toy just by chance? Explain.
+
+3) Report how many of your 1000 repetitions (under the condition that the null hypothesis is true) produced 14 or more infants choosing the helpful toy. Also determine the proportion of these 1000 repetitions that produced such an extreme result.
+
+
+#### 4. Reaching a conclusion
+The proportion you calculated is called an approximate p-value.  A p-value is the probability of obtaining a result as extreme as the one observed, assuming that there is no genuine preference/difference.
+A small p-value casts doubt on the null model/hypothesis used to perform the calculation (in this case, that infants have no genuine preference).
+
+* A p-value of .10 or less is generally considered to be some evidence against the null model/hypothesis.
+* A p-value of .05 or less is generally considered to be fairly strong evidence against the null model/hypothesis.
+* A p-value of .01 or less is generally considered to be very strong evidence against the null model/hypothesis.
+* A p-value of .001 or less is generally considered to be extremely strong evidence against the null model/hypothesis.
+
+The quantity you calculated in part q is an "approximate" p-value because you obtained it by performing a random simulation rather than an exact probability calculation.
+
+4) Would you say that the experimental data obtained by the researchers provide strong evidence that infants in general have a genuine preference for the friend toy over the foe toy?
+

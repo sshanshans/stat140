@@ -7,6 +7,13 @@ output:
     theme: cerulean
   pdf_document: default
 ---
+```{r setup, include=FALSE}
+library(klippy)
+```
+
+```{r klippy, echo=FALSE, include=TRUE}
+klippy::klippy()
+```
 
 ### Simulation-based inference II 
 
@@ -21,7 +28,7 @@ output:
     * Define the null value as the value the parameter is set to equal in the null hypothesis.
     * Note that the alternative hypothesis might be one-sided ($\mu <$ or $>$ the null value) or two-sided ($\mu \neq$ the null value), and the choice depends on the research question.
 * Define a $p$-value as the conditional probability of obtaining a sample statistic at least as extreme as the one observed given that the null hypothesis is true. 
-$$ p\text{-value} = P(\text{observed or more extreme sample statistic} \mid \text{H0 true}) $$
+$$ p\text{-value} = P(\text{observed or more extreme sample statistic} \mid H_0 \text{true}) $$
 * Infer that if a confidence interval does not contain the null value the null hypothesis should be rejected in favor of the alternative.
 
 * Compare the $p$-value to the significance level to make a decision between the hypotheses:
@@ -40,8 +47,15 @@ $$ p\text{-value} = P(\text{observed or more extreme sample statistic} \mid \tex
 
 #### In-class
 * Slides posted after class
-* Working on `15 Exercise`: Ingot example
+* Working on `15 Exercise`: please use the followoing code to download the exercise template --
+```{r, include = TRUE, eval = FALSE}
+download.file("https://raw.githubusercontent.com/sshanshans/stat140/master/docs/labs/u4d5/15Exercise.Rmd", destfile = "Ex15.Rmd")
+```
 * Introducing `EA 04`: Project proposal
+  * [intro](https://sshanshans.github.io/stat140/eas/04/intro)
+  * [grading guideline](https://docs.google.com/spreadsheets/d/1Wuk9FIaxYv3M-u7di6K13S_gnMhgbPA_Mqrtz7b3eso/edit?usp=sharing)
+  * [moodle portal](https://moodle.mtholyoke.edu/mod/assign/view.php?id=568956)
+  * peer evaluation form: link TBA
 
 #### Items due
 * `15 Exercise` due 09/17 6pm EST
