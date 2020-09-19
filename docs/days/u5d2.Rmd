@@ -22,7 +22,8 @@ output:
 
 #### Before class
 * Finish watching [Introduction to binomial distribution](https://www.coursera.org/learn/probability-intro/lecture/kJ07f/binomial-distribution), [Example](https://www.coursera.org/learn/probability-intro/lecture/yef4b/working-with-the-binomial-distribution)
-* Complete ```16 Quiz```
+* Complete ```16 Quiz``` [VPN](http://138.110.84.108:3838/sshan/quiz/Unit5/), [nonVPN](http://159.89.233.150:3838/stat140/quiz/Unit5/)
+
 
 #### In class
 * Working on ```17 Exercise```

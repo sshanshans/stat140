@@ -21,7 +21,8 @@ output:
 
 #### Before class
 * Finish watching [Introduction to normal distribution](https://www.coursera.org/learn/probability-intro/lecture/M71Nv/normal-distribution), [Example](https://www.coursera.org/learn/probability-intro/lecture/mwnU6/working-with-the-normal-distribution)
-* Complete `17 Quiz`
+* Complete `17 Quiz` [VPN](http://138.110.84.108:3838/sshan/quiz/Unit5/), [nonVPN](http://159.89.233.150:3838/stat140/quiz/Unit5/)
+
 
 #### In class
 * Working on `18 Exercise`
