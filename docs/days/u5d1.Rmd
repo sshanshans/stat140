@@ -40,8 +40,11 @@ provided that A and B are independent. This is called the Multiplication Rule.
 * Complete `Quiz 15` [VPN](http://138.110.84.108:3838/sshan/quiz/Unit5/), [nonVPN](http://159.89.233.150:3838/stat140/quiz/Unit5/)
 
 #### In class
-* Work on `Exercise 16`
+* Work on `Exercise 16`: please use the followoing code to download the exercise template --
+```{r, include = TRUE, eval = FALSE}
+download.file("https://raw.githubusercontent.com/sshanshans/stat140/master/docs/labs/u5d1/16Exercise.Rmd", destfile = "Ex16.Rmd")
+```
 
 #### Items due
 * ```Quiz 15``` submit [on moodle](https://moodle.mtholyoke.edu/mod/assign/view.php?id=567541) due 09/21 6pm EST
-* ```Exercise 16``` due 09/21 6pm EST
+* ```Exercise 16``` submit [on moodle](https://moodle.mtholyoke.edu/mod/assign/view.php?id=570135) due 09/21 6pm EST

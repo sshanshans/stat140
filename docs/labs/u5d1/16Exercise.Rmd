@@ -1,0 +1,113 @@
+---
+title: "Unit 4 Tutorial: Exercise 13"
+author: "Type your name here"
+output:
+  pdf_document: default
+  html_document:
+    highlight: pygments
+    theme: spacelab
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(infer)
+```
+
+### Introduction
+The goal today is to practice setting up hypothesis testing. 
+
+1. Identify the
+    * **population parameter**: a number summarizing the population.
+        * What proportion of the "population" are in a certain category?
+        * Denote by $p$ (for proportion).
+    * **sample statistic**: a number summarizing the sample.
+        * In our sample, how many observational units are in that category?
+        * Denote by $X$ for a random variable, $x$ for the observed value
+2. State our hypotheses.
+    * **Null hypothesis** ($H_0$): Nothing interesting is going on.
+        * State in words what this means for the example we're looking at.
+        * State as an equality involving the population parameter: $p = \rule{1cm}{0.15mm}$
+    * **Alternative hypothesis** ($H_A$): Something interesting is going on.
+        * State in words what this means for the example we're looking at.
+        * State as an inequality involving the population parameter: $p < \rule{1cm}{0.15mm}$, or $p > \rule{1cm}{0.15mm}$, or $p \neq \rule{1cm}{0.15mm}$.
+3. Find the sampling distribution for the sample statistic, assuming $H_0$ is true.
+    * For now, our only choice is only via simulation. We will add more methods here as we learn more about probability models
+4. Calculate a p-value: the probability of getting a test statistic at least as extreme as what we observed, assuming $H_0$ is true.
+5. Draw a conclusion.  Two options:
+    * Make a statement about the strength of evidence against the null hypothesis provided by the sample data.
+        * A p-value of .10 or less: some evidence against $H_0$
+        * A p-value of .05 or less: fairly strong evidence against $H_0$
+        * A p-value of .01 or less: very strong evidence against $H_0$
+        * A p-value of .001 or less: extremely strong evidence against $H_0$
+    * Make a decision by comparing the p-value to a specified significance level $\alpha$.
+        * Most commonly used values are $\alpha = 0.05$ and $\alpha = 0.01$, but there is no specific justification for these values.
+        * "Reject" $H_0$ if the p-value is less than $\alpha$
+        * "Fail to Reject" $H_0$ if the p-value is greater than or equal to $\alpha$
+
+## Blue M\&M's again
+
+Mars Company (the makers of M\&M's) last published the distribution of colors for M\&M's in 2008, and at that time the proportion of M\&M's that were blue was 0.16.  However, I'm concerned that they may be putting fewer blue M\&M's in now.  I take a sample of 100 M\&M's and count 12 blue M\&M's in my sample.  Does this provide evidence that the proportion of M\&M's that are blue is lower now than it was in 2008?
+
+Here is my sample --
+
+```{r}
+mm <- tibble(
+  mcolor = c(rep("blue", 12), rep("non-blue", 88))
+)
+```
+
+#### Step 1: Identify population parameter and sample statistic.
+
+ * **Population parameter**:
+
+
+ * **Sample statistic**:
+
+
+
+#### Step 2: State hypotheses
+
+ * **Null Hypothesis** ($H_0$):
+
+
+ * **Alternative Hypothesis** ($H_A$):
+
+
+#### Step 3: Simple sampling distribution of sample statistic, assuming $H_0$ is true
+
+The Rcode is provided below. Please make sure you understand what each of the following line means. Ultimately, you will need to write your own code for generating the samping distribution by the end of this week . 
+
+```{r}
+simulated_sampling_distribution <- data.frame(
+    bluemm = rbinom(n = 1000, size = 100, prob = 0.16)
+  )
+
+simulated_sampling_distribution <- simulated_sampling_distribution %>%
+  mutate(blueprop = bluemm/100)
+
+head(simulated_sampling_distribution)
+
+ggplot(data = simulated_sampling_distribution, mapping = aes(x = blueprop)) +
+  geom_histogram(binwidth = 0.01)
+```
+
+#### Step 4: Calculate the p-value for the test
+
+The p-value is the probability of getting a test statistic at least as extreme as what we observed, assuming $H_0$ is true. 
+
+In this example, that means find the times that we can data as extreme as $p = 0.12$, assuming $H_0$ is true. 
+
+Let’s look how many of the 1000 repetitions (under the null hypothesis) produced 12% blue MM's. 
+
+```{r}
+p <- simulated_sampling_distribution %>%
+  count(blueprop < 0.12)
+
+p
+```
+
+What is the proportion?
+
+#### Step 5: Draw a conclusion
+
+What is the strength of evidence against the null hypothesis provided by the data? Make a decision using a significance level of $\alpha = 0.05$.
