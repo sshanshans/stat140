@@ -8,6 +8,14 @@ output:
   pdf_document: default
 ---
 
+```{r setup, include=FALSE}
+library(klippy)
+```
+
+```{r klippy, echo=FALSE, include=TRUE}
+klippy::klippy()
+```
+
 ###  Binomial distribution
 
 #### Learning objectives 
@@ -26,7 +34,12 @@ output:
 
 
 #### In class
-* Working on ```17 Exercise```
+* Slides [pdf](http://sshanshans.github.io/stat140/slides/u5d2.pdf)
+* Working on ```17 Exercise``` please use the followoing code to download the exercise template --
+```{r, include = TRUE, eval = FALSE}
+download.file("https://raw.githubusercontent.com/sshanshans/stat140/master/docs/labs/u5d2/17Exercise.Rmd", destfile = "Ex17.Rmd")
+```
+
 
 #### Items due
 * `16 Quiz` due 09/22 6pm EST

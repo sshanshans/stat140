@@ -1,0 +1,146 @@
+---
+title: "Unit 5 Tutorial: Exercise 17"
+author: "Type your name here"
+output:
+  pdf_document: default
+  html_document:
+    highlight: pygments
+    theme: spacelab
+---
+
+```{r setup, include=FALSE}
+#knitr::opts_chunk$set(echo = FALSE)
+library(tidyverse)
+```
+
+
+## Random Variables
+
+* A **random variable** is a variable whose possible values are numerical outcomes of a random phenomenon.  Use capital letters like $X$, $Y$, $Z$ to denote random variables.  Use lower case letters $x$, $y$, $z$ to denote specific observed values.
+
+* **Example:** $X$ = number of M\&M's in a sample of size 100 that are blue.  Maybe in a particular sample I observe $x = 12$.
+
+* **Example:** $X$ = number of infants in a sample of size 16 who choose a helpful toy.  In our sample we observed $x = 14$.
+
+## Binomial Distribution
+
+The **Binomial** distribution represents the sampling distribution of a count of the number of observational units in our sample with a certain characteristic.
+
+ * We're thinking about a categorical variable
+    * M\&M color: Brown, Red, Orange, Yellow, Green, Blue
+ * We are really interested in the proportion of the "population" that are in one of the categories ($p$)
+    * What proportion of all M\&M's are blue?
+ * In a sample of size $n$, how many observational units are in that category? ($x$)
+    * $n = 100$ M\&M's, $x = 12$ blue
+ * To use a binomial distribution, the results for different observational units in our sample must be **independent**:
+    * Knowing the outcome for one observational unit in our sample doesn't change what we know about the outcome for other observational units in our sample (other than that they came from the same population with the same $p$).
+    * Knowing one M\&M was blue doesn't change the probability that another will be blue
+
+We use a short-hand notation to describe this situation:
+
+* $X \sim \text{Binomial}(n, p)$
+    * "$X$ follows a Binomial distribution with sample size $n$ and probability of success $p$"
+
+There is a formula for calculating the probability that $X = x$, for each possible value of $x$ from 0 to $n$:
+
+$P(X = x) = \frac{n!}{x! (n - x)!} p^x (1 - p)^{(n - x)}$
+
+Let's have R do these calculations for us instead.
+
+\newpage
+
+## Example in Detail: M\&M
+
+Define $X$ = number of M\&M's in a sample of size 100 that are blue. 
+
+Suppose $p = 0.16$ (as published by Mars Company (the makers of M\&M's))
+
+We could use the model $X \sim \text{Binomial}(100, 0.16)$
+
+## `dbinom`: Calculate the probabability that $X$ is exactly equal to some value
+
+#### What's the probability that there are exactly 100 blue M\&M's in the sample of size 100?
+
+In the followoing code chunk, we use the `dbinom` function. `x = 100` is the number M\&M's, `size = 100` indicates the sample size is 100. `prob = 0.16` describes the true probability is 0.16. 
+```{r, echo = TRUE}
+dbinom(x = 100, size = 100, prob = 0.16)
+```
+
+#### What's the probability that there are exactly 12 blue M\&M's in the sample of size 100?
+
+```{r, echo = TRUE}
+
+```
+
+#### Displaying the full Binomial distribution
+
+```{r, echo = TRUE, fig.height=2}
+Paul_success_probabilities <- data.frame(
+    num_successes = seq(from = 0, to = 100)
+  )
+
+head(Paul_success_probabilities)
+```
+
+```{r}
+Paul_success_probabilities <- Paul_success_probabilities %>%
+  mutate(
+    probability = dbinom(x = num_successes, size = 100, prob = 0.16)
+  )
+
+head(Paul_success_probabilities)
+```
+
+```{r}
+ggplot(data = Paul_success_probabilities,
+    mapping = aes(x = num_successes, y = probability)) +
+  geom_col() +
+  theme_gray(base_size = 14)
+```
+
+## `pbinom`: Calculate the probability that $X$ is $\leq$ or $>$ some value
+
+#### What's the probability that there are less than 5 blue M\&M's in the sample of size 100
+
+By default, `pbinom` will calculate $P(X \leq q)$ for the specified value $q$.
+
+```{r, echo = TRUE}
+pbinom(q = 5, size = 100, prob = 0.16)
+```
+
+Compare to:
+
+```{r, echo = TRUE}
+dbinom(x = 0, size = 100, prob = 0.16) +
+  dbinom(x = 1, size = 100, prob = 0.16) +
+  dbinom(x = 2, size = 100, prob = 0.16) + 
+  dbinom(x = 3, size = 100, prob = 0.16) + 
+  dbinom(x = 4, size = 100, prob = 0.16) + 
+  dbinom(x = 5, size = 100, prob = 0.16) 
+```
+
+#### d. What's the probability that there are more than 95 blue M\&M's in the sample of size 100?
+
+If we specify the argument `lower.tail = FALSE`, `pbinom` will calculate $P(X > q)$ for the specified value $q$.
+
+```{r, echo = TRUE}
+pbinom(q = 95, size = 100, prob = 0.16, lower.tail = FALSE)
+```
+
+Compare to:
+
+```{r, echo = TRUE}
+  dbinom(x = 96, size = 100, prob = 0.16) +
+  dbinom(x = 97, size = 100, prob = 0.16) +
+  dbinom(x = 98, size = 100, prob = 0.16) +
+  dbinom(x = 99, size = 100, prob = 0.16) +
+  dbinom(x = 100, size = 100, prob = 0.16)
+  
+```
+
+
+## Summary of R Commands:
+
+* Calculate $P(X = 3)$: dbinom(x = 3, size = 8, prob = 0.8)
+* Calculate $P(X \leq 4)$: pbinom(q = 4, size = 8, prob = 0.8)
+* Calculate $P(X \geq 6)$: pbinom(q = 6-1, size = 8, prob = 0.8, lower.tail = FALSE)
