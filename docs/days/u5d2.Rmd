@@ -42,5 +42,5 @@ download.file("https://raw.githubusercontent.com/sshanshans/stat140/master/docs/
 
 
 #### Items due
-* `16 Quiz` due 09/22 6pm EST
-* `17 Exercise` due 09/22 6pm EST
+* `16 Quiz` due [on moodle](https://moodle.mtholyoke.edu/mod/assign/view.php?id=570134) 09/22 6pm EST
+* `17 Exercise` due [on moodle](https://moodle.mtholyoke.edu/mod/assign/view.php?id=570136) 09/22 6pm EST
