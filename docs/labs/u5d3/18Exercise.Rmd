@@ -188,8 +188,6 @@ An airline’s public relations department says that the airline rarely loses pa
 
 #### Step 3: Assuming $H_0$, model the scenario with a Bernoulli trial and Binomail distribution
 
-Since $H_0: p = 0.16$, when you pick a random M\&M from the population, the probabability that the M\&M you picked is blue is 0.16. Now we will call that act of picking a M\&M a trial. Let's first make sure that it is Bernoulli trial. 
-
 * **Are there only two possible outcomes on each trial?**
 
 
@@ -237,7 +235,6 @@ An airline’s public relations department says that the airline rarely loses pa
 
 #### Step 3: Assuming $H_0$, model the scenario with a Bernoulli trial and Binomail distribution
 
-Since $H_0: p = 0.16$, when you pick a random M\&M from the population, the probabability that the M\&M you picked is blue is 0.16. Now we will call that act of picking a M\&M a trial. Let's first make sure that it is Bernoulli trial. 
 
 * **Are there only two possible outcomes on each trial?**
 
