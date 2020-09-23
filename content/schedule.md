@@ -32,8 +32,9 @@ markup: "mmark"
 | **Unit 5**  | **Basic Probability** |                     |                        |
 | Sep 21 (M) |  A probability excursion  [(html)](http://sshanshans.github.io/stat140/days/u5d1) |  15 Quiz, 16 Exercise   |                        |
 | Sep 22 (T) |  Binomial distribution  [(html)](http://sshanshans.github.io/stat140/days/u5d2) |  16 Quiz, 17 Exercise      |                        |
-| Sep 23 (W) | Binomial testing |  18 Exercise   |                        |
-| Sep 24 (TH) | Normal distribution | 19 Exercise  |       EA5 (due Oct 02)         |
+| Sep 23 (W) | Binomial testing  [(html)](http://sshanshans.github.io/stat140/days/u5d3-new) |  18 Exercise   |                        |
+| Sep 24 (TH) | Normal distribution | 19 Exercise  |       |
+| Sep 25 (F) | Project bootcamp |  |       EA5 (due Oct 02)         |
 | **Unit 6**     | **CLT based inference** |                     |                        |
 | Sep 28 (M) | Central Limit Theorem (CLT) |               |                        |
 | Sep 29 (T) | CLT based confidence interval |              |                        |

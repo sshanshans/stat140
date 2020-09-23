@@ -1,0 +1,264 @@
+---
+title: "Unit 5 Tutorial: Exercise 18"
+author: "Type your name here"
+output:
+  pdf_document: default
+  html_document:
+    highlight: pygments
+    theme: spacelab
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, cache = FALSE)
+library(tidyverse)
+require(scales)
+```
+
+## Example 1: Is Paul the Octopus Psychic?
+
+Paul the Octopus (26 January 2008 – 26 October 2010) was a common octopus used to predict the results of association football matches. Accurate predictions in the 2010 World Cup brought him worldwide attention as an animal oracle.
+
+During divinations, Paul's keepers would present him with two boxes containing food. The boxes were identical except that they were decorated with the different team flags of the competitors in an upcoming football match. Whichever box Paul ate from first was considered his prediction for which team would win the match.
+
+His keepers at the Sea Life Centre in Oberhausen, Germany, mainly tasked him with predicting the outcomes of international matches in which the German national football team was playing. In one of the world cup season, we observed 8 successful predictions out of 8 attempts. Is Paul the Octopus Psychic?
+
+#### Step 1: Identify population parameter and sample statistic.
+
+ * **Population parameter**:
+
+\vspace{1cm}
+
+ * **Sample statistic**:
+
+\vspace{1cm}
+
+#### Step 2: State hypotheses
+
+ * **Null Hypothesis** ($H_0$):
+
+\vspace{1cm}
+
+ * **Alternative Hypothesis** ($H_A$):
+
+\vspace{1cm}
+
+
+#### Step 3: Assuming $H_0$, model the scenario with a Bernoulli trial and Binomail distribution
+
+Since $H_0: p = 0.50$, when Paul the Octopus made a prediction, the probabability that the his prediction is correct is 0.50. Now we will call that making a prediction a trial. Let's first make sure that it is Bernoulli trial. 
+
+* **Are there only two possible outcomes on each trial?**
+
+\vspace{1cm}
+
+* **Is the probability of success the same on every trial?**
+
+\vspace{1cm}
+
+* **Are the trials independent?**
+
+\vspace{1cm}
+
+#### Step 4: Calculate the p-value for the test
+
+\vspace{1cm}
+
+```{r, echo = TRUE}
+
+```
+
+```{r, echo = TRUE}
+
+```
+
+```{r, echo = FALSE, fig.height=2.25, fig.width=8}
+Paul_success_probs <- data.frame(
+  num_successes = seq(from = 0, to = 8),
+  pv = factor(c(rep(0, 8), 1)),
+  probability = dbinom(x = seq(from = 0, to = 8), size = 8, prob = 0.5))
+
+ggplot() +
+  geom_col(mapping = aes(x = num_successes, y = probability, fill = pv),
+    data = Paul_success_probs) +
+  xlab("Number of Successes") +
+  scale_fill_manual("Included\nin p-value\ncalculation?", labels = c("No", "Yes"), values = c("black", "red")) +
+  theme_gray(base_size = 14)
+```
+
+#### Step 5: Draw a conclusion
+
+\vspace{2cm}
+
+\newpage
+
+## Example 2: Blue M\&M's
+
+Mars Company (the makers of M\&M's) last published the distribution of colors for M\&M's in 2008, and at that time the proportion of M\&M's that were blue was 0.16.  However, I'm concerned that they may be putting fewer blue M\&M's in now.  I take a sample of 100 M\&M's and count 12 blue M\&M's in my sample.  Does this provide evidence that the proportion of M\&M's that are blue is lower now than it was in 2008?
+
+#### Step 1: Identify population parameter and sample statistic.
+
+ * **Population parameter**:
+
+\vspace{1cm}
+
+ * **Sample statistic**:
+
+\vspace{1cm}
+
+#### Step 2: State hypotheses
+
+ * **Null Hypothesis** ($H_0$):
+
+\vspace{1cm}
+
+ * **Alternative Hypothesis** ($H_A$):
+ 
+\vspace{1cm}
+
+#### Step 3: Assuming $H_0$, model the scenario with a Bernoulli trial and Binomail distribution
+
+Since $H_0: p = 0.16$, when you pick a random M\&M from the population, the probabability that the M\&M you picked is blue is 0.16. Now we will call that act of picking a M\&M a trial. Let's first make sure that it is Bernoulli trial. 
+
+* **Are there only two possible outcomes on each trial?**
+
+\vspace{1cm}
+
+* **Is the probability of success the same on every trial?**
+
+\vspace{1cm}
+
+* **Are the trials independent?**
+
+\vspace{1cm}
+
+
+#### Step 4: Calculate the p-value for the test
+
+\vspace{1cm}
+
+```{r, echo = TRUE}
+
+```
+
+```{r, echo = TRUE}
+
+```
+
+```{r, echo = FALSE, fig.height=3.5, fig.width=8}
+MM_success_probs <- data.frame(
+  num_successes = seq(from = 0, to = 100),
+  pv = factor(c(rep(1, 13), rep(0, 88))),
+  probability = dbinom(x = seq(from = 0, to = 100), size = 100, prob = 0.16))
+
+ggplot() +
+  geom_col(mapping = aes(x = num_successes, y = probability, fill = pv),
+    data = MM_success_probs) +
+  xlab("Number of Successes") +
+  scale_fill_manual("Included\nin p-value\ncalculation?", labels = c("No", "Yes"), values = c("black", "red")) +
+  theme_gray(base_size = 14)
+```
+
+#### Step 5: Draw a conclusion
+
+\vspace{2cm}
+
+\newpage
+
+## On your own
+
+## Problem 1
+
+An airline’s public relations department says that the airline rarely loses passengers’ luggage. It further claims that on those occasions when luggage is lost, 90% is recovered and delivered to its owner within 24 hours. A consumer group suspects the true recovery rate may be lower than the airline’s claims. They surveyed a large number of air travelers and found that only 103 of 122 people who lost luggage on that airline were reunited with the missing items by the next day. Does this cast doubt on the airline’s claim?
+
+#### Step 1: Identify population parameter and sample statistic.
+
+ * **Population parameter**:
+
+
+ * **Sample statistic**:
+
+
+#### Step 2: State hypotheses
+
+ * **Null Hypothesis** ($H_0$):
+
+
+ * **Alternative Hypothesis** ($H_A$):
+ 
+
+#### Step 3: Assuming $H_0$, model the scenario with a Bernoulli trial and Binomail distribution
+
+Since $H_0: p = 0.16$, when you pick a random M\&M from the population, the probabability that the M\&M you picked is blue is 0.16. Now we will call that act of picking a M\&M a trial. Let's first make sure that it is Bernoulli trial. 
+
+* **Are there only two possible outcomes on each trial?**
+
+
+* **Is the probability of success the same on every trial?**
+
+
+* **Are the trials independent?**
+
+
+
+#### Step 4: Calculate the p-value for the test
+
+```{r, echo = TRUE}
+
+```
+
+```{r, echo = TRUE}
+
+```
+
+#### Step 5: Draw a conclusion
+
+
+
+## Problem 2
+The College Board reported that 57.9\% of all students who took the 2013 AP Statistics exam earned scores of 3 or higher. One teacher wondered if the performance of her school was better. She believed that year’s students to be typical of those who will take AP Stats at the school and was pleased when 34 of her 54 students achieved scores of 3 or better. Can she claim that her school is better?
+
+An airline’s public relations department says that the airline rarely loses passengers’ luggage. It further claims that on those occasions when luggage is lost, 90% is recovered and delivered to its owner within 24 hours. A consumer group suspects the true recovery rate may be lower than the airline’s claims. They surveyed a large number of air travelers and found that only 103 of 122 people who lost luggage on that airline were reunited with the missing items by the next day. Does this cast doubt on the airline’s claim?
+
+#### Step 1: Identify population parameter and sample statistic.
+
+ * **Population parameter**:
+
+
+ * **Sample statistic**:
+
+
+#### Step 2: State hypotheses
+
+ * **Null Hypothesis** ($H_0$):
+
+
+ * **Alternative Hypothesis** ($H_A$):
+ 
+
+#### Step 3: Assuming $H_0$, model the scenario with a Bernoulli trial and Binomail distribution
+
+Since $H_0: p = 0.16$, when you pick a random M\&M from the population, the probabability that the M\&M you picked is blue is 0.16. Now we will call that act of picking a M\&M a trial. Let's first make sure that it is Bernoulli trial. 
+
+* **Are there only two possible outcomes on each trial?**
+
+
+* **Is the probability of success the same on every trial?**
+
+
+* **Are the trials independent?**
+
+
+
+#### Step 4: Calculate the p-value for the test
+
+```{r, echo = TRUE}
+
+```
+
+```{r, echo = TRUE}
+
+```
+
+#### Step 5: Draw a conclusion
+
+
