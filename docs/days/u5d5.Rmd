@@ -1,0 +1,33 @@
+---
+title: "Unit 5 Day 5"
+output: 
+  html_document:
+    css: lab.css
+    highlight: pygments
+    theme: cerulean
+  pdf_document: default
+---
+```{r setup, include=FALSE}
+library(klippy)
+```
+
+```{r klippy, echo=FALSE, include=TRUE}
+klippy::klippy()
+```
+
+### Project bootcamp
+
+#### Learning objectives 
+* Complete `19 Exercise`
+* Talk about `EA 03` resubmission
+* Talk about group dynamics
+* Working on group work reflection
+
+#### In-class
+* Introducing `EA 05`: Statistical methods
+  * [intro](https://sshanshans.github.io/stat140/eas/05/intro)
+  * [moodle portal](https://moodle.mtholyoke.edu/mod/assign/view.php?id=568956)
+
+#### Items due
+* `EA 04` due 09/25 6pm EST
+  * [moodle portal](https://moodle.mtholyoke.edu/mod/assign/view.php?id=568956)
