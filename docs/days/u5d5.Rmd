@@ -19,15 +19,14 @@ klippy::klippy()
 
 #### Learning objectives 
 * Complete `19 Exercise`
-* Talk about `EA 03` resubmission
-* Talk about group dynamics
-* Working on group work reflection
+* Improve group dynamics
+* Finish up `EA 04`
 
 #### In-class
 * Introducing `EA 05`: Statistical methods
   * [intro](https://sshanshans.github.io/stat140/eas/05/intro)
-  * [moodle portal](https://moodle.mtholyoke.edu/mod/assign/view.php?id=568956)
+  * [moodle portal](https://moodle.mtholyoke.edu/mod/assign/view.php?id=572488)
 
 #### Items due
-* `EA 04` due 09/25 6pm EST
+* `EA 04` due 09/27 6pm EST
   * [moodle portal](https://moodle.mtholyoke.edu/mod/assign/view.php?id=568956)

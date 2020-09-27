@@ -28,19 +28,19 @@ markup: "mmark"
 | Sep 15 (T) | Designed experiments and observational studies  [(html)](http://sshanshans.github.io/stat140/days/u4d2) |  12 Quiz, 12 Exercise     |                        |
 | Sep 16 (W) | Sampling distribution  [(html)](http://sshanshans.github.io/stat140/days/u4d3) |   13 Quiz, 13 Exercise  |                        |
 | Sep 17 (TH) | Simulation based inference I  [(html)](http://sshanshans.github.io/stat140/days/u4d4.html) |   14 Quiz, 14 Exercise   |                        |
-| Sep 18 (F) | Simulation based inference II  [(html)](http://sshanshans.github.io/stat140/days/u4d5) |   15 Exercise     |         EA4 (due Sep 24)        |
+| Sep 18 (F) | Simulation based inference II  [(html)](http://sshanshans.github.io/stat140/days/u4d5) |   15 Exercise     |         EA4 (due Sep 27)        |
 | **Unit 5**  | **Basic Probability** |                     |                        |
 | Sep 21 (M) |  A probability excursion  [(html)](http://sshanshans.github.io/stat140/days/u5d1) |  15 Quiz, 16 Exercise   |                        |
 | Sep 22 (T) |  Binomial distribution  [(html)](http://sshanshans.github.io/stat140/days/u5d2) |  16 Quiz, 17 Exercise      |                        |
 | Sep 23 (W) | Binomial testing  [(html)](http://sshanshans.github.io/stat140/days/u5d3-new) |  18 Exercise   |                        |
 | Sep 24 (TH) | Normal distribution  [(html)](http://sshanshans.github.io/stat140/days/u5d4-new) | 19 Exercise  |       |
-| Sep 25 (F) | Project bootcamp |  |       EA5 (due Oct 02)         |
+| Sep 25 (F) | Project bootcamp [(html)](http://sshanshans.github.io/stat140/days/u5d5)  |    |       EA5 (due Oct 02)         |
 | **Unit 6**     | **CLT based inference** |                     |                        |
-| Sep 28 (M) | Central Limit Theorem (CLT) |               |                        |
-| Sep 29 (T) | CLT based confidence interval |              |                        |
-| Sep 30 (W) | Hypothesis testing I |             |                        |
-| Oct 01 (TH) | Hypothesis testing II |             |                        |
-| Oct 02 (F) | Hypothesis testing III |              |      EA6, EA7 (due Oct 10)    |
+| Sep 28 (M) | Central Limit Theorem (CLT)  [(html)](http://sshanshans.github.io/stat140/days/u6d1)  | 20 Exercise   |             |
+| Sep 29 (T) | CLT based confidence interval | 21 Exercise   |                        |
+| Sep 30 (W) | CLT based hypothesis testing I |  22 Exercise   |                        |
+| Oct 01 (TH) | Project workshop I  |                 |                        |
+| Oct 02 (F) | Project workshop II |                |      EA6, EA7 (due Oct 10)    |
 | **Unit 7**     | **Topics in Inference** |                      |                        |
 | Oct 05 (M) | Topics I |             |                        |
 | Oct 06 (T) |  Topics II |              |                        |
