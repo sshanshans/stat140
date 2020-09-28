@@ -1,0 +1,33 @@
+---
+title: "Unit 6 Day 2"
+output: 
+  html_document:
+    css: lab.css
+    highlight: pygments
+    theme: cerulean
+  pdf_document: default
+---
+
+###  CLT based confidence interval
+
+#### Learning objectives 
+
+* To apply the Central Limit Theorem for the mean in practical applications, we must
+estimate the standard deviation. This standard error is 
+$$ SE(\bar{x}) = \frac{s}{\sqrt{n}} $$
+* When we use the SE, the sampling distribution that allows for the additional uncertainty is Student’s t.
+* Construct confidence intervals for the true mean, $\mu$.
+  * A confidence interval for the mean has the form $\bar{x} \pm ME$
+  * The Margin of Error is $ME = t* SE(\bar{x})$.
+* Write clear summaries to interpret a confidence interval
+
+
+#### Before class
+* Finish reading [pdf](https://piazza.com/class_profile/get_resource/kcqqet0ou724kc/kfmxy2m327a66y)
+
+#### In class
+* Slides
+* Working on `21 Exercise`
+
+#### Items due
+* `21 Exercise` due [on moodle](https://moodle.mtholyoke.edu/mod/assign/view.php?id=573212) 09/29 6pm EST

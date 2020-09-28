@@ -16,7 +16,7 @@ Understand that the Central Limit Theorem is a limit theorem.
 
 * The sampling distribution of the mean is Normal, no matter what the underlying distribution of the data is.
 * The CLT says that this happens in the limit, as the sample size grows. The Normal model applies sooner when sampling from a unimodal, symmetric population and more gradually when the population is very non-Normal.
-
+* Construct a confidence interval for a proportion, p, as the statistic, $\hat{p}$, plus and minus a margin of error.
 
 #### Before class
 * Finish watching [Introduction to CLT](https://www.coursera.org/learn/inferential-statistics-intro/lecture/lkQnZ/sampling-variability-and-clt) up to 17:16
@@ -27,4 +27,4 @@ Understand that the Central Limit Theorem is a limit theorem.
 * Working on `20 Exercise` [pdf](https://sshanshans.github.io/stat140/labs/u6d1/u6d1.pdf)
 
 #### Items due
-* `20 Exercise` due [on moodle](https://moodle.mtholyoke.edu/mod/assign/view.php?id=573169) 09/24 6pm EST
+* `20 Exercise` due [on moodle](https://moodle.mtholyoke.edu/mod/assign/view.php?id=573169) 09/28 6pm EST
