@@ -37,7 +37,7 @@ markup: "mmark"
 | Sep 25 (F) | Project bootcamp [(html)](http://sshanshans.github.io/stat140/days/u5d5)  |    |       EA5 (due Oct 02)         |
 | **Unit 6**     | **CLT based inference** |                     |                        |
 | Sep 28 (M) | Central Limit Theorem (CLT) [(html)](http://sshanshans.github.io/stat140/days/u6d1)  | 20 Exercise   |             |
-| Sep 29 (T) | CLT based confidence interval | 21 Exercise   |                        |
+| Sep 29 (T) | CLT based confidence interval [(html)](http://sshanshans.github.io/stat140/days/u6d2) | 21 Exercise   |                        |
 | Sep 30 (W) | CLT based hypothesis testing I |  22 Exercise   |                        |
 | Oct 01 (TH) | Project workshop I  |                 |                        |
 | Oct 02 (F) | Project workshop II |                |      EA6, EA7 (due Oct 10)    |
