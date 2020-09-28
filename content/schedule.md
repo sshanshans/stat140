@@ -38,14 +38,14 @@ markup: "mmark"
 | **Unit 6**     | **CLT based inference** |                     |                        |
 | Sep 28 (M) | Central Limit Theorem (CLT) [(html)](http://sshanshans.github.io/stat140/days/u6d1)  | 20 Exercise   |             |
 | Sep 29 (T) | CLT based confidence interval [(html)](http://sshanshans.github.io/stat140/days/u6d2) | 21 Exercise   |                        |
-| Sep 30 (W) | CLT based hypothesis testing I |  22 Exercise   |                        |
+| Sep 30 (W) | CLT based hypothesis testing |  22 Exercise   |                        |
 | Oct 01 (TH) | Project workshop I  |                 |                        |
-| Oct 02 (F) | Project workshop II |                |      EA6, EA7 (due Oct 10)    |
+| Oct 02 (F) | Project workshop II |                |      EA6, EA7 (due Oct 09)    |
 | **Unit 7**     | **Topics in Inference** |                      |                        |
 | Oct 05 (M) | Topics I |             |                        |
 | Oct 06 (T) |  Topics II |              |                        |
 | Oct 07 (W) | Topics III |             |                        |
 | Oct 08 (TH) | Topics IV |            |                        |
-| Oct 09 (F) | Topics V |                        |                        |
+| Oct 09 (F) | Presentation day |                        |                        |
 | **Unit X**     | **Tell your story with data** |                      |                        |
 | Oct 12 (M) | Concluding remarks |                      |                        |
