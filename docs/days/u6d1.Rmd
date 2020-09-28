@@ -23,7 +23,8 @@ Understand that the Central Limit Theorem is a limit theorem.
 * Optional [Example](https://www.coursera.org/learn/inferential-statistics-intro/lecture/XhkI6/clt-for-the-mean-examples)
 
 #### In class
-* Working on `20 Exercise`
+* Slides [pdf](https://sshanshans.github.io/stat140/slides/u6d1.pdf)
+* Working on `20 Exercise` [pdf](https://sshanshans.github.io/stat140/labs/u6d1/u6d1.pdf)
 
 #### Items due
-* `20 Exercise` due 09/24 6pm EST
+* `20 Exercise` due [on moodle](https://moodle.mtholyoke.edu/mod/assign/view.php?id=573169) 09/24 6pm EST
