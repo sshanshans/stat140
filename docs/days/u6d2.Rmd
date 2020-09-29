@@ -12,13 +12,15 @@ output:
 
 #### Learning objectives 
 
+* Use the CLT to make confidence interval for a population mean
 * To apply the Central Limit Theorem for the mean in practical applications, we must
 estimate the standard deviation. This standard error is 
 $$ SE(\bar{x}) = \frac{s}{\sqrt{n}} $$
 * When we use the SE, the sampling distribution that allows for the additional uncertainty is Student’s t.
-* Construct confidence intervals for the true mean, $\mu$.
+* Construct 95% confidence intervals for the true mean $\mu$
   * A confidence interval for the mean has the form $\bar{x} \pm ME$
-  * The Margin of Error is $ME = t* SE(\bar{x})$.
+  * The Margin of Error is $ME = t^* SE(\bar{x})$.
+  * $t^*$ is the 0.975th quartile of the $t$ distribution with the degree of freedom equal to $n-1$. 
 * Write clear summaries to interpret a confidence interval
 
 
@@ -27,7 +29,7 @@ $$ SE(\bar{x}) = \frac{s}{\sqrt{n}} $$
 
 #### In class
 * Slides
-* Working on `21 Exercise`
+* Working on `21 Exercise` [pdf](https://sshanshans.github.io/stat140/labs/u6d1/u6d2.pdf)
 
 #### Items due
 * `21 Exercise` due [on moodle](https://moodle.mtholyoke.edu/mod/assign/view.php?id=573212) 09/29 6pm EST
