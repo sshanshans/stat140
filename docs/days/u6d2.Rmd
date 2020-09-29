@@ -29,7 +29,7 @@ $$ SE(\bar{x}) = \frac{s}{\sqrt{n}} $$
 
 #### In class
 * Slides
-* Working on `21 Exercise` [pdf](https://sshanshans.github.io/stat140/labs/u6d1/u6d2.pdf)
+* Working on `21 Exercise` [pdf](https://sshanshans.github.io/stat140/labs/u6d2/u6d2.pdf)
 
 #### Items due
 * `21 Exercise` due [on moodle](https://moodle.mtholyoke.edu/mod/assign/view.php?id=573212) 09/29 6pm EST
