@@ -1,0 +1,24 @@
+---
+title: "Unit 6 Day 2"
+output: 
+  html_document:
+    css: lab.css
+    highlight: pygments
+    theme: cerulean
+  pdf_document: default
+---
+
+###  CLT based inference
+
+#### Learning objectives 
+
+* Use the CLT to make confidence interval for a population mean
+* Use the CLT to do hypothesis testing
+
+
+#### In class
+* Slides [pdf](https://sshanshans.github.io/stat140/slides/u6d3.pdf)
+* Working on `22 Exercise` [pdf](https://sshanshans.github.io/stat140/labs/u6d3/u6d3.pdf)
+
+#### Items due
+* `22 Exercise` due [on moodle](https://moodle.mtholyoke.edu/mod/assign/view.php?id=573213) 09/30 6pm EST

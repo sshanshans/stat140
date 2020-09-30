@@ -28,7 +28,7 @@ $$ SE(\bar{x}) = \frac{s}{\sqrt{n}} $$
 * Finish reading [pdf](https://piazza.com/class_profile/get_resource/kcqqet0ou724kc/kfmxy2m327a66y)
 
 #### In class
-* Slides
+* Slides [pdf](https://sshanshans.github.io/stat140/slides/u6d2.pdf)
 * Working on `21 Exercise` [pdf](https://sshanshans.github.io/stat140/labs/u6d2/u6d2.pdf)
 
 #### Items due
