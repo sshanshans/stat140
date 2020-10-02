@@ -40,12 +40,12 @@ markup: "mmark"
 | Sep 29 (T) | CLT based confidence interval [(html)](http://sshanshans.github.io/stat140/days/u6d2) | 21 Exercise   |                        |
 | Sep 30 (W) | CLT based hypothesis testing  [(html)](http://sshanshans.github.io/stat140/days/u6d3) |  22 Exercise   |                        |
 | Oct 01 (TH) | Project workshop I  |                 |                        |
-| Oct 02 (F) | Project workshop II |                |      EA6, EA7 (due Oct 09)    |
+| Oct 02 (F) | Project workshop II [(html)](http://sshanshans.github.io/stat140/days/u6d5) |                |      EA6, EA7 (due Oct 09)    |
 | **Unit 7**     | **Topics in Inference** |                      |                        |
-| Oct 05 (M) | Topics I |             |                        |
-| Oct 06 (T) |  Topics II |              |                        |
-| Oct 07 (W) | Topics III |             |                        |
-| Oct 08 (TH) | Topics IV |            |                        |
-| Oct 09 (F) | Presentation day |                        |                        |
+| Oct 05 (M) | Mutiple means and proportions |             |                        |
+| Oct 06 (T) |  Project workshop III |              |                        |
+| Oct 07 (W) | Statistics, AI and Ethics |             |                        |
+| Oct 08 (TH) | Project workshop IV |            |                        |
+| Oct 09 (F) | Project workshop V |                        |                        |
 | **Unit X**     | **Tell your story with data** |                      |                        |
 | Oct 12 (M) | Concluding remarks |                      |                        |
