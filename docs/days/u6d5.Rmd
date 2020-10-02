@@ -15,7 +15,7 @@ output:
 
 #### In class
 * Talk about `EA06/07` 
-  * introduction page [html]([intro](https://sshanshans.github.io/stat140/eas/06/intro))
+  * introduction page [html](https://sshanshans.github.io/stat140/eas/06/intro)
 
 #### Items due
 * `EA05` due 10/02 6pm EST
