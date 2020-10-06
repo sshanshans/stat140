@@ -42,8 +42,8 @@ markup: "mmark"
 | Oct 01 (TH) | Project workshop I  |                 |                        |
 | Oct 02 (F) | Project workshop II [(html)](http://sshanshans.github.io/stat140/days/u6d5) |                |      EA6, EA7 (due Oct 09)    |
 | **Unit 7**     | **Topics in Inference** |                      |                        |
-| Oct 05 (M) | Mutiple means and proportions |             |                        |
-| Oct 06 (T) |  Project workshop III |              |                        |
+| Oct 05 (M) | ANOVA [(pdf)](http://sshanshans.github.io/stat140/slides/u7d1.pdf) |             |                        |
+| Oct 06 (T) |  Chi squared testing  [(pdf)](http://sshanshans.github.io/stat140/slides/u7d2.pdf)  |              |                        |
 | Oct 07 (W) | Statistics, AI and Ethics |             |                        |
 | Oct 08 (TH) | Project workshop IV |            |                        |
 | Oct 09 (F) | Project workshop V |                        |                        |
