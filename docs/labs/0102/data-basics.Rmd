@@ -1,0 +1,131 @@
+---
+title: "Data basics"
+subtitle: "Stat140-04"
+author: "Shan Shan"
+output: pdf_document
+---
+
+## Topic 1: Identify the W's: Online shopping
+
+Suppose that the observational units in a study are the purchases that I made on amazon.com *in the past 12 months*. Identify each of the following as a categorical variable, a quantitative/numerical variable, or not a variable. If not a variable, briefly explain why. 
+
+1. Was the purchase shipped to me or to someone else?
+
+
+\vspace{1.5cm}
+
+2. Do I tend to spend more on purchases sent to others than on purchases sent to me?
+
+<!-- Not a variable. Variables are things that can be recorded for each observational unit, not an overall question or measure that pertains to the entire dataset. -->
+
+\vspace{1.5cm}
+
+3. How much did I spend on the purchase?
+
+
+\vspace{1.5cm}
+
+4. Did the purchase include at least one book?
+
+\vspace{1.5cm}
+
+5. What was the average price of these purchases?
+
+\vspace{1.5cm}
+
+\newpage
+## Topic 2: Understanding the data tables
+
+#### 1. Iris [Adpated from OpenIntro Chapter 1] 
+Sir Ronald Aylmer Fisher was an English statistician, evolutionary biologist, and geneticist who worked on a data set contained sepal length and width, and petal length and width from three species of iris flowers (setosa, versicolor and virginica). There were 50 flowers from each species in the data set. Below is the output of the `head` function.
+
+```{r, echo = FALSE}
+head(iris)
+```
+
+1. What does the row of the table represent? 
+
+\vspace{1.5cm}
+
+
+2. What does the columns of the table represent?
+
+\vspace{1.5cm}
+
+
+3. How many variables are there in the data table?
+
+\vspace{1.5cm}
+
+
+4. Is the variable 'Sepal.Length' categorical or quantitative?
+
+\vspace{1.5cm}
+
+5. Is the variable 'Species' categorical or quantitative?
+
+\vspace{1.5cm}
+
+\newpage
+### **Topic 3: Looking into a very large data set**
+In the era of big data, a data table might contain thousands of (or even millions of, if you work in fields like astrophysical science) of observational units or variables. In this section, you will learn how to investigate your data using the core functions of R. 
+
+#### 1. Flights 
+
+The Bureau of Transportation Statistics (BTS) is a statistical agency that is a part of the Research and Innovative Technology Administration (RITA). As its name implies, BTS collects and makes available transportation data, such as the flights data we will be working with in this lab. Now go to \url{https://rdrr.io/snippets/} and copy the following code in the code snippet. 
+
+```{r load-data}
+library(nycflights13)
+```
+
+I have preloaded the dataset `flights` here. `flights` is now a *data matrix*, with each row representing an *observation* and each column representing a *variable*. R calls this data format a **data frame**, which is a term that will be used throughout this module.
+
+To take a look at the first few rows of the data set (by default, the first 6 rows), you can use the **head** function. It's good for getting a quick summary of what's in the data frame, but it will not tell you how many observational units there are. Run the following code to see the output of the **head** function. 
+```{r head, exercise = TRUE}
+head(flights)
+```
+
+The **str** function will print out some more detailed information about the data frame, including how many observational units and variables there are, and the type of each variable – but its output is a little less well organized.
+
+```{r str, exercise = TRUE}
+str(flights)
+```
+
+You can see the dimensions of this data frame by using **dim**, **nrow**, **ncol**. 
+The **dim** function will tell you how many rows (i.e., how many observational units) and columns (i.e., how many variables) are in the data frame (in that order). The **nrow** function will tell you how many rows there are, and the **ncol** function will tell you how many columns there are.
+
+```{r dim}
+dim(flights)
+nrow(flights)
+ncol(flights)
+```
+
+The output indicates that there are 336776 rows and 19 columns.
+
+You can see the names of the columns (or variables) by typing:
+
+```{r names}
+names(flights)
+```
+
+This returns the names of the variables in this data frame, e.g., `year`, `month`, `day`, `dep_time`, `arr_time`, `dep_delay`, `arr_delay`, `carrier`, `tailnum`, `flight`, `origin`, `dest`, `air_time`, ...
+
+Let’s start to examine the data a little more closely. We can access the data in a single column of a data frame separately using a command like
+
+```{r origin}
+head(flights$origin)
+```
+
+This command will only show the origin of the flights. What command would you use to extract just the destination of the flights? Write your code here.
+
+\vspace{0.1in}
+
+The `flights` data frame is a massive trove of information. Let's think about 
+some questions we might want to answer with these data:
+
+* We might want to find out how delayed flights headed to a particular 
+destination tend to be. 
+* We might want to evaluate how departure delays vary over months. 
+* Or we might want to determine which of the three major NYC airports has a better on time percentage for departing flights. 
+
+In the following weeks, you will learn statistical and data analysis skills to help you answer these questions. 
