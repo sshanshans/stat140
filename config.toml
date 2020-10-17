@@ -32,33 +32,18 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 [[menu.main]]
   weight = 1
   identifier = "home"
-  name = "Home"
+  name = "Overview"
   url = "../stat140"
-[[menu.main]]
-  weight = 3
-  identifier = "schedule"
-  name = "Schedule"
-  url = "../stat140/schedule.html"
 [[menu.main]]
   weight = 2
   identifier = "policies"
   name = "Syllabus"
   url = "../stat140/policies.html"
 [[menu.main]]
-  weight = 4
-  identifier = "rstudio"
-  name = "RStudio"
-  url = "https://rstudio.cloud"
-[[menu.main]]
-  weight = 5
-  identifier = "moodle"
-  name = "Moodle"
-  url = "https://moodle.mtholyoke.edu"
-[[menu.main]]
-  weight = 6
-  identifier = "help"
-  name = "Piazza"
-  url = "https://piazza.com"
+  weight = 3
+  identifier = "tips"
+  name = "Tips"
+  url = "../stat140/tips.html"
 
 
 [params]
