@@ -25,8 +25,19 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://sshanshans.github.io/stat140/policies.html</guid>
-      <description>Inclusion &amp;amp; Accessibility This course is designed to be welcoming and accessible to all students. It is my goal for our learning environment to facilitate learning and intellectual development for everyone. If something was said in class (by anyone) that made you feel uncomfortable, or if there is some aspect of class that is not welcoming or accessible to you, please let me know immediately.
- Academic Accommodations AccessAbility Services is the office on campus that determines academic accommodations for students with disabilities.</description>
+      <description>Basic Information    Instructor   Shan Shan (Assistant Professor of Statistics)
+  Class Time and Location   Mon, Tue, Wed, Thur, Fri: 12:45PM (EST) on zoom
+  Office hours    TTh: 2-3pm Immediately after lecture: Just stick around    Communication   All communication will take place via Piazza:
+ All official announcements and communication will happen over Piazza. Any questions regarding course content and course organization should be posted on Piazza.</description>
+    </item>
+    
+    <item>
+      <title>Tips and Help</title>
+      <link>http://sshanshans.github.io/stat140/tips.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://sshanshans.github.io/stat140/tips.html</guid>
+      <description>Logistics  How can I succeed in this class? How I should ask for TAs to help me debug the code?  R related  How to Install R on Windows, Mac OS X, and Ubuntu?  Imposter syndrome  Why some of my classmates just got the concept/did the programming assignment so fast? Am I not good enough?   Q: How can I succeed in this class? [Adapted from Albert Kim]</description>
     </item>
     
   </channel>

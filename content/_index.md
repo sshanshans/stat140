@@ -3,6 +3,22 @@ title: "STAT 140:  Introduction to the Ideas and Applications of Statistics"
 description: "This course introduces you to the discipline of statistics as a science of understanding and analyzing data. Throughout the module, you will learn how to effectively make use of data in the face of uncertainty: how to collect data, how to analyze data, and how to use data to make inferences and conclusions about real world phenomena. (Updated Oct 17, 2020)"
 markup: "mmark"
 ---
+### Course goals
+
+{{< columns >}} 
+### Basic Statistical Ideas
+Readings on the history, philosophy, and core principles of statistics.
+
+<--->
+
+### Computing Skills
+Lorem markdownum insigne...
+
+<--->
+
+### Comunication
+Lorem markdownum insigne...
+{{< /columns >}}
 
 ### Course Flowchart
 

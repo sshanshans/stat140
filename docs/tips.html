@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<link rel="icon" sizes="76x76" href="/stat140/img/favicon.png">
+	<link rel="icon" type="image/png" href="/stat140/img/favicon.png">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+	<title>Stat 140 (Fall 2020)</title>
+
+	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+
+	
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="https://cdn.rawgit.com/gaborcsardi/r-font/master/rlogo.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.0/js/all.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.0/js/v4-shims.js"></script>
+
+	
+    <link href="/stat140/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/stat140/css/material-kit.css" rel="stylesheet"/>
+</head>
+
+  
+<body class="profile-page">
+  	<nav class="navbar navbar-transparent navbar-fixed-top navbar-color-on-scroll">
+	    	<div class="container">
+        	
+        	<div class="navbar-header">
+        		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-example">
+            		<span class="sr-only">Toggle navigation</span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+        		</button>
+        		<a class="navbar-brand" href="/stat140">Stat 140 (Fall 2020)</a>
+        	</div>
+
+        	<div class="collapse navbar-collapse" id="navigation-example">
+        		<ul class="nav navbar-nav navbar-right">
+      
+        
+
+        <li class="nav-item">
+          <a href="/stat140">
+            
+            <span>Overview</span>
+          </a>
+        </li>
+        
+      
+        
+
+        <li class="nav-item">
+          <a href="/stat140/policies.html">
+            
+            <span>Syllabus</span>
+          </a>
+        </li>
+        
+      
+        
+
+        <li class="nav-item">
+          <a href="/stat140/tips.html">
+            
+            <span>Tips</span>
+          </a>
+        </li>
+        
+      
+        		</ul>
+        	</div>
+    	</div>
+    </nav>
+  <div class="wrapper">
+    <div class="header header-filter" style="background-image: url('https://www.mtholyoke.edu/sites/default/files/Mount-Holyoke-College-aerial-200408-CH.png');">
+    </div>
+		<div class="main main-raised">
+			<div class="container">
+		  	<div class="section text-left">
+		  	  <h2 class="title">Tips and Help</h2>
+	            <h3 id="logistics">Logistics</h3>
+
+<ol>
+<li><a href="#success">How can I succeed in this class?</a></li>
+<li><a href="#debug">How I should ask for TAs to help me debug the code?</a></li>
+</ol>
+
+<h3 id="r-related">R related</h3>
+
+<ol>
+<li><a href="https://www.datacamp.com/community/tutorials/installing-R-windows-mac-ubuntu">How to Install R on Windows, Mac OS X, and Ubuntu?</a></li>
+</ol>
+
+<h3 id="imposter-syndrome">Imposter syndrome</h3>
+
+<ol>
+<li><a href="#imposter">Why some of my classmates just got the concept/did the programming assignment so fast? Am I not good enough?</a></li>
+</ol>
+
+<hr>
+
+<h5 id="a-namesuccessaq-how-can-i-succeed-in-this-class"><a name="success"></a>Q: How can I succeed in this class?</h5>
+
+<p>[Adapted from Albert Kim]</p>
+
+<p>Ask yourself:</p>
+
+<p>When I have questions or don’t understand something:</p>
+
+<ul>
+<li>Am I asking questions in class?</li>
+<li>Am I asking questions on Piazza? Even better: Am I answering my peers’ questions on Piazza</li>
+<li>Have I been coming to TA/instructor's office hours?”</li>
+</ul>
+
+<p>Lectures, labs, and readings:</p>
+
+<ul>
+<li>Am I staying on top of Piazza posts sent between lectures? If you need help developing a notification strategy that best suits your lifestyle, please speak to me.</li>
+<li>Am I attending lectures consistently?</li>
+<li>During in-class activities, am I actually running code line-by-line and studying the outputs, or am I just going through the motions?</li>
+<li>During in-class exercises, am I taking full advantage that I’m in the same virtual space at the same time with the instructor, and most importantly my peers, or am I browsing the web/texting the whole time?</li>
+<li>Have I been doing the associated readings for each lecture?</li>
+</ul>
+
+<hr>
+
+<h5 id="a-namedebugaq-how-i-should-ask-for-tas-to-help-me-debug-the-code"><a name="debug"></a>Q: How I should ask for TAs to help me debug the code</h5>
+
+<p>Please note that the teaching staff will not debug code longer than 2-3 lines via Piazza. Learning to debug is a critical skill for statistician and data scientists doing quantitative analysis, and remote requests for help with code usually end up with the teaching staff giving you the answer rather than you learning how to find the answer.</p>
+
+<p>The best way to use office hours and ask TAs for coding questions would be:</p>
+
+<ul>
+<li>You should come to office hours having done your own legwork and ruled out basic logical errors. Identify the place where the error is suspected to come from by doing ablation studies. (Please see below for some common debugging tips.)</li>
+<li>During the office hours, you should articulate what your goals are and what you have observed with experiments, what you have tried/observed, what you think might be the problem, and what advice you need to move forward.</li>
+<li>The TAs will mostly help you by looking at and analyzing the outputs of your code instead of looking at the original code. Typical advice that the TAs might advise you would be to ask you to do more analytical or ablation studies about your code.</li>
+<li>If absolutely needed, please be prepared to send us your Rmarkdown document and any dataset you used.</li>
+</ul>
+
+<hr> 
+
+<h5 id="a-nameimposteraq-why-some-of-my-classmates-just-got-the-conceptdid-the-programming-assignment-so-fast-am-i-not-good-enough"><a name="imposter"></a>Q: Why some of my classmates just got the concept/did the programming assignment so fast? Am I not good enough?</h5>
+
+<p><strong>No!</strong> Let me say something about peer pressure and impostor syndrome (and this is adapted from Drew Hilton.)</p>
+
+<p>First, your performance in this class is absolute, not relative.  We don't grade on a curve.  It doesn't hurt you for others in the class to do well.  There is a bunch of stuff you need to know, so go learn it.  Learn it well.  Learn it deeply. That takes time.  Focus on your own learning, not what other people are doing.</p>
+
+<p>Second, imposter syndrome is where you feel like it was a mistake that you got admitted/whatever.  You think you aren't good enough, and that eventually someone will figure out this mistake. LOTS of people think this, even [especially?] people who are really good, because they have a high standard. The other thing that makes this worse is the &quot;myth of the effortless genius.&quot;   A lot of social constructs reward/reinforce the idea of looking effortlessly smart  (&quot;oh you are so smart! You did that so easily!&quot;).   We don't say enough &quot;you worked really hard at that, but finally got it---that's what is really important&quot;.   There are only two ways to be effortlessly smart:  (1) doing something that isn't hard enough to challenge you (you have learned the materials before) (2) faking it.</p>
+
+<p>Please remember:</p>
+
+<ul>
+<li>It is ok to take a lot of time to master a new concept and learn programming</li>
+<li>It is ok for stat140 to be hard</li>
+<li>If you have imposter syndrome, it doesn't actually mean you aren't good enough</li>
+<li>If you have imposter syndrome, you can come talk to me about it.</li>
+<li>We want you to work hard.  It isn't supposed to be easy (if these things were easy, then people wouldn't get paid a lot to do them in jobs!)</li>
+</ul>
+
+<p><br></p>
+
+	      </div>
+      </div>
+		</div>
+    <footer class="footer">
+  <div class="container">
+	  <nav class="pull-left">
+	    <ul>
+	    
+      </ul>
+    </nav>
+	  <div class="copyright pull-right">
+	    <img src="/stat140/img/cc-by.svg"/>
+	  </div>
+  </div>
+</footer>
+	</div>
+</body>
+
+			
+
+	
+	<script src="/stat140/js/jquery.min.js" type="text/javascript"></script>
+	<script src="/stat140/js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="/stat140/js/material.min.js"></script>
+
+	
+	<script src="/stat140/js/nouislider.min.js" type="text/javascript"></script>
+
+	
+	<script src="/stat140/js/bootstrap-datepicker.js" type="text/javascript"></script>
+
+	
+	<script src="/stat140/js/material-kit.js" type="text/javascript"></script>
+
+</html>
