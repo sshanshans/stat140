@@ -1,0 +1,35 @@
+---
+title: "Week 2 Day 5"
+output: 
+  html_document:
+    css: lab.css
+    highlight: pygments
+    theme: cerulean
+  pdf_document: default
+---
+
+### Putting it all together: exploratory data analysis
+
+#### Learning objectives 
+* **Revisit data wrangling basics**
+  * Pipe
+  * Arrange
+  * `group_by`
+  * Summary statistics
+* **Revisit data visualization basics**
+  * Create graphs with ```ggplot2``` in R
+  * Add variables to a graph with ```aes```thetics
+  * Create different types of graphs with ```geoms```
+  * Understand the grammar rules of creating graphs with ```ggplot2```
+
+#### Checklist
+
+-   <input type="checkbox" unchecked> Finish reading: [Chapter 3](https://nustat.github.io/intro-stat-ds/3-wrangling.html) </input>
+
+
+#### Reminder 
+
+The following items are due this Friday 6PM.
+
+-   `DataCamp 04`: Data visualization
+-   `MP01`

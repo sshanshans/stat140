@@ -1,0 +1,32 @@
+---
+title: "Week 2 Day 4"
+output: 
+  html_document:
+    css: lab.css
+    highlight: pygments
+    theme: cerulean
+  pdf_document: default
+---
+
+### Numerical variable: summary of histogram
+
+#### Learning objectives 
+* **Understand the definition of the mean and standard deviation**
+  * The mean is the sum of the values divided by the count. It is a suitable summary for unimodal, symmetric distributions.
+  * The standard deviation is roughly the square root of the average squared difference between each data value and the mean. It is the summary of choice for the spread of unimodal, symmetric variables.
+
+* **Understand when to use (median and IQR) and (mean and standard deviation)**
+  * We’ll report the median and IQR when the distribution is skewed. 
+  * If it’s symmetric, we’ll summarize the distribution with the mean and standard deviation (and possibly the median and IQR as well). 
+  * Always pair the median with the IQR and the mean with the standard deviation.
+
+#### Before class
+-   <input type="checkbox" unchecked> Finish the video: [Measure of center](https://www.coursera.org/learn/probability-intro/lecture/AM0o6/measures-of-center) </input>
+-   <input type="checkbox" unchecked> Finish the video: [Measure of spread](https://www.coursera.org/learn/probability-intro/lecture/t9Wbk/measures-of-spread)  </input>
+-   <input type="checkbox" unchecked> Finish the video: [Robust statistics](https://www.coursera.org/learn/probability-intro/lecture/ssktR/robust-statistics) </input>
+
+#### Reminder 
+The following items are due this Friday 6PM.
+
+-   `DataCamp 04`: Data visualization
+-   `MP01`

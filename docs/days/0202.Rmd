@@ -1,0 +1,24 @@
+---
+title: "Week 2 Day 2"
+output: 
+  html_document:
+    css: lab.css
+    highlight: pygments
+    theme: cerulean
+  pdf_document: default
+---
+
+### Categorical variable: relationship between two variables
+
+#### Learning objectives 
+* Compute joint, marginal and conditional distribution.
+* Independence between two categorical variables.
+
+#### Checklist
+-   <input type="checkbox" unchecked> Finish reading: [Two categorical variables](https://piazza.com/class_profile/get_resource/kge2lk8hfmxkz/kge2lllcecenh) </input>
+
+#### Reminder 
+The following items are due this Wednesday 6PM.
+
+-   `DataCamp 03`: Data wrangling
+-   `HW01`

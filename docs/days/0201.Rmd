@@ -1,0 +1,28 @@
+---
+title: "Week 2 Day 2"
+output: 
+  html_document:
+    css: lab.css
+    highlight: pygments
+    theme: cerulean
+  pdf_document: default
+---
+
+### Categorical variable: distributions and proportional thinking
+
+#### Learning objectives 
+* Interpret a bar chart or pie chart: we display categorical data using the area principle in either a bar chart or a pie chart.
+* Understand what distributions mean in the context of categorical variables.
+* Be familiar with proportional thinking
+* Interpret a contingency table: when we want to see how two categorical variables are related, we put the counts (and/or percentages) in a two-way table called a contingency table.
+
+#### Checklist
+-   <input type="checkbox" unchecked> Finish reading: [Categorical variables](https://piazza.com/class_profile/get_resource/kge2lk8hfmxkz/kge2llgoak7nf) </input>
+-   <input type="checkbox" unchecked> Finish reading: [Chapter 2](https://nustat.github.io/intro-stat-ds/2-viz.html) </input>
+-   <input type="checkbox" unchecked> [Optional] Finish watching: [Exploring Categorical Variables](https://www.coursera.org/learn/probability-intro/lecture/vEjt0/exploring-categorical-variables) </input>
+
+#### Reminder 
+The following items are due this Wednesday 6PM.
+
+-   `DataCamp 03`: Data wrangling
+-   `HW01`
