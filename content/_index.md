@@ -1,30 +1,30 @@
 ---
 title: "STAT 140:  Introduction to the Ideas and Applications of Statistics"
-description: "This course introduces you to the discipline of statistics as a science of understanding and analyzing data. Throughout the module, you will learn how to effectively make use of data in the face of uncertainty: how to collect data, how to analyze data, and how to use data to make inferences and conclusions about real world phenomena. (Updated Oct 17, 2020)"
+description: "(Updated Oct 17, 2020)"
 markup: "mmark"
 ---
 ### Course goals
 
-{{< columns >}} 
-### Basic Statistical Ideas
-Readings on the history, philosophy, and core principles of statistics.
+<div class="row">
+<div class="col-md-4" markdown="1">
+<img height="200px" class="center-block" src="../img/basic-stat.jpeg">
+<h4>Basic Statistical Ideas</h4>
+</div>
+<div class="col-md-4" markdown="1">
+<img height="200px" class="center-block" src="../img/data.png">
+<h4>Computational skills</h4>
+</div>
+<div class="col-md-4" markdown="1">
+<img height="200px" class="center-block" src="../img/communicate.png">
+<h4>Communication</h4>
+</div>
+</div>
 
-<--->
+### Course Map
 
-### Computing Skills
-Lorem markdownum insigne...
+<img style="float: left; max-width: 100%; width: auto; height: auto;" src="https://sshanshans.github.io/stat140/img/course-flow.png">
 
-<--->
-
-### Comunication
-Lorem markdownum insigne...
-{{< /columns >}}
-
-### Course Flowchart
-
-![](img/course-flow.png)
-
-### Class Format
+### Typical week flow
 
 {.table .table1 .table-condensed .table-striped .text-left}
 <span></span>     | <span></span> | <span></span> 
