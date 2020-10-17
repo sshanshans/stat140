@@ -1,0 +1,64 @@
+---
+title: "MP02: Exploratory Data Analysis"
+author: "INSERT YOUR NAME HERE"
+output:
+  pdf_document: default
+  html_document:
+    highlight: pygments
+    theme: spacelab
+---
+
+```{r load-packages, message=FALSE, include= FALSE}
+# Load packages
+library(tidyverse) 
+```
+
+
+```{r load-data, message=FALSE, include = FALSE}
+# Load data
+college_recent_grads <- read_csv("https://raw.githubusercontent.com/sshanshans/stat140/master/docs/projects/MP02/recent-grads-140.csv")
+```
+
+
+### Exercise 1
+
+(Type your answer to Exercise 1 here. Add code chunks as needed. Don't forget  to label your code chunk. Do not use spaces in code chunk labels.)
+
+### Exercise 2
+
+(Type your answer to Exercise 2 here. Add code chunks as needed. Don't forget to label your code chunk. Do not use spaces in code chunk labels.)
+
+### Exercise 3
+
+(Type your answer to Exercise 3 here. Add code chunks as needed. Don't forget to label your code chunk. Do not use spaces in code chunk labels.)
+
+### Exercise 4
+
+...
+
+### Exercise 5
+
+...
+
+### Exercise 6
+
+...
+
+### Exercise 7
+
+...
+
+### Exercise 8
+
+...
+
+### Exercise 9
+
+...
+
+### Exercise 10
+
+...
+
+## Extra Credits
+
