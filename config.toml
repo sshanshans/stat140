@@ -35,15 +35,21 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   name = "Overview"
   url = "../stat140"
 [[menu.main]]
-  weight = 2
+  weight = 3
   identifier = "policies"
   name = "Syllabus"
   url = "../stat140/policies.html"
 [[menu.main]]
-  weight = 3
+  weight = 4
   identifier = "tips"
   name = "Tips"
   url = "../stat140/tips.html"
+[[menu.main]]
+  weight = 2
+  identifier = "schedule"
+  name = "Schedule"
+  url = "../stat140/schedule.html"
+
 
 
 [params]

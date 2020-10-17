@@ -1,60 +1,94 @@
 ---
 title: "STAT 140:  Introduction to the Ideas and Applications of Statistics"
-description: "(Updated Oct 17, 2020)"
+description: "Section 04 (Updated Oct 17, 2020)"
 markup: "mmark"
 ---
 ### Course goals
 
-<div class="row">
+This course introduces students to the discipline of statistics as a science of understanding and analyzing data. Throughout the module, students will learn how to effectively make use of data in the face of uncertainty: how to collect data, how to analyze data, and how to use data to make inferences and conclusions about real world phenomena. In particular, we focus on the following skills.
+
+<div class="row" style = "text-align: center;">
 <div class="col-md-4" markdown="1">
-<img height="200px" class="center-block" src="../img/basic-stat.jpeg">
+<img height="200px" class="center-block" src="https://github.com/sshanshans/stat140/blob/master/docs/img/basic-stat.jpeg?raw=true">
 <h4>Basic Statistical Ideas</h4>
+<h7></h7>
 </div>
 <div class="col-md-4" markdown="1">
-<img height="200px" class="center-block" src="../img/data.png">
-<h4>Computational skills</h4>
+<img height="200px" class="center-block" src="https://github.com/sshanshans/stat140/blob/master/docs/img/data.png?raw=true">
+<h4>Computational Skills</h4>
 </div>
 <div class="col-md-4" markdown="1">
-<img height="200px" class="center-block" src="../img/communicate.png">
-<h4>Communication</h4>
+<img height="200px" class="center-block" src="https://github.com/sshanshans/stat140/blob/master/docs/img/communicate.png?raw=true">
+<h4>Communication with Data</h4>
 </div>
 </div>
 
-### Course Map
 
-<img style="float: left; max-width: 100%; width: auto; height: auto;" src="https://sshanshans.github.io/stat140/img/course-flow.png">
+### Typical workflow
 
-### Typical week flow
+<div class="container mt-5 mb-5">
+<div class="row">
+<div class="col-md-4 offset-md-3">
+<h5>Weekly</h5>
+<ul class="timeline">
 
-{.table .table1 .table-condensed .table-striped .text-left}
-<span></span>     | <span></span> | <span></span> 
-----------------------------------|----------------------------------|----------------------------------
-Before class | Finish readings/videos and complete a quiz | 1-1.5 hrs/day
-Class time | Synchronous, some lecture and lots of learning by doing, complete a tutorial together  | 1-1.75 hrs/day
-Every week| Work in groups, complete an evaluative assignment (EA) | 4-6 hrs/week 
+<li>
+<b>Monday</b>
+<p>Q&A (15 min) + Lecture (30min) + Example/Exercise (30min) </p>
+</li>
+
+<li>
+<b>Tuesday </b>
+<p>Lecture (30min) + Example/Exercise (30min)  </p>
+</li>
+
+<li>
+<b>Wednesday: problem set due</b>
+<p>Lecture (15min) + Group based learning (1hr 30min) </p>
+</li>
+
+
+<li>
+<b>Thursday </b>
+<p>Lecture (30min) + Example/Exercise (30min)  </p>
+</li>
+
+
+<li>
+<b>Friday: group project due </b>
+<p>Lecture (15min) + Group based learning (1hr 30min)</p>
+</li>
+
+
+
+</ul>
+</div>
+<div class="col-md-4 offset-md-3">
+<h5>Daily</h5>
+<ul class="timeline">
+
+<li>
+<b>Before class (1hr) </b>
+<p>Finish reading/video assignments </p>
+</li>
+
+<li>
+<b>During class (1.5hr) </b>
+<p>Some lecture and lots of learning by doing </p>
+</li>
+
+<li>
+<b>After class (2hr) </b>
+<p>Complete a problem set and group assignment everyweek </p>
+</li>
+
+</ul>
+</div>
+</div>
+</div>
 
 In general, this course should take you about 20-22 hours per week. 
 
-### Quick Links
-
-* Piazza
-* Gradescope
-
-### Weekly Course Materials
-
-Week 1: Introduction to statistics and data
-
-Week 2: Data visualization and summary
-
-Week 3: Basic regression
-
-Week 4: Statistical theory
-
-Week 5: Confidence interval
-
-Week 6: Hypothesis testing I
-
-Week 7: Hypothesis testing II
 
 
 

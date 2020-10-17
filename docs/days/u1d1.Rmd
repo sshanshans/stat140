@@ -14,16 +14,30 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ###  Welcome and introduction to statistics
 
+#### Motivating questions
+* What is statistics
+* What are data
+* How can statistics help us learn about data
+
 #### Learning objectives 
 * Three components of statistics
 * Data are recorded values together with their context
 * Data don't have to be numbers
 
-#### Before class
-* Finish [Course Essentials](https://sshanshans.github.io/stat140/labs/CoursePrep.html)
+#### Todo checklist
+- <input type="checkbox" unchecked> Finish watching [Three Ways to Spot a Bad Statistic (TED Talk)](https://www.ted.com/talks/mona_chalabi_3_ways_to_spot_a_bad_statistic#t-27981): Mona Chabli shares tips for spotting problems in data conclusions.</input>
+- <input type="checkbox" unchecked> Finish reading [Chapter 1](https://nustat.github.io/intro-stat-ds/1-getting-started.html) </input>
 
 #### During class
-* Slides: [html](https://sshanshans.github.io/stat140/slides/u1d1.pdf)
-* Activity 1: [I notice, I wonder](https://bit.ly/3l76Z93)
-* Activity 2: [Data visualization activity](https://sshanshans.github.io/stat140/labs/covid.html)
+* Activity: [I notice, I wonder](https://bit.ly/3l76Z93)
+
+#### Reminder
+The following items are due this Friday 6PM. 
+
+* `DataCamp 01`: Intro to basics
+* `DataCamp 02`: Vectors
+
+The follow item is due next Wednesday 6PM
+
+* `HW 01`: Meeting the toolkits
 
