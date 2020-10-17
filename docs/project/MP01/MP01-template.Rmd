@@ -1,0 +1,151 @@
+---
+title: "Miniproject 1"
+Author: "Type your name here"
+output:
+  pdf_document: default
+  html_document:
+    highlight: pygments
+    theme: readable
+editor_options: 
+  markdown: 
+    wrap: sentence
+---
+
+### 0. Load the tidyverse package
+
+```{r global_options}
+library(tidyverse)
+```
+
+### 1. R variables and the assignment operator
+
+To get you started, run the following command by pressing the green arrow below.
+
+```{r}
+my_var <- 3
+```
+
+To do so, you can simply put your cursor on that line, and hit the **Run** button on the upper right corner of the pane.
+
+This command instructs R to assign the variable `my_var` the value 3.
+In Stat140 and in general statistical literacy, we use the word "variable" in two ways.
+The first is a name that we've given a value that we want to be able to re-use later.
+In this example, `my_var` is a variable.
+We have *assigned* the value 3 to it using the *assignment operator*, `<-` (a less than sign followed by a minus sign, to form an arrow).
+
+We can see the value that's currently assigned to `my_var` by entering the name of the variable on its own line:
+
+```{r}
+my_var
+```
+
+We can also use that value in later calculations:
+
+```{r}
+my_var * 2
+```
+
+Remember to run these code, you can simply put your cursor on that line, and hit the **Run** button on the upper right corner of the pane.
+
+The second meaning of the word "variable" is more closely related to what we have discussed before: a column in a data frame.
+
+### 2. Reading data into R from spreadsheet files
+
+As you have seen in previous tutorials, the most common way to store data is in a data frame.
+You can think of a data frame as being like a spreadsheet.
+Each row corresponds to an observational unit, and each column corresponds to a variable.
+
+Usually, the data are stored in a spreadsheet-like file outside of R.
+The file format we'll work with most in this class is a csv file (csv stands for comma separated value).
+We can read in csv files using the `read_csv` function, which is in the `readr` package:
+
+The `nhanes` data is from the "National Health and Nutrition Examination Survey", a survey that is conducted every year and records demographic and health information about a large nationally-representative sample of Americans.
+We will work with a relatively small subset of this data set; I have selected just a few variables and a subset of the participants from the 2011-2012 version of the survey.
+
+```{r,  message=FALSE}
+nhanes <- read_csv("https://raw.githubusercontent.com/sshanshans/stat140/master/docs/labs/data/nhanes.csv")
+```
+
+There are also functions to read in data from other file formats.
+For example, if your data were stored in an excel file (with a file extension like xlsx), you could use the `read_excel` function from the `readxl` package to read the data in.
+This function doesn't handle reading files from the internet very well yet, so we won't use it much in this class -- but it's there if you need it later.
+
+### 3. Getting a first look at what's in the data frame
+
+We've talked about three functions `head`, `str`, `dim`, `glimpse` in Exercise 02 that can be useful to get some rough ideas about the data.
+
+What command would you use to just show the first few rows of the data set?
+Try it!
+(Enter your ansewr in the code chunk below and run the entire report by hitting **Knit HTML**. Voila! The R output you need is already in your report.)
+
+```{r}
+# enter your code for 3 here
+```
+
+### 4. Converting categorical variables to factors
+
+When you first read a data set in, quantitative data types will usually be assigned the correct data type in R, but categorical variables will typically be stored as a character data type in R.
+We'll need to tell R that these are categorical variables by converting them to `factors`.
+A factor is just R's name for a categorical variable.
+
+We will use the `mutate` function to modify the data frame.
+
+```{r, echo = TRUE}
+nhanes <- nhanes %>%
+    mutate(Gender = factor(Gender))
+```
+
+The `%>%` operator is called the **piping** operator.
+Basically, it takes the output of the current line and pipes it into the following line of code.
+We will learn more about the piping operator next week.
+
+**A note on piping:** Note that we can read these three lines of code as the following:
+
+*"Take the `hnanes` dataset and **pipe** it into the `mutate` function. Using this mutate the variable `Gender` to make it into a categorical variable. Then assign this new resulting dataset to the object called `nhanes`, i.e. overwrite the old `nhanes` dataset with the new one containing the overwritten `Gender` variable."*
+
+### 5. Listing distinct values of a variable
+
+In order to know what to list for the possible levels of an ordinal categorical variable, you can use the `distinct` function to list the distinct values of the variable:
+
+```{r, echo = TRUE}
+nhanes %>% distinct(Education)
+```
+
+Now list the distinct values of the `Race` variable.
+Write your code in the following code chunk.
+
+```{r}
+# enter your code here for listing the distinc values of the `Race` variable.
+```
+
+### 6. Summarizing Categorical Variables
+
+It is often helpful to obtain counts of how many observational units fall into each category of a categorical variable, or into each combination of categories for two categorical variables.
+We will do this with the table function:
+
+```{r, echo = TRUE}
+table(nhanes$Education, nhanes$Gender)
+```
+
+Use the `table()` functions to produce a contingency table for the variables `Education` and `Race`.
+
+```{r}
+# enter your code here for generating a contingency table for the variables `Race` variable.
+```
+
+## Resources for learning R and working in RStudio
+
+These cheatsheets may come in handy throughout the semester:
+
+-   [RMarkdown cheatsheet](https://github.com/rstudio/cheatsheets/raw/master/rmarkdown-2.0.pdf)
+-   [Data transformation cheatsheet](https://github.com/rstudio/cheatsheets/raw/master/data-transformation.pdf)
+-   [Data visualization cheatsheet](https://github.com/rstudio/cheatsheets/raw/master/data-visualization-2.1.pdf)
+
+Note that some of the code on these cheatsheets may be too advanced for this course.
+However the majority of it will become useful throughout the semester.
+
+## Lastly...
+
+Once you finish, click on *Knit to PDF* and you'll see your document in a new pop-up window.
+Name the file `MP01_[yourlastname].pdf` and submit the file on gradescope.
+Each group only needs to submit once.
