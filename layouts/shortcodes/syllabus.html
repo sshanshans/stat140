@@ -24,7 +24,7 @@
       <td>{{ .title }}</td>
       
       {{ if .reading }}
-      <td align="center"><a href="{{ .Site.baseurl }}/days/{{ .reading  }}">
+      <td align="center"><a href="{{ .Site.baseurl }}/stat140/days/{{ .reading  }}">
           <i class="fa fa-book fa-lg"></i></a></td>
       {{ else }}
         <td align="center"><font color="f1f1f1">
@@ -32,7 +32,7 @@
       {{ end }}
 
        {{ if .slides }}
-      <td align="center"><a href="{{ .Site.baseurl }}/slides/{{ .slides  }}">
+      <td align="center"><a href="{{ .Site.baseurl }}/stat140/slides/{{ .slides  }}">
           <i class="fa fa-laptop fa-lg"></i></a></td>
       {{ else }}
         <td align="center"><font color="f1f1f1">
@@ -40,7 +40,7 @@
       {{ end }}
 
       {{ if .lab }}
-      <td align="center"><a href="{{ .Site.baseurl }}/labs/{{ .lab }}">
+      <td align="center"><a href="{{ .Site.baseurl }}/stat140/labs/{{ .lab }}">
           <i class="fa fa-file-code-o fa-lg"></i></a></td>
       {{ else }}
         <td align="center"><font color="f1f1f1">
@@ -56,7 +56,7 @@
       {{ end }}
       
       {{ if .hw }}
-      <td align="center"><a href="{{ .Site.baseurl }}/hw/{{ .hw }}">
+      <td align="center"><a href="{{ .Site.baseurl }}/stat140/hw/{{ .hw }}">
           <i class="fa fa-pencil-square-o fa-lg"></i></a></td>
       {{ else }}
         <td align="center"><font color="f1f1f1">
@@ -65,7 +65,7 @@
 
             
       {{ if .project }}
-      <td align="center"><a href="{{ .Site.baseurl }}/project/{{ .project }}">
+      <td align="center"><a href="{{ .Site.baseurl }}/stat140/project/{{ .project }}">
           <i class="fa fa-file-powerpoint fa-lg"></i></a></td>
       {{ else }}
         <td align="center"><font color="f1f1f1">
