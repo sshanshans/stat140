@@ -1,0 +1,85 @@
+---
+title: "Week 2 Day 4"
+subtitle: "Stat140-04"
+author: "Shan Shan"
+output:
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+```
+
+### Introduction: Summarize quantitative variables
+
+In yesterday's class, you have seen how to make and interpret different plots of quantitative variables (histogram, box plot, etc.) Today, we will continue learn how to summarize the center and spread of the distribution by hand and in R.
+
+### Part I: Friends and Bill Gates
+
+It's 2013, and 6 friends are hanging out at their local bar. Their incomes are \$30,000, \$32,000, \$34,000, \$36,000, \$38,000, and \$40,000.
+
+#### Exercise 1: Mean and median
+
+(1) What is their mean income?
+
+(2) What is their median income?
+
+#### Exercise 2: In walks BILL GATES!
+
+According to the internet, in 2013 Bill Gates had an income of \$11.5 billion (in case you're curious, that works out to \$23,148 per minute).
+
+(1) What is the mean income of the 6 friends and Bill Gates? (Note that if you write it out with all the zeros, 11.5 billion is 11500000000; there are 8 zeros)
+
+(2) What is the median income of the 6 friends and Bill Gates?
+
+#### Think
+
+Compare your answers in Exercise 1 and 2, which statistics has changed more, mean or median? What does this suggest when you have outliers in your data.
+
+#### Exercise 3
+
+I have set up two different data frames - one with the numbers for just the friends, and a second including both the friends and Bill Gates.
+
+```{r}
+friends <- data.frame(
+  person_number = 1:6,
+  salary = c(30000, 32000, 34000, 36000, 38000, 40000)
+)
+
+friends_and_bill <- data.frame(
+  person_number = 1:7,
+  salary = c(30000, 32000, 34000, 36000, 38000, 40000, 11500000000)
+)
+```
+
+Here are the R code that summaries of center and spread, including just the friends:
+
+```{r}
+friends %>%
+  summarize(
+    mean_salary = mean(salary),
+    median_salary = median(salary),
+    iqr_salary = IQR(salary),
+    var_salary = var(salary),
+    sd_salary = sd(salary)
+  )
+```
+
+Now find summaries of center and spread, including Bill too:
+
+```{r q5}
+```
+
+#### Think
+
+Has your results changed when considering only the 6 friends or with Bill Gates included as well? What does this say about the sensitivity of Variance and Standard deviation?
+
+#### What's the point?
+
+Mean, Variance, and Standard deviation are sensitive to outliers and skewness. They should only be used when a distribution looks "nice" (unimodal, symmetric, no outliers). Otherwise, use median and IQR to summarize center and spread.
+
+| If the Distribution is...            | Summarize Center with              | Summarize Spread with                                    |
+|--------------------------------------|------------------------------------|----------------------------------------------------------|
+| Unimodal, Symmetric, and no Outliers | mean (most common), median also OK | standard deviation (most common) variance or IQR also OK |
+| Multimodal or Skewed or has Outliers | median                             | IQR                                                      |

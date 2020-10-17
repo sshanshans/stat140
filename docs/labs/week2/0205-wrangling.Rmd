@@ -1,0 +1,83 @@
+---
+title: "Week 2 Day 5"
+subtitle: "Stat140-04"
+author: "Shan Shan"
+output:
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+```
+
+## Learn R through a case study
+
+Case study: birth weights and tobacco use during preganancy.
+
+Are babies' birth weights affected by whether or not the mother used tobacco during pregnancy? Low birth weights are a risk factor for health problems later in life, so this is important!
+
+Here is a data set with data on a sample of randomly selected babies who were born in North Carolina in 2004, with some information about the mother and the babies' weights in grams.
+
+```{r, echo = FALSE, message = FALSE}
+library(resampledata)
+NCBirths2004 <- NCBirths2004[, 1:7]
+```
+
+```{r}
+dim(NCBirths2004)
+head(NCBirths2004)
+```
+
+Here's a plot of the data:
+
+```{r, echo = FALSE}
+ggplot(data = NCBirths2004, mapping = aes(x = Weight, color = Tobacco)) +
+  geom_density()
+```
+
+#### Exercise 1
+
+What statistics would you use to summarize the center and spread of the distribution of birth weights within each group?
+
+#### Exercise 2: Calculating Summaries of Quantitative Variables: `summarize` and `group_by`
+
+We saw from the plot that there seems to be a difference in birth weights. What are "typical" birth weights for the two groups?
+
+```{r}
+```
+
+#### Exercise 3: Sorting the data with `arrange`
+
+What was the shortest gestation time?
+
+To answer this question, we will `arrange` the babies in increasing order of gestation time. Then, the babies with the shortest gestation times will be near the `head` of the data frame.
+
+```{r}
+NCBirths_by_gestation <- NCBirths2004 %>%
+  arrange(Gestation)
+
+head(NCBirths_by_gestation)
+```
+
+What was the longest gestation time?
+
+Now we want to `arrange` the babies in `desc`ending order of gestation time, so the longest gestation times will be at the `head` of the data frame:
+
+```{r}
+```
+
+#### Exercise 4: Modifying or Adding a Variable: `mutate`
+
+The babies' birth `Weights` are currently recorded in grams. Let's add a new variable to the data frame called `Weight_lbs` with the babies' birth weights in pounds.
+
+There are about 453.6 grams in a pound. We can divide the weight in grams by 453.6 to get the weight in pounds.
+
+```{r}
+```
+
+As usual, we can take a look at the results by looking at the output from `head`.
+
+```{r}
+head(NCBirths2004)
+```
