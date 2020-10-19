@@ -65,6 +65,9 @@ Students should ideally be attending the class via zoom with webcam enabled and 
 
 We will be using the programming language R and Rstudio. R is one of the most commonly used programming languages in academic research and industry. Knowing R is a marketable skill. In this class, you will learn enough about R to conduct basic data analysis tasks. Please install [R](https://cran.r-project.org) and [Rstudio](https://cran.r-project.org) at your earliest convenience. 
 
+#### Datacamp
+In the first two weeks, you will be asked to complete 4 DataCamp assignment. You will get an email by the first day of class inviting you to join our class organization with an assignment pointing you to the specific chapters to do. Available for free. 
+
 <hr> 
 
 ### Navigate the course website
@@ -83,6 +86,9 @@ We will be using the programming language R and Rstudio. R is one of the most co
 </a>
 <a href="https://www.gradescope.com/courses/201061">
 <button type="button" class="btn btn-warning">Gradescope</button>
+</a>
+<a href="https://www.datacamp.com/enterprise/stat-140">
+<button type="button" class="btn btn-success btn-outline">Datacamp</button>
 </a>
 <a href="./hours.html">
 <button type="button" class="btn btn-dark">Tips</button>

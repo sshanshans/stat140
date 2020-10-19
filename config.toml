@@ -40,7 +40,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   name = "Syllabus"
   url = "../stat140/policies.html"
 [[menu.main]]
-  weight = 6
+  weight = 7
   identifier = "tips"
   name = "Tips"
   url = "../stat140/tips.html"
@@ -59,7 +59,11 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   identifier = "gradescope"
   name = "Gradescope"
   url = "https://www.gradescope.com/courses/201061"
-
+[[menu.main]]
+  weight = 6
+  identifier = "datacamp"
+  name = "Datacamp"
+  url = "https://www.datacamp.com/enterprise/stat-140"
 [params]
   dateFormat = "January 2, 2006"
   background = "https://www.mtholyoke.edu/sites/default/files/media/images/MHC-gates-fall.png"
