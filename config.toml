@@ -30,17 +30,17 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
  
 # Menu Configuration
 [[menu.main]]
-  weight = 1
-  identifier = "home"
-  name = "Overview"
-  url = "../stat140"
-[[menu.main]]
   weight = 3
+  identifier = "hours"
+  name = "Office hours"
+  url = "../stat140/hours.html"
+[[menu.main]]
+  weight = 1
   identifier = "policies"
   name = "Syllabus"
   url = "../stat140/policies.html"
 [[menu.main]]
-  weight = 4
+  weight = 6
   identifier = "tips"
   name = "Tips"
   url = "../stat140/tips.html"
@@ -49,10 +49,18 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   identifier = "schedule"
   name = "Schedule"
   url = "../stat140/schedule.html"
-
-
+[[menu.main]]
+  weight = 4
+  identifier = "piazza"
+  name = "Piazza"
+  url = "https://piazza.com/mtholyoke/other/stat14004/home"
+[[menu.main]]
+  weight = 5
+  identifier = "gradescope"
+  name = "Gradescope"
+  url = "https://www.gradescope.com/courses/201061"
 
 [params]
   dateFormat = "January 2, 2006"
-  background = "https://www.mtholyoke.edu/sites/default/files/Mount-Holyoke-College-aerial-200408-CH.png"
-  favicon = "img/sta199-sticker.png"
+  background = "https://www.mtholyoke.edu/sites/default/files/media/images/MHC-gates-fall.png"
+  favicon = ""

@@ -1,0 +1,63 @@
+---
+title: "Week 3 Day 3"
+subtitle: "Stat140-04"
+author: "Type your name here"
+output:
+  pdf_document: default
+  html_document:
+    highlight: pygments
+    theme: spacelab
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+```
+
+## Fitting a linear model in R
+
+#### Load data
+
+Recall the mortality and hard water data from yesterday. We have recordings of the mortality rate (deaths per 100,000 population) and concentration of calcium in drinking water (parts per million) in 61 large towns in England and Wales
+
+```{r load data, message = FALSE, warning = FALSE}
+mortality_water <- read_csv("https://mhc-stat140-2017.github.io/data/sdm4/Hard_water_Derby.csv")
+```
+
+#### Scatter plot with the least square line
+
+We used the following code chunk to make a scatter plot with the least square line.
+
+```{r}
+ggplot(data = mortality_water, mapping = aes(x = Calcium, y = Mortality)) +
+  geom_point() + 
+  geom_smooth(method = "lm", se = FALSE)
+```
+
+#### Fit a linear model
+
+We fitted a linear model between the mortality rate `Mortality` and concentration of calcium `Calcium` using the `lm` function.
+
+```{r}
+linear_fit <- lm(Mortality ~ Calcium, data = mortality_water)
+```
+
+### View the summary of `lm`
+
+View summary of linear model fit
+
+```{r}
+summary(linear_fit)
+```
+
+Find the slope, intercept and $R^2$ in the output, and interpret the meaning of them in the context of data.
+
+### Predict
+
+One of the towns in our sample had a measured Calcium concentration of 71 parts per million. What is the predicted value for the mortality rate in that town?
+
+```{r}
+predict_data <- data.frame(Calcium = 71)
+predict(linear_fit, newdata = predict_data)
+```
+
+Modify the code chunk above to predict the mortality rate of a town with Calcium concentration of -3 parts per million. Does the predicted value make sense here?

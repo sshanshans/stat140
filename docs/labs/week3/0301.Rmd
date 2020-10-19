@@ -1,0 +1,55 @@
+---
+title: "Week 3 Day 1"
+subtitle: "Stat140-04"
+author: "Shan Shan"
+output:
+  pdf_document
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+railtrail <- read_csv("http://www.evanlray.com/data/mosaic/rail_trail.csv")
+arcade_lawyers <- read_csv("http://www.evanlray.com/data/tylervigen/arcade_revenue_lawyers_Wyoming.csv")
+```
+
+## 07 Exercise
+
+Adapted from Evan Ray
+
+### Part I: Bike Path Usage
+
+Data were collected on the volume of bicycle path users on the Northampton Rail Trail in Florence, Massachusetts. Variables in the dataset include the number of crossings on a particular day (volume, measured by a sensor near the intersection with Chestnut Street) and the average of the daily low and high temperatures for that day in degrees Fahrenheit (`avgtemp`), among other variables.
+
+The data is pre-loaded for you and called `railtrail`
+
+1.  Make a scatter plot with the volume variable on the vertical axis and the `avgtemp` variable on the horizontal axis.
+
+```{=html}
+<!-- -->
+```
+2.  Describe the shape of the relationship between the `volume` and `avgtemp` variables. Also, discuss whether there are any outliers or gaps.
+
+3.  Would it be appropriate to use the correlation between these variables to summarize the strength and direction of the relationship between these variables?
+
+4.  Calculate the correlation between these variables.
+
+### Part II: Arcade Revenue and Lawyers in Wyoming
+
+Data were collected on the total revenue of arcades in the US (in millions of dollars) and the number of lawyers in Wyoming in each year from 2000 to 2009.
+
+The data is pre-loaded for you, and is named `arcade_lawyers`.
+
+1.  Make a scatter plot with `total_arcade_revenue` on the horizontal axis and `lawyers_in_Wyoming` on the vertical axis.
+
+```{=html}
+<!-- -->
+```
+2.  Describe the direction, form, and strength of the relationship between arcade revenue and the number of lawyers in Wyoming
+
+3.  Would it be appropriate to summarize the strength and direction of the relationship between these variables with the correlation coefficient?
+
+4.  Calculate the correlation between these variables.
+
+5.  Describe the strength and direction of the relationship between these variables, with reference to the scatter plot and the correlation coefficient (if appropriate).
+
+6.  Do the correlation and relationship that you described above mean that there is a causal relationship between arcade revenue and the number of lawyers in Wyoming?

@@ -1,0 +1,89 @@
+---
+title: "Week 3 Day 5"
+subtitle: "Stat140-04"
+author: "Type your name here"
+output:
+  pdf_document
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+knitr::opts_chunk$set(echo = TRUE, highlight = TRUE)
+anscombe <- read_csv("http://www.evanlray.com/data/base_r/anscombe_quintet.csv")
+
+wildfires <- read_csv("http://www.evanlray.com/data/sdm4/Wildfires_2012.csv")
+names(wildfires) <- c("num_fires", "years_since_1985", "ave_acres_burned")
+
+wildfires <- wildfires %>%
+  arrange(years_since_1985)
+```
+
+## I Anscombe's data
+
+The following R code reads in a data set called `anscombe`. It has five pairs of $x$ variables and $y$ variables: $(x_1, y_1), (x_2, y_2), (x_3, y_3), (x_4, y_4),$ and $(x_5, y_5)$. You will examine one of these pairs of variables, and then we will discuss them all as a class. I'll tell you where the data came from later.
+
+1.  Insert a code block below to fit a linear model to one of the pairs, with the $y$ variable as the response and the $x$ variable as the explanatory variable. Print out a summary of the linear model fit. Take notes of the slope, intercept and $R^2$ for the linear model fit. What did you observe?
+2.  Now make a scatter plot for each pair of x and y's. What did you observe? Is linear model useful here?
+
+### Important message
+
+Be sure to check the conditions for linear regression before reporting or interpreting a linear model.
+
+From the scatterplot of y against x, check the
+
+-   **Straight Enough Condition** Is the relationship between y and x straight enough to proceed with a linear regression model?
+
+```{=html}
+<!-- -->
+```
+-   **Outlier Condition** Are there any outliers that might dramatically influence the fit of the least squares line?
+
+-   **Does the Plot Thicken? Condition** Does the spread of the data around the generally straight relationship seem to be consistent for all values of x?
+
+## II Wildfire
+
+The National Interagency Fire Center (www.nifc.gov) reports statistics about wildfires. I have loaded a dataset called `wildfires` with information about the number of wildfires, and the average number of acres burned per wildfire (in hundreds of thousands of acres) in each year from 1985 to 2012.
+
+You can take a look at the data using the `head` function like this.
+
+```{r}
+head(wildfires)
+```
+
+### Part I
+
+1.  Make a scatter plot with `years_since_1985` on the horizontal axis and `num_fires` on the vertical axis. Also add the least square line on your scatter plot.
+2.  Fit a regression model using `num_fires` as the response variable and `years_since_1985` as the explanatory variable, and print out a summary of the linear model fit.
+3.  Is a linear model appropriate for these data? For this we need to check the following conditions.
+4.  Interpret the slope in this context.
+5.  Can we interpret the intercept? Why or why not?
+6.  What does $R^2$ mean in this context?
+
+### Part II
+
+We saw in Part I that the number of fires was nearly constant. But has the damage they cause remained constant as well? Let's examine the trend in Acres per Fire, (in hundreds of thousands of acres).
+
+1.  Make a scatter plot with `years_since_1985` on the horizontal axis and `ave_acres_burned` on the vertical axis. Also add the least square line on your scatter plot.
+2.  Fit a regression model using `ave_acres_burned` as the response variable and `years_since_1985` as the explanatory variable, and print out a summary of the linear model fit.
+3.  Is a linear model appropriate for these data? Explain.
+4.  Interpret the slope in this context.
+5.  Can we interpret the intercept? Why or why not?
+6.  What does $R^2$ mean in this context?
+
+## Optional: Climate change 2013
+
+The earth's climate is getting warmer. The most common theory attributes the increase to an increase in atmospheric levels of carbon dioxide (CO2), a greenhouse gas. Here is a scatterplot showing the mean annual CO2 concentration in the atmosphere, measured in parts per million (ppm) at the top of Mauna Loa in Hawaii, and the mean annual air temperature over both land and sea across the globe, in degrees Celsius (degrees C) for the years 1970 to 2013.
+
+![](images/climate.png){width="50%"}
+
+a)  What is the correlation between CO2 and Temperature?
+b)  Explain the meaning of R-squared in this context.
+c)  Give the regression equation.
+d)  What is the meaning of the slope in this equation?
+e)  What is the meaning of the y-intercept of this equation?
+f)  Here is a scatterplot of the residuals vs. predicted values. Does this plot show evidence of the violation of any assumptions behind the regression? If so, which ones?
+
+![](images/climate2.png){width="50%"}
+
+g)  CO2 levels will probably reach 400 ppm by 2020. What mean Temperature does the regression predict for that concentration of CO2?
+h)  Does the answer in g) mean that when the CO2 level hits 400 ppm, the Temperature will reach the predicted level? Explain briefly.
