@@ -51,8 +51,8 @@ The final group project spans over the last four weeks. You will do analysis on 
 
 * FP 01: Project proposal (15%)
 * FP 02: Proposal presentation (10%)
-* FP 03: final report (10%)
-* FP 04: final presentation (10%)
+* FP 03: Final report (10%)
+* FP 04: Final presentation (10%)
 
 Note that you are responsible for forming your own group in the final project. There will a post on Piazza for finding a team. If you still need help find a group, or a group member, just let me know. 
 

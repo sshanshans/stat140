@@ -5,6 +5,7 @@ markup: "mmark"
 ### Logistics
 1. [How can I succeed in this class?](#success)
 2. [How I should ask for TAs to help me debug the code?](#debug)
+3. [Are we having class everyday? Is attendance required?](#attendance)
 
 ### R related 
 1. [How to Install R on Windows, Mac OS X, and Ubuntu?](https://www.datacamp.com/community/tutorials/installing-R-windows-mac-ubuntu)
@@ -51,6 +52,12 @@ The best way to use office hours and ask TAs for coding questions would be:
 * During the office hours, you should articulate what your goals are and what you have observed with experiments, what you have tried/observed, what you think might be the problem, and what advice you need to move forward.
 * The TAs will mostly help you by looking at and analyzing the outputs of your code instead of looking at the original code. Typical advice that the TAs might advise you would be to ask you to do more analytical or ablation studies about your code. 
 * If absolutely needed, please be prepared to send us your Rmarkdown document and any dataset you used. 
+
+<hr> 
+
+##### <a name="success"></a>Q: Are we having class everyday? What happens if I have to miss a class?
+
+Yes, we are having class meetings everyday during the week, and I expect you to come to class and participate in full. However, there is no penalty for not attending class. If you have to miss a class, you do not need to get this excused, but do not expect help in this case, and do not make a habit of this. I will post the recorded lecture each day within 48 hours. 
 
 <hr> 
 
