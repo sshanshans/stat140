@@ -77,8 +77,7 @@ The final grade will be calculated as follows:
  
  1. **Individual-based work (50%)**
     * Weekly homework + Datacamp (25%)
-    * FP01, FP02 (20%)
-    * Participation (5%)
+    * FP01, FP02 (25%)
  2. **Group-based work (50%)**
     * Miniprojects (30%)
     * FP03, FP04 (20%)
