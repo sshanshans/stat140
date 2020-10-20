@@ -55,9 +55,9 @@ The best way to use office hours and ask TAs for coding questions would be:
 
 <hr> 
 
-##### <a name="success"></a>Q: Are we having class everyday? What happens if I have to miss a class?
+##### <a name="attendance"></a>Q: Are we having class everyday? What happens if I have to miss a class?
 
-Yes, we are having class meetings everyday during the week, and I expect you to come to class and participate in full. However, there is no penalty for not attending class. If you have to miss a class, you do not need to get this excused, but do not expect help in this case, and do not make a habit of this. I will post the recorded lecture each day within 48 hours. 
+Yes, we are having class meetings everyday during the week, and I expect you to come to class and participate in full. However, there is no direct penalty for not attending class. If you have to miss a class, you do not need to get this excused, but you are responsible for learning the materials on your own in this case, and do not make a habit of this. I will post the recorded lecture each day within 48 hours. 
 
 <hr> 
 
