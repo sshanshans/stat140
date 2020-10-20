@@ -31,6 +31,15 @@ Lectures, labs, and readings:
 * During in-class exercises, am I taking full advantage that I’m in the same virtual space at the same time with the instructor, and most importantly my peers, or am I browsing the web/texting the whole time?
 * Have I been doing the associated readings for each lecture?
 
+In general:
+* Coming to class on time and be ready to learn. Make this a habit, and it will become easier. 
+* Take an active role in your group discussion. There are in general four roles in each group:
+    * Scriber: taking notes on Googlesheet or Piazza to keep track of your group's process, 
+    * Manager: leading the discussion and making sure the group is completing the activity on time.
+    * Spokesperson: communicating the results to others, e.g., speaking in class, pinning the instructor for help, etc. 
+    * Editor: edit the notes/posts by the scriber
+*  Helping your fellow students on Piazza. The best way to learn is to teach!
+
 <hr>
 
 ##### <a name="debug"></a>Q: How I should ask for TAs to help me debug the code

@@ -50,7 +50,7 @@ You will be **assigned** to a different group each week for completing these min
 The final group project spans over the last four weeks. You will do analysis on a dataset of your own choosing. The goal of this project is for you to demonstrate proficiency in the techniques we have covered in this class (and beyond, if you like) and apply them to a dataset in a meaningful way. You will begin with (1) finding a dataset and research question on your own (2) writing a project proposal with exploratory data analysis (3) and presenting your proposal at the grant panel on Nov 23 and Nov 24.  Among all your submission, 25% of the projects will be selected to proceed onto the next stage. You will form a group based on your interest in the selected projects and work with each other to create a final report and presentation. 
 
 * FP 01: Project proposal (15%)
-* FP 02: Proposal presentation (5%)
+* FP 02: Proposal presentation (10%)
 * FP 03: final report (10%)
 * FP 04: final presentation (10%)
 
@@ -59,23 +59,17 @@ Note that you are responsible for forming your own group in the final project. T
 <br> 
 <br>
 
-* #### Participation
+* #### Tutorials (not collected)
+Each day there will be a hands-on tutorial with additional exercises in statistical reasoning and programing in R. You are expected to complete these tutorials by the end of the day, as they will be great resources before you attempt your HW and projects. Office hours is a great time to ask questions about the tutorial exercises. 
 
-There are several ways for you to get the participation points.
-
-* Coming to class on time and be ready to learn.
-* Take an active role in your group discussion. There are in general four roles in each group:
-
-    * Scriber: taking notes on Googlesheet or Piazza to keep track of your group's process, 
-    * Manager: leading the discussion and making sure the group is completing the activity on time.
-    * Spokesperson: communicating the results to others, e.g., speaking in class, pinning the instructor for help, etc. 
-    * Editor: edit the notes/posts by the scriber
-*  Helping your fellow students, especially on Piazza, also counts towards participation. If there were no questions, share interesting findings or news related to the course materials on Piazza is also volunteering for a class role.  
-
-Note:  If there is a significant time difference that prevents you from joining the synchronous portion of the course, I might be able to -- though not guaranteed -- set up a study group for you with those in the same time zone. Joining the study group will be counted as participation. 
+<br> 
+<br>
 
 * #### Late Policy
 All the due dates can be found on the schedule page. If late but within 1 hour of due time, 3% of the assignment grade will be subtracted; if late but within 24 hours, 20% of the assignment grade will be subtracted. Any later will receive no credit, unless there is a pre-arrangement agreed by me. Be sure to turn in your work early to avoid any technological mishaps. There is no late work accepted for FP02 and FP04. 
+
+<br> 
+<br>
 
 * #### Final grade calculation
 
