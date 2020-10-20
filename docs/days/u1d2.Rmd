@@ -25,6 +25,6 @@ knitr::opts_chunk$set(echo = TRUE)
   * Quantitative variables (or termed numerical variable) record measurements or amounts of something; they must have units.
   * Sometimes we may treat the same variable as categorical or quantitative depending on what we want to learn from it, which means some variables can’t be pigeonholed as one type or the other.
 
-#### Before class
+#### Checklist
 -   <input type="checkbox" unchecked> Finish reading [Intro to Data](https://piazza.com/class_profile/get_resource/kge2lk8hfmxkz/kge2ll8uhk0n9) </input>
 -   <input type="checkbox" unchecked> [Optional] Finish watching (4 minutes): [Data basics](https://www.coursera.org/learn/probability-intro/lecture/Q0zu3/data-basics) up to 4:10 </input>

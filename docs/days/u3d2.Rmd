@@ -18,8 +18,7 @@ output:
 
 
 #### Before class
-* Finish reading: [U3D2 reading](https://piazza.com/class_profile/get_resource/kcqqet0ou724kc/keosr4qet6f7al)
-* Complete `09 Quiz`: [VPN](http://138.110.84.108:3838/sshan/quiz/Unit3/#section-quiz-1), [nonVPN](http://159.89.233.150:3838/stat140/quiz/Unit3/#section-quiz-1)
+* Finish reading: [Finding a linear model](https://piazza.com/class_profile/get_resource/kge2lk8hfmxkz/kge2lmhdrkaob)
 
 #### In class
 * Slides [pdf](https://sshanshans.github.io/stat140/slides/u3d2.pdf)

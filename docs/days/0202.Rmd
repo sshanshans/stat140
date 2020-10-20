@@ -17,8 +17,3 @@ output:
 #### Checklist
 -   <input type="checkbox" unchecked> Finish reading: [Two categorical variables](https://piazza.com/class_profile/get_resource/kge2lk8hfmxkz/kge2lllcecenh) </input>
 
-#### Reminder 
-The following items are due this Wednesday 6PM.
-
--   `DataCamp 03`: Data wrangling
--   `HW01`

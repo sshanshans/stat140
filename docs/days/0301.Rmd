@@ -1,0 +1,26 @@
+---
+title: "Week 3 Day 1"
+output: 
+  html_document:
+    css: lab.css
+    highlight: pygments
+    theme: cerulean
+  pdf_document: default
+---
+
+### Numerical variable: relationship
+
+#### Learning objectives 
+* **Make a scatterplot to display the relationship between two quantitative variables.**
+  * Look at the direction, form, and strength of the relationship, and any outliers that stand away from the overall pattern.
+* **Provided the form of the relationship is straight, summarize its strength with a correlation, r.**
+  * The sign of the correlation gives the direction of the relationship.
+  * -1 <= r <= 1 ; A correlation of 1 or -1 is a perfect linear relationship. A correlation of 0 indicates that there is no linear relationship.
+  * Correlation has no units, so shifting or scaling the data, standardizing, or even swap- ping the variables has no effect on the numerical value.
+* **A large correlation is not a sign of a causal relationship.**
+
+#### Checklist
+- <input type="checkbox" unchecked> Finish reading: [Correlation](https://piazza.com/class_profile/get_resource/kge2lk8hfmxkz/kge2lm0taxunw) (You can safely ignore any formulas about the correlation score, and everything in the Kendall's Tau and Spearman’s Rho part.)</input>
+
+#### Optional
+- <input type="checkbox" unchecked> Finish watching: [Scatterplot (before 4:10)](https://www.coursera.org/learn/probability-intro/lecture/9kRJf/visualizing-numerical-data), [Correlation](https://www.coursera.org/learn/linear-regression-model/lecture/QP6Mw/correlation)</input>

@@ -20,9 +20,3 @@ output:
 -   <input type="checkbox" unchecked> Finish reading: [Categorical variables](https://piazza.com/class_profile/get_resource/kge2lk8hfmxkz/kge2llgoak7nf) </input>
 -   <input type="checkbox" unchecked> Finish reading: [Chapter 2](https://nustat.github.io/intro-stat-ds/2-viz.html) </input>
 -   <input type="checkbox" unchecked> [Optional] Finish watching: [Exploring Categorical Variables](https://www.coursera.org/learn/probability-intro/lecture/vEjt0/exploring-categorical-variables) </input>
-
-#### Reminder 
-The following items are due this Wednesday 6PM.
-
--   `DataCamp 03`: Data wrangling
--   `HW01`

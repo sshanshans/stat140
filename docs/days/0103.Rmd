@@ -19,14 +19,6 @@ output:
     * `mutate`
     * `count`
 
-#### Before class
--   <input type="checkbox" unchecked> Install R using [this tutorial](https://www.datacamp.com/community/tutorials/installing-R-windows-mac-ubuntu) </input>
--   <input type="checkbox" unchecked> Install Rstudio using [this link](https://rstudio.com/products/rstudio/download/preview/). Very important, you must download the preview version of Rstudio (1.4.9 or more recent). </input>
--   <input type="checkbox" unchecked> Install the tidyverse package </input>
-
-#### Reminder
-The following items are due today 6PM.
-
--   `DataCamp 01`: Intro to basics
--   `DataCamp 02`: Vectors
-
+#### Checklist
+-   <input type="checkbox" unchecked> Finish DataCamp 01 </input>
+-   <input type="checkbox" unchecked> Finish DataCamp 02 </input>

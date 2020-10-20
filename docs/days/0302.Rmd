@@ -1,0 +1,26 @@
+---
+title: "Week 3 Day 2"
+output: 
+  html_document:
+    css: lab.css
+    highlight: pygments
+    theme: cerulean
+  pdf_document: default
+---
+
+### Linear model
+
+#### Learning objectives 
+* Model linear relationships with a linear model.
+  * The relationship is straight enough
+  * A scatterplot does not 'thicken' in any region
+  * There are no outliers
+* The best fit model is the one that minimizes the sum of the squared residuals—the Least Squares Model.
+* Interpret a regression slope as y-units per x-unit.
+* The intercept, b0, gives a starting value in y-units. It’s the y-value when x is 0. You can find the intercept from b0 = y - b1x.
+
+#### Checklist
+- <input type="checkbox" unchecked> Finish reading [Linear regression](https://piazza.com/class_profile/get_resource/kge2lk8hfmxkz/kge2lm6h8y4o1)</input>
+- <input type="checkbox" unchecked> Finish reading: [Finding a linear model](https://piazza.com/class_profile/get_resource/kge2lk8hfmxkz/kge2lmhdrkaob)
+</input>
+- <input type="checkbox" unchecked> Finish `HW 02`</input>

@@ -24,12 +24,6 @@ output:
 
 #### Checklist
 
--   <input type="checkbox" unchecked> Finish reading: [Chapter 3](https://nustat.github.io/intro-stat-ds/3-wrangling.html) </input>
-
-
-#### Reminder 
-
-The following items are due this Friday 6PM.
-
--   `DataCamp 04`: Data visualization
--   `MP01`
+-   <input type="checkbox" unchecked> Finish reading: [Chapter 3](https://nustat.github.io/intro-stat-ds/3-wrangling.html)</input>
+-   <input type="checkbox" unchecked> Finish `DataCamp 04`: Data visualization</input>
+-   <input type="checkbox" unchecked> Finish `MP01`</input>

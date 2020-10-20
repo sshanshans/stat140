@@ -1,0 +1,34 @@
+---
+title: "Week 3 Day 4"
+output: 
+  html_document:
+    css: lab.css
+    highlight: pygments
+    theme: cerulean
+  pdf_document: default
+---
+
+### Linear regression condition
+
+#### Learning objectives 
+The particular linear equation
+$$\hat{y} = b_0 + b_1x$$
+that satisfies the least squares criterion is called the **least squares regression line**.
+Casually, we often just call it the regression line,
+
+Be sure to check the conditions for regression before reporting or interpreting a regression model. 
+
+* Before starting, be sure to check the
+
+  * Quantitative Variable Condition: If either y or x is categorical, you can’t make a scatterplot and you can’t perform a regression. Stop.
+
+* From the scatterplot of y against x, check the
+
+  * Straight Enough Condition Is the relationship between y and x straight enough to proceed with a linear regression model?
+  * Outlier Condition Are there any outliers that might dramatically influence the fit of the least squares line?
+  * Does the Plot Thicken? Condition Does the spread of the data around the generally straight relationship seem to be consistent for all values of x?
+
+#### Checklist
+- <input type="checkbox" unchecked> Finish reading: [Chapter 5.1](https://nulib.github.io/moderndive_book/5-regression.html#model1)
+</input>
+- <input type="checkbox" unchecked> Finish `MP 02`</input>

@@ -20,13 +20,7 @@ output:
   * If it’s symmetric, we’ll summarize the distribution with the mean and standard deviation (and possibly the median and IQR as well). 
   * Always pair the median with the IQR and the mean with the standard deviation.
 
-#### Before class
+#### Checklist
 -   <input type="checkbox" unchecked> Finish the video: [Measure of center](https://www.coursera.org/learn/probability-intro/lecture/AM0o6/measures-of-center) </input>
 -   <input type="checkbox" unchecked> Finish the video: [Measure of spread](https://www.coursera.org/learn/probability-intro/lecture/t9Wbk/measures-of-spread)  </input>
 -   <input type="checkbox" unchecked> Finish the video: [Robust statistics](https://www.coursera.org/learn/probability-intro/lecture/ssktR/robust-statistics) </input>
-
-#### Reminder 
-The following items are due this Friday 6PM.
-
--   `DataCamp 04`: Data visualization
--   `MP01`

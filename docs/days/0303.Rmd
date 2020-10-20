@@ -1,0 +1,20 @@
+---
+title: "Week 3 Day 3"
+output: 
+  html_document:
+    css: lab.css
+    highlight: pygments
+    theme: cerulean
+  pdf_document: default
+---
+
+### Compute a linear model in R
+
+#### Learning objectives 
+* Practice using R to find the best fit model
+* $R^2$ is the square of the correlation coefficient.
+* Always report and interpret $R^2$, which reports the fraction of the variation of y accounted for by the linear model.
+
+#### Checklist
+- <input type="checkbox" unchecked> Finish reading: [Examining the residuals](https://piazza.com/class_profile/get_resource/kge2lk8hfmxkz/kge2lmcgfeao7)
+</input>
