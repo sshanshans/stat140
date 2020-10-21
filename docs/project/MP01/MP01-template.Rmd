@@ -1,11 +1,12 @@
 ---
 title: "Miniproject 1"
-Author: "Type your name here"
+Author: "Type your names here"
+date: "Due 10/10/2020"
 output:
-  pdf_document: default
   html_document:
     highlight: pygments
     theme: readable
+  pdf_document: default
 editor_options: 
   markdown: 
     wrap: sentence
@@ -13,7 +14,7 @@ editor_options:
 
 ### 0. Load the tidyverse package
 
-```{r global_options}
+```{r global_options, message=FALSE, warning=FALSE}
 library(tidyverse)
 ```
 
@@ -147,5 +148,5 @@ However the majority of it will become useful throughout the semester.
 ## Lastly...
 
 Once you finish, click on *Knit to PDF* and you'll see your document in a new pop-up window.
-Name the file `MP01_[yourlastname].pdf` and submit the file on gradescope.
+Name the file `MP01_[yourlastnames].pdf` and submit the file on Gradescope.
 Each group only needs to submit once.
