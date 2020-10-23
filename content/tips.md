@@ -6,6 +6,7 @@ markup: "mmark"
 1. [How can I succeed in this class?](#success)
 2. [How I should ask for TAs to help me debug the code?](#debug)
 3. [Are we having class everyday? Is attendance required?](#attendance)
+4. [Tips to work with your group](#group)
 
 ### R related 
 1. [How to Install R on Windows, Mac OS X, and Ubuntu?](https://www.datacamp.com/community/tutorials/installing-R-windows-mac-ubuntu)
@@ -57,6 +58,41 @@ The best way to use office hours and ask TAs for coding questions would be:
 * During the office hours, you should articulate what your goals are and what you have observed with experiments, what you have tried/observed, what you think might be the problem, and what advice you need to move forward.
 * The TAs will mostly help you by looking at and analyzing the outputs of your code instead of looking at the original code. Typical advice that the TAs might advise you would be to ask you to do more analytical or ablation studies about your code. 
 * If absolutely needed, please be prepared to send us your Rmarkdown document and any dataset you used. 
+
+<hr> 
+
+##### <a name="group"></a>Q: Tips to work with group
+
+Working with your group can be the best part of this course for some, and a complete nightmare for others. Here are some tips to help you improve your group dynamics and get the most out of your group work. 
+
+* **Clear, open communication is key.** Successful interpersonal communication must exist in teams. Building trust is essential.  Deal with emotional issues that arise immediately and any interpersonal problems before moving on.  
+
+    * Turn on your camera whenever it's possible. To be heard, be present first.
+    * If someone is quiet, reach out to them to see if they have any concerns about speaking up during the discussion. 
+    * Be kind to each other. If someone didn't show up to a meeting you planned, send them an email to check on them and try to understand why. Work on bringing people together. 
+
+* **Shared responsibility/leadership** The best group work usually come from shared leadership. When everyone feels a sense of belonging and a responsibility of their work, the group achieves more.
+
+    * Identify during early stage each person's role in the group. Common tasks include:
+    * Initiating discussions
+    * Clarifying points
+    * Summarizing
+    * Challenging assumptions/devil's advocate
+    * Providing or researching information
+    * Reaching a consensus
+    * Make sure everyone has the opportunity to edit the work. For example, I learned this from one of the groups in this class. 
+        * Each person is assigned with a few problems/tasks to complete
+        * Each person update their progress on the Google doc
+        * Everyone edits/comments on the google doc.
+        * Group leader copy Google doc writeups to Rmarkdown and turn in the work.
+
+* **Group maintenance**: Maintenance involves the harmony and emotional well-being of a group, including
+    * sensing group feelings
+    * harmonizing
+    * encouraging
+    * time-keeping
+    * relieving tension
+    * bringing people into discussion
 
 <hr> 
 
