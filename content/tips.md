@@ -9,12 +9,17 @@ markup: "mmark"
 
 ### R related 
 1. [How to Install R on Windows, Mac OS X, and Ubuntu?](https://www.datacamp.com/community/tutorials/installing-R-windows-mac-ubuntu)
+2. [Rmarkdown can't knit](#rmarkdown)
+3. [I can't find the knit button anywhere](#knit)
+
 
 ### Imposter syndrome
 1. [Why some of my classmates just got the concept/did the programming assignment so fast? Am I not good enough?](#imposter)
 
 <hr>
 
+
+### Logistics
 ##### <a name="success"></a>Q: How can I succeed in this class?
 [Adapted from Albert Kim]
 
@@ -52,6 +57,22 @@ The best way to use office hours and ask TAs for coding questions would be:
 * During the office hours, you should articulate what your goals are and what you have observed with experiments, what you have tried/observed, what you think might be the problem, and what advice you need to move forward.
 * The TAs will mostly help you by looking at and analyzing the outputs of your code instead of looking at the original code. Typical advice that the TAs might advise you would be to ask you to do more analytical or ablation studies about your code. 
 * If absolutely needed, please be prepared to send us your Rmarkdown document and any dataset you used. 
+
+<hr> 
+
+### R related 
+##### <a name="rmarkdown"></a>Q: I have troubles knitting Rmarkdown
+
+There could be many reasons for this. Usually, the error message will pinpoint the location of the problem. Read the error messages!!
+
+Ben Baumer kept a nice webpage for common errors in knitting Rmarkdown. Check out [Document won't knit](https://smithcollege-sds.github.io/sds-www/rmarkdown_problems.html#Document_won’t_knit).
+
+There are also quick ways to find help within Rstudio. Check out [Rmarkdown cheatsheet](https://rmarkdown.rstudio.com/lesson-15.html)
+
+<hr> 
+
+##### <a name="rmarkdown"></a>Q: I can't find the knit button anywhere
+This means that RStudio doesn’t understand your document is supposed to be an RMarkdown document, often because your file extension is .txt. To fix this, go to the Files tab (lower right corner, same pane as Plots and Help) and select the checkbox next to your document’s name. Then select Rename and remove the .txt and make sure the extension is .Rmd. (From Ben Baumer)
 
 <hr> 
 
