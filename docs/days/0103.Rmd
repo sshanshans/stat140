@@ -20,5 +20,5 @@ output:
     * `count`
 
 #### Checklist
--   <input type="checkbox" unchecked> Finish DataCamp 01 </input>
--   <input type="checkbox" unchecked> Finish DataCamp 02 </input>
+-   <input type="checkbox" unchecked> Finish DataCamp 01: Intro to basics </input>
+-   <input type="checkbox" unchecked> Finish DataCamp 02: Vectors </input>
