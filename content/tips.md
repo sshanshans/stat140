@@ -7,6 +7,7 @@ markup: "mmark"
 2. [How I should ask for TAs to help me debug the code?](#debug)
 3. [Are we having class everyday? Is attendance required?](#attendance)
 4. [Tips to work with your group](#group)
+5. [How do I submit my pdf homework on Gradescope](https://www.youtube.com/watch?v=u-pK4GzpId0)
 
 ### R related 
 1. [How to Install R on Windows, Mac OS X, and Ubuntu?](https://www.datacamp.com/community/tutorials/installing-R-windows-mac-ubuntu)
