@@ -12,6 +12,7 @@ markup: "mmark"
 1. [How to Install R on Windows, Mac OS X, and Ubuntu?](https://www.datacamp.com/community/tutorials/installing-R-windows-mac-ubuntu)
 2. [Rmarkdown can't knit](#rmarkdown)
 3. [I can't find the knit button anywhere](#knit)
+4. How do I knit my Rmarkdown file to html and convert that into a pdf file? ([Windows tutorial video](https://mtholyoke.zoom.us/rec/share/TDRIo8MQpMgDK5Dk6iVlP6S2j31M04y5LJAY96kSClbUt0gSE4TipnCzP8SiolGX.ZKCVQwJck5q7XIKA?startTime=1603757314000), [Mac tutorial video](https://mtholyoke.zoom.us/rec/share/TDRIo8MQpMgDK5Dk6iVlP6S2j31M04y5LJAY96kSClbUt0gSE4TipnCzP8SiolGX.ZKCVQwJck5q7XIKA?startTime=1603757120000))
 
 
 ### Imposter syndrome
