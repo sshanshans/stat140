@@ -1,0 +1,35 @@
+Your_name:
+Your_email:
+Your_group_number: 
+
+Name_of_Group_member 1 (This is your self): 
+Contributions_Attitude: 
+Cooperation:
+Focus_Commitments:
+Team_Role_Fulfillment:
+Communicate:
+Accuracy: 
+
+Name_of_Group_member 2 (This is other member): 
+Contributions_Attitude: 
+Cooperation:
+Focus_Commitments:
+Team_Role_Fulfillment:
+Communicate:
+Accuracy: 
+
+Name_of_Group_member 3 (This is other member): 
+Contributions_Attitude: 
+Cooperation:
+Focus_Commitments:
+Team_Role_Fulfillment:
+Communicate:
+Accuracy: 
+
+Name_of_Group_member 4 (If you have more than 3 members in the group): 
+Contributions_Attitude: 
+Cooperation:
+Focus_Commitments:
+Team_Role_Fulfillment:
+Communicate:
+Accuracy: 
