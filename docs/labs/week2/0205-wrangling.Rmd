@@ -1,42 +1,102 @@
 ---
 title: "Week 2 Day 5"
-subtitle: "Stat140-04"
 author: "Shan Shan"
+subtitle: Stat140-04
 output:
+  html_document:
+    df_print: paged
   pdf_document: default
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
 library(tidyverse)
 ```
 
 ## Learn R through a case study
 
-Case study: birth weights and tobacco use during preganancy.
+Case study: birth weights and tobacco use during pregnancy.
 
 Are babies' birth weights affected by whether or not the mother used tobacco during pregnancy? Low birth weights are a risk factor for health problems later in life, so this is important!
 
 Here is a data set with data on a sample of randomly selected babies who were born in North Carolina in 2004, with some information about the mother and the babies' weights in grams.
 
+```{r include=FALSE}
+# you only need to do this once: after you finish downloading the fivethirtyeight package, you can remove this code chunk
+# install.packages("resampledata")
+```
+
 ```{r, echo = FALSE, message = FALSE}
 library(resampledata)
 NCBirths2004 <- NCBirths2004[, 1:7]
+glimpse(NCBirths2004)
 ```
 
-```{r}
-dim(NCBirths2004)
-head(NCBirths2004)
-```
-
-Here's a plot of the data:
-
-```{r, echo = FALSE}
-ggplot(data = NCBirths2004, mapping = aes(x = Weight, color = Tobacco)) +
-  geom_density()
-```
+## Part I: Data visualization
 
 #### Exercise 1
+
+Make a boxplot for the babies' birth weights (`Weight`) in the dataset `NCBirths2004`.
+
+```{r}
+
+```
+
+#### Exercise 2
+
+Make a side-by-side boxplot to compare babies' birth weights (`Weight`) against whether the mother used Tobacco `Tobacco`
+
+```{r}
+
+```
+
+#### Exercise 3
+
+Make a histogram of the babies' birth weights colored by whether the mother used Tobacco. Choose an appropriate binwidth.
+
+```{r}
+
+```
+
+#### Exercise 4
+
+Make a density plot of the babies' birth weights colored by whether the mother used Tobacco
+
+```{r}
+
+```
+
+
+#### Exercise 5
+
+Make a density plot of the babies' birth weights **faceted** by whether the mother used Tobacco
+
+```{r}
+
+```
+
+
+#### Exercise 6
+
+Search on the internet how to
+
+* add a title to your ggplot
+* change the labels on the x and y axis
+* change the legend titles
+
+Modify your code in Exercise 4 so that
+
+* x-axis is labeled as "Weight (g)"
+* y-axis is labeled as "Number of babies"
+* title is "Effect of Tobacco Use on Babies' Weight"
+* legend title is "Tobacco Use"
+
+```{r}
+
+```
+
+## Part II: Data summary
+
+#### Exercise 1 
 
 What statistics would you use to summarize the center and spread of the distribution of birth weights within each group?
 
@@ -45,22 +105,20 @@ What statistics would you use to summarize the center and spread of the distribu
 We saw from the plot that there seems to be a difference in birth weights. What are "typical" birth weights for the two groups?
 
 ```{r}
+
 ```
 
 #### Exercise 3: Sorting the data with `arrange`
 
-What was the shortest gestation time?
+What was the lightest babies weight?
 
-To answer this question, we will `arrange` the babies in increasing order of gestation time. Then, the babies with the shortest gestation times will be near the `head` of the data frame.
+To answer this question, we will `arrange` the babies in increasing order of weight. Then, the babies with the lightest weight will be near the `head` of the data frame.
 
 ```{r}
-NCBirths_by_gestation <- NCBirths2004 %>%
-  arrange(Gestation)
 
-head(NCBirths_by_gestation)
 ```
 
-What was the longest gestation time?
+What was the heaviest babies' weight?
 
 Now we want to `arrange` the babies in `desc`ending order of gestation time, so the longest gestation times will be at the `head` of the data frame:
 
@@ -74,10 +132,4 @@ The babies' birth `Weights` are currently recorded in grams. Let's add a new var
 There are about 453.6 grams in a pound. We can divide the weight in grams by 453.6 to get the weight in pounds.
 
 ```{r}
-```
-
-As usual, we can take a look at the results by looking at the output from `head`.
-
-```{r}
-head(NCBirths2004)
 ```
