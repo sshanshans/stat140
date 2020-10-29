@@ -11,7 +11,7 @@
 
 
 
-<title>Week 1 Day 2</title>
+<title>Week 4 Day 1</title>
 
 <script>// Pandoc 2.9 adds attributes on both header and div. We remove the former (to
 // be compatible with the behavior of Pandoc < 2.8).
@@ -217,6 +217,45 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 });
 </script>
+<style type="text/css">
+a.anchor-section {margin-left: 10px; visibility: hidden; color: inherit;}
+a.anchor-section::before {content: '#';}
+.hasAnchor:hover a.anchor-section {visibility: visible;}
+</style>
+<script>// Anchor sections v1.0 written by Atsushi Yasumoto on Oct 3rd, 2020.
+document.addEventListener('DOMContentLoaded', function() {
+  // Do nothing if AnchorJS is used
+  if (typeof window.anchors === 'object' && anchors.hasOwnProperty('hasAnchorJSLink')) {
+    return;
+  }
+
+  const h = document.querySelectorAll('h1, h2, h3, h4, h5, h6');
+
+  // Do nothing if sections are already anchored
+  if (Array.from(h).some(x => x.classList.contains('hasAnchor'))) {
+    return null;
+  }
+
+  // Use section id when pandoc runs with --section-divs
+  const section_id = function(x) {
+    return ((x.classList.contains('section') || (x.tagName === 'SECTION'))
+            ? x.id : '');
+  };
+
+  // Add anchors
+  h.forEach(function(x) {
+    const id = x.id || section_id(x.parentElement);
+    if (id === '') {
+      return null;
+    }
+    let anchor = document.createElement('a');
+    anchor.href = '#' + id;
+    anchor.classList = ['anchor-section'];
+    x.classList.add('hasAnchor');
+    x.appendChild(anchor);
+  });
+});
+</script>
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -225,7 +264,7 @@ document.addEventListener('DOMContentLoaded', function() {
   div.column{display: inline-block; vertical-align: top; width: 50%;}
   div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
   ul.task-list{list-style: none;}
-      </style>
+    </style>
 
 
 
@@ -442,35 +481,32 @@ summary {
 
 
 
-<h1 class="title toc-ignore">Week 1 Day 2</h1>
+<h1 class="title toc-ignore">Week 4 Day 1</h1>
 
 </div>
 
 
-<div id="data-basics" class="section level3">
-<h3>Data basics</h3>
+<div id="magic-of-randomness-causality" class="section level3">
+<h3>Magic of randomness: causality</h3>
 <div id="learning-objectives" class="section level4">
 <h4>Learning objectives</h4>
 <ul>
-<li><strong>Understand that data are values, whether numerical or labels, together with their context.</strong>
+<li>Recognize and know the elements of a designed randomized experiment.</li>
+<li>State and apply the Four Principles of Experimental Design.
 <ul>
-<li>Who, what, why, where, when (and how)—the W’s—help nail down the context of the data.</li>
-<li>We must know who, what, and why to be able to say anything useful based on the data. The who are the cases. The what are the variables. A variable gives information about each of the cases. The why helps us decide which way to treat the variables.</li>
-<li>Stop and identify the W’s whenever you have data, and be sure you can identify the cases and the variables.</li>
+<li>Control sources of variation other than the factors being tested. Make the condi- tions as similar as possible for all treatment groups except for differences among the treatments.</li>
+<li>Randomize the assignment of participants to treatments.</li>
+<li>Replicate by applying each treatment to more than one participant.</li>
+<li>Block the experiment by grouping together participants who are similar in important ways that you cannot control.</li>
 </ul></li>
-<li><strong>Identify whether a variable is being used as categorical or quantitative (or termed numerical as in the video).</strong>
-<ul>
-<li>Categorical variables identify a category for each case. Usually we think about the counts of cases that fall in each category. (An exception is an identifier variable that just names each case.)</li>
-<li>Quantitative variables (or termed numerical variable) record measurements or amounts of something; they must have units.</li>
-<li>Sometimes we may treat the same variable as categorical or quantitative depending on what we want to learn from it, which means some variables can’t be pigeonholed as one type or the other.</li>
-</ul></li>
+<li>Work with blinding and control groups.</li>
+<li>Be alert for possible confounding due to a variable that is not under control affecting the responses differentially.</li>
 </ul>
 </div>
 <div id="checklist" class="section level4">
 <h4>Checklist</h4>
 <ul>
-<li><input type="checkbox" unchecked> Finish reading <a href="https://piazza.com/class_profile/get_resource/kge2lk8hfmxkz/kge2ll8uhk0n9">Intro to Data</a> </input></li>
-<li><input type="checkbox" unchecked> [Optional] Finish watching (4 minutes): <a href="https://www.coursera.org/learn/probability-intro/lecture/Q0zu3/data-basics">Data basics</a> up to 4:10 </input></li>
+<li><input type="checkbox" unchecked> Finish reading: <a href="https://nustat.github.io/intro-stat-ds/7-causality.html">Chapter 7</a> </input></li>
 </ul>
 </div>
 </div>
@@ -484,7 +520,7 @@ summary {
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();

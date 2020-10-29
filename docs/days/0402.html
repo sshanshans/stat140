@@ -11,7 +11,7 @@
 
 
 
-<title>Week 1 Day 1</title>
+<title>Week 4 Day 2</title>
 
 <script>// Pandoc 2.9 adds attributes on both header and div. We remove the former (to
 // be compatible with the behavior of Pandoc < 2.8).
@@ -217,6 +217,45 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 });
 </script>
+<style type="text/css">
+a.anchor-section {margin-left: 10px; visibility: hidden; color: inherit;}
+a.anchor-section::before {content: '#';}
+.hasAnchor:hover a.anchor-section {visibility: visible;}
+</style>
+<script>// Anchor sections v1.0 written by Atsushi Yasumoto on Oct 3rd, 2020.
+document.addEventListener('DOMContentLoaded', function() {
+  // Do nothing if AnchorJS is used
+  if (typeof window.anchors === 'object' && anchors.hasOwnProperty('hasAnchorJSLink')) {
+    return;
+  }
+
+  const h = document.querySelectorAll('h1, h2, h3, h4, h5, h6');
+
+  // Do nothing if sections are already anchored
+  if (Array.from(h).some(x => x.classList.contains('hasAnchor'))) {
+    return null;
+  }
+
+  // Use section id when pandoc runs with --section-divs
+  const section_id = function(x) {
+    return ((x.classList.contains('section') || (x.tagName === 'SECTION'))
+            ? x.id : '');
+  };
+
+  // Add anchors
+  h.forEach(function(x) {
+    const id = x.id || section_id(x.parentElement);
+    if (id === '') {
+      return null;
+    }
+    let anchor = document.createElement('a');
+    anchor.href = '#' + id;
+    anchor.classList = ['anchor-section'];
+    x.classList.add('hasAnchor');
+    x.appendChild(anchor);
+  });
+});
+</script>
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -225,7 +264,7 @@ document.addEventListener('DOMContentLoaded', function() {
   div.column{display: inline-block; vertical-align: top; width: 50%;}
   div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
   ul.task-list{list-style: none;}
-      </style>
+    </style>
 
 
 
@@ -442,50 +481,44 @@ summary {
 
 
 
-<h1 class="title toc-ignore">Week 1 Day 1</h1>
+<h1 class="title toc-ignore">Week 4 Day 2</h1>
 
 </div>
 
 
-<div id="welcome-and-introduction-to-statistics" class="section level3">
-<h3>Welcome and introduction to statistics</h3>
-<div id="motivating-questions" class="section level4">
-<h4>Motivating questions</h4>
-<ul>
-<li>What is statistics</li>
-<li>What are data</li>
-<li>How can statistics help us learn about data</li>
-</ul>
-</div>
+<div id="magic-of-randomness-sampling" class="section level3">
+<h3>Magic of randomness: sampling</h3>
 <div id="learning-objectives" class="section level4">
 <h4>Learning objectives</h4>
 <ul>
-<li>Three components of statistics</li>
-<li>Data are recorded values together with their context</li>
-<li>Data don’t have to be numbers</li>
+<li><strong>Know the basic ideas of sampling</strong>
+<ul>
+<li><em>Examine a part of the whole</em>: A sample can give information about the population.</li>
+<li><em>Randomize</em> to make the sample representative</li>
+</ul></li>
+<li><strong>Understand the advantages and disadvantages of the following sampling methods</strong>
+<ul>
+<li><em>Simple Random Sample (SRS)</em>: every possible group of n individuals has an equal chance of being our sample.</li>
+<li><em>Stratified samples</em> can reduce sampling variability by identifying homogeneous subgroups and then randomly sampling within each.</li>
+<li><em>Cluster samples</em> randomly select among heterogeneous subgroups, making our sampling tasks more manageable.</li>
+<li><em>Multistage samples</em> combine several random sampling methods.</li>
+</ul></li>
+<li><strong>Identify and avoid causes of bias</strong>
+<ul>
+<li><em>Voluntary response samples</em> are almost always biased and should be avoided and distrusted.</li>
+<li><em>Convenience samples</em> are likely to be flawed for similar reasons.</li>
+<li><em>Bad sampling frames</em> can lead to samples that don’t represent the population of interest.</li>
+<li><em>Undercoverage</em> occurs when individuals from a subgroup of the population are selected less often than they should be.</li>
+<li><em>Nonresponse bias</em> can arise when sampled individuals will not or cannot respond.</li>
+<li><em>Response bias</em> arises when respondents’ answers might be affected by external influences, such as question wording or interviewer behavior.</li>
+<li>Use best practices when designing a sample survey to improve the chance that your results will be valid.</li>
+</ul></li>
 </ul>
 </div>
-<div id="course-essential-checklist" class="section level4">
-<h4>Course essential checklist</h4>
+<div id="checklist" class="section level4">
+<h4>Checklist</h4>
 <ul>
-<li><input type="checkbox" unchecked> Enroll in Piazza </input></li>
-<li><input type="checkbox" unchecked> Enroll in Gradescope </input></li>
-<li><input type="checkbox" unchecked> Enroll in Datacamp </input></li>
-<li><input type="checkbox" unchecked> Install <a href="https://cran.r-project.org">R</a>. Watch how to install on <a href="https://mtholyoke.zoom.us/rec/share/tqFU7-MCGGGgOZ8rfsy4h4IOqLzI9dVnz1Fsc7Ct5RDr8s0OIz75oDEPSn0rNhdO.eU3tIK6QPYUgvh9m?startTime=1603160278000">Mac</a>/<a href="https://mtholyoke.zoom.us/rec/share/4n5DGaJYa9k7RCG_JF9nYiWkeVVFp8tPL_HdXkF9CfP2QGL6zZQ2hz-DJFS7FcdD.Qx7-_UWl3WJqUBDH?startTime=1603162253000">Windows</a> </input></li>
-<li><input type="checkbox" unchecked> Install <a href="https://rstudio.com/products/rstudio/download/preview/">Rstudio</a> </input> Watch how to install on <a href="https://mtholyoke.zoom.us/rec/share/DpLMh046B96yOQraFbZ87KJg57CkOxX1q4rDovp7R6reF4X3AURzfr0jM5etwe3_.MSs2kA8LT8ewvoGN?startTime=1603159380000">Mac</a>/<a href="https://mtholyoke.zoom.us/rec/share/4n5DGaJYa9k7RCG_JF9nYiWkeVVFp8tPL_HdXkF9CfP2QGL6zZQ2hz-DJFS7FcdD.Qx7-_UWl3WJqUBDH?startTime=1603162597000">Windows</a></li>
-</ul>
-<p>Check your email for the invitation links to join Piazza, Gradescope, and Datacamp.</p>
-</div>
-<div id="optional" class="section level4">
-<h4>Optional</h4>
-<ul>
-<li><input type="checkbox" unchecked> Finish watching <a href="https://www.ted.com/talks/mona_chalabi_3_ways_to_spot_a_bad_statistic#t-27981">Three Ways to Spot a Bad Statistic (TED Talk)</a>: Mona Chabli shares tips for spotting problems in data conclusions.</input></li>
-</ul>
-</div>
-<div id="during-class" class="section level4">
-<h4>During class</h4>
-<ul>
-<li>Activity: I notice, I wonder</li>
+<li><input type="checkbox" unchecked> Finish reading: <a href="https://nustat.github.io/intro-stat-ds/8-populations.html">Chapter 8</a> </input></li>
 </ul>
 </div>
 </div>
@@ -499,7 +532,7 @@ summary {
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();

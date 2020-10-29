@@ -1,0 +1,43 @@
+---
+title: "Unit 4 Day 1"
+output: 
+  html_document:
+    css: lab.css
+    highlight: pygments
+    theme: cerulean
+  pdf_document: default
+---
+
+### Introduction to sampling
+
+#### Learning objectives 
+* **Know the three ideas of sampling**
+    * *Examine a part of the whole*: A sample can give information about the population. 
+    * *Randomize* to make the sample representative
+    * *The sample size is what matters*: It’s the size of the sample—and not its fraction of the larger population—that determines the precision of the statistics it yields.
+* **Understand the advantages and disadvantages of the following sampling methods**
+    * *Simple Random Sample (SRS)*: every possible group of n individuals has an equal chance of being our sample.
+    * *Stratified samples* can reduce sampling variability by identifying homogeneous subgroups and then randomly sampling within each.
+    * *Cluster samples* randomly select among heterogeneous subgroups, making our sampling tasks more manageable.
+    * *Multistage samples* combine several random sampling methods. 
+* **Identify and avoid causes of bias**
+    * *Voluntary response samples* are almost always biased and should be avoided and distrusted.
+    * *Convenience samples* are likely to be flawed for similar reasons.
+    * *Bad sampling frames* can lead to samples that don’t represent the population of
+interest.
+    * *Undercoverage* occurs when individuals from a subgroup of the population are selected less often than they should be.
+    * *Nonresponse bias* can arise when sampled individuals will not or cannot respond. 
+    * *Response bias* arises when respondents’ answers might be affected by external
+influences, such as question wording or interviewer behavior.
+    * Use best practices when designing a sample survey to improve the chance that your results will be valid.
+
+#### Before class
+Mid-module break
+
+#### In-class
+* Slides [pdf](http://sshanshans.github.io/stat140/slides/u4d1.pdf)
+* Mid-module survey [html](https://forms.gle/WVhG1NKhQ4WcEumHA)
+* In-class activity: [intro](http://sshanshans.github.io/stat140/labs/u4d1/intro)
+
+#### Items due
+Nothing due today: mid-module break.

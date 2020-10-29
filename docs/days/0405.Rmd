@@ -1,0 +1,28 @@
+---
+title: "Week 4 Day 5"
+output: 
+  html_document:
+    css: lab.css
+    highlight: pygments
+    theme: cerulean
+  pdf_document: default
+---
+
+###  Central limit theorem
+
+#### Learning objectives 
+
+Understand that the Central Limit Theorem is a limit theorem.
+
+* The sampling distribution of the mean is Normal, no matter what the underlying distribution of the data is.
+* The CLT says that this happens in the limit, as the sample size grows. The Normal model applies sooner when sampling from a unimodal, symmetric population and more gradually when the population is very non-normal.
+
+#### Checklist
+- <input type="checkbox" unchecked> Finish reading: [Chapter 9.6-9.7](https://nustat.github.io/intro-stat-ds/9-sampling.html)
+</input>
+- <input type="checkbox" unchecked> Finish watching [Introduction to CLT](https://www.coursera.org/learn/inferential-statistics-intro/lecture/lkQnZ/sampling-variability-and-clt) up to 17:16
+</input>
+- <input type="checkbox" unchecked> Finish watching [Example](https://www.coursera.org/learn/inferential-statistics-intro/lecture/XhkI6/clt-for-the-mean-examples)
+</input>
+- <input type="checkbox" unchecked> Finish `FP 01`
+</input>

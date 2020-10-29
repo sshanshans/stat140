@@ -1,0 +1,37 @@
+---
+title: "Week 4 Day 2"
+output: 
+  html_document:
+    css: lab.css
+    highlight: pygments
+    theme: cerulean
+  pdf_document: default
+---
+
+### Magic of randomness: sampling
+
+#### Learning objectives 
+* **Know the basic ideas of sampling**
+    * *Examine a part of the whole*: A sample can give information about the population. 
+    * *Randomize* to make the sample representative
+* **Understand the advantages and disadvantages of the following sampling methods**
+    * *Simple Random Sample (SRS)*: every possible group of n individuals has an equal chance of being our sample.
+    * *Stratified samples* can reduce sampling variability by identifying homogeneous subgroups and then randomly sampling within each.
+    * *Cluster samples* randomly select among heterogeneous subgroups, making our sampling tasks more manageable.
+    * *Multistage samples* combine several random sampling methods. 
+* **Identify and avoid causes of bias**
+    * *Voluntary response samples* are almost always biased and should be avoided and distrusted.
+    * *Convenience samples* are likely to be flawed for similar reasons.
+    * *Bad sampling frames* can lead to samples that don’t represent the population of
+interest.
+    * *Undercoverage* occurs when individuals from a subgroup of the population are selected less often than they should be.
+    * *Nonresponse bias* can arise when sampled individuals will not or cannot respond. 
+    * *Response bias* arises when respondents’ answers might be affected by external
+influences, such as question wording or interviewer behavior.
+    * Use best practices when designing a sample survey to improve the chance that your results will be valid.
+
+#### Checklist
+- <input type="checkbox" unchecked> Finish reading: [Chapter 8](https://nustat.github.io/intro-stat-ds/8-populations.html)
+</input>
+
+
