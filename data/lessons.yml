@@ -48,6 +48,7 @@ lessons:
     title: "Putting it all together"
     slides: "0205.pdf"
     reading: "0205"
+    project: "MP02/MP02.Rmd"
     lab: "week2/0205-wrangling.Rmd"
   - week: "Week 03"
     date: "Mon, Nov 02"
