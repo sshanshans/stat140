@@ -50,6 +50,7 @@ lessons:
     slides: "0205.pdf"
     reading: "0205"
     project: "MP02/MP02.Rmd"
+    appex: "https://mtholyoke.zoom.us/rec/share/TQuDabl8u4Z-htV7tJY57lrDDnv1hdX7sEwAqyaTFHBpIDJ2oy3_EXe6dAPY4oac.Qo7Ypfe2Ww2cz0si?startTime=1604075538000"
     lab: "week2/0205-wrangling.Rmd"
   - week: "Week 03"
     date: "Mon, Nov 02"
