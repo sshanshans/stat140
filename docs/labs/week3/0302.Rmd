@@ -35,21 +35,13 @@ Fit a linear model between the mortality rate `Mortality` and concentration of c
 
 #### Problem 3
 
-Print out a summary of your linear model fit
+Find the slope, intercept in the output, and write out the linear equation.
 
 #### Problem 4
 
-Find the slope, intercept in the output, and write out the linear equation.
-
-#### Problem 5
-
-What does $R^2$ mean in this context?
-
-#### Problem 6
-
 One of the towns in our sample had a measured Calcium concentration of 71 parts per million. What is the predicted value for the mortality rate in that town?
 
-#### Problem 7
+#### Problem 5
 
 Use the linear model to predict the mortality rate of a town with Calcium concentration of -3 parts per million. Does the predicted value make sense here?
 
@@ -76,16 +68,34 @@ Make a scatter plot of the data with a linear regression overlaid on top.
 
 #### Problem 3
 
-Fit a linear model using the `lm` function and print out a summary of your linear model fit.
+Fit a linear model using the `lm` function.
 
 #### Problem 4
 
 Find the slope, intercept in the output, and write out the linear equation.
 
-#### Problem 5
-
-What does $R^2$ mean in this context?
-
-#### Problem 6
+#### Problem 7
 
 One of the site had a PH value of 7.1. What is the predicted value for the BCI in that site?
+
+## Part 3: Anscombe's data
+
+The following R code reads in a data set called `anscombe`. It has five pairs of $x$ variables and $y$ variables: $(x_1, y_1), (x_2, y_2), (x_3, y_3), (x_4, y_4),$ and $(x_5, y_5)$. 
+
+#### Problem 1
+Fit a linear model to each of the pairs, with the $y$ variable as the response and the $x$ variable as the explanatory variable. Print out a summary of the linear model fit. Take notes of the slope, intercept and $R^2$ for the linear model fit. What did you observe?
+
+#### Problem 2 
+Now make a scatter plot for each pair of x and y's. What did you observe? Is linear model useful here?
+
+### Important message
+
+Be sure to check the conditions for linear regression before reporting or interpreting a linear model.
+
+From the scatterplot of y against x, check the
+
+-   **Straight Enough Condition** Is the relationship between y and x straight enough to proceed with a linear regression model?
+
+-   **Outlier Condition** Are there any outliers that might dramatically influence the fit of the least squares line?
+
+-   **Does the Plot Thicken? Condition** Does the spread of the data around the generally straight relationship seem to be consistent for all values of x?

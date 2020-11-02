@@ -1701,26 +1701,8 @@ summary {
 </div>
 
 
-<div id="i-anscombes-data" class="section level2">
-<h2>I Anscombe’s data</h2>
-<p>The following R code reads in a data set called <code>anscombe</code>. It has five pairs of <span class="math inline">\(x\)</span> variables and <span class="math inline">\(y\)</span> variables: <span class="math inline">\((x_1, y_1), (x_2, y_2), (x_3, y_3), (x_4, y_4),\)</span> and <span class="math inline">\((x_5, y_5)\)</span>. You will examine one of these pairs of variables, and then we will discuss them all as a class. I’ll tell you where the data came from later.</p>
-<ol style="list-style-type: decimal">
-<li>Insert a code block below to fit a linear model to one of the pairs, with the <span class="math inline">\(y\)</span> variable as the response and the <span class="math inline">\(x\)</span> variable as the explanatory variable. Print out a summary of the linear model fit. Take notes of the slope, intercept and <span class="math inline">\(R^2\)</span> for the linear model fit. What did you observe?</li>
-<li>Now make a scatter plot for each pair of x and y’s. What did you observe? Is linear model useful here?</li>
-</ol>
-<div id="important-message" class="section level3">
-<h3>Important message</h3>
-<p>Be sure to check the conditions for linear regression before reporting or interpreting a linear model.</p>
-<p>From the scatterplot of y against x, check the</p>
-<ul>
-<li><p><strong>Straight Enough Condition</strong> Is the relationship between y and x straight enough to proceed with a linear regression model?</p></li>
-<li><p><strong>Outlier Condition</strong> Are there any outliers that might dramatically influence the fit of the least squares line?</p></li>
-<li><p><strong>Does the Plot Thicken? Condition</strong> Does the spread of the data around the generally straight relationship seem to be consistent for all values of x?</p></li>
-</ul>
-</div>
-</div>
-<div id="ii-wildfire" class="section level2">
-<h2>II Wildfire</h2>
+<div id="wildfire" class="section level2">
+<h2>Wildfire</h2>
 <p>The National Interagency Fire Center (www.nifc.gov) reports statistics about wildfires. I have loaded a dataset called <code>wildfires</code> with information about the number of wildfires, and the average number of acres burned per wildfire (in hundreds of thousands of acres) in each year from 1985 to 2012.</p>
 <p>You can take a look at the data using the <code>head</code> function like this.</p>
 <pre class="r"><code>head(wildfires)</code></pre>
@@ -1731,26 +1713,68 @@ summary {
 </div>
 <div id="part-i" class="section level3">
 <h3>Part I</h3>
-<ol style="list-style-type: decimal">
-<li>Make a scatter plot with <code>years_since_1985</code> on the horizontal axis and <code>num_fires</code> on the vertical axis. Also add the least square line on your scatter plot.</li>
-<li>Fit a regression model using <code>num_fires</code> as the response variable and <code>years_since_1985</code> as the explanatory variable, and print out a summary of the linear model fit.</li>
-<li>Is a linear model appropriate for these data? For this we need to check the following conditions.</li>
-<li>Interpret the slope in this context.</li>
-<li>Can we interpret the intercept? Why or why not?</li>
-<li>What does <span class="math inline">\(R^2\)</span> mean in this context?</li>
-</ol>
+<div id="problem-1" class="section level4">
+<h4>Problem 1</h4>
+<p>Make a scatter plot with <code>years_since_1985</code> on the horizontal axis and <code>num_fires</code> on the vertical axis. Also add the least square line on your scatter plot.</p>
+</div>
+<div id="problem-2" class="section level4">
+<h4>Problem 2</h4>
+<p>Fit a regression model using <code>num_fires</code> as the response variable and <code>years_since_1985</code> as the explanatory variable, and print out a summary of the linear model fit.</p>
+</div>
+<div id="problem-3" class="section level4">
+<h4>Problem 3</h4>
+<p>Is a linear model appropriate for these data? Remember to check the following conditions:</p>
+<ul>
+<li><strong>Straight Enough Condition</strong></li>
+<li><strong>Outlier Condition</strong></li>
+<li><strong>Does the Plot Thicken? Condition</strong></li>
+</ul>
+</div>
+<div id="problem-4" class="section level4">
+<h4>Problem 4</h4>
+<p>Interpret the slope in this context.</p>
+</div>
+<div id="problem-5" class="section level4">
+<h4>Problem 5</h4>
+<p>Can we interpret the intercept? Why or why not?</p>
+</div>
+<div id="problem-6" class="section level4">
+<h4>Problem 6</h4>
+<p>What does <span class="math inline">\(R^2\)</span> mean in this context?</p>
+</div>
 </div>
 <div id="part-ii" class="section level3">
 <h3>Part II</h3>
 <p>We saw in Part I that the number of fires was nearly constant. But has the damage they cause remained constant as well? Let’s examine the trend in Acres per Fire, (in hundreds of thousands of acres).</p>
-<ol style="list-style-type: decimal">
-<li>Make a scatter plot with <code>years_since_1985</code> on the horizontal axis and <code>ave_acres_burned</code> on the vertical axis. Also add the least square line on your scatter plot.</li>
-<li>Fit a regression model using <code>ave_acres_burned</code> as the response variable and <code>years_since_1985</code> as the explanatory variable, and print out a summary of the linear model fit.</li>
-<li>Is a linear model appropriate for these data? Explain.</li>
-<li>Interpret the slope in this context.</li>
-<li>Can we interpret the intercept? Why or why not?</li>
-<li>What does <span class="math inline">\(R^2\)</span> mean in this context?</li>
-</ol>
+<div id="problem-1-1" class="section level4">
+<h4>Problem 1</h4>
+<p>Make a scatter plot with <code>years_since_1985</code> on the horizontal axis and <code>ave_acres_burned</code> on the vertical axis. Also add the least square line on your scatter plot.</p>
+</div>
+<div id="problem-2-1" class="section level4">
+<h4>Problem 2</h4>
+<p>Fit a regression model using <code>ave_acres_burned</code> as the response variable and <code>years_since_1985</code> as the explanatory variable, and print out a summary of the linear model fit.</p>
+</div>
+<div id="problem-3-1" class="section level4">
+<h4>Problem 3</h4>
+<p>Is a linear model appropriate for these data? Remember to check the following conditions:</p>
+<ul>
+<li><strong>Straight Enough Condition</strong></li>
+<li><strong>Outlier Condition</strong></li>
+<li><strong>Does the Plot Thicken? Condition</strong></li>
+</ul>
+</div>
+<div id="problem-4-1" class="section level4">
+<h4>Problem 4</h4>
+<p>Interpret the slope in this context.</p>
+</div>
+<div id="problem-5-1" class="section level4">
+<h4>Problem 5</h4>
+<p>Can we interpret the intercept? Why or why not?</p>
+</div>
+<div id="problem-6-1" class="section level4">
+<h4>Problem 6</h4>
+<p>What does <span class="math inline">\(R^2\)</span> mean in this context?</p>
+</div>
 </div>
 </div>
 
