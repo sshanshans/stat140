@@ -57,6 +57,7 @@ lessons:
     title: "Numerical variable: relationship"
     slides: "0301.pdf"
     reading: "0301"
+    appex: "https://mtholyoke.zoom.us/rec/share/qoWmTxNBn6dXsHDLWvPjqybGWIw88SOfc29i3jyzNiVNFfvThoKmxFJn4K-EFmNF.sB69ROpToBfqMPRz?startTime=1604338516000"
     lab: "week3/0301.Rmd"
   - date: "Tue, Nov 03"
     title: "Election day (no class)"
