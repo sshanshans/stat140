@@ -1,9 +1,10 @@
 ---
 title: "Week 3 Day 5"
-subtitle: "Stat140-04"
 author: "Type your name here"
+subtitle: Stat140-04
 output:
-  pdf_document
+  html_document:
+    df_print: paged
 ---
 
 ```{r setup, include=FALSE}
@@ -33,9 +34,6 @@ From the scatterplot of y against x, check the
 
 -   **Straight Enough Condition** Is the relationship between y and x straight enough to proceed with a linear regression model?
 
-```{=html}
-<!-- -->
-```
 -   **Outlier Condition** Are there any outliers that might dramatically influence the fit of the least squares line?
 
 -   **Does the Plot Thicken? Condition** Does the spread of the data around the generally straight relationship seem to be consistent for all values of x?
@@ -70,20 +68,3 @@ We saw in Part I that the number of fires was nearly constant. But has the damag
 5.  Can we interpret the intercept? Why or why not?
 6.  What does $R^2$ mean in this context?
 
-## Optional: Climate change 2013
-
-The earth's climate is getting warmer. The most common theory attributes the increase to an increase in atmospheric levels of carbon dioxide (CO2), a greenhouse gas. Here is a scatterplot showing the mean annual CO2 concentration in the atmosphere, measured in parts per million (ppm) at the top of Mauna Loa in Hawaii, and the mean annual air temperature over both land and sea across the globe, in degrees Celsius (degrees C) for the years 1970 to 2013.
-
-![](images/climate.png){width="50%"}
-
-a)  What is the correlation between CO2 and Temperature?
-b)  Explain the meaning of R-squared in this context.
-c)  Give the regression equation.
-d)  What is the meaning of the slope in this equation?
-e)  What is the meaning of the y-intercept of this equation?
-f)  Here is a scatterplot of the residuals vs. predicted values. Does this plot show evidence of the violation of any assumptions behind the regression? If so, which ones?
-
-![](images/climate2.png){width="50%"}
-
-g)  CO2 levels will probably reach 400 ppm by 2020. What mean Temperature does the regression predict for that concentration of CO2?
-h)  Does the answer in g) mean that when the CO2 level hits 400 ppm, the Temperature will reach the predicted level? Explain briefly.

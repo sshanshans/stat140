@@ -1,0 +1,91 @@
+---
+title: "Week 3 Day 2"
+subtitle: "Stat140-04"
+author: "Type your name here"
+output:
+  html_document:
+    highlight: pygments
+    theme: spacelab
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+```
+
+## Fitting a linear model in R
+
+### Part 1: Mortality and potion
+
+#### Load data
+
+Recall the mortality and hard water data from yesterday. We have recordings of the mortality rate (deaths per 100,000 population) and concentration of calcium in drinking water (parts per million) in 61 large towns in England and Wales
+
+```{r load data, message = FALSE, warning = FALSE}
+mortality_water <- read_csv("https://mhc-stat140-2017.github.io/data/sdm4/Hard_water_Derby.csv")
+```
+
+#### Problem 1 
+
+Make a scatter plot with `Calcium` on the horizontal axis and `Mortality` on the vertical axis with the least square line
+
+#### Problem 2 
+
+Fit a linear model between the mortality rate `Mortality` and concentration of calcium `Calcium` using the `lm` function.
+
+#### Problem 3
+
+Print out a summary of your linear model fit
+
+#### Problem 4
+
+Find the slope, intercept in the output, and write out the linear equation.
+
+#### Problem 5
+
+What does $R^2$ mean in this context?
+
+#### Problem 6
+
+One of the towns in our sample had a measured Calcium concentration of 71 parts per million. What is the predicted value for the mortality rate in that town?
+
+#### Problem 7
+
+Use the linear model to predict the mortality rate of a town with Calcium concentration of -3 parts per million. Does the predicted value make sense here?
+
+## Part 2:
+
+Biologists studying the effects of acid rain on wildlife collected data from 172 sites on streams in the Adirondack Mountains. Some of the sites are on the same stream. The researchers recorded the pH (acidity) of the water and the BCI, a measure of biological diversity. They are interested in determining if there is a relationship between water acidity and biological diversity. The following code reads the data in and takes a look at the first 10 rows of the data:
+
+```{r}
+streams <- read_csv("http://www.evanlray.com/data/sdm4/Streams.csv")
+streams <- mutate(streams, BCI = as.numeric(BCI)) %>%
+  filter(!is.na(pH) & !is.na(BCI)) %>%
+  arrange(Stream)
+head(streams, 10)
+
+```
+
+#### Problem 1
+
+Which variable is the explanatory variable, and which is the response?
+
+#### Problem 2
+
+Make a scatter plot of the data with a linear regression overlaid on top.
+
+#### Problem 3
+
+Fit a linear model using the `lm` function and print out a summary of your linear model fit.
+
+#### Problem 4
+
+Find the slope, intercept in the output, and write out the linear equation.
+
+#### Problem 5
+
+What does $R^2$ mean in this context?
+
+#### Problem 6
+
+One of the site had a PH value of 7.1. What is the predicted value for the BCI in that site?

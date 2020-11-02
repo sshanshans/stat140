@@ -1,9 +1,10 @@
 ---
 title: "Week 3 Day 1"
-subtitle: "Stat140-04"
 author: "Shan Shan"
+subtitle: Stat140-04
 output:
-  pdf_document
+  html_document:
+    df_print: paged
 ---
 
 ```{r setup, include=FALSE}
@@ -22,16 +23,21 @@ Data were collected on the volume of bicycle path users on the Northampton Rail 
 
 The data is pre-loaded for you and called `railtrail`
 
-1.  Make a scatter plot with the volume variable on the vertical axis and the `avgtemp` variable on the horizontal axis.
+#### Problem 1
 
-```{=html}
-<!-- -->
-```
-2.  Describe the shape of the relationship between the `volume` and `avgtemp` variables. Also, discuss whether there are any outliers or gaps.
+Make a scatter plot with the `volume` variable on the vertical axis and the `avgtemp` variable on the horizontal axis.
 
-3.  Would it be appropriate to use the correlation between these variables to summarize the strength and direction of the relationship between these variables?
+#### Problem 2
 
-4.  Calculate the correlation between these variables.
+Describe the shape of the relationship between the `volume` and `avgtemp` variables. Also, discuss whether there are any outliers or gaps.
+
+#### Problem 3
+
+Would it be appropriate to use the correlation between these variables to summarize the strength and direction of the relationship between these variables?
+
+#### Problem 4
+
+Calculate the correlation between these variables.
 
 ### Part II: Arcade Revenue and Lawyers in Wyoming
 
@@ -39,17 +45,26 @@ Data were collected on the total revenue of arcades in the US (in millions of do
 
 The data is pre-loaded for you, and is named `arcade_lawyers`.
 
-1.  Make a scatter plot with `total_arcade_revenue` on the horizontal axis and `lawyers_in_Wyoming` on the vertical axis.
+#### Problem 1
 
-```{=html}
-<!-- -->
-```
-2.  Describe the direction, form, and strength of the relationship between arcade revenue and the number of lawyers in Wyoming
+Make a scatter plot with `total_arcade_revenue` on the horizontal axis and `lawyers_in_Wyoming` on the vertical axis.
 
-3.  Would it be appropriate to summarize the strength and direction of the relationship between these variables with the correlation coefficient?
+#### Problem 2
 
-4.  Calculate the correlation between these variables.
+Describe the direction, form, and strength of the relationship between arcade revenue and the number of lawyers in Wyoming
 
-5.  Describe the strength and direction of the relationship between these variables, with reference to the scatter plot and the correlation coefficient (if appropriate).
+#### Problem 3
 
-6.  Do the correlation and relationship that you described above mean that there is a causal relationship between arcade revenue and the number of lawyers in Wyoming?
+Would it be appropriate to summarize the strength and direction of the relationship between these variables with the correlation coefficient?
+
+#### Problem 4
+
+Calculate the correlation between these variables.
+
+#### Problem 5
+
+Describe the strength and direction of the relationship between these variables, with reference to the scatter plot and the correlation coefficient (if appropriate).
+
+#### Problem 6
+
+Do the correlation and relationship that you described above mean that there is a causal relationship between arcade revenue and the number of lawyers in Wyoming?
