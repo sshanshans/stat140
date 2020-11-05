@@ -67,6 +67,7 @@ lessons:
     reading: "0302"
     lab: "week3/0302.Rmd"
     hw: "HW03.pdf"
+    appex: "https://mtholyoke.zoom.us/rec/share/RgwerYHPE5sgN7JQSOPNxMjilB5ButdkchTxEVxX8HPJLaqKHXzvTjt8LYl1YMSh.PXkdJMZDK7WxF_JG?startTime=1604511376000"
   - date: "Thur, Nov 05"
     slides: "0303.pdf"
     title: "Linear model interpretation"
