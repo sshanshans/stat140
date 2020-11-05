@@ -78,6 +78,7 @@ lessons:
     lab: "week3/0304.Rmd"
     reading: "0304"
     slides: "0304.pdf"
+    project: "MP03/MP03.Rmd"
   - week: "Week 04"
     date: "Mon, Nov 09"
     title: "The magic of randomness: causation"

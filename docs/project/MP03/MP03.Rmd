@@ -1,0 +1,165 @@
+---
+title: "MP 03: Happiness in the world"
+author: "Type your names here"
+output:
+  html_document:
+    highlight: pygments
+    theme: spacelab
+    df_print: paged
+---
+
+**Due:** 2020/11/13 6pm EST on Gradescope
+
+### Required packages
+
+In this project, we will be using the packages `tidyverse`. Let's also load the dataset `WHR20`.
+
+```{r message = FALSE, output = FALSE, echo = FALSE}
+# load the following packages
+library(tidyverse)
+library(readxl)
+url <- "https://happiness-report.s3.amazonaws.com/2020/WHR20_DataForFigure2.1.xls"
+destfile <- "WHR20.xls"
+curl::curl_download(url, destfile)
+WHR20<- read_excel(destfile)
+```
+
+## Introduction
+
+### Data overview
+
+In this assignment, we will explore the social environments for the world happiness. The data we are using originally came from the [World Happiness Report](https://worldhappiness.report/ed/2020/social-environments-for-world-happiness/). Each observational units in this dataset is a country.
+
+```{r, echo = FALSE}
+head(WHR20)
+```
+
+Happiness is measured by the national average of responses to the "Cantril ladder question", used by the [Gallup World Poll](https://news.gallup.com/poll/122453/understanding-gallup-uses-cantril-scale.aspx):
+
+***"Please imagine a ladder with steps numbered from zero at the bottom to 10 at the top. The top of the ladder represents the best possible life for you and the bottom of the ladder represents the worst possible life for you. On which step of the ladder would you say you personally feel you stand at this time?"***
+
+### Visualization
+
+We can plot a histogram to look at the distribution of the `Ladder score` over different regions in the world as follows
+
+```{r, echo=FALSE, message = FALSE, warning = FALSE}
+ggplot(data=WHR20, mapping = aes(x = `Ladder score`)) + 
+  geom_histogram(binwidth = 0.5) + 
+  facet_wrap(~`Regional indicator`) +
+  labs(x = "Happiness measured in ladder score (0-10)", y = "Number of countries", title = "Happiness around the world")
+```
+
+### Data summary
+
+The median `Ladder score` by region is summarized as follows.
+
+```{r echo=FALSE, message = FALSE, warning = FALSE}
+WHR20 %>%
+    group_by(`Regional indicator`) %>%
+    summarise(typical_ladder_score = median(`Ladder score`)) %>%
+    arrange(typical_ladder_score) %>%
+    tibble()
+```
+
+### Goal of this assignment
+
+What does the summary tell you about the world's happiness? Is this what you expected to see? What are some possible social environment factors that may influence the ladder score?
+
+We are looking at the relationship between happiness and three potentially predictive factors:
+
+-   `Logged GDP per capita` : Income as represented by per capita GDP (USD)
+-   `Freedom to make life choices`: Freedom to make life choices is the national average of binary responses to the GWP question, "are you satisfied or dissatisfied with your freedom to choose what you do with your life?"
+-   `Perceptions of corruption`: Perceptions of corruption are the average of binary answers to two GWP questions: "Is corruption widespread throughout the government or not?" and "Is corruption widespread within businesses or not?"
+
+A "Technical Box" on the [World Happiness Report](https://worldhappiness.report/ed/2020/social-environments-for-world-happiness/) explains each of these predictors.
+
+## Exercises
+
+### A note on expectations
+
+-   In general, your solution to each exercise should include a code chunk, its output (tables, summary statistics, plots), and a written summary of your findings that answer the questions.
+-   You will receive full points on the question if (1) there are no errors in your solution (both codes and summary) AND (2) the summary is written in highly articulate Statistical and English language. Points will be taken off if there are errors in your codes, writing or organization.
+-   Submit your finished work (in .pdf format) on Gradescope. Each groups only needs to submit once. Make sure you add your group members upon your submission.
+
+## Problem 1
+
+Make a scatter plot for each of the three predictive factors: `Logged GDP per capita,` `Freedom to make life choices`, `Perceptions of corruption`
+
+Tips: (1) Clearly label your each of your plot and add an appropriate title. (2) Check which variable should go to the x-axis.
+
+#### Solution to Problem 1
+
+(Type your answer here. )
+
+### Problem 2
+
+Compute the correlation $R$ between the ladder score and the three predictive factors. Explain which correlation is/are useful based on the scatterplots in Problem 5.
+
+#### Solution to Problem 2
+
+(Type your answer here. )
+
+
+### Problem 3
+
+If you were to fit a linear model for the ladder score against each of the three predictors. Which linear model is the most useful? Explain your answer based on Problem 2. Note you don't have to write any R code for this problem.
+
+#### Solution to Problem 3
+
+(Type your answer here. )
+
+### Problem 4
+
+Fit a linear model based on your choice in Problem 3, and print the summary of the linear model.
+
+#### Solution to Problem 4
+
+(Type your answer here. )
+
+### Problem 5
+
+Write down the equation of the least square line.
+
+#### Solution to Problem 5
+
+(Type your answer here. )
+
+### Problem 6
+
+Write down your interpretation of slope in the context of the problem.
+
+#### Solution to Problem 6
+
+(Type your answer here. )
+
+### Problem 7
+
+Write down your interpretation of intercept in the context of the problem. Is it meaningful?
+
+#### Solution to Problem 7
+
+(Type your answer here. )
+
+### Problem 8
+
+What is the $R^2$? What is its interpretation?
+
+#### Solution to Problem 8
+
+(Type your answer here. )
+
+### Problem 9
+
+Do the correlation and relationship that you described above mean that there is a causal relationship between happiness and the predictor variable you chose?
+
+#### Solution to Problem 9
+
+(Type your answer here. )
+
+## Some tips
+
+-   Make sure each team member is contributing, both in terms of quality and quantity of contribution
+
+-   Set aside time to work together and apart.
+
+-   Teamwork: You are to complete the assignment as a team. All team members are expected to contribute equally to the completion of this assignment and group assessments will be given at its completion - anyone judged to not have sufficient contributed to the final product will have their grade penalized. While different teams members may have different backgrounds and abilities, it is the responsibility of every team member to understand how and why all code and approaches in the assignment works.

@@ -9,8 +9,6 @@ output:
 
 ```{r setup, include=FALSE}
 library(tidyverse)
-knitr::opts_chunk$set(echo = TRUE, highlight = TRUE)
-anscombe <- read_csv("http://www.evanlray.com/data/base_r/anscombe_quintet.csv")
 
 wildfires <- read_csv("http://www.evanlray.com/data/sdm4/Wildfires_2012.csv")
 names(wildfires) <- c("num_fires", "years_since_1985", "ave_acres_burned")
