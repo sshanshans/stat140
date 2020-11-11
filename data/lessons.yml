@@ -103,6 +103,7 @@ lessons:
   - date: "Thur, Nov 12"
     title: "Normal model"
     slides: "0404.pdf"
+    appex: "https://moodle.mtholyoke.edu/local/kalturamediagallery/index.php?courseid=19044"
     reading: "0404"
   - date: "Fir, Nov 13"
     title: "Central limit theorem"
