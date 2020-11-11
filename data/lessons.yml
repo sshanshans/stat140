@@ -99,6 +99,7 @@ lessons:
     slides: "0403.pdf"
     lab: "week4/0403.Rmd"
     reading: "0403"
+    hw: "HW04.pdf"
   - date: "Thur, Nov 12"
     title: "Normal model"
     slides: "0404.pdf"
