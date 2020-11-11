@@ -8,7 +8,7 @@ output:
   pdf_document: default
 ---
 
-###  Normal distribution
+###  Normal distribution (No class meeting)
 
 #### Learning objectives 
 
@@ -23,3 +23,8 @@ output:
 #### Checklist
 - <input type="checkbox" unchecked> Finish reading: [Chapter 9.5](https://nustat.github.io/intro-stat-ds/9-sampling.html)
 </input>
+- <input type="checkbox" unchecked> Finish watching [pre-recorded lecture](https://drive.google.com/drive/folders/1oRuhzqxohKmXeAezkU_a0ewtG9AqqjPA?usp=sharing). You could also find this video on the front page of the course moodle site.
+</input>
+- <input type="checkbox" unchecked> Finish working on the tutorial exercise and check your answers [here](https://piazza.com/class_profile/get_resource/kge2lk8hfmxkz/khdo5uokizy79g). 
+</input>
+
