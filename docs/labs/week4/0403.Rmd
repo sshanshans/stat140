@@ -1,13 +1,10 @@
 ---
 title: "Week 4 Day 3"
-output:
+output: 
   pdf_document: default
   html_document:
     highlight: pygments
-    theme: spacelab
-editor_options: 
-  markdown: 
-    wrap: sentence
+    theme: cerulean
 ---
 
 ```{r setup, include=FALSE}
@@ -16,23 +13,17 @@ library(tidyverse)
 
 ### Introduction
 
-There is only one *BIG* idea today, but this is an important one (perhaps the most important throughout this course if I dare to say).
-That is
+There is only one *BIG* idea today, but this is an important one (perhaps the most important throughout this course if I dare to say). That is
 
 > *how the value of a sample statistic would vary from sample to sample, if random samples were randomly selected over and over from a population*
 
 ### Topic I: The blue M&M
 
-I recently received a gift of 100,000 M&M's.
-Since my favorite color of M&M's is blue (Guess why?), I would like to know what proportion of these M&M's are blue?
+I recently received a gift of 100,000 M&M's. Since my favorite color of M&M's is blue (Guess why?), I would like to know what proportion of these M&M's are blue?
 
-One way to answer this question would be to perform an exhaustive count.
-However, this would be a long and tedious process.
-Instead, let's do some sampling activity!
-We are interested estimating the proportion of blue M&M's in a population size of 100,000 M&M's.
+One way to answer this question would be to perform an exhaustive count. However, this would be a long and tedious process. Instead, let's do some sampling activity! We are interested estimating the proportion of blue M&M's in a population size of 100,000 M&M's.
 
-I have logged the information about these 100,000 M&M's I received in the following dataset.
-Let's first load the data.
+I have logged the information about these 100,000 M&M's I received in the following dataset. Let's first load the data.
 
 ```{r, message = FALSE}
 mm <- read_csv("https://raw.githubusercontent.com/sshanshans/stat140/master/docs/labs/u4d3/mm.csv")
@@ -47,9 +38,7 @@ samp1 <- mm %>%
   sample_n(50)
 ```
 
-This command collects a simple random sample of size 50 from the `mm` dataset, and assigns the result to `samp1`.
-This is similar to randomly drawing 50 M&M's from a non-transparent bag that contains the entire 100,000 M&M's.
-Working with these 50 M&M's is considerably simpler than working with all 100,000 M&M's in the population.
+This command collects a simple random sample of size 50 from the `mm` dataset, and assigns the result to `samp1`. This is similar to randomly drawing 50 M&M's from a non-transparent bag that contains the entire 100,000 M&M's. Working with these 50 M&M's is considerably simpler than working with all 100,000 M&M's in the population.
 
 Now compute the proportion of blue M&M's in `samp1` using the code below.
 
@@ -76,25 +65,19 @@ samp_student %>%
 
 How does the sample proportion of `samp_student` compare with that of `samp1`?
 
-Not surprisingly, every time you take another random sample, you might get a different sample proportion.
-The sample proportion is what we call a sample statistic.
-The key idea I want you to get out of this exercise is
+Not surprisingly, every time you take another random sample, you might get a different sample proportion. The sample proportion is what we call a sample statistic. The key idea I want you to get out of this exercise is
 
 > *The value of a sample statistic would vary from sample to sample*
 
 #### The key idea: sampling distribution
 
-We saw that it is useful to get a sense of the distribution in the sample proportions, meaning *how the value of a sample statistic (i.e., proportion) would vary from sample to sample, if random samples were randomly selected over and over from a population*.
-The distribution of sample proportions, termed as the *sampling distribution (of the proportion)*, is the key idea in this course.
+We saw that it is useful to get a sense of the distribution in the sample proportions, meaning *how the value of a sample statistic (i.e., proportion) would vary from sample to sample, if random samples were randomly selected over and over from a population*. The distribution of sample proportions, termed as the *sampling distribution (of the proportion)*, is the key idea in this course.
 
-The sampling distribution is useful, in our case, to estimate the true proportion of blue M&M's in the entire population.
-The sampling distribution is centered at the true population proportion, and the spread of the distribution indicates how much variability is incurred by sampling only 50 M&M's at a time from the population.
-Note that each time we computed a proportion, we did so from a **different** sample!
+The sampling distribution is useful, in our case, to estimate the true proportion of blue M&M's in the entire population. The sampling distribution is centered at the true population proportion, and the spread of the distribution indicates how much variability is incurred by sampling only 50 M&M's at a time from the population. Note that each time we computed a proportion, we did so from a **different** sample!
 
 ### Topic II: Hollywood movies
 
-The dataset `HollywoodMovies` contains information on around 900 movies came out of Hollywood between 2007 and 2013.
-You can find the data (ACS) at <http://www.lock5stat.com/datapage.html.>
+The dataset `HollywoodMovies` contains information on around 900 movies came out of Hollywood between 2007 and 2013. You can find the data (ACS) at <http://www.lock5stat.com/datapage.html.>
 
 Available variables:
 
@@ -106,29 +89,28 @@ Available variables:
 | Audience scores | Ratings from audience 0-100          |
 +-----------------+--------------------------------------+
 
-Use the StatKey website to answer the following questions.
-
 #### Part I: Proportions of comedy films
 
-a\.
-What is the population and population parameter?
+Use the StatKey website on [Sampling Distribution for a Proportion](Use the StatKey website to answer the following questions.) to answer the following questions.
 
-b\.
-What is the sample and sample statistic?
+a\. What is the population parameter?
 
-c\.
-When you click "Generate 1 sample," what is StatKey doing?
+b\. What is the sample statistic?
 
-d\.
-What did you notice in the sampling distribution (shape, center, spread) as we increase the sample size n?
+c\. When you click "Generate 1 sample," what is StatKey doing?
 
-#### Part II: Audience scores
+d\. When you click "Generate 1000 samples," what is StatKey doing?
 
-a\.
-What is the population and population parameter?
+e\. When you change the value in "Choose samples of size n = 10" to "n=20", what is StatKey doing?
 
-b\.
-What is the sample and sample statistic?
+d\. What did you notice in the sampling distribution (shape, center, spread) as we increase the sample size n?
 
-c\.
-What did you notice in the sampling distribution as we increase the sample size?
+#### Part II: Mean of audience scores
+
+Use the StatKey website on [Sampling Distribution for a Mean](http://www.lock5stat.com/StatKey/sampling_1_quant/sampling_1_quant.html) to answer the following questions.
+
+a\. What is the population parameter?
+
+b\. What is the sample statistic?
+
+c\. What did you notice in the sampling distribution (shape, center, spread) as we increase the sample size?
