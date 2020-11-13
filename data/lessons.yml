@@ -111,6 +111,8 @@ lessons:
     title: "Central limit theorem"
     slides: "0405.pdf"
     reading: "0405"
+    lab: "week4/0405.pdf"
+    project: "FP/0102.pdf"
   - week: "Week 05"
     date: "Mon, Nov 16"
     title: "Confidence interval"
