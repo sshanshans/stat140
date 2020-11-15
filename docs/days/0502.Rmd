@@ -1,0 +1,29 @@
+---
+title: "Week 5 Day 2"
+output: 
+  html_document:
+    css: lab.css
+    highlight: pygments
+    theme: cerulean
+  pdf_document: default
+---
+
+###  Interpretation of confidence interval
+
+#### Learning objectives 
+
+* Interpret a confidence interval correctly.
+  * You can claim to have the specified level of confidence that the interval you have
+computed actually covers the true value.
+  * Understand the relationship of the sample size, n, to both the certainty (confidence level) and precision (margin of error).
+  * For the same sample size and true population proportion, more certainty means less precision (wider interval) and more precision (narrower interval) implies less certainty.
+* Know and check the assumptions and conditions for finding and interpreting confidence
+intervals.
+  * Independence Assumption or Randomization Condition 
+  * 10% Condition
+  * Success/Failure Condition
+* Be able to invert the calculation of the margin of error to find the sample size required, given a proportion, a confidence level, and a desired margin of error.
+
+#### Checklist
+- <input type="checkbox" unchecked> Finish reading: [Confidence interval](https://piazza.com/class_profile/get_resource/kge2lk8hfmxkz/khien6gcm1i1e6)
+</input>

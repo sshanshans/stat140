@@ -1,0 +1,23 @@
+---
+title: "Week 5 Day 4"
+output: 
+  html_document:
+    css: lab.css
+    highlight: pygments
+    theme: cerulean
+  pdf_document: default
+---
+
+###  Comparing two proportions/means
+
+#### Learning objectives 
+
+Know how to construct and interpret confidence intervals for the difference between proportions or means of two independent groups.
+
+* The two-proportion z-interval is appropriate for proportions.
+* The two-sample t-interval is appropriate for means.
+* The Assumptions and Conditions are the same for both, except that for means, we must also assume that the values in each group follow a Normal model.
+
+#### Checklist
+- <input type="checkbox" unchecked> Finish reading: [Compare groups](https://piazza.com/class_profile/get_resource/kge2lk8hfmxkz/khif0265vld3gj)
+</input>

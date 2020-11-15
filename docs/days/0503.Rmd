@@ -1,0 +1,24 @@
+---
+title: "Week 5 Day 3"
+output: 
+  html_document:
+    css: lab.css
+    highlight: pygments
+    theme: cerulean
+  pdf_document: default
+---
+
+###  Student t model
+
+#### Learning objectives 
+
+* When we use the SE, the sampling distribution that allows for the additional uncertainty is Student’s t.
+* Construct confidence intervals for the true mean, $\mu$.
+  * A confidence interval for the mean has the form $\hat{x} \pm ME$. 
+  * The Margin of Error is $ME = t* SE(\hat{x})$.
+
+#### Checklist
+- <input type="checkbox" unchecked> Finish reading: [Student t model](https://piazza.com/class_profile/get_resource/kge2lk8hfmxkz/kge2lnbbivmq9)
+</input>
+- <input type="checkbox" unchecked> Finish `HW 05`
+</input>

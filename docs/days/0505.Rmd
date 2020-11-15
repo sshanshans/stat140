@@ -1,0 +1,26 @@
+---
+title: "Week 5 Day 5"
+output: 
+  html_document:
+    css: lab.css
+    highlight: pygments
+    theme: cerulean
+  pdf_document: default
+---
+
+###  Bootstrapping
+
+#### Learning objectives 
+
+Understand that the Central Limit Theorem is a limit theorem.
+
+* The sampling distribution of the mean is Normal, no matter what the underlying distribution of the data is.
+* The CLT says that this happens in the limit, as the sample size grows. The Normal model applies sooner when sampling from a unimodal, symmetric population and more gradually when the population is very non-normal.
+
+#### Checklist
+- <input type="checkbox" unchecked> Finish reading: [Chapter 8.1](https://moderndive.com/8-confidence-intervals.html)
+</input>
+- <input type="checkbox" unchecked> Finish `FP 01`
+</input>
+- <input type="checkbox" unchecked> Finish `FP 02`
+</input>

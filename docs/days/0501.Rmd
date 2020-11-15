@@ -1,0 +1,27 @@
+---
+title: "Week 5 Day 1"
+output: 
+  html_document:
+    css: lab.css
+    highlight: pygments
+    theme: cerulean
+  pdf_document: default
+---
+
+###  Confidence interval
+
+#### Learning objectives 
+
+* Construct a confidence interval for a parameter, as the statistic plus and minus a margin of error.
+* Explain the purpose and use of confidence intervals.
+* Construct 95% confidence intervals assuming the point estimate follows a normal distribution.
+* Calculate the critical value for a C% confidence interval when the point estimate follows a normal distribution.
+* Describe how sample size and confidence level affect the width of a confidence interval.
+* Interpret a confidence interval and the confidence level in context.
+* Draw conclusions with a specified confidence level about the values of unknown parameters.
+* Calculate and interpret the margin of error for a C% confidence interval. Distinguish between margin of error and standard error.
+
+#### Checklist
+- <input type="checkbox" unchecked> Finish reading: [Chapter 10](https://nustat.github.io/intro-stat-ds/10-CIs.html#margin-of-error-and-width-of-an-interval)
+</input>
+
