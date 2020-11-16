@@ -118,6 +118,7 @@ lessons:
     date: "Mon, Nov 16"
     title: "Confidence interval"
     slides: "0501.pdf"
+    lab: "week5/0501.pdf"
     reading: "0501"
   - date: "Tue, Nov 17"
     title: "Interpretation of confidence interval"
