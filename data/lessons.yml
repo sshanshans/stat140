@@ -123,6 +123,8 @@ lessons:
   - date: "Tue, Nov 17"
     title: "Interpretation of confidence interval"
     reading: "0502"
+    slides: "0502.pdf"
+    lab: "week5/0502.pdf"
   - date: "Wed, Nov 18"
     title: "Student t model"
     reading: "0503"
