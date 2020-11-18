@@ -130,6 +130,8 @@ lessons:
   - date: "Wed, Nov 18"
     title: "Student t model"
     reading: "0503"
+    slides: "0503.pdf"
+    lab: "week5/0503.Rmd"
   - date: "Thur, Nov 19"
     title: "Comparing two proportions/means"
     reading: "0504"

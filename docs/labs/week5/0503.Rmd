@@ -1,0 +1,165 @@
+---
+title: "Week 5 Day 3"
+subtitle: "Stat140-04"
+output: 
+  pdf_document: default
+  html_document:
+    highlight: pygments
+    theme: cerulean
+---
+
+# Confidence interval for population mean
+
+## Part I: Data
+
+In this tutorial, we will be using a dataset of houses from Ames, Iowa. Let's start by loading that data set.
+
+```{r}
+download.file("http://www.openintro.org/stat/data/ames.RData", destfile = "ames.RData")
+load("ames.RData")
+```
+
+We'll start with a simple random sample of size 60 from the population. Specifically, this is a simple random sample of size 60. Note that the data set has information on many housing variables, but for today's tutorial we'll focus on the size of the house, represented by the variable `Gr.Liv.Area`.
+
+```{r}
+population <- ames$Gr.Liv.Area
+samp <- sample(population, 60)
+```
+
+### Problem 1
+
+Describe the distribution of your sample. What would you say is the "typical" size within your sample? Also state precisely what you interpreted "typical" to mean.
+
+### Problem 2
+
+Would you expect another student's distribution to be identical to yours? Would you expect it to be similar? Why or why not?
+
+## Part II: Confidence intervals
+
+One of the most common ways to describe the typical or central value of a distribution is to use the mean. In this case we can calculate the mean of the sample using,
+
+```{r}
+sample_mean <- mean(samp)
+```
+
+Based on this sample, what can we infer about the population? Based only on this single sample, the best estimate of the average living area of houses sold in Ames would be the sample mean, usually denoted as $\hat{x}$ (here we're calling it `sample_mean`). That serves as a good point estimate but it would be useful to also communicate how uncertain we are of that estimate. This can be captured by using a confidence interval.
+
+We can calculate a 95% confidence interval for a mean by adding and subtracting 1.96 standard errors to the point estimate. Note that the 1.96 is the result of rounding and we could use R to find a more precise value which is provided in the code below.
+
+```{r}
+qnorm(0.975) # or
+qnorm(0.025) # which is the negative version
+```
+
+Note that if we take 0.975 - 0.025 we get 0.95. Each tail is set to have area 0.025. Usually two decimal places of accuracy is sufficient when determining the appropriate $z^*$ value for a given confidence level. Therefore we will continue using 1.96, but keep the function above in mind when you desire to use a different confidence level or you need more precision.
+
+```{r}
+se <- sd(samp) / sqrt(60)
+lower <- sample_mean - 1.96 * se
+upper <- sample_mean + 1.96 * se
+c(lower, upper)
+```
+
+### Problem 3
+
+Interpret the confidence interval in the context of data.
+
+### Problem 4
+
+Use R to compute the $z^*$ value for a 90% confidence level.
+
+## Part III: Comparing with the true mean
+
+In this case we have the luxury of knowing the true population mean since we have data on the entire population. This value can be calculated using the following command:
+
+```{r}
+mean(population)
+```
+
+### Problem 5
+
+Does your confidence interval capture the true average size of houses in Ames? If you are working on this lab in a classroom, does your teammate's interval capture this value?
+
+### Problem 6
+
+Each student in your class should have gotten a slightly different confidence interval. What proportion of those intervals would you expect to capture the true population mean? Why?
+
+## Part IV: Generate many confidence intervals
+
+Using R, we're going to recreate many samples to learn more about how sample means and confidence intervals vary from one sample to another.
+
+Here is the rough outline:
+
+-   Obtain a random sample.
+-   Calculate and store the sample's mean and standard deviation.
+-   Repeat steps (1) and (2) 500 times.
+-   Use these stored statistics to calculate many confidence intervals.
+-   Visualize the computed many confidence intervals
+
+The code of doing this is given as follows:
+
+```{r}
+n <- 60
+samp_mean <- rep(NA, 500)
+samp_sd <- rep(NA, 500)
+
+for(i in 1:500){
+  samp <- sample(population, n) # obtain a sample of size n = 60 from the population
+  samp_mean[i] <- mean(samp)    # save sample mean in ith element of samp_mean
+  samp_sd[i] <- sd(samp)        # save sample sd in ith element of samp_sd
+}
+
+lower_vector <- samp_mean - 1.96 * samp_sd / sqrt(n)
+upper_vector <- samp_mean + 1.96 * samp_sd / sqrt(n)
+
+plot_ci(lower_vector, upper_vector, mean(population))
+```
+
+Now let's compute the proportion of those intervals that capture the true population mean.
+
+```{r}
+sum(cbind(lower_vector <= mean(population) & upper_vector >= mean(population)))/500
+```
+
+### Problem 7
+
+Decrease the sample size, and the run the previous two code blocks again. For example, you could try $n=40$, $n=20$, $n=10$. What did you notice about the proportion of the confidence intervals that capture the true population mean as you decrease sample size.
+
+## Part V: Student t model
+
+In today's class, we learned about the student t model. Note that we can compute the $t^*$ value for a 95% confidence interval with \$df = 59\$ (notice that the degree of freedom is sample size -1) by the following R code
+
+```{r}
+qt(0.975, df = 59) # or
+qt(0.025, df = 59) # which is the negative version
+```
+
+### Problem 8
+
+Compute the $t^*$ value for a 99% confidence interval for sample size 20.
+
+## Part VI: Confidence interval under the t-model
+
+As before, let's construct multiple confidence intervals and compute the proportion of those that capture the true population mean. This time we shall use $t^*$.
+
+```{r}
+n <- 60
+samp_mean <- rep(NA, 500)
+samp_sd <- rep(NA, 500)
+
+for(i in 1:500){
+  samp <- sample(population, n) # obtain a sample of size n = 60 from the population
+  samp_mean[i] <- mean(samp)    # save sample mean in ith element of samp_mean
+  samp_sd[i] <- sd(samp)        # save sample sd in ith element of samp_sd
+}
+
+tval <- qt(0.975, df = n-1) 
+lower_vector <- samp_mean - tval * samp_sd / sqrt(n)
+upper_vector <- samp_mean + tval * samp_sd / sqrt(n)
+
+sum(cbind(lower_vector <= mean(population) & upper_vector >= mean(population)))/500
+```
+
+## Problem 9
+
+Run the code block above with $n=40$, $n=20$, $n=10$. Compare the proportion of the confidence intervals that capture the true population mean with Problem 7. Based on the observation, which model (Student t or normal) seems to be more useful when the sample size is small?
