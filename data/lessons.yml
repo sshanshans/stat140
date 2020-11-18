@@ -130,6 +130,7 @@ lessons:
   - date: "Wed, Nov 18"
     title: "Student t model"
     reading: "0503"
+    hw: "HW05.pdf"
     slides: "0503.pdf"
     lab: "week5/0503.Rmd"
   - date: "Thur, Nov 19"
