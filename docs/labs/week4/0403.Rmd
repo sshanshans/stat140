@@ -81,17 +81,15 @@ The dataset `HollywoodMovies` contains information on around 900 movies came out
 
 Available variables:
 
-+-----------------+--------------------------------------+
+|                 |                                      |
+|-----------------|--------------------------------------|
 | Genre           | Action, Comedy, etc                  |
-+-----------------+--------------------------------------+
 | Budget          | Budget of making in thousand dollars |
-+-----------------+--------------------------------------+
 | Audience scores | Ratings from audience 0-100          |
-+-----------------+--------------------------------------+
 
 #### Part I: Proportions of comedy films
 
-Use the StatKey website on [Sampling Distribution for a Proportion](Use the StatKey website to answer the following questions.) to answer the following questions.
+Use the StatKey website on [Sampling Distribution for a Proportion](Use%20the%20StatKey%20website%20to%20answer%20the%20following%20questions.) to answer the following questions.
 
 a\. What is the population parameter?
 

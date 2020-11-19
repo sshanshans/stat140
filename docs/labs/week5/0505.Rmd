@@ -1,0 +1,145 @@
+---
+title: "Week 5 Day 5"
+author: "Stat140-04"
+output:
+  pdf_document: default
+  html_document:
+    highlight: pygments
+    theme: spacelab
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(moderndive)
+library(infer)
+```
+
+### The pennies activity
+
+Let's first take a look at the pennies sample
+
+```{r, echo = FALSE, message = FALSE}
+glimpse(pennies_sample)
+```
+
+The name of the data frame is `pennies_sample` and the two variables are `ID` and `year`.
+
+### Warm up
+
+The following code chunk plots the histogram of the variable `year` and computes the median of the variable `year`
+
+```{r}
+ggplot(pennies_sample, aes(x = year)) +
+  geom_histogram(binwidth = 10, color = "white")
+
+x_bar <- pennies_sample %>% 
+  summarize(median_year = median(year))
+x_bar
+```
+
+### Part I: virtual re-sample once
+
+Now let's use the following code to perform the resampling **with replacement** of the 50 slips of paper representing our original sample 50 pennies:
+
+```{r samp1, echo = TRUE}
+virtual_resample <- pennies_sample %>% 
+  rep_sample_n(size = 50, replace = TRUE)
+
+virtual_resample
+```
+
+Observe how we explicitly set the `replace` argument to `TRUE` in order to tell `rep_sample_n()` that we would like to sample pennies with replacement.
+
+Now let's compute the sample mean in this resample
+
+```{r}
+virtual_resample %>% 
+  summarize(resample_median = median(year))
+```
+
+### Part II: Resample many times
+
+The following code creates 1000 bootstrap samples.
+
+```{r iterate, echo = TRUE}
+virtual_resamples <- pennies_sample %>% 
+  rep_sample_n(size = 50, replace = TRUE, reps = 1000)
+
+virtual_resampled_medians <- virtual_resamples %>% 
+  group_by(replicate) %>% 
+  summarize(median_year = median(year))
+
+ggplot(virtual_resampled_medians, aes(x = median_year)) +
+  geom_histogram(binwidth = 1, color = "white", boundary = 1990) +
+  labs(x = "Resample median year")
+
+```
+
+### Part III: Constructing a confidence interval
+
+Let's first construct a confidence interval with the quantile method.
+
+```{r}
+lci <- quantile(virtual_resampled_medians$median_year, 0.025)
+rci <- quantile(virtual_resampled_medians$median_year, 0.975)
+
+ggplot(virtual_resampled_medians, aes(x = median_year)) +
+  geom_histogram(binwidth = 1, color = "white", boundary = 1990) +
+  shade_confidence_interval(endpoints = c(lci, rci)) +
+  labs(x = "Resample median year", caption = "Green lines represent 95% C.I. bounds from the quantile method")
+
+lci
+rci
+```
+
+Let's also construct a confidence interval with the SE method.
+
+```{r}
+#Compute the sample median from the original sample
+
+pe <- median(pennies_sample$year)
+se <- sd(virtual_resampled_medians$median_year)
+
+lci_se <- pe - 2 * se
+rci_se <- pe + 2 * se
+
+ggplot(virtual_resampled_medians, aes(x = median_year)) +
+  geom_histogram(binwidth = 1, color = "white", boundary = 1990) +
+  shade_confidence_interval(endpoints = c(lci_se, rci_se), color = "chocolate1", fill = "chocolate2") +
+  labs(x = "Resample median year", caption = "Orange lines represent 95% C.I. bounds from the SE method")
+```
+
+Let's make an overlaid plot with the two confidence intervals. Note that you can change the displayed color with the color code provided here: <http://www.stat.columbia.edu/~tzheng/files/Rcolor.pdf>
+
+```{r}
+ggplot(virtual_resampled_medians, aes(x = median_year)) +
+  geom_histogram(binwidth = 1, color = "white", boundary = 1990) +
+  shade_confidence_interval(endpoints = c(lci, rci)) +
+  shade_confidence_interval(endpoints = c(lci_se, rci_se), color = "chocolate1", fill = "chocolate2") +
+  labs(x = "Resample median year", caption = "Orange lines represent 95% C.I. bounds from the SE method, Green lines from the quantile method")
+
+```
+
+### On your own
+
+The `moderndive` package also contains some interesting dataset. For example, the dataset `movies_sample`is a random sample of 32 action movies and 36 romance movies from <https://www.imdb.com/> and their ratings. We want to use this sample to understand what percentage of movies on IMDB are action movies.
+
+```{r}
+glimpse(movies_sample)
+```
+
+### Exercise 1
+
+Create a bootstrap sample for `movies_sample`, and compute the proportion of Action movies in the resample.
+
+### Exercise 2
+
+Construct and visualize a bootstrap distribution with 1000 bootstrap samples for the proportion of Action movies on IMDB.
+
+### Exercise 3
+
+Determine the 95% bootstrap confidence interval based on the distribution you constructed above.
+
+### Exercise 4
+
+Interpret the confidence interval in context of the data.
