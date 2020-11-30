@@ -156,6 +156,8 @@ lessons:
     title: "Hypothesis testing"
     slides: "0601.pdf"
     lab: "week6/0601.pdf"
+    appex: "https://mtholyoke.zoom.us/rec/share/G3tPPsqJMUa8egziXSO5_ZSkeHlwElYt1N_XQgQ7ilgWvxOXWTAMdeTOCG_dsmvL.8R3byle6Xn9MDfED?startTime=1606757850000"
+    project: "FP/0304.pdf"
   - date: "Tue, Dec 01"
     title: "P-value"
   - date: "Wed, Dec 02"
