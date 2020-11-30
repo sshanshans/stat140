@@ -154,6 +154,8 @@ lessons:
   - week: "Week 07"
     date: "Mon, Nov 30"
     title: "Hypothesis testing"
+    slides: "0601.pdf"
+    lab: "week6/0601.pdf"
   - date: "Tue, Dec 01"
     title: "P-value"
   - date: "Wed, Dec 02"
