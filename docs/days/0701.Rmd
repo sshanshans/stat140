@@ -1,0 +1,20 @@
+---
+title: "Week 7 Day 1"
+output: 
+  html_document:
+    css: lab.css
+    highlight: pygments
+    theme: cerulean
+  pdf_document: default
+---
+
+###  Inference for regression
+
+#### Learning objectives 
+
+* Recognize that the slope of the sample regression line is a point estimate and has an associated standard error.
+* Be able to read the results of computer regression output and identify the quantities needed for inference for the slope of the regression line, specifically the slope of the sample regression line, the SE of the slope, and the degrees of freedom.
+
+#### Checklist
+- <input type="checkbox" unchecked> Finish reading: [Inference for regression](https://piazza.com/class_profile/get_resource/kge2lk8hfmxkz/kge2lnnsx94qv)
+</input>

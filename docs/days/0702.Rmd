@@ -1,0 +1,23 @@
+---
+title: "Week 7 Day 2"
+output: 
+  html_document:
+    css: lab.css
+    highlight: pygments
+    theme: cerulean
+  pdf_document: default
+---
+
+###  Inference for regression
+
+#### Learning objectives 
+
+* State and verify whether or not the conditions are met for inference on the slope of the regression line based using the t-distribution.
+* Carry out a complete confidence interval procedure for the slope of the regression line.
+* Carry out a complete hypothesis test for the slope of the regression line. 
+* See how a log transformation can bring symmetry to an extremely skewed variable.
+
+
+#### Checklist
+- <input type="checkbox" unchecked> Finish reading: [Inference for regression](https://piazza.com/class_profile/get_resource/kge2lk8hfmxkz/kge2lnnsx94qv)
+</input>
