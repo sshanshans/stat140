@@ -1,0 +1,28 @@
+---
+title: "Week 6 Day 1"
+output: 
+  html_document:
+    css: lab.css
+    highlight: pygments
+    theme: cerulean
+  pdf_document: default
+---
+
+###  Hypothesis Testing
+
+#### Learning objectives 
+
+* Know how to formulate a null and an alternative hypothesis for a question of interest.
+
+  * The null hypothesis specifies a parameter and a (null) value for that parameter.
+  * The alternative hypothesis specifies a range of plausible values should we reject the null.
+
+* Know the implication of statistical significance
+* Be able to decide on a two-sided or one-sided alternative hypothesis, and justify your decision.
+
+
+#### Checklist
+- <input type="checkbox" unchecked> Finish reading: [Chapter 11.1](https://nustat.github.io/intro-stat-ds/11-pvalues.html#proof-by-contradiction)
+</input>
+- <input type="checkbox" unchecked> Read about [project assignment](https://sshanshans.github.io/stat140/project/FP/0304.pdf)
+</input>

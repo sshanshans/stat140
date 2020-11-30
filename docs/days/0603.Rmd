@@ -1,0 +1,27 @@
+---
+title: "Week 6 Day 3"
+output: 
+  html_document:
+    css: lab.css
+    highlight: pygments
+    theme: cerulean
+  pdf_document: default
+---
+
+###  Compute P-values
+
+#### Learning objectives 
+
+* Know how to compute p-values
+
+* using formulas
+* using `t.test` and `p.test` in R
+
+* Interpret a p-value in context and recognize how the calculation of the p-value depends upon the direction of the alternative hypothesis.
+
+
+#### Checklist
+- <input type="checkbox" unchecked> Finish reading: [Chapter 11.3](https://nustat.github.io/intro-stat-ds/11-pvalues.html#p-value-and-null-distribution-example)
+</input>
+- <input type="checkbox" unchecked> Finish `HW 05`
+</input>

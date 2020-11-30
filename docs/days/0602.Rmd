@@ -1,0 +1,23 @@
+---
+title: "Week 6 Day 2"
+output: 
+  html_document:
+    css: lab.css
+    highlight: pygments
+    theme: cerulean
+  pdf_document: default
+---
+
+###  P-values
+
+#### Learning objectives 
+
+Understand P-values
+
+* A P-value is the estimated probability of observing a statistic value at least as far from the (null) hypothesized value as the one we have actually observed.
+* A small P-value indicates that the statistic we have observed would be unlikely were the null hypothesis true. That leads us to doubt the null.
+* A large P-value just tells us that we have insufficient evidence to doubt the null hypothesis. In particular, it does not prove the null to be true.
+
+#### Checklist
+- <input type="checkbox" unchecked> Finish reading: [Chapter 11.2](https://nustat.github.io/intro-stat-ds/11-pvalues.html#proof-by-contradiction)
+</input>

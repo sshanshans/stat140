@@ -1,0 +1,21 @@
+---
+title: "Week 6 Day 5"
+output: 
+  html_document:
+    css: lab.css
+    highlight: pygments
+    theme: cerulean
+  pdf_document: default
+---
+
+###  Hypothesis Testing Examples
+
+#### Learning objectives 
+
+* Understand the two general conditions for when the confidence interval and hypothesis testing procedures apply. Explain why these conditions are necessary.
+* Know that hypothesis testing and confidence interval go hand in hand
+
+
+#### Checklist
+- <input type="checkbox" unchecked> Finish reading: [Chapter 12.4-6](https://nustat.github.io/intro-stat-ds/12-hypothesis-tests.html#conducting-hypothesis-tests)
+</input>

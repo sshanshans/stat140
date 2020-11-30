@@ -1,0 +1,21 @@
+---
+title: "Week 6 Day 4"
+output: 
+  html_document:
+    css: lab.css
+    highlight: pygments
+    theme: cerulean
+  pdf_document: default
+---
+
+###  Making a decision with hypothesis testing
+
+#### Learning objectives 
+
+* Interpret Type I, Type II error, and power in the context of hypothesis testing.
+* Distinguish between statistically significant and practically significant. What role does sample size play here?
+* Recognize that not all statistically significant results correspond to real differences, due to Type I errors. What role does the significance level α play here?
+
+#### Checklist
+- <input type="checkbox" unchecked> Finish reading: [Chapter 12.1-12.3](https://nustat.github.io/intro-stat-ds/12-hypothesis-tests.html)
+</input>
