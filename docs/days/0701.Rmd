@@ -16,5 +16,9 @@ output:
 * Be able to read the results of computer regression output and identify the quantities needed for inference for the slope of the regression line, specifically the slope of the sample regression line, the SE of the slope, and the degrees of freedom.
 
 #### Checklist
-- <input type="checkbox" unchecked> Finish reading: [Inference for regression](https://piazza.com/class_profile/get_resource/kge2lk8hfmxkz/kge2lnnsx94qv)
+- <input type="checkbox" unchecked> Finish reading: [Psychology journal bans p-values](https://www.nature.com/news/psychology-journal-bans-p-values-1.17001)
 </input>
+- <input type="checkbox" unchecked> Finish reading: [ASA statement on significance level and p-values](https://www.amstat.org/asa/files/pdfs/P-ValueStatement.pdf)
+</input>
+
+

@@ -161,6 +161,8 @@ lessons:
   - date: "Tue, Dec 01"
     title: "P-value"
     reading: "0602"
+    slides: "0602.pdf"
+    lab: "week6/0602.pdf"
   - date: "Wed, Dec 02"
     title: "Compute P-value with R"
     reading: "0603"
