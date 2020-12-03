@@ -172,6 +172,8 @@ lessons:
   - date: "Thur, Dec 03"
     reading: "0604"
     title: "Decision making with hypothesis testing"
+    slides: "0604.pdf"
+    lab: "week6/0604.pdf"
   - date: "Fir, Dec 04"
     title: "Hypothesis testing examples"
     reading: "0605"
