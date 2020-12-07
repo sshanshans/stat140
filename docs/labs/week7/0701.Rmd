@@ -1,0 +1,54 @@
+---
+title: "Week 7 Day 1"
+subtitle: "Stat140-04"
+output: 
+  pdf_document: default
+  html_document:
+    highlight: pygments
+    theme: cerulean
+---
+
+```{r global_options, include=FALSE}
+knitr::opts_chunk$set(eval = TRUE, fig.align="center")
+library(tidyverse)
+library(knitr)
+options(pillar.sigfig = 8)
+```
+
+# Wild Horses
+
+What is the relationship between the size of a herd of horses and the number of foals (baby horses!!) that are born to that herd in a year?
+
+```{r, echo = FALSE, message=FALSE}
+horses <- read.csv("https://mhc-stat140-2017.github.io/data/sdm4/Wild_Horses.csv")
+```
+
+## 1. Plot the data
+
+Use `ggplot()` to make a scatter plot with `Adults` being the explainatory variable and `Foals` being the response variable. Check the following conditions: (1) Is the trend approximately linear? (2) Are there obvious outliers? (3) Does the plot thicken?
+
+## 2. Use the `lm()` function to fit a linear regression model to the data.
+
+## 3. Use the model
+
+Use 2 to write out the linear model. Interpret the slope and the intercept in context of the data and the model.
+
+## 4. Look at histogram of residuals
+
+Use the following code to check that the residuals follow a nearly normal distribution (and/or the sample size is large enough to apply the Central Limit Theorem)
+
+```{r}
+horses <- mutate(horses,
+  residual = residuals(lm_fit),
+  predicted = predict(lm_fit))
+ggplot(data = horses, mapping = aes(x = residual)) +
+  geom_density()
+```
+
+## 5. Inference and confidence interval
+
+Based on 1 - 4. Should we do inference? If yes, give a 95% confidence interval for the slope coefficient. Is it significantly different than 0?
+
+## 6. Hypothesis tests
+
+Find the $p$p-value in the summary of your linear fit in 2. Based on this p-value, does the size of the heard appear to be a significant predictor of number of foals? Make sure to state the hypotheses and the significance level you are using.
