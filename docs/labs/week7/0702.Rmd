@@ -1,0 +1,40 @@
+---
+title: "Week 7 Day 2"
+subtitle: "Stat140-04"
+output: 
+  pdf_document: default
+  html_document:
+    highlight: pygments
+    theme: cerulean
+---
+
+```{r global_options, include=FALSE}
+knitr::opts_chunk$set(eval = TRUE, fig.align="center")
+library(tidyverse)
+library(knitr)
+options(pillar.sigfig = 8)
+```
+
+# Driver age and highway sign-reading distance
+
+In a study of the legibility and visibility of highway signs, a Pennsylvania research firm determined the maximum distance at which each of thirty drivers could read a newly designed sign. The thirty participants in the study ranged in age from 18 to 82 years old. The government agency that funded the research hoped to improve highway safety for older drivers, and wanted to examine the relationship between age and the sign legibility distance.
+
+```{r, echo = FALSE, message=FALSE}
+vision <- read.csv("https://stat.duke.edu/~mc301/data/vision.csv")
+```
+
+1.  Fit a linear model predicting distance at which drivers can read highway signs (in feet) based on age (in years). Save this model as mod, include the regression output in your answer, and write the linear model.
+2.  Interpret the slope and the intercept in context of the data and the model.
+3.  Check all the conditions for inference, and decide if you can proceed.
+4.  Interpret the p-value for the slope in context of the data and the model.
+5.  Based on this p-value, does age appear to be a significant predictor of distance at which drivers can read highway signs? Make sure to state the hypotheses and the significance level you are using.
+6.  Construct a 95% confidence interval for the slope and interpret it.
+7.  Predict the maximum distance at which a 30 year old driver can read highway signs, and report this prediction with a 95% prediction interval.
+
+```{r}
+new.data <- data.frame(
+  age = c(30)
+)
+predict(mod, new.data, interval = "prediction")
+```
+

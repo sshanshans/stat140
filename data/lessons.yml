@@ -190,6 +190,8 @@ lessons:
     lab: "week7/0701.Rmd"
   - date: "Tue, Dec 08"
     title: "Inference for regression"
+    slides: "0702.pdf"
+    lab: "week7/0702.Rmd"
     reading: "0702"
   - date: "Wed, Dec 09"
     title: "Speaker and writer's workshop"
